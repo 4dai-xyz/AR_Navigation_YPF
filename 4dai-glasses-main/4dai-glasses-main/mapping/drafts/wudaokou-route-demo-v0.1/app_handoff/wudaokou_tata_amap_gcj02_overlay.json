@@ -1,0 +1,211 @@
+{
+  "schema_version": "amap_gcj02_overlay.v0.1",
+  "status": "two_anchor_alignment",
+  "generated_at": "2026-05-07",
+  "source_route_graph": "mapping/drafts/wudaokou-route-demo-v0.1/route_graph.json",
+  "coordinate_system": "GCJ-02",
+  "overlay_purpose": "route_only_amap_indoor_overlay",
+  "localization_ready": false,
+  "route_id": "manual_demo_wudaokou_west_to_2f_tata",
+  "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+  "target_poi_id": "poi_f2_tata_door_demo",
+  "calibration": {
+    "model": "2d_similarity_transform",
+    "source_xy": "venue_xy",
+    "local_y_axis": "down",
+    "origin_node_id": "node_f1_west_gate_demo",
+    "origin_gcj02": {
+      "lat": 39.991583,
+      "lng": 116.338965
+    },
+    "anchors": [
+      {
+        "node_id": "node_f1_west_gate_demo",
+        "role": "origin",
+        "floor_id": "F1",
+        "venue_xy": {
+          "x": 18.669,
+          "y": 143.439
+        },
+        "gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        }
+      },
+      {
+        "node_id": "node_f2_tata_door_demo",
+        "role": "scale_rotation",
+        "floor_id": "F2",
+        "venue_xy": {
+          "x": 86.161,
+          "y": 155.091
+        },
+        "gcj02": {
+          "lat": 39.991556,
+          "lng": 116.339568
+        }
+      }
+    ],
+    "parameters": {
+      "meters_per_degree_lat": 111320.0,
+      "meters_per_degree_lng_at_origin": 85286.5782466498,
+      "transform_a": 0.7324639456,
+      "transform_b": -0.1709878192,
+      "scale_m_per_venue_xy_unit": 0.7521570753,
+      "rotation_degrees": -13.1399246648
+    },
+    "formula": {
+      "dx": "venue_x - origin_venue_x",
+      "dy": "venue_y - origin_venue_y",
+      "east_m": "transform_a * dx - transform_b * dy",
+      "north_m": "transform_b * dx + transform_a * dy",
+      "lat": "origin_lat + north_m / meters_per_degree_lat",
+      "lng": "origin_lng + east_m / meters_per_degree_lng_at_origin"
+    }
+  },
+  "nodes": [
+    {
+      "node_id": "node_f1_west_gate_demo",
+      "floor_id": "F1",
+      "label": "F1 西门入口",
+      "node_type": "entrance",
+      "venue_xy": {
+        "x": 18.669,
+        "y": 143.439
+      },
+      "gcj02": {
+        "lat": 39.991583,
+        "lng": 116.338965
+      },
+      "east_m": 0.0,
+      "north_m": 0.0,
+      "alignment_role": "anchor"
+    },
+    {
+      "node_id": "node_f1_west_corridor_turn_demo",
+      "floor_id": "F1",
+      "label": "F1 西侧通道转角",
+      "node_type": "waypoint",
+      "venue_xy": {
+        "x": 55.932,
+        "y": 143.973
+      },
+      "gcj02": {
+        "lat": 39.99152928,
+        "lng": 116.3392861
+      },
+      "east_m": 27.385,
+      "north_m": -5.98,
+      "alignment_role": "estimated"
+    },
+    {
+      "node_id": "node_f1_escalator_up_demo_01",
+      "floor_id": "F1",
+      "label": "F1 上行扶梯口",
+      "node_type": "connector",
+      "venue_xy": {
+        "x": 61.514,
+        "y": 70.649
+      },
+      "gcj02": {
+        "lat": 39.99103825,
+        "lng": 116.33918703
+      },
+      "east_m": 18.936,
+      "north_m": -60.642,
+      "alignment_role": "estimated"
+    },
+    {
+      "node_id": "node_f2_escalator_out_demo_01",
+      "floor_id": "F2",
+      "label": "F2 扶梯出口",
+      "node_type": "connector",
+      "venue_xy": {
+        "x": 60.678,
+        "y": 54.162
+      },
+      "gcj02": {
+        "lat": 39.99093105,
+        "lng": 116.3391468
+      },
+      "east_m": 15.505,
+      "north_m": -72.575,
+      "alignment_role": "estimated"
+    },
+    {
+      "node_id": "node_f2_tata_corridor_turn_01_demo",
+      "floor_id": "F2",
+      "label": "F2 TATA 连廊转角 01",
+      "node_type": "waypoint",
+      "venue_xy": {
+        "x": 68.351,
+        "y": 53.974
+      },
+      "gcj02": {
+        "lat": 39.99091803,
+        "lng": 116.33921232
+      },
+      "east_m": 21.093,
+      "north_m": -74.025,
+      "alignment_role": "estimated"
+    },
+    {
+      "node_id": "node_f2_tata_corridor_turn_02_demo",
+      "floor_id": "F2",
+      "label": "F2 TATA 连廊转角 02",
+      "node_type": "waypoint",
+      "venue_xy": {
+        "x": 68.966,
+        "y": 143.172
+      },
+      "gcj02": {
+        "lat": 39.99150399,
+        "lng": 116.33939643
+      },
+      "east_m": 36.795,
+      "north_m": -8.796,
+      "alignment_role": "estimated"
+    },
+    {
+      "node_id": "node_f2_tata_door_demo",
+      "floor_id": "F2",
+      "label": "2F TATA 店铺门口",
+      "node_type": "poi_anchor",
+      "venue_xy": {
+        "x": 86.161,
+        "y": 155.091
+      },
+      "gcj02": {
+        "lat": 39.991556,
+        "lng": 116.339568
+      },
+      "east_m": 51.428,
+      "north_m": -3.006,
+      "alignment_role": "anchor"
+    }
+  ],
+  "route_polylines": [
+    {
+      "floor_id": "F1",
+      "node_ids": [
+        "node_f1_west_gate_demo",
+        "node_f1_west_corridor_turn_demo",
+        "node_f1_escalator_up_demo_01"
+      ]
+    },
+    {
+      "floor_id": "F2",
+      "node_ids": [
+        "node_f2_escalator_out_demo_01",
+        "node_f2_tata_corridor_turn_01_demo",
+        "node_f2_tata_corridor_turn_02_demo",
+        "node_f2_tata_door_demo"
+      ]
+    }
+  ],
+  "known_limitations": [
+    "This overlay uses two-anchor alignment only; it is enough for route-only demo alignment but cannot correct non-linear screenshot or indoor-map distortion.",
+    "F1 and F2 use the same 2D transform. If GaoDe indoor floors are offset differently, add floor-specific anchors.",
+    "Do not use app_preview_xy for GaoDe map overlay; app_preview_xy is only for fallback canvas preview."
+  ]
+}

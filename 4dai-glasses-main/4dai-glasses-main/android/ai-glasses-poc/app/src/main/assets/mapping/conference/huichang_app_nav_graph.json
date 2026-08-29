@@ -1,0 +1,2505 @@
+{
+  "schema_version": "conference_nav_graph_v0.1",
+  "source": "OCR/huichang.json crop=conference_exhibition_area x=780..1720 y=2250..3480",
+  "venue_id": "venue_exhibition_demo",
+  "venue_name": "会场演示展厅",
+  "coordinate_system": {
+    "type": "image_pixel",
+    "origin": "top_left",
+    "x_axis": "right",
+    "y_axis": "down",
+    "unit": "pixel"
+  },
+  "floors": [
+    {
+      "floor_id": "F1",
+      "image": "mapping/conference/huichang.jpg",
+      "width": 940,
+      "height": 1230
+    }
+  ],
+  "nodes": [
+    {
+      "node_id": "node_0",
+      "floor_id": "F1",
+      "node_type": "entrance",
+      "x": 859.5,
+      "y": 976.25,
+      "source_label": "entrance",
+      "numeric_id": 0
+    },
+    {
+      "node_id": "node_1",
+      "floor_id": "F1",
+      "node_type": "QR_code",
+      "x": 444.5,
+      "y": 873.75,
+      "source_label": "QR_code",
+      "numeric_id": 1
+    },
+    {
+      "node_id": "node_2",
+      "floor_id": "F1",
+      "node_type": "robot_platform",
+      "x": 322.0,
+      "y": 113.75,
+      "source_label": "robot_platform",
+      "numeric_id": 2
+    },
+    {
+      "node_id": "node_3",
+      "floor_id": "F1",
+      "node_type": "exit",
+      "x": 869.5,
+      "y": 243.75,
+      "source_label": "exit",
+      "numeric_id": 3
+    },
+    {
+      "node_id": "node_101",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 634.5,
+      "y": 293.75,
+      "source_label": "A01",
+      "numeric_id": 101
+    },
+    {
+      "node_id": "node_102",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 582.0,
+      "y": 293.75,
+      "source_label": "A02",
+      "numeric_id": 102
+    },
+    {
+      "node_id": "node_103",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 484.5,
+      "y": 296.25,
+      "source_label": "A03",
+      "numeric_id": 103
+    },
+    {
+      "node_id": "node_104",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 427.0,
+      "y": 296.25,
+      "source_label": "A04",
+      "numeric_id": 104
+    },
+    {
+      "node_id": "node_105",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 319.5,
+      "y": 293.75,
+      "source_label": "A05",
+      "numeric_id": 105
+    },
+    {
+      "node_id": "node_106",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 267.0,
+      "y": 301.25,
+      "source_label": "A06",
+      "numeric_id": 106
+    },
+    {
+      "node_id": "node_107",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 737.0,
+      "y": 136.25,
+      "source_label": "A07",
+      "numeric_id": 107
+    },
+    {
+      "node_id": "node_108",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 689.5,
+      "y": 123.75,
+      "source_label": "A08",
+      "numeric_id": 108
+    },
+    {
+      "node_id": "node_109",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 587.0,
+      "y": 108.75,
+      "source_label": "A09",
+      "numeric_id": 109
+    },
+    {
+      "node_id": "node_110",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 527.0,
+      "y": 98.75,
+      "source_label": "A10",
+      "numeric_id": 110
+    },
+    {
+      "node_id": "node_111",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 447.0,
+      "y": 91.25,
+      "source_label": "A11",
+      "numeric_id": 111
+    },
+    {
+      "node_id": "node_201",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 192.0,
+      "y": 128.75,
+      "source_label": "B01",
+      "numeric_id": 201
+    },
+    {
+      "node_id": "node_202",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 142.0,
+      "y": 151.25,
+      "source_label": "B02",
+      "numeric_id": 202
+    },
+    {
+      "node_id": "node_203",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 57.0,
+      "y": 328.75,
+      "source_label": "B03",
+      "numeric_id": 203
+    },
+    {
+      "node_id": "node_204",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 59.5,
+      "y": 396.25,
+      "source_label": "B04",
+      "numeric_id": 204
+    },
+    {
+      "node_id": "node_205",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 179.5,
+      "y": 561.25,
+      "source_label": "B05",
+      "numeric_id": 205
+    },
+    {
+      "node_id": "node_206",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 229.5,
+      "y": 573.75,
+      "source_label": "B06",
+      "numeric_id": 206
+    },
+    {
+      "node_id": "node_207",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 264.5,
+      "y": 388.75,
+      "source_label": "B07",
+      "numeric_id": 207
+    },
+    {
+      "node_id": "node_208",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 322.0,
+      "y": 383.75,
+      "source_label": "B08",
+      "numeric_id": 208
+    },
+    {
+      "node_id": "node_209",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 349.5,
+      "y": 583.75,
+      "source_label": "B09",
+      "numeric_id": 209
+    },
+    {
+      "node_id": "node_210",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 404.5,
+      "y": 583.75,
+      "source_label": "B10",
+      "numeric_id": 210
+    },
+    {
+      "node_id": "node_211",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 422.0,
+      "y": 381.25,
+      "source_label": "B11",
+      "numeric_id": 211
+    },
+    {
+      "node_id": "node_212",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 482.0,
+      "y": 383.75,
+      "source_label": "B12",
+      "numeric_id": 212
+    },
+    {
+      "node_id": "node_213",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 527.0,
+      "y": 591.25,
+      "source_label": "B13",
+      "numeric_id": 213
+    },
+    {
+      "node_id": "node_214",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 582.0,
+      "y": 593.75,
+      "source_label": "B14",
+      "numeric_id": 214
+    },
+    {
+      "node_id": "node_215",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 577.0,
+      "y": 386.25,
+      "source_label": "B15",
+      "numeric_id": 215
+    },
+    {
+      "node_id": "node_216",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 634.5,
+      "y": 388.75,
+      "source_label": "B16",
+      "numeric_id": 216
+    },
+    {
+      "node_id": "node_217",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 782.0,
+      "y": 461.25,
+      "source_label": "B17",
+      "numeric_id": 217
+    },
+    {
+      "node_id": "node_218",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 784.5,
+      "y": 511.25,
+      "source_label": "B18",
+      "numeric_id": 218
+    },
+    {
+      "node_id": "node_219",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 784.5,
+      "y": 608.75,
+      "source_label": "B19",
+      "numeric_id": 219
+    },
+    {
+      "node_id": "node_501",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 787.0,
+      "y": 658.75,
+      "source_label": "E01",
+      "numeric_id": 501
+    },
+    {
+      "node_id": "node_502",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 769.5,
+      "y": 763.75,
+      "source_label": "E02",
+      "numeric_id": 502
+    },
+    {
+      "node_id": "node_503",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 729.5,
+      "y": 798.75,
+      "source_label": "E03",
+      "numeric_id": 503
+    },
+    {
+      "node_id": "node_504",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 622.0,
+      "y": 843.75,
+      "source_label": "E04",
+      "numeric_id": 504
+    },
+    {
+      "node_id": "node_505",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 572.0,
+      "y": 841.25,
+      "source_label": "E05",
+      "numeric_id": 505
+    },
+    {
+      "node_id": "node_506",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 584.5,
+      "y": 678.75,
+      "source_label": "E06",
+      "numeric_id": 506
+    },
+    {
+      "node_id": "node_507",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 539.5,
+      "y": 678.75,
+      "source_label": "E07",
+      "numeric_id": 507
+    },
+    {
+      "node_id": "node_508",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 402.0,
+      "y": 678.75,
+      "source_label": "E08",
+      "numeric_id": 508
+    },
+    {
+      "node_id": "node_509",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 354.5,
+      "y": 681.25,
+      "source_label": "E09",
+      "numeric_id": 509
+    },
+    {
+      "node_id": "node_510",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 319.5,
+      "y": 828.75,
+      "source_label": "E10",
+      "numeric_id": 510
+    },
+    {
+      "node_id": "node_511",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 274.5,
+      "y": 828.75,
+      "source_label": "E11",
+      "numeric_id": 511
+    },
+    {
+      "node_id": "node_512",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 224.5,
+      "y": 696.25,
+      "source_label": "E12",
+      "numeric_id": 512
+    },
+    {
+      "node_id": "node_601",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 172.0,
+      "y": 706.25,
+      "source_label": "F01",
+      "numeric_id": 601
+    },
+    {
+      "node_id": "node_602",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 94.5,
+      "y": 808.75,
+      "source_label": "F02",
+      "numeric_id": 602
+    },
+    {
+      "node_id": "node_603",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 82.0,
+      "y": 848.75,
+      "source_label": "F03",
+      "numeric_id": 603
+    },
+    {
+      "node_id": "node_604",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 92.0,
+      "y": 971.25,
+      "source_label": "F04",
+      "numeric_id": 604
+    },
+    {
+      "node_id": "node_605",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 114.5,
+      "y": 996.25,
+      "source_label": "F05",
+      "numeric_id": 605
+    },
+    {
+      "node_id": "node_606",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 247.0,
+      "y": 1083.75,
+      "source_label": "F06",
+      "numeric_id": 606
+    },
+    {
+      "node_id": "node_607",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 264.5,
+      "y": 1086.25,
+      "source_label": "F07",
+      "numeric_id": 607
+    },
+    {
+      "node_id": "node_608",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 274.5,
+      "y": 928.75,
+      "source_label": "F08",
+      "numeric_id": 608
+    },
+    {
+      "node_id": "node_609",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 322.0,
+      "y": 926.25,
+      "source_label": "F09",
+      "numeric_id": 609
+    },
+    {
+      "node_id": "node_610",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 432.0,
+      "y": 1106.25,
+      "source_label": "F10",
+      "numeric_id": 610
+    },
+    {
+      "node_id": "node_611",
+      "floor_id": "F1",
+      "node_type": "booth",
+      "x": 444.5,
+      "y": 1108.75,
+      "source_label": "F11",
+      "numeric_id": 611
+    },
+    {
+      "node_id": "road_node_036",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 463.0,
+      "y": 180.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_037",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 507.0,
+      "y": 187.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_038",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 511.0,
+      "y": 187.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_039",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 403.0,
+      "y": 194.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_040",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 568.0,
+      "y": 198.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_041",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 375.0,
+      "y": 199.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_042",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 600.0,
+      "y": 205.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_043",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 339.0,
+      "y": 207.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_044",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 652.0,
+      "y": 215.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_045",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 302.0,
+      "y": 216.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_046",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 672.0,
+      "y": 218.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_047",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 718.0,
+      "y": 227.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_049",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 247.0,
+      "y": 228.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_050",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 215.0,
+      "y": 234.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_051",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 192.0,
+      "y": 239.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_052",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 869.0,
+      "y": 245.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_053",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 160.0,
+      "y": 246.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_054",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 162.0,
+      "y": 329.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_056",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 165.0,
+      "y": 385.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_058",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 171.0,
+      "y": 467.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_059",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 179.0,
+      "y": 469.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_060",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 198.0,
+      "y": 473.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_061",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 215.0,
+      "y": 478.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_062",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 235.0,
+      "y": 482.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_063",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 251.0,
+      "y": 486.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_064",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 270.0,
+      "y": 491.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_065",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 287.0,
+      "y": 494.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_066",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 295.0,
+      "y": 496.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_067",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 587.0,
+      "y": 497.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_068",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 634.0,
+      "y": 497.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_069",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 706.0,
+      "y": 497.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_070",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 527.0,
+      "y": 498.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_071",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 582.0,
+      "y": 498.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_072",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 306.0,
+      "y": 499.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_073",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 429.0,
+      "y": 499.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_074",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 482.0,
+      "y": 499.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_075",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 404.0,
+      "y": 500.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_076",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 349.0,
+      "y": 501.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_077",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 708.0,
+      "y": 518.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_078",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 710.0,
+      "y": 609.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_080",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 712.0,
+      "y": 663.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_081",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 695.0,
+      "y": 703.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_082",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 687.0,
+      "y": 713.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_083",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 660.0,
+      "y": 748.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_084",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 248.0,
+      "y": 758.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_085",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 319.0,
+      "y": 759.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_086",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 354.0,
+      "y": 759.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_087",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 402.0,
+      "y": 759.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_088",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 444.0,
+      "y": 760.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_089",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 539.0,
+      "y": 761.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_090",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 572.0,
+      "y": 761.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_091",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 584.0,
+      "y": 761.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_092",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 618.0,
+      "y": 762.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_093",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 235.0,
+      "y": 770.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_094",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 225.0,
+      "y": 780.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_095",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 164.0,
+      "y": 838.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_096",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 164.0,
+      "y": 849.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_097",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 168.0,
+      "y": 961.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_098",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 175.0,
+      "y": 964.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_099",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 186.0,
+      "y": 970.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_100",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 198.0,
+      "y": 975.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_102",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 209.0,
+      "y": 980.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_103",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 859.0,
+      "y": 983.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_104",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 221.0,
+      "y": 986.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_105",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 233.0,
+      "y": 991.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_106",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 765.0,
+      "y": 992.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_107",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 244.0,
+      "y": 996.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_108",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 256.0,
+      "y": 1002.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_109",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 268.0,
+      "y": 1007.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_110",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 444.0,
+      "y": 1008.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_111",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 426.0,
+      "y": 1009.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_112",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 279.0,
+      "y": 1012.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_113",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 322.0,
+      "y": 1013.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_node_114",
+      "floor_id": "F1",
+      "node_type": "walk_junction",
+      "x": 286.0,
+      "y": 1015.0,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "node_id": "road_wp_0010",
+      "floor_id": "F1",
+      "node_type": "walk_waypoint",
+      "x": 603.0,
+      "y": 1000.0,
+      "source": "huichang_road_skeleton"
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "road_edge_0041",
+      "from_node_id": "road_node_036",
+      "to_node_id": "road_node_039",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 61.612,
+      "cost_seconds": 0.685,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0042",
+      "from_node_id": "road_node_036",
+      "to_node_id": "road_node_037",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 44.553,
+      "cost_seconds": 0.495,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0043",
+      "from_node_id": "road_node_037",
+      "to_node_id": "road_node_038",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 4.0,
+      "cost_seconds": 0.044,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0044",
+      "from_node_id": "road_node_038",
+      "to_node_id": "road_node_040",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 58.052,
+      "cost_seconds": 0.645,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0045",
+      "from_node_id": "road_node_039",
+      "to_node_id": "road_node_041",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 28.443,
+      "cost_seconds": 0.316,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0046",
+      "from_node_id": "road_node_040",
+      "to_node_id": "road_node_042",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 32.757,
+      "cost_seconds": 0.364,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0047",
+      "from_node_id": "road_node_041",
+      "to_node_id": "road_node_043",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 36.878,
+      "cost_seconds": 0.41,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0048",
+      "from_node_id": "road_node_042",
+      "to_node_id": "road_node_044",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 52.953,
+      "cost_seconds": 0.588,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0049",
+      "from_node_id": "road_node_043",
+      "to_node_id": "road_node_045",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 38.079,
+      "cost_seconds": 0.423,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0050",
+      "from_node_id": "road_node_044",
+      "to_node_id": "road_node_046",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 20.224,
+      "cost_seconds": 0.225,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0051",
+      "from_node_id": "road_node_045",
+      "to_node_id": "road_node_049",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 56.294,
+      "cost_seconds": 0.625,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0052",
+      "from_node_id": "road_node_046",
+      "to_node_id": "road_node_047",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 46.872,
+      "cost_seconds": 0.521,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0053",
+      "from_node_id": "road_node_047",
+      "to_node_id": "road_node_052",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 152.069,
+      "cost_seconds": 1.69,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0056",
+      "from_node_id": "road_node_049",
+      "to_node_id": "road_node_050",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 32.558,
+      "cost_seconds": 0.362,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0057",
+      "from_node_id": "road_node_050",
+      "to_node_id": "road_node_051",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 23.537,
+      "cost_seconds": 0.262,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0058",
+      "from_node_id": "road_node_051",
+      "to_node_id": "road_node_053",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 32.757,
+      "cost_seconds": 0.364,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0059",
+      "from_node_id": "road_node_053",
+      "to_node_id": "road_node_054",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 83.024,
+      "cost_seconds": 0.922,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0060",
+      "from_node_id": "road_node_054",
+      "to_node_id": "road_node_056",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 56.08,
+      "cost_seconds": 0.623,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0062",
+      "from_node_id": "road_node_056",
+      "to_node_id": "road_node_058",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 82.219,
+      "cost_seconds": 0.914,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0063",
+      "from_node_id": "road_node_058",
+      "to_node_id": "road_node_059",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 8.246,
+      "cost_seconds": 0.092,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0064",
+      "from_node_id": "road_node_059",
+      "to_node_id": "road_node_060",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 19.416,
+      "cost_seconds": 0.216,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0065",
+      "from_node_id": "road_node_060",
+      "to_node_id": "road_node_061",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 17.72,
+      "cost_seconds": 0.197,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0066",
+      "from_node_id": "road_node_061",
+      "to_node_id": "road_node_062",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 20.396,
+      "cost_seconds": 0.227,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0067",
+      "from_node_id": "road_node_062",
+      "to_node_id": "road_node_063",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 16.492,
+      "cost_seconds": 0.183,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0068",
+      "from_node_id": "road_node_063",
+      "to_node_id": "road_node_064",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 19.647,
+      "cost_seconds": 0.218,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0069",
+      "from_node_id": "road_node_064",
+      "to_node_id": "road_node_065",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 17.263,
+      "cost_seconds": 0.192,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0070",
+      "from_node_id": "road_node_065",
+      "to_node_id": "road_node_066",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 8.246,
+      "cost_seconds": 0.092,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0071",
+      "from_node_id": "road_node_066",
+      "to_node_id": "road_node_072",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 11.402,
+      "cost_seconds": 0.127,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0072",
+      "from_node_id": "road_node_067",
+      "to_node_id": "road_node_068",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 47.0,
+      "cost_seconds": 0.522,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0073",
+      "from_node_id": "road_node_067",
+      "to_node_id": "road_node_071",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 5.099,
+      "cost_seconds": 0.057,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0074",
+      "from_node_id": "road_node_068",
+      "to_node_id": "road_node_069",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 72.0,
+      "cost_seconds": 0.8,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0075",
+      "from_node_id": "road_node_069",
+      "to_node_id": "road_node_077",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 21.095,
+      "cost_seconds": 0.234,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0076",
+      "from_node_id": "road_node_070",
+      "to_node_id": "road_node_074",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 45.011,
+      "cost_seconds": 0.5,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0077",
+      "from_node_id": "road_node_070",
+      "to_node_id": "road_node_071",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 55.0,
+      "cost_seconds": 0.611,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0078",
+      "from_node_id": "road_node_072",
+      "to_node_id": "road_node_076",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 43.046,
+      "cost_seconds": 0.478,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0079",
+      "from_node_id": "road_node_073",
+      "to_node_id": "road_node_074",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 53.0,
+      "cost_seconds": 0.589,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0080",
+      "from_node_id": "road_node_073",
+      "to_node_id": "road_node_075",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 25.02,
+      "cost_seconds": 0.278,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0081",
+      "from_node_id": "road_node_075",
+      "to_node_id": "road_node_076",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 55.009,
+      "cost_seconds": 0.611,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0082",
+      "from_node_id": "road_node_077",
+      "to_node_id": "road_node_078",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 91.022,
+      "cost_seconds": 1.011,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0083",
+      "from_node_id": "road_node_078",
+      "to_node_id": "road_node_080",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 54.037,
+      "cost_seconds": 0.6,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0086",
+      "from_node_id": "road_node_080",
+      "to_node_id": "road_node_081",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 43.463,
+      "cost_seconds": 0.483,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0087",
+      "from_node_id": "road_node_081",
+      "to_node_id": "road_node_082",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 12.806,
+      "cost_seconds": 0.142,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0088",
+      "from_node_id": "road_node_082",
+      "to_node_id": "road_node_083",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 44.204,
+      "cost_seconds": 0.491,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0089",
+      "from_node_id": "road_node_083",
+      "to_node_id": "road_node_092",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 44.272,
+      "cost_seconds": 0.492,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0090",
+      "from_node_id": "road_node_084",
+      "to_node_id": "road_node_093",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 17.692,
+      "cost_seconds": 0.197,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0091",
+      "from_node_id": "road_node_084",
+      "to_node_id": "road_node_085",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 71.007,
+      "cost_seconds": 0.789,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0092",
+      "from_node_id": "road_node_085",
+      "to_node_id": "road_node_086",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 35.0,
+      "cost_seconds": 0.389,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0093",
+      "from_node_id": "road_node_086",
+      "to_node_id": "road_node_087",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 48.0,
+      "cost_seconds": 0.533,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0094",
+      "from_node_id": "road_node_087",
+      "to_node_id": "road_node_088",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 42.012,
+      "cost_seconds": 0.467,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0095",
+      "from_node_id": "road_node_088",
+      "to_node_id": "road_node_089",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 95.005,
+      "cost_seconds": 1.056,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0096",
+      "from_node_id": "road_node_089",
+      "to_node_id": "road_node_090",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 33.0,
+      "cost_seconds": 0.367,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0097",
+      "from_node_id": "road_node_090",
+      "to_node_id": "road_node_091",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 12.0,
+      "cost_seconds": 0.133,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0098",
+      "from_node_id": "road_node_091",
+      "to_node_id": "road_node_092",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 34.015,
+      "cost_seconds": 0.378,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0099",
+      "from_node_id": "road_node_093",
+      "to_node_id": "road_node_094",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 14.142,
+      "cost_seconds": 0.157,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0100",
+      "from_node_id": "road_node_094",
+      "to_node_id": "road_node_095",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 84.172,
+      "cost_seconds": 0.935,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0101",
+      "from_node_id": "road_node_095",
+      "to_node_id": "road_node_096",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 11.0,
+      "cost_seconds": 0.122,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0102",
+      "from_node_id": "road_node_096",
+      "to_node_id": "road_node_097",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 112.071,
+      "cost_seconds": 1.245,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0103",
+      "from_node_id": "road_node_097",
+      "to_node_id": "road_node_098",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 7.616,
+      "cost_seconds": 0.085,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0104",
+      "from_node_id": "road_node_098",
+      "to_node_id": "road_node_099",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 12.53,
+      "cost_seconds": 0.139,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0105",
+      "from_node_id": "road_node_099",
+      "to_node_id": "road_node_100",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 13.0,
+      "cost_seconds": 0.144,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0106",
+      "from_node_id": "road_node_100",
+      "to_node_id": "road_node_102",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 12.083,
+      "cost_seconds": 0.134,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0111",
+      "from_node_id": "road_node_102",
+      "to_node_id": "road_node_104",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 13.416,
+      "cost_seconds": 0.149,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0112",
+      "from_node_id": "road_node_103",
+      "to_node_id": "road_node_106",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 94.43,
+      "cost_seconds": 1.049,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0113",
+      "from_node_id": "road_node_104",
+      "to_node_id": "road_node_105",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 13.0,
+      "cost_seconds": 0.144,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0114",
+      "from_node_id": "road_node_105",
+      "to_node_id": "road_node_107",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 12.083,
+      "cost_seconds": 0.134,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0115",
+      "from_node_id": "road_node_106",
+      "to_node_id": "road_wp_0010",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 162.197,
+      "cost_seconds": 1.802,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0116",
+      "from_node_id": "road_wp_0010",
+      "to_node_id": "road_node_110",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 159.201,
+      "cost_seconds": 1.769,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0117",
+      "from_node_id": "road_node_107",
+      "to_node_id": "road_node_108",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 13.416,
+      "cost_seconds": 0.149,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0118",
+      "from_node_id": "road_node_108",
+      "to_node_id": "road_node_109",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 13.0,
+      "cost_seconds": 0.144,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0119",
+      "from_node_id": "road_node_109",
+      "to_node_id": "road_node_112",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 12.083,
+      "cost_seconds": 0.134,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0120",
+      "from_node_id": "road_node_110",
+      "to_node_id": "road_node_111",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 18.028,
+      "cost_seconds": 0.2,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0121",
+      "from_node_id": "road_node_111",
+      "to_node_id": "road_node_113",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 104.077,
+      "cost_seconds": 1.156,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0122",
+      "from_node_id": "road_node_112",
+      "to_node_id": "road_node_114",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 7.616,
+      "cost_seconds": 0.085,
+      "source": "huichang_road_skeleton"
+    },
+    {
+      "edge_id": "road_edge_0123",
+      "from_node_id": "road_node_113",
+      "to_node_id": "road_node_114",
+      "floor_id": "F1",
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "distance": 36.056,
+      "cost_seconds": 0.401,
+      "source": "huichang_road_skeleton"
+    }
+  ],
+  "pois": [
+    {
+      "poi_id": "poi_0",
+      "name": "entrance",
+      "poi_name": "entrance",
+      "floor_id": "F1",
+      "route_node_id": "road_node_103",
+      "annotation_node_id": "node_0",
+      "route_snap_distance_px": 6.768
+    },
+    {
+      "poi_id": "poi_1",
+      "name": "QR_code",
+      "poi_name": "QR_code",
+      "floor_id": "F1",
+      "route_node_id": "road_node_088",
+      "annotation_node_id": "node_1",
+      "route_snap_distance_px": 113.751
+    },
+    {
+      "poi_id": "poi_2",
+      "name": "robot_platform",
+      "poi_name": "robot_platform",
+      "floor_id": "F1",
+      "route_node_id": "road_node_043",
+      "annotation_node_id": "node_2",
+      "route_snap_distance_px": 94.787
+    },
+    {
+      "poi_id": "poi_3",
+      "name": "exit",
+      "poi_name": "exit",
+      "floor_id": "F1",
+      "route_node_id": "road_node_052",
+      "annotation_node_id": "node_3",
+      "route_snap_distance_px": 1.346
+    },
+    {
+      "poi_id": "poi_101",
+      "name": "A01",
+      "poi_name": "A01",
+      "floor_id": "F1",
+      "route_node_id": "road_node_044",
+      "annotation_node_id": "node_101",
+      "route_snap_distance_px": 80.671
+    },
+    {
+      "poi_id": "poi_102",
+      "name": "A02",
+      "poi_name": "A02",
+      "floor_id": "F1",
+      "route_node_id": "road_node_042",
+      "annotation_node_id": "node_102",
+      "route_snap_distance_px": 90.557
+    },
+    {
+      "poi_id": "poi_103",
+      "name": "A03",
+      "poi_name": "A03",
+      "floor_id": "F1",
+      "route_node_id": "road_node_037",
+      "annotation_node_id": "node_103",
+      "route_snap_distance_px": 111.543
+    },
+    {
+      "poi_id": "poi_104",
+      "name": "A04",
+      "poi_name": "A04",
+      "floor_id": "F1",
+      "route_node_id": "road_node_039",
+      "annotation_node_id": "node_104",
+      "route_snap_distance_px": 105.029
+    },
+    {
+      "poi_id": "poi_105",
+      "name": "A05",
+      "poi_name": "A05",
+      "floor_id": "F1",
+      "route_node_id": "road_node_045",
+      "annotation_node_id": "node_105",
+      "route_snap_distance_px": 79.695
+    },
+    {
+      "poi_id": "poi_106",
+      "name": "A06",
+      "poi_name": "A06",
+      "floor_id": "F1",
+      "route_node_id": "road_node_049",
+      "annotation_node_id": "node_106",
+      "route_snap_distance_px": 75.931
+    },
+    {
+      "poi_id": "poi_107",
+      "name": "A07",
+      "poi_name": "A07",
+      "floor_id": "F1",
+      "route_node_id": "road_node_047",
+      "annotation_node_id": "node_107",
+      "route_snap_distance_px": 92.718
+    },
+    {
+      "poi_id": "poi_108",
+      "name": "A08",
+      "poi_name": "A08",
+      "floor_id": "F1",
+      "route_node_id": "road_node_046",
+      "annotation_node_id": "node_108",
+      "route_snap_distance_px": 95.861
+    },
+    {
+      "poi_id": "poi_109",
+      "name": "A09",
+      "poi_name": "A09",
+      "floor_id": "F1",
+      "route_node_id": "road_node_040",
+      "annotation_node_id": "node_109",
+      "route_snap_distance_px": 91.25
+    },
+    {
+      "poi_id": "poi_110",
+      "name": "A10",
+      "poi_name": "A10",
+      "floor_id": "F1",
+      "route_node_id": "road_node_038",
+      "annotation_node_id": "node_110",
+      "route_snap_distance_px": 89.689
+    },
+    {
+      "poi_id": "poi_111",
+      "name": "A11",
+      "poi_name": "A11",
+      "floor_id": "F1",
+      "route_node_id": "road_node_036",
+      "annotation_node_id": "node_111",
+      "route_snap_distance_px": 90.181
+    },
+    {
+      "poi_id": "poi_201",
+      "name": "B01",
+      "poi_name": "B01",
+      "floor_id": "F1",
+      "route_node_id": "road_node_050",
+      "annotation_node_id": "node_201",
+      "route_snap_distance_px": 107.734
+    },
+    {
+      "poi_id": "poi_202",
+      "name": "B02",
+      "poi_name": "B02",
+      "floor_id": "F1",
+      "route_node_id": "road_node_053",
+      "annotation_node_id": "node_202",
+      "route_snap_distance_px": 96.445
+    },
+    {
+      "poi_id": "poi_203",
+      "name": "B03",
+      "poi_name": "B03",
+      "floor_id": "F1",
+      "route_node_id": "road_node_054",
+      "annotation_node_id": "node_203",
+      "route_snap_distance_px": 105.0
+    },
+    {
+      "poi_id": "poi_204",
+      "name": "B04",
+      "poi_name": "B04",
+      "floor_id": "F1",
+      "route_node_id": "road_node_056",
+      "annotation_node_id": "node_204",
+      "route_snap_distance_px": 106.098
+    },
+    {
+      "poi_id": "poi_205",
+      "name": "B05",
+      "poi_name": "B05",
+      "floor_id": "F1",
+      "route_node_id": "road_node_060",
+      "annotation_node_id": "node_205",
+      "route_snap_distance_px": 89.19
+    },
+    {
+      "poi_id": "poi_206",
+      "name": "B06",
+      "poi_name": "B06",
+      "floor_id": "F1",
+      "route_node_id": "road_node_063",
+      "annotation_node_id": "node_206",
+      "route_snap_distance_px": 89.877
+    },
+    {
+      "poi_id": "poi_207",
+      "name": "B07",
+      "poi_name": "B07",
+      "floor_id": "F1",
+      "route_node_id": "road_node_062",
+      "annotation_node_id": "node_207",
+      "route_snap_distance_px": 97.382
+    },
+    {
+      "poi_id": "poi_208",
+      "name": "B08",
+      "poi_name": "B08",
+      "floor_id": "F1",
+      "route_node_id": "road_node_066",
+      "annotation_node_id": "node_208",
+      "route_snap_distance_px": 115.452
+    },
+    {
+      "poi_id": "poi_209",
+      "name": "B09",
+      "poi_name": "B09",
+      "floor_id": "F1",
+      "route_node_id": "road_node_076",
+      "annotation_node_id": "node_209",
+      "route_snap_distance_px": 82.752
+    },
+    {
+      "poi_id": "poi_210",
+      "name": "B10",
+      "poi_name": "B10",
+      "floor_id": "F1",
+      "route_node_id": "road_node_075",
+      "annotation_node_id": "node_210",
+      "route_snap_distance_px": 83.751
+    },
+    {
+      "poi_id": "poi_211",
+      "name": "B11",
+      "poi_name": "B11",
+      "floor_id": "F1",
+      "route_node_id": "road_node_073",
+      "annotation_node_id": "node_211",
+      "route_snap_distance_px": 117.958
+    },
+    {
+      "poi_id": "poi_212",
+      "name": "B12",
+      "poi_name": "B12",
+      "floor_id": "F1",
+      "route_node_id": "road_node_074",
+      "annotation_node_id": "node_212",
+      "route_snap_distance_px": 115.25
+    },
+    {
+      "poi_id": "poi_213",
+      "name": "B13",
+      "poi_name": "B13",
+      "floor_id": "F1",
+      "route_node_id": "road_node_070",
+      "annotation_node_id": "node_213",
+      "route_snap_distance_px": 93.25
+    },
+    {
+      "poi_id": "poi_214",
+      "name": "B14",
+      "poi_name": "B14",
+      "floor_id": "F1",
+      "route_node_id": "road_node_071",
+      "annotation_node_id": "node_214",
+      "route_snap_distance_px": 95.75
+    },
+    {
+      "poi_id": "poi_215",
+      "name": "B15",
+      "poi_name": "B15",
+      "floor_id": "F1",
+      "route_node_id": "road_node_067",
+      "annotation_node_id": "node_215",
+      "route_snap_distance_px": 111.201
+    },
+    {
+      "poi_id": "poi_216",
+      "name": "B16",
+      "poi_name": "B16",
+      "floor_id": "F1",
+      "route_node_id": "road_node_068",
+      "annotation_node_id": "node_216",
+      "route_snap_distance_px": 108.251
+    },
+    {
+      "poi_id": "poi_217",
+      "name": "B17",
+      "poi_name": "B17",
+      "floor_id": "F1",
+      "route_node_id": "road_node_069",
+      "annotation_node_id": "node_217",
+      "route_snap_distance_px": 83.52
+    },
+    {
+      "poi_id": "poi_218",
+      "name": "B18",
+      "poi_name": "B18",
+      "floor_id": "F1",
+      "route_node_id": "road_node_077",
+      "annotation_node_id": "node_218",
+      "route_snap_distance_px": 76.797
+    },
+    {
+      "poi_id": "poi_219",
+      "name": "B19",
+      "poi_name": "B19",
+      "floor_id": "F1",
+      "route_node_id": "road_node_078",
+      "annotation_node_id": "node_219",
+      "route_snap_distance_px": 74.5
+    },
+    {
+      "poi_id": "poi_501",
+      "name": "E01",
+      "poi_name": "E01",
+      "floor_id": "F1",
+      "route_node_id": "road_node_080",
+      "annotation_node_id": "node_501",
+      "route_snap_distance_px": 75.12
+    },
+    {
+      "poi_id": "poi_502",
+      "name": "E02",
+      "poi_name": "E02",
+      "floor_id": "F1",
+      "route_node_id": "road_node_081",
+      "annotation_node_id": "node_502",
+      "route_snap_distance_px": 96.129
+    },
+    {
+      "poi_id": "poi_503",
+      "name": "E03",
+      "poi_name": "E03",
+      "floor_id": "F1",
+      "route_node_id": "road_node_083",
+      "annotation_node_id": "node_503",
+      "route_snap_distance_px": 86.057
+    },
+    {
+      "poi_id": "poi_504",
+      "name": "E04",
+      "poi_name": "E04",
+      "floor_id": "F1",
+      "route_node_id": "road_node_092",
+      "annotation_node_id": "node_504",
+      "route_snap_distance_px": 81.848
+    },
+    {
+      "poi_id": "poi_505",
+      "name": "E05",
+      "poi_name": "E05",
+      "floor_id": "F1",
+      "route_node_id": "road_node_090",
+      "annotation_node_id": "node_505",
+      "route_snap_distance_px": 80.25
+    },
+    {
+      "poi_id": "poi_506",
+      "name": "E06",
+      "poi_name": "E06",
+      "floor_id": "F1",
+      "route_node_id": "road_node_091",
+      "annotation_node_id": "node_506",
+      "route_snap_distance_px": 82.252
+    },
+    {
+      "poi_id": "poi_507",
+      "name": "E07",
+      "poi_name": "E07",
+      "floor_id": "F1",
+      "route_node_id": "road_node_089",
+      "annotation_node_id": "node_507",
+      "route_snap_distance_px": 82.252
+    },
+    {
+      "poi_id": "poi_508",
+      "name": "E08",
+      "poi_name": "E08",
+      "floor_id": "F1",
+      "route_node_id": "road_node_087",
+      "annotation_node_id": "node_508",
+      "route_snap_distance_px": 80.25
+    },
+    {
+      "poi_id": "poi_509",
+      "name": "E09",
+      "poi_name": "E09",
+      "floor_id": "F1",
+      "route_node_id": "road_node_086",
+      "annotation_node_id": "node_509",
+      "route_snap_distance_px": 77.752
+    },
+    {
+      "poi_id": "poi_510",
+      "name": "E10",
+      "poi_name": "E10",
+      "floor_id": "F1",
+      "route_node_id": "road_node_085",
+      "annotation_node_id": "node_510",
+      "route_snap_distance_px": 69.752
+    },
+    {
+      "poi_id": "poi_511",
+      "name": "E11",
+      "poi_name": "E11",
+      "floor_id": "F1",
+      "route_node_id": "road_node_094",
+      "annotation_node_id": "node_511",
+      "route_snap_distance_px": 69.475
+    },
+    {
+      "poi_id": "poi_512",
+      "name": "E12",
+      "poi_name": "E12",
+      "floor_id": "F1",
+      "route_node_id": "road_node_084",
+      "annotation_node_id": "node_512",
+      "route_snap_distance_px": 66.071
+    },
+    {
+      "poi_id": "poi_601",
+      "name": "F01",
+      "poi_name": "F01",
+      "floor_id": "F1",
+      "route_node_id": "road_node_093",
+      "annotation_node_id": "node_601",
+      "route_snap_distance_px": 89.627
+    },
+    {
+      "poi_id": "poi_602",
+      "name": "F02",
+      "poi_name": "F02",
+      "floor_id": "F1",
+      "route_node_id": "road_node_095",
+      "annotation_node_id": "node_602",
+      "route_snap_distance_px": 75.404
+    },
+    {
+      "poi_id": "poi_603",
+      "name": "F03",
+      "poi_name": "F03",
+      "floor_id": "F1",
+      "route_node_id": "road_node_096",
+      "annotation_node_id": "node_603",
+      "route_snap_distance_px": 82.0
+    },
+    {
+      "poi_id": "poi_604",
+      "name": "F04",
+      "poi_name": "F04",
+      "floor_id": "F1",
+      "route_node_id": "road_node_097",
+      "annotation_node_id": "node_604",
+      "route_snap_distance_px": 76.688
+    },
+    {
+      "poi_id": "poi_605",
+      "name": "F05",
+      "poi_name": "F05",
+      "floor_id": "F1",
+      "route_node_id": "road_node_097",
+      "annotation_node_id": "node_605",
+      "route_snap_distance_px": 64.069
+    },
+    {
+      "poi_id": "poi_606",
+      "name": "F06",
+      "poi_name": "F06",
+      "floor_id": "F1",
+      "route_node_id": "road_node_112",
+      "annotation_node_id": "node_606",
+      "route_snap_distance_px": 78.068
+    },
+    {
+      "poi_id": "poi_607",
+      "name": "F07",
+      "poi_name": "F07",
+      "floor_id": "F1",
+      "route_node_id": "road_node_114",
+      "annotation_node_id": "node_607",
+      "route_snap_distance_px": 74.423
+    },
+    {
+      "poi_id": "poi_608",
+      "name": "F08",
+      "poi_name": "F08",
+      "floor_id": "F1",
+      "route_node_id": "road_node_107",
+      "annotation_node_id": "node_608",
+      "route_snap_distance_px": 73.357
+    },
+    {
+      "poi_id": "poi_609",
+      "name": "F09",
+      "poi_name": "F09",
+      "floor_id": "F1",
+      "route_node_id": "road_node_113",
+      "annotation_node_id": "node_609",
+      "route_snap_distance_px": 86.75
+    },
+    {
+      "poi_id": "poi_610",
+      "name": "F10",
+      "poi_name": "F10",
+      "floor_id": "F1",
+      "route_node_id": "road_node_111",
+      "annotation_node_id": "node_610",
+      "route_snap_distance_px": 97.435
+    },
+    {
+      "poi_id": "poi_611",
+      "name": "F11",
+      "poi_name": "F11",
+      "floor_id": "F1",
+      "route_node_id": "road_node_110",
+      "annotation_node_id": "node_611",
+      "route_snap_distance_px": 100.751
+    }
+  ],
+  "entrances": [
+    {
+      "entrance_id": "entrance_0",
+      "floor_id": "F1",
+      "entrance_type": "main",
+      "route_node_id": "road_node_103",
+      "annotation_node_id": "node_0",
+      "route_snap_distance_px": 6.768
+    }
+  ],
+  "connectors": [],
+  "generation_note": {
+    "source": "OCR/huichang_road.jpg",
+    "method": "green_path_mask_zhang_suen_skeleton_snap_pois_to_walk_graph",
+    "replaces": "previous fully-connected demo edges",
+    "coordinate_system": "image_pixel_top_left_y_down",
+    "bidirectional_walk_edges": true,
+    "extraction_stats": {
+      "raw_pixels": 49037,
+      "filtered_pixels": 48719,
+      "kept_components": 3,
+      "removed_components": 92,
+      "skeleton_pixels": 10056
+    },
+    "graph_stats": {
+      "junction_nodes": 118,
+      "waypoint_nodes": 16,
+      "raw_skeleton_edges": 115,
+      "road_nodes": 134,
+      "road_edges": 131,
+      "connected_components": 3,
+      "largest_component_nodes": 124,
+      "reachable_snapped_targets_from_default_entrance": 60,
+      "snapped_targets": 60,
+      "max_snap_distance_px": 295.682,
+      "avg_snap_distance_px": 93.282
+    }
+  }
+}

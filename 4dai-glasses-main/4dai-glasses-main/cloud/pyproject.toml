@@ -1,0 +1,22 @@
+[project]
+name = "ai-glasses-cloud"
+version = "0.1.0"
+description = "Indoor navigation cloud service skeleton for AI Glasses."
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115.0,<1.0.0",
+  "httpx>=0.28.0,<1.0.0",
+  "numpy>=2.0.0,<3.0.0",
+  "opencv-python-headless>=4.10.0,<5.0.0",
+  "python-multipart>=0.0.12,<1.0.0",
+  "qrcode>=8.0,<9.0",
+  "uvicorn>=0.34.0,<1.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]

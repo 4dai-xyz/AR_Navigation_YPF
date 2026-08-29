@@ -1,0 +1,6025 @@
+{
+  "schema_version": "mapping_annotation_points.v0.1",
+  "coordinate_system": {
+    "type": "image_pixel",
+    "origin": "top_left",
+    "x_axis": "right",
+    "y_axis": "down",
+    "unit": "pixel",
+    "meter_per_pixel_estimate": 0.1,
+    "meter_scale_status": "demo_estimate_not_surveyed"
+  },
+  "items": [
+    {
+      "floor_id": "B1",
+      "label": "wanmeishijie",
+      "label_slug": "wanmeishijie",
+      "group_id": 22,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 930.526,
+        "y": 1165.789
+      },
+      "nearest_walkable_pixel": {
+        "x": 883,
+        "y": 1164
+      },
+      "distance_to_walkable_px": 47.56,
+      "aliases": [
+        "wanmeishijie",
+        "完美世界",
+        "wmsj影城"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "yimayila",
+      "label_slug": "yimayila",
+      "group_id": 24,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 709.474,
+        "y": 1039.474
+      },
+      "nearest_walkable_pixel": {
+        "x": 709,
+        "y": 997
+      },
+      "distance_to_walkable_px": 42.476,
+      "aliases": [
+        "yimayila",
+        "一麻一辣麻辣香锅",
+        "ymyl"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "ruixing(luckin)",
+      "label_slug": "ruixing_luckin",
+      "group_id": 26,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 693.684,
+        "y": 1244.737
+      },
+      "nearest_walkable_pixel": {
+        "x": 720,
+        "y": 1252
+      },
+      "distance_to_walkable_px": 27.3,
+      "aliases": [
+        "ruixing(luckin)",
+        "ruixing",
+        "luckin",
+        "瑞幸",
+        "瑞幸咖啡",
+        "luckin coffee",
+        "rx",
+        "lx"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "lutaizong",
+      "label_slug": "lutaizong",
+      "group_id": 45,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 572.632,
+        "y": 1392.105
+      },
+      "nearest_walkable_pixel": {
+        "x": 605,
+        "y": 1398
+      },
+      "distance_to_walkable_px": 32.901,
+      "aliases": [
+        "lutaizong",
+        "卤太宗",
+        "卤太宗大鸡腿饭",
+        "大鸡腿饭",
+        "lutai",
+        "ltz"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "wuyutai",
+      "label_slug": "wuyutai",
+      "group_id": 29,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 862.105,
+        "y": 1513.158
+      },
+      "nearest_walkable_pixel": {
+        "x": 862,
+        "y": 1499
+      },
+      "distance_to_walkable_px": 14.158,
+      "aliases": [
+        "wuyutai",
+        "吴裕泰",
+        "吴裕泰茶庄",
+        "wyt"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "shengnuoyi",
+      "label_slug": "shengnuoyi",
+      "group_id": 36,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 1093.684,
+        "y": 1765.789
+      },
+      "nearest_walkable_pixel": {
+        "x": 1082,
+        "y": 1811
+      },
+      "distance_to_walkable_px": 46.696,
+      "aliases": [
+        "shengnuoyi",
+        "圣诺伊",
+        "snyi",
+        "sny"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "zhangruhuo",
+      "label_slug": "zhangruhuo",
+      "group_id": 27,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 477.895,
+        "y": 1839.474
+      },
+      "nearest_walkable_pixel": {
+        "x": 443,
+        "y": 1839
+      },
+      "distance_to_walkable_px": 34.898,
+      "aliases": [
+        "zhangruhuo",
+        "张如火酸辣粉",
+        "张如火火锅",
+        "zrh"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "fudi",
+      "label_slug": "fudi",
+      "group_id": 37,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 783.158,
+        "y": 1997.368
+      },
+      "nearest_walkable_pixel": {
+        "x": 783,
+        "y": 1941
+      },
+      "distance_to_walkable_px": 56.369,
+      "aliases": [
+        "fudi",
+        "福地",
+        "福迪超市",
+        "fd"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "fudi",
+      "label_slug": "fudi",
+      "group_id": 37,
+      "occurrence": 2,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 935.789,
+        "y": 1976.316
+      },
+      "nearest_walkable_pixel": {
+        "x": 897,
+        "y": 1944
+      },
+      "distance_to_walkable_px": 50.487,
+      "aliases": [
+        "fudi",
+        "福地",
+        "福迪超市",
+        "fd"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "coco",
+      "label_slug": "coco",
+      "group_id": 62,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 688.421,
+        "y": 1513.158
+      },
+      "nearest_walkable_pixel": {
+        "x": 720,
+        "y": 1513
+      },
+      "distance_to_walkable_px": 31.579,
+      "aliases": [
+        "coco",
+        "CoCo",
+        "CoCo都可",
+        "都可",
+        "都可奶茶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "baozhu",
+      "label_slug": "baozhu",
+      "group_id": 102,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 672.632,
+        "y": 1602.632
+      },
+      "nearest_walkable_pixel": {
+        "x": 673,
+        "y": 1626
+      },
+      "distance_to_walkable_px": 23.371,
+      "aliases": [
+        "baozhu",
+        "包煮",
+        "宝竹",
+        "bz"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "shibiman",
+      "label_slug": "shibiman",
+      "group_id": 31,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 951.579,
+        "y": 1528.947
+      },
+      "nearest_walkable_pixel": {
+        "x": 977,
+        "y": 1529
+      },
+      "distance_to_walkable_px": 25.421,
+      "aliases": [
+        "shibiman",
+        "诗碧曼",
+        "sbm"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "dec",
+      "label_slug": "dec",
+      "group_id": 27,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 1030.526,
+        "y": 1881.579
+      },
+      "nearest_walkable_pixel": {
+        "x": 1024,
+        "y": 1882
+      },
+      "distance_to_walkable_px": 6.54,
+      "aliases": [
+        "dec",
+        "DEC"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "qishierjiang",
+      "label_slug": "qishierjiang",
+      "group_id": 120,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 514.737,
+        "y": 1513.158
+      },
+      "nearest_walkable_pixel": {
+        "x": 516,
+        "y": 1526
+      },
+      "distance_to_walkable_px": 12.904,
+      "aliases": [
+        "qishierjiang",
+        "七十二匠",
+        "柒十二匠",
+        "72匠",
+        "qsej"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "zigulu",
+      "label_slug": "zigulu",
+      "group_id": 47,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 388.421,
+        "y": 1397.368
+      },
+      "nearest_walkable_pixel": {
+        "x": 370,
+        "y": 1397
+      },
+      "distance_to_walkable_px": 18.425,
+      "aliases": [
+        "zigulu",
+        "紫谷庐",
+        "子谷庐",
+        "zgl"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "elevator",
+      "label_slug": "elevator",
+      "group_id": 1111,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 865.946,
+        "y": 764.865
+      },
+      "nearest_walkable_pixel": {
+        "x": 866,
+        "y": 765
+      },
+      "distance_to_walkable_px": 0.146,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "escalator_down_to",
+      "label_slug": "escalator_down_to",
+      "group_id": 111,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 1114.595,
+        "y": 1313.514
+      },
+      "nearest_walkable_pixel": {
+        "x": 1115,
+        "y": 1314
+      },
+      "distance_to_walkable_px": 0.633,
+      "aliases": [
+        "escalator_down_to",
+        "下行扶梯入口",
+        "扶梯下行",
+        "扶梯下到",
+        "下扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11111,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 1036.216,
+        "y": 1662.162
+      },
+      "nearest_walkable_pixel": {
+        "x": 1036,
+        "y": 1635
+      },
+      "distance_to_walkable_px": 27.163,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "escalator_up_to",
+      "label_slug": "escalator_up_to",
+      "group_id": 113,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 774.054,
+        "y": 1756.757
+      },
+      "nearest_walkable_pixel": {
+        "x": 753,
+        "y": 1757
+      },
+      "distance_to_walkable_px": 21.055,
+      "aliases": [
+        "escalator_up_to",
+        "上行扶梯入口",
+        "扶梯上行",
+        "扶梯上到",
+        "上扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "yipinmenguo",
+      "label_slug": "yipinmenguo",
+      "group_id": 23,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 779.459,
+        "y": 910.811
+      },
+      "nearest_walkable_pixel": {
+        "x": 810,
+        "y": 917
+      },
+      "distance_to_walkable_px": 31.161,
+      "aliases": [
+        "yipinmenguo",
+        "一品焖锅",
+        "一品",
+        "ypmg"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "chuanshiduo",
+      "label_slug": "chuanshiduo",
+      "group_id": 25,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 760.541,
+        "y": 1143.243
+      },
+      "nearest_walkable_pixel": {
+        "x": 761,
+        "y": 1190
+      },
+      "distance_to_walkable_px": 46.759,
+      "aliases": [
+        "chuanshiduo",
+        "串士多",
+        "csd"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "yerenxiansheng",
+      "label_slug": "yerenxiansheng",
+      "group_id": 27,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 817.297,
+        "y": 1381.081
+      },
+      "nearest_walkable_pixel": {
+        "x": 791,
+        "y": 1380
+      },
+      "distance_to_walkable_px": 26.32,
+      "aliases": [
+        "yerenxiansheng",
+        "野人先生",
+        "野人",
+        "yrxs"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "qiduyinshi",
+      "label_slug": "qiduyinshi",
+      "group_id": 902,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 817.297,
+        "y": 1518.919
+      },
+      "nearest_walkable_pixel": {
+        "x": 817,
+        "y": 1498
+      },
+      "distance_to_walkable_px": 20.921,
+      "aliases": [
+        "qiduyinshi",
+        "七度银饰",
+        "qdys"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "fanwenhua",
+      "label_slug": "fanwenhua",
+      "group_id": 30,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 919.107,
+        "y": 1518.75
+      },
+      "nearest_walkable_pixel": {
+        "x": 921,
+        "y": 1501
+      },
+      "distance_to_walkable_px": 17.851,
+      "aliases": [
+        "fanwenhua",
+        "樊文花",
+        "fwh"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "aihuishou",
+      "label_slug": "aihuishou",
+      "group_id": 903,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 1036.964,
+        "y": 1477.679
+      },
+      "nearest_walkable_pixel": {
+        "x": 1010,
+        "y": 1478
+      },
+      "distance_to_walkable_px": 26.966,
+      "aliases": [
+        "aihuishou",
+        "爱回收",
+        "ahs"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "bulilin",
+      "label_slug": "bulilin",
+      "group_id": 904,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 1079.821,
+        "y": 1254.464
+      },
+      "nearest_walkable_pixel": {
+        "x": 1080,
+        "y": 1254
+      },
+      "distance_to_walkable_px": 0.497,
+      "aliases": [
+        "bulilin",
+        "布璃琳",
+        "不离林",
+        "bll"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "escalator_up_from",
+      "label_slug": "escalator_up_from",
+      "group_id": 111,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 1115.536,
+        "y": 1336.607
+      },
+      "nearest_walkable_pixel": {
+        "x": 1099,
+        "y": 1337
+      },
+      "distance_to_walkable_px": 16.54,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "xiechenglvyou",
+      "label_slug": "xiechenglvyou",
+      "group_id": 33,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 1038.75,
+        "y": 1540.179
+      },
+      "nearest_walkable_pixel": {
+        "x": 1039,
+        "y": 1561
+      },
+      "distance_to_walkable_px": 20.823,
+      "aliases": [
+        "xiechenglvyou",
+        "携程旅游",
+        "携程",
+        "xc",
+        "xcly"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "lenleyuanqihaowu",
+      "label_slug": "lenleyuanqihaowu",
+      "group_id": 34,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 953.036,
+        "y": 1593.75
+      },
+      "nearest_walkable_pixel": {
+        "x": 976,
+        "y": 1594
+      },
+      "distance_to_walkable_px": 22.966,
+      "aliases": [
+        "lenleyuanqihaowu",
+        "lenle元气好物",
+        "冷乐源奇好物",
+        "llyqhw"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "haircamp",
+      "label_slug": "haircamp",
+      "group_id": 35,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 949.464,
+        "y": 1697.321
+      },
+      "nearest_walkable_pixel": {
+        "x": 974,
+        "y": 1697
+      },
+      "distance_to_walkable_px": 24.538,
+      "aliases": [
+        "haircamp",
+        "HairCamp",
+        "Hair Camp",
+        "理发店",
+        "美发店"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "dajingchazhuang",
+      "label_slug": "dajingchazhuang",
+      "group_id": 38,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 844.107,
+        "y": 1809.821
+      },
+      "nearest_walkable_pixel": {
+        "x": 844,
+        "y": 1817
+      },
+      "distance_to_walkable_px": 7.179,
+      "aliases": [
+        "dajingchazhuang",
+        "大金茶庄",
+        "大经茶庄",
+        "djcz"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "lenleyuanqihaowu",
+      "label_slug": "lenleyuanqihaowu",
+      "group_id": 34,
+      "occurrence": 2,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 820.893,
+        "y": 1595.536
+      },
+      "nearest_walkable_pixel": {
+        "x": 792,
+        "y": 1596
+      },
+      "distance_to_walkable_px": 28.897,
+      "aliases": [
+        "lenleyuanqihaowu",
+        "lenle元气好物",
+        "冷乐源奇好物",
+        "llyqhw"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "chitianshousi",
+      "label_slug": "chitianshousi",
+      "group_id": 39,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 685.957,
+        "y": 1741.489
+      },
+      "nearest_walkable_pixel": {
+        "x": 686,
+        "y": 1752
+      },
+      "distance_to_walkable_px": 10.511,
+      "aliases": [
+        "chitianshousi",
+        "池田寿司",
+        "吃天寿司",
+        "ctss"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "yeyebupaocha",
+      "label_slug": "yeyebupaocha",
+      "group_id": 905,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 679.574,
+        "y": 1679.787
+      },
+      "nearest_walkable_pixel": {
+        "x": 715,
+        "y": 1680
+      },
+      "distance_to_walkable_px": 35.426,
+      "aliases": [
+        "yeyebupaocha",
+        "爷爷不泡茶",
+        "爷爷",
+        "yybpc"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "lianhongqintiantian",
+      "label_slug": "lianhongqintiantian",
+      "group_id": 41,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 694.468,
+        "y": 1460.638
+      },
+      "nearest_walkable_pixel": {
+        "x": 721,
+        "y": 1461
+      },
+      "distance_to_walkable_px": 26.534,
+      "aliases": [
+        "lianhongqintiantian",
+        "脸红秦甜甜",
+        "恋红芹甜甜",
+        "lhqtt"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "chabaidao",
+      "label_slug": "chabaidao",
+      "group_id": 117,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 694.468,
+        "y": 1432.979
+      },
+      "nearest_walkable_pixel": {
+        "x": 721,
+        "y": 1436
+      },
+      "distance_to_walkable_px": 26.703,
+      "aliases": [
+        "chabaidao",
+        "茶百道",
+        "cbd"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "sanyuanmeiyuan",
+      "label_slug": "sanyuanmeiyuan",
+      "group_id": 118,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 698.723,
+        "y": 1396.809
+      },
+      "nearest_walkable_pixel": {
+        "x": 722,
+        "y": 1397
+      },
+      "distance_to_walkable_px": 23.277,
+      "aliases": [
+        "sanyuanmeiyuan",
+        "三元梅园",
+        "三元",
+        "symy"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "moreyogurt",
+      "label_slug": "moreyogurt",
+      "group_id": 42,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 692.34,
+        "y": 1301.064
+      },
+      "nearest_walkable_pixel": {
+        "x": 689,
+        "y": 1320
+      },
+      "distance_to_walkable_px": 19.229,
+      "aliases": [
+        "moreyogurt",
+        "More Yogurt",
+        "MoreYogurt",
+        "More酸奶",
+        "酸奶店"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "shoudaningmengcha",
+      "label_slug": "shoudaningmengcha",
+      "group_id": 908,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 647.66,
+        "y": 1369.149
+      },
+      "nearest_walkable_pixel": {
+        "x": 648,
+        "y": 1356
+      },
+      "distance_to_walkable_px": 13.153,
+      "aliases": [
+        "shoudaningmengcha",
+        "手打柠檬茶",
+        "柠檬茶",
+        "sdnmc"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "shaguopo",
+      "label_slug": "shaguopo",
+      "group_id": 44,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 649.787,
+        "y": 1296.809
+      },
+      "nearest_walkable_pixel": {
+        "x": 650,
+        "y": 1318
+      },
+      "distance_to_walkable_px": 21.193,
+      "aliases": [
+        "shguopo",
+        "shiguopo",
+        "砂锅婆",
+        "sgp"
+      ],
+      "description": "需确认翻译（拼音疑似有误，可能是 shiguopo）"
+    },
+    {
+      "floor_id": "B1",
+      "label": "shaguopo",
+      "label_slug": "shaguopo",
+      "group_id": 44,
+      "occurrence": 2,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 645.532,
+        "y": 1232.979
+      },
+      "nearest_walkable_pixel": {
+        "x": 646,
+        "y": 1208
+      },
+      "distance_to_walkable_px": 24.983,
+      "aliases": [
+        "shguopo",
+        "shiguopo",
+        "砂锅婆",
+        "sgp"
+      ],
+      "description": "需确认翻译（拼音疑似有误，可能是 shiguopo）"
+    },
+    {
+      "floor_id": "B1",
+      "label": "hongchaoshan",
+      "label_slug": "hongchaoshan",
+      "group_id": 909,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 428.511,
+        "y": 1326.596
+      },
+      "nearest_walkable_pixel": {
+        "x": 453,
+        "y": 1329
+      },
+      "distance_to_walkable_px": 24.607,
+      "aliases": [
+        "hongchaoshan",
+        "鸿潮汕",
+        "洪潮汕",
+        "hcs"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "kuafukuafood",
+      "label_slug": "kuafukuafood",
+      "group_id": 119,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 511.489,
+        "y": 1367.021
+      },
+      "nearest_walkable_pixel": {
+        "x": 496,
+        "y": 1367
+      },
+      "distance_to_walkable_px": 15.489,
+      "aliases": [
+        "kuafukuafood",
+        "夸父炸串",
+        "kuafu",
+        "夸父",
+        "kuafood",
+        "kf"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "liumianshou",
+      "label_slug": "liumianshou",
+      "group_id": 911,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 415.745,
+        "y": 1498.936
+      },
+      "nearest_walkable_pixel": {
+        "x": 429,
+        "y": 1493
+      },
+      "distance_to_walkable_px": 14.524,
+      "aliases": [
+        "liumianshou",
+        "刘面手",
+        "六面寿",
+        "溜面手",
+        "lms"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "zhaozaier",
+      "label_slug": "zhaozaier",
+      "group_id": 912,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 415.745,
+        "y": 1575.532
+      },
+      "nearest_walkable_pixel": {
+        "x": 455,
+        "y": 1576
+      },
+      "distance_to_walkable_px": 39.258,
+      "aliases": [
+        "zhaozaier",
+        "招仔儿",
+        "赵崽儿",
+        "zze",
+        "zzr"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "yongxiangzhaji",
+      "label_slug": "yongxiangzhaji",
+      "group_id": 913,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 509.362,
+        "y": 1647.872
+      },
+      "nearest_walkable_pixel": {
+        "x": 493,
+        "y": 1643
+      },
+      "distance_to_walkable_px": 17.072,
+      "aliases": [
+        "yongxiangzhaji",
+        "永巷炸鸡",
+        "永祥",
+        "yxzj"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "jiajiancheng",
+      "label_slug": "jiajiancheng",
+      "group_id": 914,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 417.872,
+        "y": 1658.511
+      },
+      "nearest_walkable_pixel": {
+        "x": 453,
+        "y": 1659
+      },
+      "distance_to_walkable_px": 35.131,
+      "aliases": [
+        "jiajiansheng",
+        "夹拣盛",
+        "嘉俭生",
+        "jjs"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "jiayibing",
+      "label_slug": "jiayibing",
+      "group_id": 915,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 422.128,
+        "y": 1760.638
+      },
+      "nearest_walkable_pixel": {
+        "x": 452,
+        "y": 1761
+      },
+      "distance_to_walkable_px": 29.875,
+      "aliases": [
+        "jiayibing",
+        "加一冰",
+        "佳一冰",
+        "jyb"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "aichaosuannai",
+      "label_slug": "aichaosuannai",
+      "group_id": 121,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 575.319,
+        "y": 1732.979
+      },
+      "nearest_walkable_pixel": {
+        "x": 575,
+        "y": 1718
+      },
+      "distance_to_walkable_px": 14.982,
+      "aliases": [
+        "aichaosuannai",
+        "爱炒酸奶",
+        "艾炒酸奶",
+        "爱妙酸奶",
+        "艾妙酸奶",
+        "amsn"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "bailuyuan",
+      "label_slug": "bailuyuan",
+      "group_id": 53,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 575.319,
+        "y": 1841.489
+      },
+      "nearest_walkable_pixel": {
+        "x": 575,
+        "y": 1807
+      },
+      "distance_to_walkable_px": 34.491,
+      "aliases": [
+        "bailuyuan",
+        "白鹿原",
+        "bly"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "xuejichaohuohaoguozi",
+      "label_slug": "xuejichaohuohaoguozi",
+      "group_id": 54,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 681.702,
+        "y": 1839.362
+      },
+      "nearest_walkable_pixel": {
+        "x": 682,
+        "y": 1807
+      },
+      "distance_to_walkable_px": 32.363,
+      "aliases": [
+        "xuejichaohuohaoguozi",
+        "薛记炒货好果子",
+        "雪记炒货好果子",
+        "薛记炒货",
+        "炒货",
+        "xjchhgz",
+        "xjch"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "B1",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11112,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 607.234,
+        "y": 1126.596
+      },
+      "nearest_walkable_pixel": {
+        "x": 615,
+        "y": 1127
+      },
+      "distance_to_walkable_px": 7.776,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "escalator_down_from",
+      "label_slug": "escalator_down_from",
+      "group_id": 112,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 777.447,
+        "y": 1309.574
+      },
+      "nearest_walkable_pixel": {
+        "x": 777,
+        "y": 1334
+      },
+      "distance_to_walkable_px": 24.43,
+      "aliases": [
+        "escalator_down_from",
+        "下行扶梯出口",
+        "扶梯下来",
+        "下扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "wc",
+      "label_slug": "wc",
+      "group_id": 2222,
+      "occurrence": 1,
+      "object_type": "facility",
+      "source_pixel": {
+        "x": 558.0,
+        "y": 1107.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 537,
+        "y": 1107
+      },
+      "distance_to_walkable_px": 21.0,
+      "aliases": [
+        "wc",
+        "WC",
+        "卫生间",
+        "洗手间",
+        "厕所",
+        "toilet"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "B1",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11113,
+      "occurrence": 3,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 580.0,
+        "y": 1033.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 580,
+        "y": 997
+      },
+      "distance_to_walkable_px": 36.0,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "xiaomi",
+      "label_slug": "xiaomi",
+      "group_id": 13,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 1030.526,
+        "y": 1976.316
+      },
+      "nearest_walkable_pixel": {
+        "x": 1091,
+        "y": 1974
+      },
+      "distance_to_walkable_px": 60.518,
+      "aliases": [
+        "xiaomi",
+        "小米",
+        "小米之家",
+        "Xiaomi",
+        "MI",
+        "xm"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "maidanglao",
+      "label_slug": "maidanglao",
+      "group_id": 0,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 1093.684,
+        "y": 2307.895
+      },
+      "nearest_walkable_pixel": {
+        "x": 1060,
+        "y": 2308
+      },
+      "distance_to_walkable_px": 33.684,
+      "aliases": [
+        "maidanglao",
+        "麦当劳",
+        "McDonald's",
+        "McDonalds",
+        "mdl"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "zhoudafu",
+      "label_slug": "zhoudafu",
+      "group_id": 2,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 993.684,
+        "y": 1750.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 994,
+        "y": 1706
+      },
+      "distance_to_walkable_px": 44.001,
+      "aliases": [
+        "zhoudafu",
+        "周大福",
+        "Chow Tai Fook",
+        "zdf"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "manner coffee",
+      "label_slug": "manner_coffee",
+      "group_id": 3,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 1109.474,
+        "y": 1134.211
+      },
+      "nearest_walkable_pixel": {
+        "x": 1155,
+        "y": 1134
+      },
+      "distance_to_walkable_px": 45.527,
+      "aliases": [
+        "manner coffee",
+        "manner",
+        "Manner",
+        "Manner Coffee",
+        "Manner咖啡",
+        "曼纳咖啡"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "lanxiong",
+      "label_slug": "lanxiong",
+      "group_id": 103,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 1125.263,
+        "y": 1034.211
+      },
+      "nearest_walkable_pixel": {
+        "x": 1158,
+        "y": 1034
+      },
+      "distance_to_walkable_px": 32.738,
+      "aliases": [
+        "lanxiong",
+        "兰熊",
+        "蓝熊",
+        "lx"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F1",
+      "label": "huawei",
+      "label_slug": "huawei",
+      "group_id": 7,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 667.368,
+        "y": 876.316
+      },
+      "nearest_walkable_pixel": {
+        "x": 745,
+        "y": 876
+      },
+      "distance_to_walkable_px": 77.632,
+      "aliases": [
+        "huawei",
+        "华为",
+        "Huawei",
+        "华为体验店",
+        "hw"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "starbuck",
+      "label_slug": "starbuck",
+      "group_id": 1,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 530.526,
+        "y": 871.053
+      },
+      "nearest_walkable_pixel": {
+        "x": 531,
+        "y": 952
+      },
+      "distance_to_walkable_px": 80.949,
+      "aliases": [
+        "starbuck",
+        "starbucks",
+        "Starbucks",
+        "星巴克",
+        "星巴克咖啡",
+        "sbk"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "zhongguohuangjin",
+      "label_slug": "zhongguohuangjin",
+      "group_id": 5,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 720.0,
+        "y": 1281.579
+      },
+      "nearest_walkable_pixel": {
+        "x": 714,
+        "y": 1282
+      },
+      "distance_to_walkable_px": 6.015,
+      "aliases": [
+        "zhongguohuangjin",
+        "中国黄金",
+        "zghj"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "huashuo",
+      "label_slug": "huashuo",
+      "group_id": 6,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 467.368,
+        "y": 1971.053
+      },
+      "nearest_walkable_pixel": {
+        "x": 407,
+        "y": 1970
+      },
+      "distance_to_walkable_px": 60.378,
+      "aliases": [
+        "huashuo",
+        "华硕",
+        "ASUS",
+        "hs"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "popmart",
+      "label_slug": "popmart",
+      "group_id": 129,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 509.474,
+        "y": 1239.474
+      },
+      "nearest_walkable_pixel": {
+        "x": 550,
+        "y": 1224
+      },
+      "distance_to_walkable_px": 43.38,
+      "aliases": [
+        "popmart",
+        "POPMART",
+        "POP MART",
+        "泡泡玛特",
+        "ppmt"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "nike",
+      "label_slug": "nike",
+      "group_id": 67,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 977.895,
+        "y": 1439.474
+      },
+      "nearest_walkable_pixel": {
+        "x": 908,
+        "y": 1439
+      },
+      "distance_to_walkable_px": 69.896,
+      "aliases": [
+        "nike",
+        "Nike",
+        "NIKE",
+        "耐克"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "NG",
+      "label_slug": "ng",
+      "group_id": 6666,
+      "occurrence": 1,
+      "object_type": "entrance",
+      "source_pixel": {
+        "x": 796.667,
+        "y": 743.333
+      },
+      "nearest_walkable_pixel": {
+        "x": 797,
+        "y": 754
+      },
+      "distance_to_walkable_px": 10.672,
+      "aliases": [
+        "NG",
+        "ng",
+        "北门",
+        "North Gate",
+        "北入口"
+      ],
+      "description": "需确认翻译（疑似北门 North Gate）"
+    },
+    {
+      "floor_id": "F1",
+      "label": "EG",
+      "label_slug": "eg",
+      "group_id": 3333,
+      "occurrence": 1,
+      "object_type": "entrance",
+      "source_pixel": {
+        "x": 1216.667,
+        "y": 1646.667
+      },
+      "nearest_walkable_pixel": {
+        "x": 1217,
+        "y": 1647
+      },
+      "distance_to_walkable_px": 0.471,
+      "aliases": [
+        "EG",
+        "eg",
+        "东门",
+        "East Gate",
+        "东入口"
+      ],
+      "description": "需确认翻译（疑似东门 East Gate）"
+    },
+    {
+      "floor_id": "F1",
+      "label": "WG",
+      "label_slug": "wg",
+      "group_id": 5555,
+      "occurrence": 1,
+      "object_type": "entrance",
+      "source_pixel": {
+        "x": 370.0,
+        "y": 2083.333
+      },
+      "nearest_walkable_pixel": {
+        "x": 377,
+        "y": 2083
+      },
+      "distance_to_walkable_px": 7.008,
+      "aliases": [
+        "WG",
+        "wg",
+        "西门",
+        "West Gate",
+        "西入口"
+      ],
+      "description": "需确认翻译（疑似西门 West Gate）"
+    },
+    {
+      "floor_id": "F1",
+      "label": "escalator_down_to",
+      "label_slug": "escalator_down_to",
+      "group_id": 112,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 820.0,
+        "y": 1204.63
+      },
+      "nearest_walkable_pixel": {
+        "x": 805,
+        "y": 1205
+      },
+      "distance_to_walkable_px": 15.005,
+      "aliases": [
+        "escalator_down_to",
+        "下行扶梯入口",
+        "扶梯下行",
+        "扶梯下到",
+        "下扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "escalator_up_from",
+      "label_slug": "escalator_up_from",
+      "group_id": 113,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 805.185,
+        "y": 1787.963
+      },
+      "nearest_walkable_pixel": {
+        "x": 785,
+        "y": 1788
+      },
+      "distance_to_walkable_px": 20.185,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11117,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 977.407,
+        "y": 2304.63
+      },
+      "nearest_walkable_pixel": {
+        "x": 960,
+        "y": 2305
+      },
+      "distance_to_walkable_px": 17.411,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "elevator",
+      "label_slug": "elevator",
+      "group_id": 1112,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 538.519,
+        "y": 2362.037
+      },
+      "nearest_walkable_pixel": {
+        "x": 539,
+        "y": 2362
+      },
+      "distance_to_walkable_px": 0.483,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "elevator",
+      "label_slug": "elevator",
+      "group_id": 1113,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 564.444,
+        "y": 1669.444
+      },
+      "nearest_walkable_pixel": {
+        "x": 576,
+        "y": 1669
+      },
+      "distance_to_walkable_px": 11.564,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "elevator",
+      "label_slug": "elevator",
+      "group_id": 1114,
+      "occurrence": 3,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 1170.0,
+        "y": 2228.704
+      },
+      "nearest_walkable_pixel": {
+        "x": 1179,
+        "y": 2232
+      },
+      "distance_to_walkable_px": 9.585,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11114,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 573.704,
+        "y": 2439.815
+      },
+      "nearest_walkable_pixel": {
+        "x": 557,
+        "y": 2440
+      },
+      "distance_to_walkable_px": 16.705,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11115,
+      "occurrence": 3,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 558.889,
+        "y": 1728.704
+      },
+      "nearest_walkable_pixel": {
+        "x": 574,
+        "y": 1733
+      },
+      "distance_to_walkable_px": 15.71,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "elevator",
+      "label_slug": "elevator",
+      "group_id": 1115,
+      "occurrence": 4,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 1188.519,
+        "y": 1343.519
+      },
+      "nearest_walkable_pixel": {
+        "x": 1189,
+        "y": 1344
+      },
+      "distance_to_walkable_px": 0.681,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11116,
+      "occurrence": 4,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 560.741,
+        "y": 1517.593
+      },
+      "nearest_walkable_pixel": {
+        "x": 553,
+        "y": 1517
+      },
+      "distance_to_walkable_px": 7.763,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11117,
+      "occurrence": 5,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 1027.407,
+        "y": 1010.185
+      },
+      "nearest_walkable_pixel": {
+        "x": 1005,
+        "y": 1010
+      },
+      "distance_to_walkable_px": 22.408,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "elevator",
+      "label_slug": "elevator",
+      "group_id": 1111,
+      "occurrence": 5,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 897.778,
+        "y": 860.185
+      },
+      "nearest_walkable_pixel": {
+        "x": 880,
+        "y": 860
+      },
+      "distance_to_walkable_px": 17.779,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11112,
+      "occurrence": 6,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 564.444,
+        "y": 1004.63
+      },
+      "nearest_walkable_pixel": {
+        "x": 550,
+        "y": 1004
+      },
+      "distance_to_walkable_px": 14.458,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "elevator",
+      "label_slug": "elevator",
+      "group_id": 1116,
+      "occurrence": 6,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 568.148,
+        "y": 1104.63
+      },
+      "nearest_walkable_pixel": {
+        "x": 583,
+        "y": 1105
+      },
+      "distance_to_walkable_px": 14.856,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "cdgplay",
+      "label_slug": "cdgplay",
+      "group_id": 66,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 872.632,
+        "y": 913.158
+      },
+      "nearest_walkable_pixel": {
+        "x": 872,
+        "y": 904
+      },
+      "distance_to_walkable_px": 9.18,
+      "aliases": [
+        "cdgplay",
+        "CDG Play",
+        "CDGPLAY",
+        "Comme des Garcons Play",
+        "cdg"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F1",
+      "label": "ieabeauty",
+      "label_slug": "ieabeauty",
+      "group_id": 71,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 709.474,
+        "y": 992.105
+      },
+      "nearest_walkable_pixel": {
+        "x": 741,
+        "y": 992
+      },
+      "distance_to_walkable_px": 31.526,
+      "aliases": [
+        "ieabeauty",
+        "IEA Beauty",
+        "IEABEAUTY",
+        "iea"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F1",
+      "label": "jiroumayi",
+      "label_slug": "jiroumayi",
+      "group_id": 8,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 872.632,
+        "y": 997.368
+      },
+      "nearest_walkable_pixel": {
+        "x": 836,
+        "y": 997
+      },
+      "distance_to_walkable_px": 36.633,
+      "aliases": [
+        "jiroumayi",
+        "肌肉蚂蚁",
+        "jrmy"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "mgg",
+      "label_slug": "mgg",
+      "group_id": 125,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 862.5,
+        "y": 1085.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 835,
+        "y": 1085
+      },
+      "distance_to_walkable_px": 27.5,
+      "aliases": [
+        "mgg",
+        "MGG"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F1",
+      "label": "only",
+      "label_slug": "only",
+      "group_id": 124,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 917.5,
+        "y": 1147.5
+      },
+      "nearest_walkable_pixel": {
+        "x": 897,
+        "y": 1173
+      },
+      "distance_to_walkable_px": 32.718,
+      "aliases": [
+        "only",
+        "ONLY",
+        "Only"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "bawangchaji",
+      "label_slug": "bawangchaji",
+      "group_id": 72,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 922.5,
+        "y": 1235.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 915,
+        "y": 1235
+      },
+      "distance_to_walkable_px": 7.5,
+      "aliases": [
+        "bawangchaji",
+        "霸王茶姬",
+        "CHAGEE",
+        "bwcj"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "zhouliufu",
+      "label_slug": "zhouliufu",
+      "group_id": 73,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 820.0,
+        "y": 1345.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 800,
+        "y": 1345
+      },
+      "distance_to_walkable_px": 20.0,
+      "aliases": [
+        "zhouliufu",
+        "周六福",
+        "zlf"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "chaohongji",
+      "label_slug": "chaohongji",
+      "group_id": 123,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 932.5,
+        "y": 1560.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 904,
+        "y": 1557
+      },
+      "distance_to_walkable_px": 28.657,
+      "aliases": [
+        "chaohongji",
+        "潮宏基",
+        "CHJ",
+        "chj"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "yuanmaishanqiu",
+      "label_slug": "yuanmaishanqiu",
+      "group_id": 75,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 1092.5,
+        "y": 1567.5
+      },
+      "nearest_walkable_pixel": {
+        "x": 1092,
+        "y": 1604
+      },
+      "distance_to_walkable_px": 36.503,
+      "aliases": [
+        "yuanmaishanqiu",
+        "原麦山丘",
+        "ymsq"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "uniqlo",
+      "label_slug": "uniqlo",
+      "group_id": 76,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 822.5,
+        "y": 2182.5
+      },
+      "nearest_walkable_pixel": {
+        "x": 831,
+        "y": 2145
+      },
+      "distance_to_walkable_px": 38.451,
+      "aliases": [
+        "uniqlo",
+        "UNIQLO",
+        "Uniqlo",
+        "优衣库"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "uniqlo",
+      "label_slug": "uniqlo",
+      "group_id": 76,
+      "occurrence": 2,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 665.0,
+        "y": 2177.5
+      },
+      "nearest_walkable_pixel": {
+        "x": 665,
+        "y": 2140
+      },
+      "distance_to_walkable_px": 37.5,
+      "aliases": [
+        "uniqlo",
+        "UNIQLO",
+        "Uniqlo",
+        "优衣库"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "jack",
+      "label_slug": "jack",
+      "group_id": 122,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 650.0,
+        "y": 2000.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 641,
+        "y": 2052
+      },
+      "distance_to_walkable_px": 52.773,
+      "aliases": [
+        "jack",
+        "Jack",
+        "Jack&Jones",
+        "Jack & Jones",
+        "杰克琼斯"
+      ],
+      "description": "需确认翻译（疑似 Jack & Jones 杰克琼斯）"
+    },
+    {
+      "floor_id": "F1",
+      "label": "wdkcoffee",
+      "label_slug": "wdkcoffee",
+      "group_id": 16,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 502.5,
+        "y": 2162.5
+      },
+      "nearest_walkable_pixel": {
+        "x": 502,
+        "y": 2135
+      },
+      "distance_to_walkable_px": 27.505,
+      "aliases": [
+        "wdkcoffee",
+        "WDK Coffee",
+        "WDKcoffee",
+        "WDK咖啡",
+        "wdk"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F1",
+      "label": "laofengxiang",
+      "label_slug": "laofengxiang",
+      "group_id": 56,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 942.5,
+        "y": 1860.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 942,
+        "y": 1909
+      },
+      "distance_to_walkable_px": 49.003,
+      "aliases": [
+        "laofengxiang",
+        "老凤祥",
+        "lfx"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "noisyteddy",
+      "label_slug": "noisyteddy",
+      "group_id": 57,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 662.5,
+        "y": 1860.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 721,
+        "y": 1860
+      },
+      "distance_to_walkable_px": 58.5,
+      "aliases": [
+        "noisyteddy",
+        "Noisy Teddy",
+        "NoisyTeddy",
+        "嘈杂小熊"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F1",
+      "label": "huanyingxingkong",
+      "label_slug": "huanyingxingkong",
+      "group_id": 58,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 665.0,
+        "y": 1770.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 665,
+        "y": 1732
+      },
+      "distance_to_walkable_px": 38.0,
+      "aliases": [
+        "huanyingxingkong",
+        "幻影星空",
+        "hyxk"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F1",
+      "label": "adidas",
+      "label_slug": "adidas",
+      "group_id": 59,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 665.0,
+        "y": 1650.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 664,
+        "y": 1698
+      },
+      "distance_to_walkable_px": 48.01,
+      "aliases": [
+        "adidas",
+        "Adidas",
+        "ADIDAS",
+        "阿迪达斯",
+        "adi"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "dreamroom",
+      "label_slug": "dreamroom",
+      "group_id": 78,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 610.0,
+        "y": 1432.5
+      },
+      "nearest_walkable_pixel": {
+        "x": 613,
+        "y": 1477
+      },
+      "distance_to_walkable_px": 44.601,
+      "aliases": [
+        "dreamroom",
+        "Dream Room",
+        "DreamRoom",
+        "梦想之屋"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F1",
+      "label": "wowbeauty",
+      "label_slug": "wowbeauty",
+      "group_id": 77,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 615.0,
+        "y": 1340.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 659,
+        "y": 1340
+      },
+      "distance_to_walkable_px": 44.0,
+      "aliases": [
+        "wowbeauty",
+        "Wow Beauty",
+        "WowBeauty"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F1",
+      "label": "lianxiang(thinkpad)",
+      "label_slug": "lianxiang_thinkpad",
+      "group_id": 128,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 660.0,
+        "y": 1142.5
+      },
+      "nearest_walkable_pixel": {
+        "x": 682,
+        "y": 1152
+      },
+      "distance_to_walkable_px": 23.964,
+      "aliases": [
+        "lianxiang(thinkpad)",
+        "lianxiang",
+        "thinkpad",
+        "联想",
+        "联想ThinkPad",
+        "ThinkPad",
+        "lx"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "lano",
+      "label_slug": "lano",
+      "group_id": 127,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 700.0,
+        "y": 1090.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 738,
+        "y": 1090
+      },
+      "distance_to_walkable_px": 38.0,
+      "aliases": [
+        "lano",
+        "LANO",
+        "Lano",
+        "兰诺"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F1",
+      "label": "escalator_up_to",
+      "label_slug": "escalator_up_to",
+      "group_id": 112,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 820.0,
+        "y": 1307.5
+      },
+      "nearest_walkable_pixel": {
+        "x": 802,
+        "y": 1306
+      },
+      "distance_to_walkable_px": 18.062,
+      "aliases": [
+        "escalator_up_to",
+        "上行扶梯入口",
+        "扶梯上行",
+        "扶梯上到",
+        "上扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "escalator_down_from",
+      "label_slug": "escalator_down_from",
+      "group_id": 112,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 827.5,
+        "y": 1307.5
+      },
+      "nearest_walkable_pixel": {
+        "x": 847,
+        "y": 1307
+      },
+      "distance_to_walkable_px": 19.506,
+      "aliases": [
+        "escalator_down_from",
+        "下行扶梯出口",
+        "扶梯下来",
+        "下扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "escalator_down_from",
+      "label_slug": "escalator_down_from",
+      "group_id": 113,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 815.0,
+        "y": 1840.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 831,
+        "y": 1840
+      },
+      "distance_to_walkable_px": 16.0,
+      "aliases": [
+        "escalator_down_from",
+        "下行扶梯出口",
+        "扶梯下来",
+        "下扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "escalator_up_to",
+      "label_slug": "escalator_up_to",
+      "group_id": 113,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 800.0,
+        "y": 1765.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 786,
+        "y": 1765
+      },
+      "distance_to_walkable_px": 14.0,
+      "aliases": [
+        "escalator_up_to",
+        "上行扶梯入口",
+        "扶梯上行",
+        "扶梯上到",
+        "上扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F1",
+      "label": "escalator_up_from",
+      "label_slug": "escalator_up_from",
+      "group_id": 113,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 795.0,
+        "y": 1837.5
+      },
+      "nearest_walkable_pixel": {
+        "x": 783,
+        "y": 1837
+      },
+      "distance_to_walkable_px": 12.01,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "tata",
+      "label_slug": "tata",
+      "group_id": 70,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 1104.211,
+        "y": 2260.526
+      },
+      "nearest_walkable_pixel": {
+        "x": 1130,
+        "y": 2229
+      },
+      "distance_to_walkable_px": 40.731,
+      "aliases": [
+        "tata",
+        "TATA",
+        "Tata",
+        "TaTa"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "linqingxuan",
+      "label_slug": "linqingxuan",
+      "group_id": 61,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 662.105,
+        "y": 1065.789
+      },
+      "nearest_walkable_pixel": {
+        "x": 684,
+        "y": 1066
+      },
+      "distance_to_walkable_px": 21.896,
+      "aliases": [
+        "linqingxuan",
+        "林清轩",
+        "lqx"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "lily",
+      "label_slug": "lily",
+      "group_id": 10,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 641.053,
+        "y": 1313.158
+      },
+      "nearest_walkable_pixel": {
+        "x": 680,
+        "y": 1313
+      },
+      "distance_to_walkable_px": 38.948,
+      "aliases": [
+        "lily",
+        "LILY",
+        "Lily",
+        "丽丽"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "zihan",
+      "label_slug": "zihan",
+      "group_id": 11,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 593.684,
+        "y": 1855.263
+      },
+      "nearest_walkable_pixel": {
+        "x": 652,
+        "y": 1855
+      },
+      "distance_to_walkable_px": 58.316,
+      "aliases": [
+        "zihan",
+        "子涵",
+        "紫涵",
+        "zh"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F2",
+      "label": "guya",
+      "label_slug": "guya",
+      "group_id": 12,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 614.737,
+        "y": 1960.526
+      },
+      "nearest_walkable_pixel": {
+        "x": 676,
+        "y": 1961
+      },
+      "distance_to_walkable_px": 61.265,
+      "aliases": [
+        "guya",
+        "谷娅",
+        "谷雅",
+        "gy"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F2",
+      "label": "kisscat",
+      "label_slug": "kisscat",
+      "group_id": 13,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 630.87,
+        "y": 1634.783
+      },
+      "nearest_walkable_pixel": {
+        "x": 677,
+        "y": 1635
+      },
+      "distance_to_walkable_px": 46.131,
+      "aliases": [
+        "kisscat",
+        "KISSCAT",
+        "Kiss Cat",
+        "接吻猫",
+        "kc"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "nike",
+      "label_slug": "nike",
+      "group_id": 67,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 946.087,
+        "y": 1491.304
+      },
+      "nearest_walkable_pixel": {
+        "x": 896,
+        "y": 1491
+      },
+      "distance_to_walkable_px": 50.088,
+      "aliases": [
+        "nike",
+        "Nike",
+        "NIKE",
+        "耐克"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "jieshengji",
+      "label_slug": "jieshengji",
+      "group_id": 63,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 663.478,
+        "y": 1132.609
+      },
+      "nearest_walkable_pixel": {
+        "x": 683,
+        "y": 1133
+      },
+      "distance_to_walkable_px": 19.526,
+      "aliases": [
+        "jieshengji",
+        "杰胜基",
+        "捷胜基",
+        "杰生鸡",
+        "jsj"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F2",
+      "label": "wagas",
+      "label_slug": "wagas",
+      "group_id": 921,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 943.913,
+        "y": 1284.783
+      },
+      "nearest_walkable_pixel": {
+        "x": 944,
+        "y": 1285
+      },
+      "distance_to_walkable_px": 0.234,
+      "aliases": [
+        "wagas",
+        "WAGAS",
+        "沃歌斯"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "mofan",
+      "label_slug": "mofan",
+      "group_id": 920,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 937.391,
+        "y": 1217.391
+      },
+      "nearest_walkable_pixel": {
+        "x": 899,
+        "y": 1217
+      },
+      "distance_to_walkable_px": 38.393,
+      "aliases": [
+        "mofan",
+        "摩梵",
+        "摩凡",
+        "mf"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F2",
+      "label": "quchenshi",
+      "label_slug": "quchenshi",
+      "group_id": 60,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 863.478,
+        "y": 947.826
+      },
+      "nearest_walkable_pixel": {
+        "x": 863,
+        "y": 981
+      },
+      "distance_to_walkable_px": 33.177,
+      "aliases": [
+        "quchenshi",
+        "屈臣氏",
+        "qcs"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F2",
+      "label": "lovetococo",
+      "label_slug": "lovetococo",
+      "group_id": 62,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 733.043,
+        "y": 950.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 732,
+        "y": 979
+      },
+      "distance_to_walkable_px": 29.019,
+      "aliases": [
+        "lovetococo",
+        "Love to CoCo",
+        "LoveToCoCo",
+        "爱可可"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F2",
+      "label": "taipingniao",
+      "label_slug": "taipingniao",
+      "group_id": 68,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 648.261,
+        "y": 1415.217
+      },
+      "nearest_walkable_pixel": {
+        "x": 678,
+        "y": 1415
+      },
+      "distance_to_walkable_px": 29.74,
+      "aliases": [
+        "taipingniao",
+        "太平鸟",
+        "Peacebird",
+        "tpn"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "zhiwuyisheng",
+      "label_slug": "zhiwuyisheng",
+      "group_id": 922,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 643.913,
+        "y": 1510.87
+      },
+      "nearest_walkable_pixel": {
+        "x": 644,
+        "y": 1537
+      },
+      "distance_to_walkable_px": 26.131,
+      "aliases": [
+        "zhiwuyisheng",
+        "植物医生",
+        "DR PLANT",
+        "zwys"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "uniqlo",
+      "label_slug": "uniqlo",
+      "group_id": 15,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 813.478,
+        "y": 2167.391
+      },
+      "nearest_walkable_pixel": {
+        "x": 813,
+        "y": 2139
+      },
+      "distance_to_walkable_px": 28.395,
+      "aliases": [
+        "uniqlo",
+        "UNIQLO",
+        "Uniqlo",
+        "优衣库"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "velwin",
+      "label_slug": "velwin",
+      "group_id": 923,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 967.826,
+        "y": 1978.261
+      },
+      "nearest_walkable_pixel": {
+        "x": 937,
+        "y": 1978
+      },
+      "distance_to_walkable_px": 30.827,
+      "aliases": [
+        "velwin",
+        "VELWIN",
+        "Velwin"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F2",
+      "label": "escalator_down_from",
+      "label_slug": "escalator_down_from",
+      "group_id": 113,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 783.043,
+        "y": 1760.87
+      },
+      "nearest_walkable_pixel": {
+        "x": 783,
+        "y": 1736
+      },
+      "distance_to_walkable_px": 24.87,
+      "aliases": [
+        "escalator_down_from",
+        "下行扶梯出口",
+        "扶梯下来",
+        "下扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "escalator_up_to",
+      "label_slug": "escalator_up_to",
+      "group_id": 113,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 796.087,
+        "y": 1760.87
+      },
+      "nearest_walkable_pixel": {
+        "x": 813,
+        "y": 1761
+      },
+      "distance_to_walkable_px": 16.914,
+      "aliases": [
+        "escalator_up_to",
+        "上行扶梯入口",
+        "扶梯上行",
+        "扶梯上到",
+        "上扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "escalator_up_from",
+      "label_slug": "escalator_up_from",
+      "group_id": 112,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 793.913,
+        "y": 1256.522
+      },
+      "nearest_walkable_pixel": {
+        "x": 806,
+        "y": 1257
+      },
+      "distance_to_walkable_px": 12.096,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "escalator_down_to",
+      "label_slug": "escalator_down_to",
+      "group_id": 112,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 776.522,
+        "y": 1256.522
+      },
+      "nearest_walkable_pixel": {
+        "x": 766,
+        "y": 1257
+      },
+      "distance_to_walkable_px": 10.533,
+      "aliases": [
+        "escalator_down_to",
+        "下行扶梯入口",
+        "扶梯下行",
+        "扶梯下到",
+        "下扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "escalator_down_to",
+      "label_slug": "escalator_down_to",
+      "group_id": 113,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 774.348,
+        "y": 1895.652
+      },
+      "nearest_walkable_pixel": {
+        "x": 774,
+        "y": 1907
+      },
+      "distance_to_walkable_px": 11.353,
+      "aliases": [
+        "escalator_down_to",
+        "下行扶梯入口",
+        "扶梯下行",
+        "扶梯下到",
+        "下扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "escalator_up_from",
+      "label_slug": "escalator_up_from",
+      "group_id": 113,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 802.609,
+        "y": 1902.174
+      },
+      "nearest_walkable_pixel": {
+        "x": 803,
+        "y": 1907
+      },
+      "distance_to_walkable_px": 4.842,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "escalator_down_from",
+      "label_slug": "escalator_down_from",
+      "group_id": 112,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 793.913,
+        "y": 1358.696
+      },
+      "nearest_walkable_pixel": {
+        "x": 803,
+        "y": 1359
+      },
+      "distance_to_walkable_px": 9.092,
+      "aliases": [
+        "escalator_down_from",
+        "下行扶梯出口",
+        "扶梯下来",
+        "下扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "escalator_up_to",
+      "label_slug": "escalator_up_to",
+      "group_id": 112,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 770.0,
+        "y": 1356.522
+      },
+      "nearest_walkable_pixel": {
+        "x": 763,
+        "y": 1357
+      },
+      "distance_to_walkable_px": 7.016,
+      "aliases": [
+        "escalator_up_to",
+        "上行扶梯入口",
+        "扶梯上行",
+        "扶梯上到",
+        "上扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11113,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 583.043,
+        "y": 1002.174
+      },
+      "nearest_walkable_pixel": {
+        "x": 605,
+        "y": 1002
+      },
+      "distance_to_walkable_px": 21.957,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11112,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 578.696,
+        "y": 1132.609
+      },
+      "nearest_walkable_pixel": {
+        "x": 519,
+        "y": 1133
+      },
+      "distance_to_walkable_px": 59.697,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11115,
+      "occurrence": 3,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 543.913,
+        "y": 1726.087
+      },
+      "nearest_walkable_pixel": {
+        "x": 512,
+        "y": 1723
+      },
+      "distance_to_walkable_px": 32.062,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11116,
+      "occurrence": 4,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 546.087,
+        "y": 1508.696
+      },
+      "nearest_walkable_pixel": {
+        "x": 546,
+        "y": 1536
+      },
+      "distance_to_walkable_px": 27.304,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11114,
+      "occurrence": 5,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 554.783,
+        "y": 2419.565
+      },
+      "nearest_walkable_pixel": {
+        "x": 555,
+        "y": 2397
+      },
+      "distance_to_walkable_px": 22.566,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11117,
+      "occurrence": 6,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 991.739,
+        "y": 2315.217
+      },
+      "nearest_walkable_pixel": {
+        "x": 972,
+        "y": 2315
+      },
+      "distance_to_walkable_px": 19.74,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11111,
+      "occurrence": 7,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 1133.043,
+        "y": 1326.087
+      },
+      "nearest_walkable_pixel": {
+        "x": 1160,
+        "y": 1326
+      },
+      "distance_to_walkable_px": 26.957,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "wc",
+      "label_slug": "wc",
+      "group_id": 2224,
+      "occurrence": 1,
+      "object_type": "facility",
+      "source_pixel": {
+        "x": 446.087,
+        "y": 2413.043
+      },
+      "nearest_walkable_pixel": {
+        "x": 446,
+        "y": 2439
+      },
+      "distance_to_walkable_px": 25.957,
+      "aliases": [
+        "wc",
+        "WC",
+        "卫生间",
+        "洗手间",
+        "厕所",
+        "toilet"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F2",
+      "label": "wc",
+      "label_slug": "wc",
+      "group_id": 2225,
+      "occurrence": 2,
+      "object_type": "facility",
+      "source_pixel": {
+        "x": 522.174,
+        "y": 1565.217
+      },
+      "nearest_walkable_pixel": {
+        "x": 522,
+        "y": 1565
+      },
+      "distance_to_walkable_px": 0.278,
+      "aliases": [
+        "wc",
+        "WC",
+        "卫生间",
+        "洗手间",
+        "厕所",
+        "toilet"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "jiabeile",
+      "label_slug": "jiabeile",
+      "group_id": 961,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 1009.474,
+        "y": 1950.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 931,
+        "y": 1950
+      },
+      "distance_to_walkable_px": 78.474,
+      "aliases": [
+        "jiabeile",
+        "嘉贝乐",
+        "佳贝乐",
+        "jbl"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F3",
+      "label": "wanshenshuyuan",
+      "label_slug": "wanshenshuyuan",
+      "group_id": 15,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 1098.947,
+        "y": 1513.158
+      },
+      "nearest_walkable_pixel": {
+        "x": 1170,
+        "y": 1513
+      },
+      "distance_to_walkable_px": 71.053,
+      "aliases": [
+        "wanshenshuyuan",
+        "万圣书园",
+        "wssy"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F3",
+      "label": "6ixty",
+      "label_slug": "6ixty",
+      "group_id": 17,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 798.947,
+        "y": 892.105
+      },
+      "nearest_walkable_pixel": {
+        "x": 799,
+        "y": 966
+      },
+      "distance_to_walkable_px": 73.895,
+      "aliases": [
+        "6ixty",
+        "6IXTY",
+        "6IXTY8IGHT",
+        "6ixty8ight",
+        "60+80"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "mingchuang",
+      "label_slug": "mingchuang",
+      "group_id": 14,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 651.579,
+        "y": 865.789
+      },
+      "nearest_walkable_pixel": {
+        "x": 652,
+        "y": 918
+      },
+      "distance_to_walkable_px": 52.212,
+      "aliases": [
+        "mingchuang",
+        "名创优品",
+        "MINISO",
+        "miniso",
+        "mc",
+        "mcyp"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "kule",
+      "label_slug": "kule",
+      "group_id": 15,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 614.737,
+        "y": 1418.421
+      },
+      "nearest_walkable_pixel": {
+        "x": 681,
+        "y": 1418
+      },
+      "distance_to_walkable_px": 66.264,
+      "aliases": [
+        "kule",
+        "酷乐",
+        "库乐",
+        "KULE",
+        "kl"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F3",
+      "label": "thegreenparty",
+      "label_slug": "thegreenparty",
+      "group_id": 160,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 604.211,
+        "y": 1313.158
+      },
+      "nearest_walkable_pixel": {
+        "x": 681,
+        "y": 1313
+      },
+      "distance_to_walkable_px": 76.79,
+      "aliases": [
+        "thegreenparty",
+        "The Green Party",
+        "TheGreenParty",
+        "绿色派对",
+        "tgp"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "jiajixiaozhan",
+      "label_slug": "jiajixiaozhan",
+      "group_id": 17,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 614.737,
+        "y": 1639.474
+      },
+      "nearest_walkable_pixel": {
+        "x": 615,
+        "y": 1690
+      },
+      "distance_to_walkable_px": 50.527,
+      "aliases": [
+        "jiajixiaozhan",
+        "嘉吉小站",
+        "加吉小站",
+        "佳吉小站",
+        "jjxz"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F3",
+      "label": "escalator_up_from",
+      "label_slug": "escalator_up_from",
+      "group_id": 112,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 774.348,
+        "y": 1232.609
+      },
+      "nearest_walkable_pixel": {
+        "x": 764,
+        "y": 1233
+      },
+      "distance_to_walkable_px": 10.355,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "escalator_down_to",
+      "label_slug": "escalator_down_to",
+      "group_id": 112,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 791.739,
+        "y": 1234.783
+      },
+      "nearest_walkable_pixel": {
+        "x": 805,
+        "y": 1235
+      },
+      "distance_to_walkable_px": 13.263,
+      "aliases": [
+        "escalator_down_to",
+        "下行扶梯入口",
+        "扶梯下行",
+        "扶梯下到",
+        "下扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "escalator_down_from",
+      "label_slug": "escalator_down_from",
+      "group_id": 112,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 774.348,
+        "y": 1367.391
+      },
+      "nearest_walkable_pixel": {
+        "x": 774,
+        "y": 1367
+      },
+      "distance_to_walkable_px": 0.524,
+      "aliases": [
+        "escalator_down_from",
+        "下行扶梯出口",
+        "扶梯下来",
+        "下扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "escalator_up_to",
+      "label_slug": "escalator_up_to",
+      "group_id": 112,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 791.739,
+        "y": 1363.043
+      },
+      "nearest_walkable_pixel": {
+        "x": 792,
+        "y": 1366
+      },
+      "distance_to_walkable_px": 2.968,
+      "aliases": [
+        "escalator_up_to",
+        "上行扶梯入口",
+        "扶梯上行",
+        "扶梯上到",
+        "上扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "escalator_up_from",
+      "label_slug": "escalator_up_from",
+      "group_id": 113,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 780.87,
+        "y": 1900.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 781,
+        "y": 1918
+      },
+      "distance_to_walkable_px": 18.0,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "escalator_down_to",
+      "label_slug": "escalator_down_to",
+      "group_id": 113,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 804.783,
+        "y": 1900.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 820,
+        "y": 1900
+      },
+      "distance_to_walkable_px": 15.217,
+      "aliases": [
+        "escalator_down_to",
+        "下行扶梯入口",
+        "扶梯下行",
+        "扶梯下到",
+        "下扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "escalator_up_to",
+      "label_slug": "escalator_up_to",
+      "group_id": 113,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 778.696,
+        "y": 1756.522
+      },
+      "nearest_walkable_pixel": {
+        "x": 766,
+        "y": 1757
+      },
+      "distance_to_walkable_px": 12.705,
+      "aliases": [
+        "escalator_up_to",
+        "上行扶梯入口",
+        "扶梯上行",
+        "扶梯上到",
+        "上扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "escalator_down_from",
+      "label_slug": "escalator_down_from",
+      "group_id": 113,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 802.609,
+        "y": 1760.87
+      },
+      "nearest_walkable_pixel": {
+        "x": 820,
+        "y": 1761
+      },
+      "distance_to_walkable_px": 17.392,
+      "aliases": [
+        "escalator_down_from",
+        "下行扶梯出口",
+        "扶梯下来",
+        "下扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "refeng",
+      "label_slug": "refeng",
+      "group_id": 950,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 880.87,
+        "y": 915.217
+      },
+      "nearest_walkable_pixel": {
+        "x": 901,
+        "y": 942
+      },
+      "distance_to_walkable_px": 33.504,
+      "aliases": [
+        "refeng",
+        "热风",
+        "Hotwind",
+        "rf"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "songshanmiandian",
+      "label_slug": "songshanmiandian",
+      "group_id": 951,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 920.0,
+        "y": 1013.043
+      },
+      "nearest_walkable_pixel": {
+        "x": 897,
+        "y": 1013
+      },
+      "distance_to_walkable_px": 23.0,
+      "aliases": [
+        "songshanmiandian",
+        "松山棉店",
+        "ssmd"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F3",
+      "label": "shuimujintang",
+      "label_slug": "shuimujintang",
+      "group_id": 16,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 928.696,
+        "y": 1182.609
+      },
+      "nearest_walkable_pixel": {
+        "x": 919,
+        "y": 1183
+      },
+      "distance_to_walkable_px": 9.704,
+      "aliases": [
+        "shuimujingtang",
+        "水木锦堂",
+        "smjt"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F3",
+      "label": "zhucha",
+      "label_slug": "zhucha",
+      "group_id": 952,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 935.217,
+        "y": 1230.435
+      },
+      "nearest_walkable_pixel": {
+        "x": 919,
+        "y": 1230
+      },
+      "distance_to_walkable_px": 16.223,
+      "aliases": [
+        "zhucha",
+        "煮茶",
+        "zc"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F3",
+      "label": "kama",
+      "label_slug": "kama",
+      "group_id": 953,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 922.174,
+        "y": 1110.87
+      },
+      "nearest_walkable_pixel": {
+        "x": 894,
+        "y": 1111
+      },
+      "distance_to_walkable_px": 28.174,
+      "aliases": [
+        "kama",
+        "KAMA",
+        "Kama",
+        "卡玛"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F3",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11112,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 563.478,
+        "y": 984.783
+      },
+      "nearest_walkable_pixel": {
+        "x": 563,
+        "y": 985
+      },
+      "distance_to_walkable_px": 0.525,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11113,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 565.652,
+        "y": 1110.87
+      },
+      "nearest_walkable_pixel": {
+        "x": 566,
+        "y": 1111
+      },
+      "distance_to_walkable_px": 0.371,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11114,
+      "occurrence": 3,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 548.261,
+        "y": 2445.652
+      },
+      "nearest_walkable_pixel": {
+        "x": 524,
+        "y": 2446
+      },
+      "distance_to_walkable_px": 24.263,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11116,
+      "occurrence": 4,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 543.913,
+        "y": 1513.043
+      },
+      "nearest_walkable_pixel": {
+        "x": 531,
+        "y": 1513
+      },
+      "distance_to_walkable_px": 12.913,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11117,
+      "occurrence": 5,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 991.739,
+        "y": 2332.609
+      },
+      "nearest_walkable_pixel": {
+        "x": 972,
+        "y": 2335
+      },
+      "distance_to_walkable_px": 19.883,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11111,
+      "occurrence": 6,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 1124.348,
+        "y": 1339.13
+      },
+      "nearest_walkable_pixel": {
+        "x": 1161,
+        "y": 1330
+      },
+      "distance_to_walkable_px": 37.772,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "wc",
+      "label_slug": "wc",
+      "group_id": 2226,
+      "occurrence": 1,
+      "object_type": "facility",
+      "source_pixel": {
+        "x": 435.217,
+        "y": 2447.826
+      },
+      "nearest_walkable_pixel": {
+        "x": 412,
+        "y": 2447
+      },
+      "distance_to_walkable_px": 23.232,
+      "aliases": [
+        "wc",
+        "WC",
+        "卫生间",
+        "洗手间",
+        "厕所",
+        "toilet"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F3",
+      "label": "wc",
+      "label_slug": "wc",
+      "group_id": 2227,
+      "occurrence": 2,
+      "object_type": "facility",
+      "source_pixel": {
+        "x": 526.522,
+        "y": 1558.696
+      },
+      "nearest_walkable_pixel": {
+        "x": 527,
+        "y": 1559
+      },
+      "distance_to_walkable_px": 0.567,
+      "aliases": [
+        "wc",
+        "WC",
+        "卫生间",
+        "洗手间",
+        "厕所",
+        "toilet"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "kuxiu",
+      "label_slug": "kuxiu",
+      "group_id": 86,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 946.316,
+        "y": 2213.158
+      },
+      "nearest_walkable_pixel": {
+        "x": 941,
+        "y": 2162
+      },
+      "distance_to_walkable_px": 51.433,
+      "aliases": [
+        "kuxiu",
+        "酷秀 KTV",
+        "kx"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F4",
+      "label": "chenjinshijie",
+      "label_slug": "chenjinshijie",
+      "group_id": 18,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 925.263,
+        "y": 1750.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 973,
+        "y": 1750
+      },
+      "distance_to_walkable_px": 47.737,
+      "aliases": [
+        "chenjinshijie",
+        "沉浸世界",
+        "cjsj"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "bujing",
+      "label_slug": "bujing",
+      "group_id": 90,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 1030.526,
+        "y": 1344.737
+      },
+      "nearest_walkable_pixel": {
+        "x": 1031,
+        "y": 1309
+      },
+      "distance_to_walkable_px": 35.74,
+      "aliases": [
+        "bujing",
+        "布景",
+        "bj"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F4",
+      "label": "huluwa",
+      "label_slug": "huluwa",
+      "group_id": 20,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 993.684,
+        "y": 1213.158
+      },
+      "nearest_walkable_pixel": {
+        "x": 994,
+        "y": 1276
+      },
+      "distance_to_walkable_px": 62.843,
+      "aliases": [
+        "huluwa",
+        "葫芦娃",
+        "hlw"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "huluwa",
+      "label_slug": "huluwa",
+      "group_id": 20,
+      "occurrence": 2,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 1109.474,
+        "y": 1113.158
+      },
+      "nearest_walkable_pixel": {
+        "x": 1176,
+        "y": 1113
+      },
+      "distance_to_walkable_px": 66.527,
+      "aliases": [
+        "huluwa",
+        "葫芦娃",
+        "hlw"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "youchang",
+      "label_slug": "youchang",
+      "group_id": 21,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 935.789,
+        "y": 1034.211
+      },
+      "nearest_walkable_pixel": {
+        "x": 904,
+        "y": 1034
+      },
+      "distance_to_walkable_px": 31.79,
+      "aliases": [
+        "youchang",
+        "优创",
+        "优常",
+        "yc"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F4",
+      "label": "chaojixingxing",
+      "label_slug": "chaojixingxing",
+      "group_id": 22,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 546.316,
+        "y": 2165.789
+      },
+      "nearest_walkable_pixel": {
+        "x": 414,
+        "y": 2166
+      },
+      "distance_to_walkable_px": 132.316,
+      "aliases": [
+        "chaojixingxing",
+        "超级猩猩",
+        "超猩",
+        "Super Monkey",
+        "cjxx"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "escalator_down_to",
+      "label_slug": "escalator_down_to",
+      "group_id": 113,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 844.39,
+        "y": 1842.683
+      },
+      "nearest_walkable_pixel": {
+        "x": 844,
+        "y": 1831
+      },
+      "distance_to_walkable_px": 11.689,
+      "aliases": [
+        "escalator_down_to",
+        "下行扶梯入口",
+        "扶梯下行",
+        "扶梯下到",
+        "下扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "escalator_up_to",
+      "label_slug": "escalator_up_to",
+      "group_id": 113,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 815.122,
+        "y": 1840.244
+      },
+      "nearest_walkable_pixel": {
+        "x": 815,
+        "y": 1831
+      },
+      "distance_to_walkable_px": 9.245,
+      "aliases": [
+        "escalator_up_to",
+        "上行扶梯入口",
+        "扶梯上行",
+        "扶梯上到",
+        "上扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "escalator_down_from",
+      "label_slug": "escalator_down_from",
+      "group_id": 113,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 839.512,
+        "y": 1981.707
+      },
+      "nearest_walkable_pixel": {
+        "x": 835,
+        "y": 2003
+      },
+      "distance_to_walkable_px": 21.766,
+      "aliases": [
+        "escalator_down_from",
+        "下行扶梯出口",
+        "扶梯下来",
+        "下扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "escalator_up_from",
+      "label_slug": "escalator_up_from",
+      "group_id": 113,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 812.683,
+        "y": 1976.829
+      },
+      "nearest_walkable_pixel": {
+        "x": 798,
+        "y": 1977
+      },
+      "distance_to_walkable_px": 14.684,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "escalator_down_from",
+      "label_slug": "escalator_down_from",
+      "group_id": 112,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 810.244,
+        "y": 1208.537
+      },
+      "nearest_walkable_pixel": {
+        "x": 797,
+        "y": 1209
+      },
+      "distance_to_walkable_px": 13.252,
+      "aliases": [
+        "escalator_down_from",
+        "下行扶梯出口",
+        "扶梯下来",
+        "下扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "escalator_up_to",
+      "label_slug": "escalator_up_to",
+      "group_id": 112,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 829.756,
+        "y": 1213.415
+      },
+      "nearest_walkable_pixel": {
+        "x": 844,
+        "y": 1215
+      },
+      "distance_to_walkable_px": 14.332,
+      "aliases": [
+        "escalator_up_to",
+        "上行扶梯入口",
+        "扶梯上行",
+        "扶梯上到",
+        "上扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "escalator_up_from",
+      "label_slug": "escalator_up_from",
+      "group_id": 112,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 810.244,
+        "y": 1330.488
+      },
+      "nearest_walkable_pixel": {
+        "x": 797,
+        "y": 1330
+      },
+      "distance_to_walkable_px": 13.253,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "escalator_down_to",
+      "label_slug": "escalator_down_to",
+      "group_id": 112,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 832.195,
+        "y": 1330.488
+      },
+      "nearest_walkable_pixel": {
+        "x": 842,
+        "y": 1330
+      },
+      "distance_to_walkable_px": 9.817,
+      "aliases": [
+        "escalator_down_to",
+        "下行扶梯入口",
+        "扶梯下行",
+        "扶梯下到",
+        "下扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "zhijianbalei",
+      "label_slug": "zhijianbalei",
+      "group_id": 93,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 673.659,
+        "y": 1101.22
+      },
+      "nearest_walkable_pixel": {
+        "x": 693,
+        "y": 1101
+      },
+      "distance_to_walkable_px": 19.343,
+      "aliases": [
+        "zhijianbalei",
+        "指尖芭蕾",
+        "zjbl"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F4",
+      "label": "xianyuxian",
+      "label_slug": "xianyuxian",
+      "group_id": 930,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 1100.488,
+        "y": 1750.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 1060,
+        "y": 1721
+      },
+      "distance_to_walkable_px": 49.802,
+      "aliases": [
+        "xianyuxian",
+        "鲜芋仙",
+        "xyx"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F4",
+      "label": "haimatizhaoxiangguan",
+      "label_slug": "haimatizhaoxiangguan",
+      "group_id": 96,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 1000.488,
+        "y": 1974.39
+      },
+      "nearest_walkable_pixel": {
+        "x": 1000,
+        "y": 1937
+      },
+      "distance_to_walkable_px": 37.393,
+      "aliases": [
+        "haimatizhaoxiangguan",
+        "海马体照相馆",
+        "海马体",
+        "hmt",
+        "hmtzxg"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "aizhijianbojiemeijia",
+      "label_slug": "aizhijianbojiemeijia",
+      "group_id": 88,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 646.829,
+        "y": 1759.756
+      },
+      "nearest_walkable_pixel": {
+        "x": 646,
+        "y": 1741
+      },
+      "distance_to_walkable_px": 18.774,
+      "aliases": [
+        "aizhijianbojiemeijia",
+        "爱指间博洁美甲",
+        "爱指尖博洁美甲",
+        "azjbjmj"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F4",
+      "label": "wc",
+      "label_slug": "wc",
+      "group_id": 2230,
+      "occurrence": 1,
+      "object_type": "facility",
+      "source_pixel": {
+        "x": 466.341,
+        "y": 1135.366
+      },
+      "nearest_walkable_pixel": {
+        "x": 466,
+        "y": 1135
+      },
+      "distance_to_walkable_px": 0.5,
+      "aliases": [
+        "wc",
+        "WC",
+        "卫生间",
+        "洗手间",
+        "厕所",
+        "toilet"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "elevator",
+      "label_slug": "elevator",
+      "group_id": 1111,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 917.561,
+        "y": 854.878
+      },
+      "nearest_walkable_pixel": {
+        "x": 918,
+        "y": 855
+      },
+      "distance_to_walkable_px": 0.456,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11114,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 559.024,
+        "y": 2442.683
+      },
+      "nearest_walkable_pixel": {
+        "x": 585,
+        "y": 2436
+      },
+      "distance_to_walkable_px": 26.822,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11115,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 576.098,
+        "y": 1637.805
+      },
+      "nearest_walkable_pixel": {
+        "x": 576,
+        "y": 1620
+      },
+      "distance_to_walkable_px": 17.805,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11116,
+      "occurrence": 3,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 578.537,
+        "y": 1518.293
+      },
+      "nearest_walkable_pixel": {
+        "x": 556,
+        "y": 1518
+      },
+      "distance_to_walkable_px": 22.538,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11113,
+      "occurrence": 4,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 585.854,
+        "y": 1142.683
+      },
+      "nearest_walkable_pixel": {
+        "x": 586,
+        "y": 1165
+      },
+      "distance_to_walkable_px": 22.318,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11112,
+      "occurrence": 5,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 585.854,
+        "y": 1010.976
+      },
+      "nearest_walkable_pixel": {
+        "x": 586,
+        "y": 991
+      },
+      "distance_to_walkable_px": 19.976,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11111,
+      "occurrence": 6,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 1139.512,
+        "y": 1335.366
+      },
+      "nearest_walkable_pixel": {
+        "x": 1115,
+        "y": 1336
+      },
+      "distance_to_walkable_px": 24.52,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "wc",
+      "label_slug": "wc",
+      "group_id": 2228,
+      "occurrence": 2,
+      "object_type": "facility",
+      "source_pixel": {
+        "x": 446.829,
+        "y": 2452.439
+      },
+      "nearest_walkable_pixel": {
+        "x": 426,
+        "y": 2456
+      },
+      "distance_to_walkable_px": 21.131,
+      "aliases": [
+        "wc",
+        "WC",
+        "卫生间",
+        "洗手间",
+        "厕所",
+        "toilet"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F4",
+      "label": "wc",
+      "label_slug": "wc",
+      "group_id": 2229,
+      "occurrence": 3,
+      "object_type": "facility",
+      "source_pixel": {
+        "x": 546.829,
+        "y": 1579.268
+      },
+      "nearest_walkable_pixel": {
+        "x": 547,
+        "y": 1579
+      },
+      "distance_to_walkable_px": 0.318,
+      "aliases": [
+        "wc",
+        "WC",
+        "卫生间",
+        "洗手间",
+        "厕所",
+        "toilet"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "xibei",
+      "label_slug": "xibei",
+      "group_id": 81,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 804.211,
+        "y": 2286.842
+      },
+      "nearest_walkable_pixel": {
+        "x": 725,
+        "y": 2287
+      },
+      "distance_to_walkable_px": 79.211,
+      "aliases": [
+        "xibei",
+        "西贝",
+        "西贝莜面村",
+        "xb"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "jiangbiancheng",
+      "label_slug": "jiangbiancheng",
+      "group_id": 97,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 998.947,
+        "y": 2055.263
+      },
+      "nearest_walkable_pixel": {
+        "x": 999,
+        "y": 1976
+      },
+      "distance_to_walkable_px": 79.263,
+      "aliases": [
+        "jiangbiancheng",
+        "江边城外",
+        "江边城",
+        "jbcw",
+        "jbc"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "micun",
+      "label_slug": "micun",
+      "group_id": 17,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 993.684,
+        "y": 1865.789
+      },
+      "nearest_walkable_pixel": {
+        "x": 994,
+        "y": 1939
+      },
+      "distance_to_walkable_px": 73.211,
+      "aliases": [
+        "micun",
+        "米村",
+        "米村拌饭",
+        "mc"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "hefulaomian",
+      "label_slug": "hefulaomian",
+      "group_id": 100,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 972.632,
+        "y": 1492.105
+      },
+      "nearest_walkable_pixel": {
+        "x": 909,
+        "y": 1492
+      },
+      "distance_to_walkable_px": 63.632,
+      "aliases": [
+        "hefulaomian",
+        "和府捞面",
+        "和府",
+        "hflm"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "xinzhaxinpai",
+      "label_slug": "xinzhaxinpai",
+      "group_id": 23,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 967.368,
+        "y": 1318.421
+      },
+      "nearest_walkable_pixel": {
+        "x": 916,
+        "y": 1318
+      },
+      "distance_to_walkable_px": 51.37,
+      "aliases": [
+        "xinzhaxinpai",
+        "新炸新派",
+        "鑫炸新派",
+        "xzxp"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "zhengxian",
+      "label_slug": "zhengxian",
+      "group_id": 101,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 998.947,
+        "y": 1197.368
+      },
+      "nearest_walkable_pixel": {
+        "x": 999,
+        "y": 1152
+      },
+      "distance_to_walkable_px": 45.368,
+      "aliases": [
+        "zhengxian",
+        "争鲜",
+        "zx"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "xianyouji",
+      "label_slug": "xianyouji",
+      "group_id": 105,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 720.0,
+        "y": 1018.421
+      },
+      "nearest_walkable_pixel": {
+        "x": 673,
+        "y": 1009
+      },
+      "distance_to_walkable_px": 47.935,
+      "aliases": [
+        "xianyouji",
+        "鲜有基",
+        "xyj"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "zuimian",
+      "label_slug": "zuimian",
+      "group_id": 107,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 646.316,
+        "y": 1818.421
+      },
+      "nearest_walkable_pixel": {
+        "x": 646,
+        "y": 1789
+      },
+      "distance_to_walkable_px": 29.423,
+      "aliases": [
+        "zuimian",
+        "醉面",
+        "zm"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "laoxiangji",
+      "label_slug": "laoxiangji",
+      "group_id": 109,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 641.053,
+        "y": 1913.158
+      },
+      "nearest_walkable_pixel": {
+        "x": 685,
+        "y": 1913
+      },
+      "distance_to_walkable_px": 43.948,
+      "aliases": [
+        "laoxiangji",
+        "老乡鸡",
+        "lxj"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "laoxiangji",
+      "label_slug": "laoxiangji",
+      "group_id": 109,
+      "occurrence": 2,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 541.053,
+        "y": 1886.842
+      },
+      "nearest_walkable_pixel": {
+        "x": 541,
+        "y": 1855
+      },
+      "distance_to_walkable_px": 31.842,
+      "aliases": [
+        "laoxiangji",
+        "老乡鸡",
+        "lxj"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "xunyecai",
+      "label_slug": "xunyecai",
+      "group_id": 111,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 588.421,
+        "y": 2218.421
+      },
+      "nearest_walkable_pixel": {
+        "x": 680,
+        "y": 2218
+      },
+      "distance_to_walkable_px": 91.58,
+      "aliases": [
+        "xunyecai",
+        "旬野菜",
+        "xyc"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "xunyecai",
+      "label_slug": "xunyecai",
+      "group_id": 111,
+      "occurrence": 2,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 593.684,
+        "y": 2281.579
+      },
+      "nearest_walkable_pixel": {
+        "x": 594,
+        "y": 2316
+      },
+      "distance_to_walkable_px": 34.423,
+      "aliases": [
+        "xunyecai",
+        "旬野菜",
+        "xyc"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "xishupaofu",
+      "label_slug": "xishupaofu",
+      "group_id": 98,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 835.789,
+        "y": 1818.421
+      },
+      "nearest_walkable_pixel": {
+        "x": 855,
+        "y": 1818
+      },
+      "distance_to_walkable_px": 19.215,
+      "aliases": [
+        "xishupaofu",
+        "西树泡芙",
+        "xspf"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "elevator",
+      "label_slug": "elevator",
+      "group_id": 1111,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 929.756,
+        "y": 854.878
+      },
+      "nearest_walkable_pixel": {
+        "x": 930,
+        "y": 855
+      },
+      "distance_to_walkable_px": 0.273,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "xiantan",
+      "label_slug": "xiantan",
+      "group_id": 931,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 924.444,
+        "y": 1737.778
+      },
+      "nearest_walkable_pixel": {
+        "x": 907,
+        "y": 1738
+      },
+      "distance_to_walkable_px": 17.446,
+      "aliases": [
+        "xiantan",
+        "鲜潭",
+        "xt"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "taixiangli",
+      "label_slug": "taixiangli",
+      "group_id": 932,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 837.778,
+        "y": 1615.556
+      },
+      "nearest_walkable_pixel": {
+        "x": 857,
+        "y": 1616
+      },
+      "distance_to_walkable_px": 19.227,
+      "aliases": [
+        "taixiangli",
+        "台巷里",
+        "txl"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "baozhunailao",
+      "label_slug": "baozhunailao",
+      "group_id": 102,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 937.778,
+        "y": 1064.444
+      },
+      "nearest_walkable_pixel": {
+        "x": 917,
+        "y": 1064
+      },
+      "distance_to_walkable_px": 20.783,
+      "aliases": [
+        "baozhunailao",
+        "宝珠奶酪",
+        "bznl"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "lanxiong",
+      "label_slug": "lanxiong",
+      "group_id": 103,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 937.778,
+        "y": 977.778
+      },
+      "nearest_walkable_pixel": {
+        "x": 916,
+        "y": 978
+      },
+      "distance_to_walkable_px": 21.779,
+      "aliases": [
+        "lanxiong",
+        "兰熊",
+        "lx"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "huolu",
+      "label_slug": "huolu",
+      "group_id": 933,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 946.667,
+        "y": 911.111
+      },
+      "nearest_walkable_pixel": {
+        "x": 947,
+        "y": 891
+      },
+      "distance_to_walkable_px": 20.114,
+      "aliases": [
+        "huolu",
+        "火炉",
+        "hl"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "xiangshanting",
+      "label_slug": "xiangshanting",
+      "group_id": 104,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 766.667,
+        "y": 922.222
+      },
+      "nearest_walkable_pixel": {
+        "x": 796,
+        "y": 922
+      },
+      "distance_to_walkable_px": 29.334,
+      "aliases": [
+        "xiangshanting",
+        "香山亭",
+        "香山厅",
+        "xst"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "chaozhouren",
+      "label_slug": "chaozhouren",
+      "group_id": 934,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 655.556,
+        "y": 1308.889
+      },
+      "nearest_walkable_pixel": {
+        "x": 683,
+        "y": 1309
+      },
+      "distance_to_walkable_px": 27.445,
+      "aliases": [
+        "chaozhouren",
+        "潮粥人",
+        "czr"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "jvbaoyuan",
+      "label_slug": "jvbaoyuan",
+      "group_id": 935,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 660.0,
+        "y": 1460.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 680,
+        "y": 1460
+      },
+      "distance_to_walkable_px": 20.0,
+      "aliases": [
+        "jvbaoyuan",
+        "jubaoyuan",
+        "聚宝源",
+        "jby"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "miaoamei",
+      "label_slug": "miaoamei",
+      "group_id": 106,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 651.111,
+        "y": 1691.111
+      },
+      "nearest_walkable_pixel": {
+        "x": 678,
+        "y": 1691
+      },
+      "distance_to_walkable_px": 26.889,
+      "aliases": [
+        "miaoamei",
+        "苗阿妹",
+        "mam"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "huguowu",
+      "label_slug": "huguowu",
+      "group_id": 108,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 757.778,
+        "y": 1840.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 740,
+        "y": 1840
+      },
+      "distance_to_walkable_px": 17.778,
+      "aliases": [
+        "huguowu",
+        "糊锅屋",
+        "hgw"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "taixiangli",
+      "label_slug": "taixiangli",
+      "group_id": 932,
+      "occurrence": 2,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 764.444,
+        "y": 1553.333
+      },
+      "nearest_walkable_pixel": {
+        "x": 738,
+        "y": 1553
+      },
+      "distance_to_walkable_px": 26.447,
+      "aliases": [
+        "taixiangli",
+        "台巷里",
+        "txl"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F5",
+      "label": "escalator_up_to",
+      "label_slug": "escalator_up_to",
+      "group_id": 113,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 793.333,
+        "y": 1904.444
+      },
+      "nearest_walkable_pixel": {
+        "x": 791,
+        "y": 1904
+      },
+      "distance_to_walkable_px": 2.375,
+      "aliases": [
+        "escalator_up_to",
+        "上行扶梯入口",
+        "扶梯上行",
+        "扶梯上到",
+        "上扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "escalator_down_to",
+      "label_slug": "escalator_down_to",
+      "group_id": 113,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 824.444,
+        "y": 1906.667
+      },
+      "nearest_walkable_pixel": {
+        "x": 838,
+        "y": 1907
+      },
+      "distance_to_walkable_px": 13.56,
+      "aliases": [
+        "escalator_down_to",
+        "下行扶梯入口",
+        "扶梯下行",
+        "扶梯下到",
+        "下扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "escalator_down_from",
+      "label_slug": "escalator_down_from",
+      "group_id": 113,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 795.556,
+        "y": 2040.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 791,
+        "y": 2040
+      },
+      "distance_to_walkable_px": 4.556,
+      "aliases": [
+        "escalator_down_from",
+        "下行扶梯出口",
+        "扶梯下来",
+        "下扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "escalator_up_from",
+      "label_slug": "escalator_up_from",
+      "group_id": 113,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 826.667,
+        "y": 2040.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 833,
+        "y": 2043
+      },
+      "distance_to_walkable_px": 7.008,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "escalator_up_from",
+      "label_slug": "escalator_up_from",
+      "group_id": 112,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 811.111,
+        "y": 1211.111
+      },
+      "nearest_walkable_pixel": {
+        "x": 794,
+        "y": 1211
+      },
+      "distance_to_walkable_px": 17.111,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "escalator_down_to",
+      "label_slug": "escalator_down_to",
+      "group_id": 112,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 826.667,
+        "y": 1208.889
+      },
+      "nearest_walkable_pixel": {
+        "x": 841,
+        "y": 1209
+      },
+      "distance_to_walkable_px": 14.334,
+      "aliases": [
+        "escalator_down_to",
+        "下行扶梯入口",
+        "扶梯下行",
+        "扶梯下到",
+        "下扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "escalator_up_to",
+      "label_slug": "escalator_up_to",
+      "group_id": 112,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 806.667,
+        "y": 1340.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 807,
+        "y": 1343
+      },
+      "distance_to_walkable_px": 3.018,
+      "aliases": [
+        "escalator_up_to",
+        "上行扶梯入口",
+        "扶梯上行",
+        "扶梯上到",
+        "上扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "escalator_down_from",
+      "label_slug": "escalator_down_from",
+      "group_id": 112,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 824.444,
+        "y": 1337.778
+      },
+      "nearest_walkable_pixel": {
+        "x": 824,
+        "y": 1343
+      },
+      "distance_to_walkable_px": 5.241,
+      "aliases": [
+        "escalator_down_from",
+        "下行扶梯出口",
+        "扶梯下来",
+        "下扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11112,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 573.333,
+        "y": 1015.556
+      },
+      "nearest_walkable_pixel": {
+        "x": 573,
+        "y": 1026
+      },
+      "distance_to_walkable_px": 10.45,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11116,
+      "occurrence": 2,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 562.222,
+        "y": 1571.111
+      },
+      "nearest_walkable_pixel": {
+        "x": 562,
+        "y": 1579
+      },
+      "distance_to_walkable_px": 7.892,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11115,
+      "occurrence": 3,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 557.778,
+        "y": 1740.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 546,
+        "y": 1740
+      },
+      "distance_to_walkable_px": 11.778,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "step",
+      "label_slug": "step",
+      "group_id": 11114,
+      "occurrence": 4,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 555.556,
+        "y": 2455.556
+      },
+      "nearest_walkable_pixel": {
+        "x": 575,
+        "y": 2456
+      },
+      "distance_to_walkable_px": 19.45,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "wc",
+      "label_slug": "wc",
+      "group_id": 2231,
+      "occurrence": 1,
+      "object_type": "facility",
+      "source_pixel": {
+        "x": 448.889,
+        "y": 2455.556
+      },
+      "nearest_walkable_pixel": {
+        "x": 470,
+        "y": 2457
+      },
+      "distance_to_walkable_px": 21.16,
+      "aliases": [
+        "wc",
+        "WC",
+        "卫生间",
+        "洗手间",
+        "厕所",
+        "toilet"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F5",
+      "label": "wc",
+      "label_slug": "wc",
+      "group_id": 2232,
+      "occurrence": 2,
+      "object_type": "facility",
+      "source_pixel": {
+        "x": 555.556,
+        "y": 1622.222
+      },
+      "nearest_walkable_pixel": {
+        "x": 556,
+        "y": 1622
+      },
+      "distance_to_walkable_px": 0.497,
+      "aliases": [
+        "wc",
+        "WC",
+        "卫生间",
+        "洗手间",
+        "厕所",
+        "toilet"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F6",
+      "label": "jvqi",
+      "label_slug": "jvqi",
+      "group_id": 24,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 820.0,
+        "y": 2207.895
+      },
+      "nearest_walkable_pixel": {
+        "x": 824,
+        "y": 2154
+      },
+      "distance_to_walkable_px": 54.043,
+      "aliases": [
+        "jvqi",
+        "局气",
+        "jq"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F6",
+      "label": "zhandianpisa",
+      "label_slug": "zhandianpisa",
+      "group_id": 84,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 820.0,
+        "y": 1186.842
+      },
+      "nearest_walkable_pixel": {
+        "x": 816,
+        "y": 1383
+      },
+      "distance_to_walkable_px": 196.199,
+      "aliases": [
+        "zhandianpisa",
+        "站点披萨",
+        "zdps"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F6",
+      "label": "zhandianpisa",
+      "label_slug": "zhandianpisa",
+      "group_id": 84,
+      "occurrence": 2,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 567.368,
+        "y": 1307.895
+      },
+      "nearest_walkable_pixel": {
+        "x": 520,
+        "y": 1308
+      },
+      "distance_to_walkable_px": 47.369,
+      "aliases": [
+        "zhandianpisa",
+        "站点披萨",
+        "zdps"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F6",
+      "label": "longrenjv",
+      "label_slug": "longrenjv",
+      "group_id": 112,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 441.053,
+        "y": 1792.105
+      },
+      "nearest_walkable_pixel": {
+        "x": 504,
+        "y": 1792
+      },
+      "distance_to_walkable_px": 62.947,
+      "aliases": [
+        "longrenjv",
+        "longrenju",
+        "龙人居",
+        "lrj"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F6",
+      "label": "escalator_up_from",
+      "label_slug": "escalator_up_from",
+      "group_id": 113,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 780.0,
+        "y": 2063.333
+      },
+      "nearest_walkable_pixel": {
+        "x": 780,
+        "y": 2084
+      },
+      "distance_to_walkable_px": 20.667,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F6",
+      "label": "daoxiao",
+      "label_slug": "daoxiao",
+      "group_id": 940,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 813.333,
+        "y": 2166.667
+      },
+      "nearest_walkable_pixel": {
+        "x": 813,
+        "y": 2153
+      },
+      "distance_to_walkable_px": 13.671,
+      "aliases": [
+        "daoxiao",
+        "刀小",
+        "dx",
+        "dxm"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F6",
+      "label": "yunhaiyao",
+      "label_slug": "yunhaiyao",
+      "group_id": 115,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 760.0,
+        "y": 2163.333
+      },
+      "nearest_walkable_pixel": {
+        "x": 760,
+        "y": 2151
+      },
+      "distance_to_walkable_px": 12.333,
+      "aliases": [
+        "yunhaiyao",
+        "云海肴",
+        "yhy"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F6",
+      "label": "longrenjv",
+      "label_slug": "longrenjv",
+      "group_id": 112,
+      "occurrence": 2,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 670.0,
+        "y": 1830.0
+      },
+      "nearest_walkable_pixel": {
+        "x": 670,
+        "y": 1812
+      },
+      "distance_to_walkable_px": 18.0,
+      "aliases": [
+        "longrenjv",
+        "longrenju",
+        "龙人居",
+        "lrj"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F6",
+      "label": "quanmao",
+      "label_slug": "quanmao",
+      "group_id": 114,
+      "occurrence": 1,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 780.0,
+        "y": 1853.333
+      },
+      "nearest_walkable_pixel": {
+        "x": 780,
+        "y": 1879
+      },
+      "distance_to_walkable_px": 25.667,
+      "aliases": [
+        "quanmao",
+        "全茂",
+        "qm"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F6",
+      "label": "escalator_down_to",
+      "label_slug": "escalator_down_to",
+      "group_id": 113,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 780.0,
+        "y": 1936.667
+      },
+      "nearest_walkable_pixel": {
+        "x": 780,
+        "y": 1917
+      },
+      "distance_to_walkable_px": 19.667,
+      "aliases": [
+        "escalator_down_to",
+        "下行扶梯入口",
+        "扶梯下行",
+        "扶梯下到",
+        "下扶梯入口"
+      ],
+      "description": ""
+    },
+    {
+      "floor_id": "F6",
+      "label": "quanmao",
+      "label_slug": "quanmao",
+      "group_id": 114,
+      "occurrence": 2,
+      "object_type": "poi_internal_sample",
+      "source_pixel": {
+        "x": 833.333,
+        "y": 1753.333
+      },
+      "nearest_walkable_pixel": {
+        "x": 719,
+        "y": 1753
+      },
+      "distance_to_walkable_px": 114.334,
+      "aliases": [
+        "quanmao",
+        "全茂",
+        "qm"
+      ],
+      "description": "需确认翻译"
+    },
+    {
+      "floor_id": "F6",
+      "label": "elevator",
+      "label_slug": "elevator",
+      "group_id": 1111,
+      "occurrence": 1,
+      "object_type": "connector",
+      "source_pixel": {
+        "x": 930.0,
+        "y": 853.333
+      },
+      "nearest_walkable_pixel": {
+        "x": 930,
+        "y": 836
+      },
+      "distance_to_walkable_px": 17.333,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ],
+      "description": ""
+    }
+  ]
+}

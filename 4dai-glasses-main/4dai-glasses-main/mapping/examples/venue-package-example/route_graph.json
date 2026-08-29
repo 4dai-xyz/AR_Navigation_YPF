@@ -1,0 +1,68 @@
+{
+  "nodes": [
+    {
+      "node_id": "node_f1_entry_west",
+      "floor_id": "F1",
+      "x": 5.0,
+      "y": 8.0,
+      "node_type": "entrance",
+      "ref_id": "entrance_west_gate"
+    },
+    {
+      "node_id": "node_f1_escalator_up",
+      "floor_id": "F1",
+      "x": 14.0,
+      "y": 12.0,
+      "node_type": "connector",
+      "ref_id": "connector_escalator_f1_f2"
+    },
+    {
+      "node_id": "node_f2_escalator_down",
+      "floor_id": "F2",
+      "x": 13.8,
+      "y": 11.8,
+      "node_type": "connector",
+      "ref_id": "connector_escalator_f1_f2"
+    },
+    {
+      "node_id": "node_f2_store_a",
+      "floor_id": "F2",
+      "x": 42.0,
+      "y": 18.0,
+      "node_type": "poi_anchor",
+      "ref_id": "poi_store_a"
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "edge_f1_entry_to_escalator",
+      "from_node_id": "node_f1_entry_west",
+      "to_node_id": "node_f1_escalator_up",
+      "distance": 10.0,
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "cost_seconds": 12.0,
+      "status": "active"
+    },
+    {
+      "edge_id": "edge_f1_to_f2_escalator",
+      "from_node_id": "node_f1_escalator_up",
+      "to_node_id": "node_f2_escalator_down",
+      "distance": 4.5,
+      "travel_mode": "escalator",
+      "bidirectional": false,
+      "cost_seconds": 18.0,
+      "status": "active"
+    },
+    {
+      "edge_id": "edge_f2_escalator_to_store",
+      "from_node_id": "node_f2_escalator_down",
+      "to_node_id": "node_f2_store_a",
+      "distance": 28.5,
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "cost_seconds": 30.0,
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+{"query_id":"q_replace_0001","image_path":"queries/q_replace_0001.jpg","venue_id":"venue_replace_001","capture_mode":"offline_eval","candidate_floor_id":"F1","expected_keyframe_id":"kf_f1_0001","expected_floor_id":"F1","route_prior":{"route_id":"route_replace_001","edge_ids":["edge_f1_replace_001"],"corridor_window_m":3.0}}
+{"query_id":"q_replace_0002","image_path":"queries/q_replace_0002.jpg","venue_id":"venue_replace_001","capture_mode":"offline_eval","candidate_floor_id":"F1","route_prior":{"edge_ids":["edge_f1_replace_001"],"corridor_window_m":3.0}}

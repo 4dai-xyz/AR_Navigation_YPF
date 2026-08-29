@@ -1,0 +1,246 @@
+{
+  "version": "6.1.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "jvqi",
+      "points": [
+        [
+          820.0000000000002,
+          2207.894736842105
+        ]
+      ],
+      "group_id": 24,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "jvqi",
+        "局气",
+        "jq"
+      ]
+    },
+    {
+      "label": "zhandianpisa",
+      "points": [
+        [
+          820.0000000000002,
+          1186.842105263158
+        ]
+      ],
+      "group_id": 84,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "zhandianpisa",
+        "站点披萨",
+        "zdps"
+      ]
+    },
+    {
+      "label": "zhandianpisa",
+      "points": [
+        [
+          567.3684210526314,
+          1307.8947368421052
+        ]
+      ],
+      "group_id": 84,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "zhandianpisa",
+        "站点披萨",
+        "zdps"
+      ]
+    },
+    {
+      "label": "longrenjv",
+      "points": [
+        [
+          441.0526315789473,
+          1792.1052631578948
+        ]
+      ],
+      "group_id": 112,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "longrenjv",
+        "longrenju",
+        "龙人居",
+        "lrj"
+      ]
+    },
+    {
+      "label": "escalator_up_from",
+      "points": [
+        [
+          780.0000000000001,
+          2063.3333333333335
+        ]
+      ],
+      "group_id": 113,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ]
+    },
+    {
+      "label": "daoxiao",
+      "points": [
+        [
+          813.3333333333334,
+          2166.666666666667
+        ]
+      ],
+      "group_id": 940,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "daoxiao",
+        "刀小",
+        "dx",
+        "dxm"
+      ]
+    },
+    {
+      "label": "yunhaiyao",
+      "points": [
+        [
+          760.0000000000001,
+          2163.3333333333335
+        ]
+      ],
+      "group_id": 115,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "yunhaiyao",
+        "云海肴",
+        "yhy"
+      ]
+    },
+    {
+      "label": "longrenjv",
+      "points": [
+        [
+          670.0000000000001,
+          1830.0000000000002
+        ]
+      ],
+      "group_id": 112,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "longrenjv",
+        "longrenju",
+        "龙人居",
+        "lrj"
+      ]
+    },
+    {
+      "label": "quanmao",
+      "points": [
+        [
+          780.0000000000001,
+          1853.3333333333333
+        ]
+      ],
+      "group_id": 114,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "quanmao",
+        "全茂",
+        "qm"
+      ]
+    },
+    {
+      "label": "escalator_down_to",
+      "points": [
+        [
+          780.0000000000001,
+          1936.6666666666667
+        ]
+      ],
+      "group_id": 113,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_down_to",
+        "下行扶梯入口",
+        "扶梯下行",
+        "扶梯下到",
+        "下扶梯入口"
+      ]
+    },
+    {
+      "label": "quanmao",
+      "points": [
+        [
+          833.3333333333334,
+          1753.3333333333333
+        ]
+      ],
+      "group_id": 114,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "quanmao",
+        "全茂",
+        "qm"
+      ]
+    },
+    {
+      "label": "elevator",
+      "points": [
+        [
+          930.0000000000001,
+          853.3333333333333
+        ]
+      ],
+      "group_id": 1111,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ]
+    }
+  ],
+  "imagePath": "f6.jpg",
+  "imageData": null,
+  "imageHeight": 3200,
+  "imageWidth": 1440
+}

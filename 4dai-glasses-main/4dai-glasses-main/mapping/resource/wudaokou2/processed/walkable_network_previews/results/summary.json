@@ -1,0 +1,725 @@
+[
+  {
+    "algorithm_id": "A",
+    "algorithm_name": "raw_grid_baseline",
+    "algorithm_status": "rollback_baseline",
+    "floor_id": "B1",
+    "nodes": 699,
+    "edges": 1812,
+    "components": 6,
+    "largest_components": [
+      688,
+      6,
+      2,
+      1,
+      1
+    ],
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_a_raw_grid_baseline\\b1_algorithm_a_raw_grid_baseline_preview.jpg"
+  },
+  {
+    "algorithm_id": "A",
+    "algorithm_name": "raw_grid_baseline",
+    "algorithm_status": "rollback_baseline",
+    "floor_id": "F1",
+    "nodes": 796,
+    "edges": 2245,
+    "components": 3,
+    "largest_components": [
+      793,
+      2,
+      1
+    ],
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_a_raw_grid_baseline\\f1_algorithm_a_raw_grid_baseline_preview.jpg"
+  },
+  {
+    "algorithm_id": "A",
+    "algorithm_name": "raw_grid_baseline",
+    "algorithm_status": "rollback_baseline",
+    "floor_id": "F2",
+    "nodes": 665,
+    "edges": 1895,
+    "components": 1,
+    "largest_components": [
+      665
+    ],
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_a_raw_grid_baseline\\f2_algorithm_a_raw_grid_baseline_preview.jpg"
+  },
+  {
+    "algorithm_id": "A",
+    "algorithm_name": "raw_grid_baseline",
+    "algorithm_status": "rollback_baseline",
+    "floor_id": "F3",
+    "nodes": 725,
+    "edges": 2107,
+    "components": 2,
+    "largest_components": [
+      715,
+      10
+    ],
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_a_raw_grid_baseline\\f3_algorithm_a_raw_grid_baseline_preview.jpg"
+  },
+  {
+    "algorithm_id": "A",
+    "algorithm_name": "raw_grid_baseline",
+    "algorithm_status": "rollback_baseline",
+    "floor_id": "F4",
+    "nodes": 664,
+    "edges": 1834,
+    "components": 1,
+    "largest_components": [
+      664
+    ],
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_a_raw_grid_baseline\\f4_algorithm_a_raw_grid_baseline_preview.jpg"
+  },
+  {
+    "algorithm_id": "A",
+    "algorithm_name": "raw_grid_baseline",
+    "algorithm_status": "rollback_baseline",
+    "floor_id": "F5",
+    "nodes": 696,
+    "edges": 1892,
+    "components": 1,
+    "largest_components": [
+      696
+    ],
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_a_raw_grid_baseline\\f5_algorithm_a_raw_grid_baseline_preview.jpg"
+  },
+  {
+    "algorithm_id": "A",
+    "algorithm_name": "raw_grid_baseline",
+    "algorithm_status": "rollback_baseline",
+    "floor_id": "F6",
+    "nodes": 379,
+    "edges": 1044,
+    "components": 6,
+    "largest_components": [
+      360,
+      11,
+      3,
+      2,
+      2
+    ],
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_a_raw_grid_baseline\\f6_algorithm_a_raw_grid_baseline_preview.jpg"
+  },
+  {
+    "algorithm_id": "B",
+    "algorithm_name": "straight_gap_sparse",
+    "floor_id": "B1",
+    "nodes": 727,
+    "edges": 1868,
+    "components": 6,
+    "largest_components": [
+      715,
+      7,
+      2,
+      1,
+      1
+    ],
+    "added_nodes": 28,
+    "added_edges": 56,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_b_straight_gap_sparse\\b1_algorithm_b_straight_gap_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "C",
+    "algorithm_name": "component_bridge_sparse",
+    "floor_id": "B1",
+    "nodes": 725,
+    "edges": 1885,
+    "components": 1,
+    "largest_components": [
+      725
+    ],
+    "added_nodes": 26,
+    "added_edges": 73,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_c_component_bridge_sparse\\b1_algorithm_c_component_bridge_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "D",
+    "algorithm_name": "cell_component_sparse",
+    "floor_id": "B1",
+    "nodes": 703,
+    "edges": 1821,
+    "components": 6,
+    "largest_components": [
+      692,
+      6,
+      2,
+      1,
+      1
+    ],
+    "added_nodes": 4,
+    "added_edges": 9,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_d_cell_component_sparse\\b1_algorithm_d_cell_component_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "E",
+    "algorithm_name": "mask_path_polyline_bridge",
+    "floor_id": "B1",
+    "nodes": 725,
+    "edges": 1911,
+    "components": 1,
+    "largest_components": [
+      725
+    ],
+    "added_nodes": 26,
+    "added_edges": 99,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_e_mask_path_polyline_bridge\\b1_algorithm_e_mask_path_polyline_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "F",
+    "algorithm_name": "cell_portal_bridge",
+    "floor_id": "B1",
+    "nodes": 762,
+    "edges": 1960,
+    "components": 1,
+    "largest_components": [
+      762
+    ],
+    "added_nodes": 63,
+    "added_edges": 148,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_f_cell_portal_bridge\\b1_algorithm_f_cell_portal_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "G",
+    "algorithm_name": "cell_portal_bridge_pruned",
+    "floor_id": "B1",
+    "nodes": 741,
+    "edges": 1917,
+    "components": 1,
+    "largest_components": [
+      741
+    ],
+    "added_nodes": 42,
+    "added_edges": 105,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_g_cell_portal_bridge_pruned\\b1_algorithm_g_cell_portal_bridge_pruned_preview.jpg"
+  },
+  {
+    "algorithm_id": "B",
+    "algorithm_name": "straight_gap_sparse",
+    "floor_id": "F1",
+    "nodes": 824,
+    "edges": 2301,
+    "components": 3,
+    "largest_components": [
+      821,
+      2,
+      1
+    ],
+    "added_nodes": 28,
+    "added_edges": 56,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_b_straight_gap_sparse\\f1_algorithm_b_straight_gap_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "C",
+    "algorithm_name": "component_bridge_sparse",
+    "floor_id": "F1",
+    "nodes": 818,
+    "edges": 2311,
+    "components": 1,
+    "largest_components": [
+      818
+    ],
+    "added_nodes": 22,
+    "added_edges": 66,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_c_component_bridge_sparse\\f1_algorithm_c_component_bridge_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "D",
+    "algorithm_name": "cell_component_sparse",
+    "floor_id": "F1",
+    "nodes": 796,
+    "edges": 2245,
+    "components": 3,
+    "largest_components": [
+      793,
+      2,
+      1
+    ],
+    "added_nodes": 0,
+    "added_edges": 0,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_d_cell_component_sparse\\f1_algorithm_d_cell_component_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "E",
+    "algorithm_name": "mask_path_polyline_bridge",
+    "floor_id": "F1",
+    "nodes": 818,
+    "edges": 2348,
+    "components": 1,
+    "largest_components": [
+      818
+    ],
+    "added_nodes": 22,
+    "added_edges": 103,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_e_mask_path_polyline_bridge\\f1_algorithm_e_mask_path_polyline_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "F",
+    "algorithm_name": "cell_portal_bridge",
+    "floor_id": "F1",
+    "nodes": 860,
+    "edges": 2398,
+    "components": 1,
+    "largest_components": [
+      860
+    ],
+    "added_nodes": 64,
+    "added_edges": 153,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_f_cell_portal_bridge\\f1_algorithm_f_cell_portal_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "G",
+    "algorithm_name": "cell_portal_bridge_pruned",
+    "floor_id": "F1",
+    "nodes": 837,
+    "edges": 2351,
+    "components": 1,
+    "largest_components": [
+      837
+    ],
+    "added_nodes": 41,
+    "added_edges": 106,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_g_cell_portal_bridge_pruned\\f1_algorithm_g_cell_portal_bridge_pruned_preview.jpg"
+  },
+  {
+    "algorithm_id": "B",
+    "algorithm_name": "straight_gap_sparse",
+    "floor_id": "F2",
+    "nodes": 693,
+    "edges": 1951,
+    "components": 1,
+    "largest_components": [
+      693
+    ],
+    "added_nodes": 28,
+    "added_edges": 56,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_b_straight_gap_sparse\\f2_algorithm_b_straight_gap_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "C",
+    "algorithm_name": "component_bridge_sparse",
+    "floor_id": "F2",
+    "nodes": 665,
+    "edges": 1895,
+    "components": 1,
+    "largest_components": [
+      665
+    ],
+    "added_nodes": 0,
+    "added_edges": 0,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_c_component_bridge_sparse\\f2_algorithm_c_component_bridge_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "D",
+    "algorithm_name": "cell_component_sparse",
+    "floor_id": "F2",
+    "nodes": 665,
+    "edges": 1895,
+    "components": 1,
+    "largest_components": [
+      665
+    ],
+    "added_nodes": 0,
+    "added_edges": 0,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_d_cell_component_sparse\\f2_algorithm_d_cell_component_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "E",
+    "algorithm_name": "mask_path_polyline_bridge",
+    "floor_id": "F2",
+    "nodes": 665,
+    "edges": 1916,
+    "components": 1,
+    "largest_components": [
+      665
+    ],
+    "added_nodes": 0,
+    "added_edges": 21,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_e_mask_path_polyline_bridge\\f2_algorithm_e_mask_path_polyline_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "F",
+    "algorithm_name": "cell_portal_bridge",
+    "floor_id": "F2",
+    "nodes": 690,
+    "edges": 1945,
+    "components": 1,
+    "largest_components": [
+      690
+    ],
+    "added_nodes": 25,
+    "added_edges": 50,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_f_cell_portal_bridge\\f2_algorithm_f_cell_portal_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "G",
+    "algorithm_name": "cell_portal_bridge_pruned",
+    "floor_id": "F2",
+    "nodes": 676,
+    "edges": 1917,
+    "components": 1,
+    "largest_components": [
+      676
+    ],
+    "added_nodes": 11,
+    "added_edges": 22,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_g_cell_portal_bridge_pruned\\f2_algorithm_g_cell_portal_bridge_pruned_preview.jpg"
+  },
+  {
+    "algorithm_id": "B",
+    "algorithm_name": "straight_gap_sparse",
+    "floor_id": "F3",
+    "nodes": 753,
+    "edges": 2163,
+    "components": 1,
+    "largest_components": [
+      753
+    ],
+    "added_nodes": 28,
+    "added_edges": 56,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_b_straight_gap_sparse\\f3_algorithm_b_straight_gap_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "C",
+    "algorithm_name": "component_bridge_sparse",
+    "floor_id": "F3",
+    "nodes": 738,
+    "edges": 2157,
+    "components": 1,
+    "largest_components": [
+      738
+    ],
+    "added_nodes": 13,
+    "added_edges": 50,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_c_component_bridge_sparse\\f3_algorithm_c_component_bridge_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "D",
+    "algorithm_name": "cell_component_sparse",
+    "floor_id": "F3",
+    "nodes": 725,
+    "edges": 2107,
+    "components": 2,
+    "largest_components": [
+      715,
+      10
+    ],
+    "added_nodes": 0,
+    "added_edges": 0,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_d_cell_component_sparse\\f3_algorithm_d_cell_component_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "E",
+    "algorithm_name": "mask_path_polyline_bridge",
+    "floor_id": "F3",
+    "nodes": 738,
+    "edges": 2167,
+    "components": 1,
+    "largest_components": [
+      738
+    ],
+    "added_nodes": 13,
+    "added_edges": 60,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_e_mask_path_polyline_bridge\\f3_algorithm_e_mask_path_polyline_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "F",
+    "algorithm_name": "cell_portal_bridge",
+    "floor_id": "F3",
+    "nodes": 757,
+    "edges": 2195,
+    "components": 1,
+    "largest_components": [
+      757
+    ],
+    "added_nodes": 32,
+    "added_edges": 88,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_f_cell_portal_bridge\\f3_algorithm_f_cell_portal_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "G",
+    "algorithm_name": "cell_portal_bridge_pruned",
+    "floor_id": "F3",
+    "nodes": 747,
+    "edges": 2175,
+    "components": 1,
+    "largest_components": [
+      747
+    ],
+    "added_nodes": 22,
+    "added_edges": 68,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_g_cell_portal_bridge_pruned\\f3_algorithm_g_cell_portal_bridge_pruned_preview.jpg"
+  },
+  {
+    "algorithm_id": "B",
+    "algorithm_name": "straight_gap_sparse",
+    "floor_id": "F4",
+    "nodes": 692,
+    "edges": 1890,
+    "components": 1,
+    "largest_components": [
+      692
+    ],
+    "added_nodes": 28,
+    "added_edges": 56,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_b_straight_gap_sparse\\f4_algorithm_b_straight_gap_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "C",
+    "algorithm_name": "component_bridge_sparse",
+    "floor_id": "F4",
+    "nodes": 664,
+    "edges": 1834,
+    "components": 1,
+    "largest_components": [
+      664
+    ],
+    "added_nodes": 0,
+    "added_edges": 0,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_c_component_bridge_sparse\\f4_algorithm_c_component_bridge_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "D",
+    "algorithm_name": "cell_component_sparse",
+    "floor_id": "F4",
+    "nodes": 664,
+    "edges": 1834,
+    "components": 1,
+    "largest_components": [
+      664
+    ],
+    "added_nodes": 0,
+    "added_edges": 0,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_d_cell_component_sparse\\f4_algorithm_d_cell_component_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "E",
+    "algorithm_name": "mask_path_polyline_bridge",
+    "floor_id": "F4",
+    "nodes": 664,
+    "edges": 1859,
+    "components": 1,
+    "largest_components": [
+      664
+    ],
+    "added_nodes": 0,
+    "added_edges": 25,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_e_mask_path_polyline_bridge\\f4_algorithm_e_mask_path_polyline_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "F",
+    "algorithm_name": "cell_portal_bridge",
+    "floor_id": "F4",
+    "nodes": 696,
+    "edges": 1898,
+    "components": 1,
+    "largest_components": [
+      696
+    ],
+    "added_nodes": 32,
+    "added_edges": 64,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_f_cell_portal_bridge\\f4_algorithm_f_cell_portal_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "G",
+    "algorithm_name": "cell_portal_bridge_pruned",
+    "floor_id": "F4",
+    "nodes": 676,
+    "edges": 1858,
+    "components": 1,
+    "largest_components": [
+      676
+    ],
+    "added_nodes": 12,
+    "added_edges": 24,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_g_cell_portal_bridge_pruned\\f4_algorithm_g_cell_portal_bridge_pruned_preview.jpg"
+  },
+  {
+    "algorithm_id": "B",
+    "algorithm_name": "straight_gap_sparse",
+    "floor_id": "F5",
+    "nodes": 724,
+    "edges": 1948,
+    "components": 1,
+    "largest_components": [
+      724
+    ],
+    "added_nodes": 28,
+    "added_edges": 56,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_b_straight_gap_sparse\\f5_algorithm_b_straight_gap_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "C",
+    "algorithm_name": "component_bridge_sparse",
+    "floor_id": "F5",
+    "nodes": 696,
+    "edges": 1892,
+    "components": 1,
+    "largest_components": [
+      696
+    ],
+    "added_nodes": 0,
+    "added_edges": 0,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_c_component_bridge_sparse\\f5_algorithm_c_component_bridge_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "D",
+    "algorithm_name": "cell_component_sparse",
+    "floor_id": "F5",
+    "nodes": 697,
+    "edges": 1895,
+    "components": 1,
+    "largest_components": [
+      697
+    ],
+    "added_nodes": 1,
+    "added_edges": 3,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_d_cell_component_sparse\\f5_algorithm_d_cell_component_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "E",
+    "algorithm_name": "mask_path_polyline_bridge",
+    "floor_id": "F5",
+    "nodes": 696,
+    "edges": 1926,
+    "components": 1,
+    "largest_components": [
+      696
+    ],
+    "added_nodes": 0,
+    "added_edges": 34,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_e_mask_path_polyline_bridge\\f5_algorithm_e_mask_path_polyline_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "F",
+    "algorithm_name": "cell_portal_bridge",
+    "floor_id": "F5",
+    "nodes": 733,
+    "edges": 1967,
+    "components": 1,
+    "largest_components": [
+      733
+    ],
+    "added_nodes": 37,
+    "added_edges": 75,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_f_cell_portal_bridge\\f5_algorithm_f_cell_portal_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "G",
+    "algorithm_name": "cell_portal_bridge_pruned",
+    "floor_id": "F5",
+    "nodes": 712,
+    "edges": 1925,
+    "components": 1,
+    "largest_components": [
+      712
+    ],
+    "added_nodes": 16,
+    "added_edges": 33,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_g_cell_portal_bridge_pruned\\f5_algorithm_g_cell_portal_bridge_pruned_preview.jpg"
+  },
+  {
+    "algorithm_id": "B",
+    "algorithm_name": "straight_gap_sparse",
+    "floor_id": "F6",
+    "nodes": 407,
+    "edges": 1100,
+    "components": 6,
+    "largest_components": [
+      388,
+      11,
+      3,
+      2,
+      2
+    ],
+    "added_nodes": 28,
+    "added_edges": 56,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_b_straight_gap_sparse\\f6_algorithm_b_straight_gap_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "C",
+    "algorithm_name": "component_bridge_sparse",
+    "floor_id": "F6",
+    "nodes": 399,
+    "edges": 1108,
+    "components": 4,
+    "largest_components": [
+      394,
+      2,
+      2,
+      1
+    ],
+    "added_nodes": 20,
+    "added_edges": 64,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_c_component_bridge_sparse\\f6_algorithm_c_component_bridge_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "D",
+    "algorithm_name": "cell_component_sparse",
+    "floor_id": "F6",
+    "nodes": 380,
+    "edges": 1046,
+    "components": 6,
+    "largest_components": [
+      361,
+      11,
+      3,
+      2,
+      2
+    ],
+    "added_nodes": 1,
+    "added_edges": 2,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_d_cell_component_sparse\\f6_algorithm_d_cell_component_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "E",
+    "algorithm_name": "mask_path_polyline_bridge",
+    "floor_id": "F6",
+    "nodes": 399,
+    "edges": 1118,
+    "components": 4,
+    "largest_components": [
+      394,
+      2,
+      2,
+      1
+    ],
+    "added_nodes": 20,
+    "added_edges": 74,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_e_mask_path_polyline_bridge\\f6_algorithm_e_mask_path_polyline_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "F",
+    "algorithm_name": "cell_portal_bridge",
+    "floor_id": "F6",
+    "nodes": 416,
+    "edges": 1143,
+    "components": 4,
+    "largest_components": [
+      411,
+      2,
+      2,
+      1
+    ],
+    "added_nodes": 37,
+    "added_edges": 99,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_f_cell_portal_bridge\\f6_algorithm_f_cell_portal_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "G",
+    "algorithm_name": "cell_portal_bridge_pruned",
+    "floor_id": "F6",
+    "nodes": 403,
+    "edges": 1117,
+    "components": 4,
+    "largest_components": [
+      398,
+      2,
+      2,
+      1
+    ],
+    "added_nodes": 24,
+    "added_edges": 73,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_g_cell_portal_bridge_pruned\\f6_algorithm_g_cell_portal_bridge_pruned_preview.jpg"
+  }
+]

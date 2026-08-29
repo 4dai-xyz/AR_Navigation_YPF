@@ -1,0 +1,104 @@
+[
+  {
+    "algorithm_id": "A",
+    "algorithm_name": "raw_grid_baseline",
+    "algorithm_status": "rollback_baseline",
+    "floor_id": "B1",
+    "nodes": 699,
+    "edges": 1812,
+    "components": 6,
+    "largest_components": [
+      688,
+      6,
+      2,
+      1,
+      1
+    ],
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_a_raw_grid_baseline\\b1_algorithm_a_raw_grid_baseline_preview.jpg"
+  },
+  {
+    "algorithm_id": "A",
+    "algorithm_name": "raw_grid_baseline",
+    "algorithm_status": "rollback_baseline",
+    "floor_id": "F1",
+    "nodes": 796,
+    "edges": 2245,
+    "components": 3,
+    "largest_components": [
+      793,
+      2,
+      1
+    ],
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_a_raw_grid_baseline\\f1_algorithm_a_raw_grid_baseline_preview.jpg"
+  },
+  {
+    "algorithm_id": "A",
+    "algorithm_name": "raw_grid_baseline",
+    "algorithm_status": "rollback_baseline",
+    "floor_id": "F2",
+    "nodes": 665,
+    "edges": 1895,
+    "components": 1,
+    "largest_components": [
+      665
+    ],
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_a_raw_grid_baseline\\f2_algorithm_a_raw_grid_baseline_preview.jpg"
+  },
+  {
+    "algorithm_id": "A",
+    "algorithm_name": "raw_grid_baseline",
+    "algorithm_status": "rollback_baseline",
+    "floor_id": "F3",
+    "nodes": 725,
+    "edges": 2107,
+    "components": 2,
+    "largest_components": [
+      715,
+      10
+    ],
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_a_raw_grid_baseline\\f3_algorithm_a_raw_grid_baseline_preview.jpg"
+  },
+  {
+    "algorithm_id": "A",
+    "algorithm_name": "raw_grid_baseline",
+    "algorithm_status": "rollback_baseline",
+    "floor_id": "F4",
+    "nodes": 664,
+    "edges": 1834,
+    "components": 1,
+    "largest_components": [
+      664
+    ],
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_a_raw_grid_baseline\\f4_algorithm_a_raw_grid_baseline_preview.jpg"
+  },
+  {
+    "algorithm_id": "A",
+    "algorithm_name": "raw_grid_baseline",
+    "algorithm_status": "rollback_baseline",
+    "floor_id": "F5",
+    "nodes": 696,
+    "edges": 1892,
+    "components": 1,
+    "largest_components": [
+      696
+    ],
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_a_raw_grid_baseline\\f5_algorithm_a_raw_grid_baseline_preview.jpg"
+  },
+  {
+    "algorithm_id": "A",
+    "algorithm_name": "raw_grid_baseline",
+    "algorithm_status": "rollback_baseline",
+    "floor_id": "F6",
+    "nodes": 379,
+    "edges": 1044,
+    "components": 6,
+    "largest_components": [
+      360,
+      11,
+      3,
+      2,
+      2
+    ],
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_a_raw_grid_baseline\\f6_algorithm_a_raw_grid_baseline_preview.jpg"
+  }
+]

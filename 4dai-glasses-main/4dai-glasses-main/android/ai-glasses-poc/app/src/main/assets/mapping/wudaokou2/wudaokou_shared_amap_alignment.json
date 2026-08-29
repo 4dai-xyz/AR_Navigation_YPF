@@ -1,0 +1,69 @@
+{
+  "schema_version": "shared_floor_amap_alignment.v0.1",
+  "mode": "shared_same_viewport_all_floors",
+  "source_coordinate": "image_pixel",
+  "target_coordinate": "gcj02",
+  "applies_to_floors": [
+    "B1",
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6"
+  ],
+  "assumption": "All floor screenshots use the same GaoDe camera, zoom, center, rotation, crop and pixel size.",
+  "anchors": [
+    {
+      "node_id": "node_entrance_f1_west_gate_access",
+      "floor_id": "F1",
+      "alignment_role": "anchor",
+      "anchor_source": "user_confirmed_amap_gcj02",
+      "pixel": {
+        "x": 377,
+        "y": 2083
+      },
+      "gcj02": {
+        "lat": 39.991583,
+        "lng": 116.338965
+      }
+    },
+    {
+      "node_id": "node_f2_tata_70_access",
+      "floor_id": "F2",
+      "alignment_role": "anchor",
+      "anchor_source": "user_confirmed_tata_target_reused_for_nearest_route_node",
+      "pixel": {
+        "x": 1130,
+        "y": 2229
+      },
+      "gcj02": {
+        "lat": 39.991556,
+        "lng": 116.339568
+      }
+    }
+  ],
+  "parameters": {
+    "meters_per_degree_lat": 111320.0,
+    "meters_per_degree_lng_at_origin": 85286.57824664979,
+    "origin_node_id": "node_entrance_f1_west_gate_access",
+    "origin_floor_id": "F1",
+    "origin_pixel": {
+      "x": 377,
+      "y": 2083
+    },
+    "origin_gcj02": {
+      "lat": 39.991583,
+      "lng": 116.338965
+    },
+    "transform_a": 0.0650768112727561,
+    "transform_b": -0.01660936845332359,
+    "scale_m_per_image_pixel": 0.06716295471350389,
+    "rotation_degrees": -14.317770793105785
+  },
+  "known_limitations": [
+    "This is a two-anchor same-viewport demo alignment, not floor-specific survey calibration.",
+    "It is valid only while B1/F1/F2/F3/F4/F5/F6 screenshots keep identical GaoDe viewport, crop, size and rotation.",
+    "If a floor still drifts on GaoDe indoor basemap, add floor-specific anchors and generate a floor-specific transform."
+  ]
+}

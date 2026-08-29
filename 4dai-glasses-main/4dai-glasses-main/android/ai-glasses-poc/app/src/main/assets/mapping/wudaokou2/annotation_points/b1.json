@@ -1,0 +1,1122 @@
+{
+  "version": "6.1.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "wanmeishijie",
+      "points": [
+        [
+          930.5263157894735,
+          1165.7894736842106
+        ]
+      ],
+      "group_id": 22,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "wanmeishijie",
+        "完美世界",
+        "wmsj影城"
+      ]
+    },
+    {
+      "label": "yimayila",
+      "points": [
+        [
+          709.4736842105265,
+          1039.4736842105262
+        ]
+      ],
+      "group_id": 24,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "yimayila",
+        "一麻一辣麻辣香锅",
+        "ymyl"
+      ]
+    },
+    {
+      "label": "ruixing(luckin)",
+      "points": [
+        [
+          693.6842105263156,
+          1244.7368421052631
+        ]
+      ],
+      "group_id": 26,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "ruixing(luckin)",
+        "ruixing",
+        "luckin",
+        "瑞幸",
+        "瑞幸咖啡",
+        "luckin coffee",
+        "rx",
+        "lx"
+      ]
+    },
+    {
+      "label": "lutaizong",
+      "points": [
+        [
+          572.6315789473686,
+          1392.1052631578948
+        ]
+      ],
+      "group_id": 45,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "lutaizong",
+        "卤太宗",
+        "卤太宗大鸡腿饭",
+        "大鸡腿饭",
+        "lutai",
+        "ltz"
+      ]
+    },
+    {
+      "label": "wuyutai",
+      "points": [
+        [
+          862.1052631578948,
+          1513.157894736842
+        ]
+      ],
+      "group_id": 29,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "wuyutai",
+        "吴裕泰",
+        "吴裕泰茶庄",
+        "wyt"
+      ]
+    },
+    {
+      "label": "shengnuoyi",
+      "points": [
+        [
+          1093.6842105263156,
+          1765.7894736842106
+        ]
+      ],
+      "group_id": 36,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "shengnuoyi",
+        "圣诺伊",
+        "snyi",
+        "sny"
+      ]
+    },
+    {
+      "label": "zhangruhuo",
+      "points": [
+        [
+          477.8947368421052,
+          1839.4736842105262
+        ]
+      ],
+      "group_id": 27,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "zhangruhuo",
+        "张如火酸辣粉",
+        "张如火火锅",
+        "zrh"
+      ]
+    },
+    {
+      "label": "fudi",
+      "points": [
+        [
+          783.1578947368423,
+          1997.3684210526317
+        ]
+      ],
+      "group_id": 37,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "fudi",
+        "福地",
+        "福迪超市",
+        "fd"
+      ]
+    },
+    {
+      "label": "fudi",
+      "points": [
+        [
+          935.7894736842106,
+          1976.3157894736842
+        ]
+      ],
+      "group_id": 37,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "fudi",
+        "福地",
+        "福迪超市",
+        "fd"
+      ]
+    },
+    {
+      "label": "coco",
+      "points": [
+        [
+          688.421052631579,
+          1513.157894736842
+        ]
+      ],
+      "group_id": 62,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "coco",
+        "CoCo",
+        "CoCo都可",
+        "都可",
+        "都可奶茶"
+      ]
+    },
+    {
+      "label": "baozhu",
+      "points": [
+        [
+          672.6315789473686,
+          1602.6315789473683
+        ]
+      ],
+      "group_id": 102,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "baozhu",
+        "包煮",
+        "宝竹",
+        "bz"
+      ]
+    },
+    {
+      "label": "shibiman",
+      "points": [
+        [
+          951.578947368421,
+          1528.9473684210527
+        ]
+      ],
+      "group_id": 31,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "shibiman",
+        "诗碧曼",
+        "sbm"
+      ]
+    },
+    {
+      "label": "dec",
+      "points": [
+        [
+          1030.5263157894735,
+          1881.578947368421
+        ]
+      ],
+      "group_id": 27,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "dec",
+        "DEC"
+      ]
+    },
+    {
+      "label": "qishierjiang",
+      "points": [
+        [
+          514.7368421052631,
+          1513.157894736842
+        ]
+      ],
+      "group_id": 120,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "qishierjiang",
+        "七十二匠",
+        "柒十二匠",
+        "72匠",
+        "qsej"
+      ]
+    },
+    {
+      "label": "zigulu",
+      "points": [
+        [
+          388.42105263157896,
+          1397.3684210526317
+        ]
+      ],
+      "group_id": 47,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "zigulu",
+        "紫谷庐",
+        "子谷庐",
+        "zgl"
+      ]
+    },
+    {
+      "label": "elevator",
+      "points": [
+        [
+          865.9459459459458,
+          764.864864864865
+        ]
+      ],
+      "group_id": 1111,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ]
+    },
+    {
+      "label": "escalator_down_to",
+      "points": [
+        [
+          1114.5945945945946,
+          1313.5135135135135
+        ]
+      ],
+      "group_id": 111,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_down_to",
+        "下行扶梯入口",
+        "扶梯下行",
+        "扶梯下到",
+        "下扶梯入口"
+      ]
+    },
+    {
+      "label": "step",
+      "points": [
+        [
+          1036.216216216216,
+          1662.1621621621623
+        ]
+      ],
+      "group_id": 11111,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶",
+        "step"
+      ]
+    },
+    {
+      "label": "escalator_up_to",
+      "points": [
+        [
+          774.054054054054,
+          1756.7567567567569
+        ]
+      ],
+      "group_id": 113,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_up_to",
+        "上行扶梯入口",
+        "扶梯上行",
+        "扶梯上到",
+        "上扶梯入口"
+      ]
+    },
+    {
+      "label": "yipinmenguo",
+      "points": [
+        [
+          779.4594594594594,
+          910.8108108108108
+        ]
+      ],
+      "group_id": 23,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "yipinmenguo",
+        "一品焖锅",
+        "一品",
+        "ypmg"
+      ]
+    },
+    {
+      "label": "chuanshiduo",
+      "points": [
+        [
+          760.5405405405404,
+          1143.2432432432433
+        ]
+      ],
+      "group_id": 25,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "chuanshiduo",
+        "串士多",
+        "csd"
+      ]
+    },
+    {
+      "label": "yerenxiansheng",
+      "points": [
+        [
+          817.2972972972973,
+          1381.0810810810813
+        ]
+      ],
+      "group_id": 27,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "yerenxiansheng",
+        "野人先生",
+        "野人",
+        "yrxs"
+      ]
+    },
+    {
+      "label": "qiduyinshi",
+      "points": [
+        [
+          817.2972972972973,
+          1518.918918918919
+        ]
+      ],
+      "group_id": 902,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "qiduyinshi",
+        "七度银饰",
+        "qdys"
+      ]
+    },
+    {
+      "label": "fanwenhua",
+      "points": [
+        [
+          919.1071428571429,
+          1518.75
+        ]
+      ],
+      "group_id": 30,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "fanwenhua",
+        "樊文花",
+        "fwh"
+      ]
+    },
+    {
+      "label": "aihuishou",
+      "points": [
+        [
+          1036.9642857142858,
+          1477.6785714285713
+        ]
+      ],
+      "group_id": 903,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "aihuishou",
+        "爱回收",
+        "ahs"
+      ]
+    },
+    {
+      "label": "bulilin",
+      "points": [
+        [
+          1079.8214285714284,
+          1254.4642857142858
+        ]
+      ],
+      "group_id": 904,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "bulilin",
+        "布璃琳",
+        "不离林",
+        "bll"
+      ]
+    },
+    {
+      "label": "escalator_up_from",
+      "points": [
+        [
+          1115.5357142857142,
+          1336.607142857143
+        ]
+      ],
+      "group_id": 111,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ]
+    },
+    {
+      "label": "xiechenglvyou",
+      "points": [
+        [
+          1038.75,
+          1540.1785714285713
+        ]
+      ],
+      "group_id": 33,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "xiechenglvyou",
+        "携程旅游",
+        "携程",
+        "xc",
+        "xcly"
+      ]
+    },
+    {
+      "label": "lenleyuanqihaowu",
+      "points": [
+        [
+          953.0357142857142,
+          1593.75
+        ]
+      ],
+      "group_id": 34,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "lenleyuanqihaowu",
+        "lenle元气好物",
+        "冷乐源奇好物",
+        "llyqhw"
+      ]
+    },
+    {
+      "label": "haircamp",
+      "points": [
+        [
+          949.4642857142858,
+          1697.3214285714284
+        ]
+      ],
+      "group_id": 35,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "haircamp",
+        "HairCamp",
+        "Hair Camp",
+        "理发店",
+        "美发店"
+      ]
+    },
+    {
+      "label": "dajingchazhuang",
+      "points": [
+        [
+          844.1071428571429,
+          1809.8214285714287
+        ]
+      ],
+      "group_id": 38,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "dajingchazhuang",
+        "大金茶庄",
+        "大经茶庄",
+        "djcz"
+      ]
+    },
+    {
+      "label": "lenleyuanqihaowu",
+      "points": [
+        [
+          820.8928571428571,
+          1595.5357142857142
+        ]
+      ],
+      "group_id": 34,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "lenleyuanqihaowu",
+        "lenle元气好物",
+        "冷乐源奇好物",
+        "llyqhw"
+      ]
+    },
+    {
+      "label": "chitianshousi",
+      "points": [
+        [
+          685.9574468085107,
+          1741.4893617021276
+        ]
+      ],
+      "group_id": 39,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "chitianshousi",
+        "池田寿司",
+        "吃天寿司",
+        "ctss"
+      ]
+    },
+    {
+      "label": "yeyebupaocha",
+      "points": [
+        [
+          679.5744680851064,
+          1679.787234042553
+        ]
+      ],
+      "group_id": 905,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "yeyebupaocha",
+        "爷爷不泡茶",
+        "爷爷",
+        "yybpc"
+      ]
+    },
+    {
+      "label": "lianhongqintiantian",
+      "points": [
+        [
+          694.4680851063831,
+          1460.6382978723404
+        ]
+      ],
+      "group_id": 41,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "lianhongqintiantian",
+        "脸红秦甜甜",
+        "恋红芹甜甜",
+        "lhqtt"
+      ]
+    },
+    {
+      "label": "chabaidao",
+      "points": [
+        [
+          694.4680851063831,
+          1432.9787234042553
+        ]
+      ],
+      "group_id": 117,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "chabaidao",
+        "茶百道",
+        "cbd"
+      ]
+    },
+    {
+      "label": "sanyuanmeiyuan",
+      "points": [
+        [
+          698.7234042553191,
+          1396.8085106382978
+        ]
+      ],
+      "group_id": 118,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "sanyuanmeiyuan",
+        "三元梅园",
+        "三元",
+        "symy"
+      ]
+    },
+    {
+      "label": "moreyogurt",
+      "points": [
+        [
+          692.3404255319149,
+          1301.063829787234
+        ]
+      ],
+      "group_id": 42,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "moreyogurt",
+        "More Yogurt",
+        "MoreYogurt",
+        "More酸奶",
+        "酸奶店"
+      ]
+    },
+    {
+      "label": "shoudaningmengcha",
+      "points": [
+        [
+          647.6595744680851,
+          1369.1489361702127
+        ]
+      ],
+      "group_id": 908,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "shoudaningmengcha",
+        "手打柠檬茶",
+        "柠檬茶",
+        "sdnmc"
+      ]
+    },
+    {
+      "label": "shaguopo",
+      "points": [
+        [
+          649.7872340425533,
+          1296.8085106382978
+        ]
+      ],
+      "group_id": 44,
+      "description": "需确认翻译（拼音疑似有误，可能是 shiguopo）",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "shguopo",
+        "shiguopo",
+        "砂锅婆",
+        "sgp"
+      ]
+    },
+    {
+      "label": "shaguopo",
+      "points": [
+        [
+          645.5319148936171,
+          1232.9787234042553
+        ]
+      ],
+      "group_id": 44,
+      "description": "需确认翻译（拼音疑似有误，可能是 shiguopo）",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "shguopo",
+        "shiguopo",
+        "砂锅婆",
+        "sgp"
+      ]
+    },
+    {
+      "label": "hongchaoshan",
+      "points": [
+        [
+          428.5106382978724,
+          1326.5957446808509
+        ]
+      ],
+      "group_id": 909,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "hongchaoshan",
+        "鸿潮汕",
+        "洪潮汕",
+        "hcs"
+      ]
+    },
+    {
+      "label": "kuafukuafood",
+      "points": [
+        [
+          511.4893617021277,
+          1367.0212765957447
+        ]
+      ],
+      "group_id": 119,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "kuafukuafood",
+        "夸父炸串",
+        "kuafu",
+        "夸父",
+        "kuafood",
+        "kf"
+      ]
+    },
+    {
+      "label": "liumianshou",
+      "points": [
+        [
+          415.74468085106383,
+          1498.9361702127658
+        ]
+      ],
+      "group_id": 911,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "liumianshou",
+        "刘面手",
+        "六面寿",
+        "溜面手",
+        "lms"
+      ]
+    },
+    {
+      "label": "zhaozaier",
+      "points": [
+        [
+          415.74468085106383,
+          1575.5319148936169
+        ]
+      ],
+      "group_id": 912,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "zhaozaier",
+        "招仔儿",
+        "赵崽儿",
+        "zze",
+        "zzr"
+      ]
+    },
+    {
+      "label": "yongxiangzhaji",
+      "points": [
+        [
+          509.3617021276596,
+          1647.8723404255318
+        ]
+      ],
+      "group_id": 913,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "yongxiangzhaji",
+        "永巷炸鸡",
+        "永祥",
+        "yxzj"
+      ]
+    },
+    {
+      "label": "jiajiancheng",
+      "points": [
+        [
+          417.87234042553195,
+          1658.5106382978722
+        ]
+      ],
+      "group_id": 914,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "jiajiansheng",
+        "夹拣盛",
+        "嘉俭生",
+        "jjs"
+      ]
+    },
+    {
+      "label": "jiayibing",
+      "points": [
+        [
+          422.12765957446817,
+          1760.6382978723402
+        ]
+      ],
+      "group_id": 915,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "jiayibing",
+        "加一冰",
+        "佳一冰",
+        "jyb"
+      ]
+    },
+    {
+      "label": "aichaosuannai",
+      "points": [
+        [
+          575.3191489361702,
+          1732.978723404255
+        ]
+      ],
+      "group_id": 121,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "aichaosuannai",
+        "爱炒酸奶",
+        "艾炒酸奶",
+        "爱妙酸奶",
+        "艾妙酸奶",
+        "amsn"
+      ]
+    },
+    {
+      "label": "bailuyuan",
+      "points": [
+        [
+          575.3191489361702,
+          1841.4893617021273
+        ]
+      ],
+      "group_id": 53,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "bailuyuan",
+        "白鹿原",
+        "bly"
+      ]
+    },
+    {
+      "label": "xuejichaohuohaoguozi",
+      "points": [
+        [
+          681.7021276595744,
+          1839.3617021276593
+        ]
+      ],
+      "group_id": 54,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "xuejichaohuohaoguozi",
+        "薛记炒货好果子",
+        "雪记炒货好果子",
+        "薛记炒货",
+        "炒货",
+        "xjchhgz",
+        "xjch"
+      ]
+    },
+    {
+      "label": "step",
+      "points": [
+        [
+          607.2340425531916,
+          1126.5957446808509
+        ]
+      ],
+      "group_id": 11112,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ]
+    },
+    {
+      "label": "escalator_down_from",
+      "points": [
+        [
+          777.4468085106382,
+          1309.5744680851062
+        ]
+      ],
+      "group_id": 112,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_down_from",
+        "下行扶梯出口",
+        "扶梯下来",
+        "下扶梯出口"
+      ]
+    },
+    {
+      "label": "wc",
+      "points": [
+        [
+          558.0,
+          1107.0
+        ]
+      ],
+      "group_id": 2222,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "wc",
+        "WC",
+        "卫生间",
+        "洗手间",
+        "厕所",
+        "toilet"
+      ]
+    },
+    {
+      "label": "step",
+      "points": [
+        [
+          580.0,
+          1033.0
+        ]
+      ],
+      "group_id": 11113,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ]
+    }
+  ],
+  "imagePath": "b1.jpg",
+  "imageData": null,
+  "imageHeight": 3200,
+  "imageWidth": 1440
+}

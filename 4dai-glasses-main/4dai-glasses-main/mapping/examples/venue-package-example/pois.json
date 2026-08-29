@@ -1,0 +1,22 @@
+{
+  "pois": [
+    {
+      "poi_id": "poi_store_a",
+      "poi_type": "store_door",
+      "poi_name": "Store A Door",
+      "venue_id": "venue_demo_001",
+      "floor_id": "F2",
+      "position": {
+        "x": 42.0,
+        "y": 18.0
+      },
+      "arrival_radius_m": 3.0,
+      "heading": 90.0,
+      "route_node_id": "node_f2_store_a",
+      "tags": [
+        "pickup"
+      ],
+      "status": "active"
+    }
+  ]
+}

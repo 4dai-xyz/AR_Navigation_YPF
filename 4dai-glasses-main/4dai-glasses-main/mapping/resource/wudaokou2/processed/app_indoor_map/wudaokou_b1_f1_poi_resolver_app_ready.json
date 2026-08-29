@@ -1,0 +1,1843 @@
+{
+  "schema_version": "poi_resolver.v0.1",
+  "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+  "source_graph": "wudaokou_b1_f1_app_nav_graph.json",
+  "items": [
+    {
+      "poi_id": "poi_b1_baozhu_102",
+      "name": "baozhu",
+      "display_name": "包煮",
+      "floor_id": "B1",
+      "aliases": [
+        "baozhu",
+        "包煮",
+        "宝竹",
+        "bz"
+      ],
+      "route_node_id": "node_b1_baozhu_102_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位",
+        "indoor-only"
+      ],
+      "external_refs": {
+        "amap_poi_id": null,
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only_no_reliable_amap_poi",
+        "amap_match_source": "manual_review_or_no_reliable_candidate",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_b1_coco_62",
+      "name": "coco",
+      "display_name": "CoCo都可",
+      "floor_id": "B1",
+      "aliases": [
+        "coco",
+        "CoCo",
+        "CoCo都可",
+        "都可",
+        "都可茶饮",
+        "keke",
+        "cocodouke",
+        "都可奶茶"
+      ],
+      "route_node_id": "node_b1_coco_62_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0FFMGKW5R",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "CoCo都可(五道口购物中心店)",
+        "amap_poi_address": "成府路28号-B1层",
+        "amap_poi_floor": "B1",
+        "amap_poi_location": {
+          "lng": 116.339204,
+          "lat": 39.992002
+        },
+        "amap_poi_type": "餐饮服务;餐饮相关场所;餐饮相关"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_b1_dec_27",
+      "name": "dec",
+      "display_name": "dec",
+      "floor_id": "B1",
+      "aliases": [
+        "dec",
+        "DEC"
+      ],
+      "route_node_id": "node_b1_dec_27_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位",
+        "indoor-only"
+      ],
+      "external_refs": {
+        "amap_poi_id": null,
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only_no_reliable_amap_poi",
+        "amap_match_source": "manual_review_or_no_reliable_candidate",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_b1_fudi_37",
+      "name": "fudi",
+      "display_name": "福地",
+      "floor_id": "B1",
+      "aliases": [
+        "fudi",
+        "fudi+",
+        "FUDI",
+        "FUDI+",
+        "fudi精选超市",
+        "FUDI精选超市",
+        "精选超市",
+        "超市",
+        "fudijxcs",
+        "福地",
+        "福迪超市",
+        "fd"
+      ],
+      "route_node_id": "node_b1_fudi_37_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0JAFUCEI8",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "fudi+精选超市(五道口购物中心店)",
+        "amap_poi_address": "成府路28号五道口购物中心B1层",
+        "amap_poi_floor": "B1",
+        "amap_poi_location": {
+          "lng": 116.339406,
+          "lat": 39.991577
+        },
+        "amap_poi_type": "购物服务;超级市场;超市"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_b1_jvewei_25",
+      "name": "jvewei",
+      "floor_id": "B1",
+      "aliases": [
+        "jvewei",
+        "juewei",
+        "jueweiyabo",
+        "绝味",
+        "绝味鸭脖",
+        "鸭脖"
+      ],
+      "route_node_id": "node_b1_jvewei_25_access",
+      "match_policy": "manual_label_alias",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位",
+        "indoor-only"
+      ],
+      "external_refs": {
+        "amap_poi_id": null,
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only_no_reliable_amap_poi",
+        "amap_match_source": "manual_review_or_no_reliable_candidate",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_b1_lutaizong_45",
+      "name": "lutaizong",
+      "display_name": "卤太宗",
+      "floor_id": "B1",
+      "aliases": [
+        "lutaizong",
+        "卤太宗",
+        "卤太宗大鸡腿饭",
+        "大鸡腿饭",
+        "lutai",
+        "ltz"
+      ],
+      "route_node_id": "node_b1_lutaizong_45_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0J2L7ZC5A",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "卤太宗·大鸡腿饭(五道口店)",
+        "amap_poi_address": "成府路28号五道口购物中心B1层",
+        "amap_poi_floor": "B1",
+        "amap_poi_location": {
+          "lng": 116.339119,
+          "lat": 39.992076
+        },
+        "amap_poi_type": "餐饮服务;中餐厅;中餐厅"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_b1_qishier_28",
+      "name": "qishier",
+      "display_name": "七十二匠",
+      "floor_id": "B1",
+      "aliases": [
+        "qishier",
+        "七十二",
+        "柒十二",
+        "七十二匠",
+        "柒十二匠",
+        "72",
+        "qse",
+        "qishierjiang",
+        "72匠",
+        "qsej"
+      ],
+      "route_node_id": "node_b1_qishier_28_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0JRXR4KPR",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "柒十二匠(五道口购物中心店)",
+        "amap_poi_address": "成府路28号五道口购物中心B1层",
+        "amap_poi_floor": "B1",
+        "amap_poi_location": {
+          "lng": 116.339073,
+          "lat": 39.992019
+        },
+        "amap_poi_type": "餐饮服务;中餐厅;中餐厅"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_b1_ruixing_luckin_26",
+      "name": "ruixing(luckin)",
+      "display_name": "瑞幸",
+      "floor_id": "B1",
+      "aliases": [
+        "ruixing(luckin)",
+        "ruixing",
+        "luckin",
+        "luckin coffee",
+        "瑞幸",
+        "瑞幸咖啡",
+        "咖啡",
+        "rxkf",
+        "rx",
+        "lx"
+      ],
+      "route_node_id": "node_b1_ruixing_luckin_26_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0J3SU31IF",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "瑞幸咖啡(五道口购物中心店)",
+        "amap_poi_address": "成府路28号五道口购物中心负一层101号",
+        "amap_poi_floor": "B1",
+        "amap_poi_location": {
+          "lng": 116.339224,
+          "lat": 39.992175
+        },
+        "amap_poi_type": "餐饮服务;咖啡厅;咖啡厅"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_b1_shengnuoyi_1",
+      "name": "shengnuoyi",
+      "display_name": "圣诺伊",
+      "floor_id": "B1",
+      "aliases": [
+        "shengnuoyi",
+        "圣诺伊",
+        "圣诺伊口腔",
+        "口腔",
+        "sny",
+        "snyi"
+      ],
+      "route_node_id": "node_b1_shengnuoyi_1_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0J3SU31IE",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "圣诺伊(五道口购物中心店)",
+        "amap_poi_address": "成府路28号五道口购物中心B1层B1-12",
+        "amap_poi_floor": "B1",
+        "amap_poi_location": {
+          "lng": 116.339603,
+          "lat": 39.991845
+        },
+        "amap_poi_type": "医疗保健服务;专科医院;整形美容"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_b1_shguopo_44",
+      "name": "shguopo",
+      "display_name": "砂锅婆",
+      "floor_id": "B1",
+      "aliases": [
+        "shaguopo",
+        "下饭菜",
+        "砂锅",
+        "砂锅婆",
+        "砂锅婆砂锅下饭菜",
+        "shguopo",
+        "shiguopo",
+        "sgp"
+      ],
+      "route_node_id": "node_b1_shguopo_44_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0KDURC9BZ",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "砂锅婆砂锅下饭菜(五道口购物中心店)",
+        "amap_poi_address": "北京城区成府路28号五道口购物中心B1层B1-11",
+        "amap_poi_floor": "B1",
+        "amap_poi_location": {
+          "lng": 116.339118,
+          "lat": 39.992171
+        },
+        "amap_poi_type": "餐饮服务;中餐厅;中餐厅"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_b1_shibiman_31",
+      "name": "shibiman",
+      "display_name": "诗碧曼",
+      "floor_id": "B1",
+      "aliases": [
+        "shibiman",
+        "诗碧曼",
+        "诗碧曼白发防脱发养发馆",
+        "养发馆",
+        "sbm"
+      ],
+      "route_node_id": "node_b1_shibiman_31_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0JRTKVLCQ",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "诗碧曼白发防脱发养发馆(五道口购物中心店)",
+        "amap_poi_address": "成府路28号五道口购物中心B1层",
+        "amap_poi_floor": "B1",
+        "amap_poi_location": {
+          "lng": 116.33946,
+          "lat": 39.992005
+        },
+        "amap_poi_type": "生活服务;美容美发店;美容美发店"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_b1_wanmeishijie_22",
+      "name": "wanmeishijie",
+      "display_name": "完美世界",
+      "floor_id": "B1",
+      "aliases": [
+        "wanmeishijie",
+        "完美世界",
+        "完美世界影城",
+        "wmsj",
+        "wmsj影城"
+      ],
+      "route_node_id": "node_b1_wanmeishijie_22_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0J3SU0TTZ",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "完美世界影城(五道口购物中心店)",
+        "amap_poi_address": "成府路28号五道口购物中心B1层",
+        "amap_poi_floor": "B1",
+        "amap_poi_location": {
+          "lng": 116.339526,
+          "lat": 39.992432
+        },
+        "amap_poi_type": "体育休闲服务;影剧院;电影院"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_b1_wc_2222",
+      "name": "wc",
+      "display_name": "卫生间",
+      "floor_id": "B1",
+      "aliases": [
+        "wc",
+        "WC",
+        "TOILET",
+        "卫生间",
+        "洗手间",
+        "厕所",
+        "卫生间B1",
+        "toilet"
+      ],
+      "route_node_id": "node_poi_b1_wc_2222_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位",
+        "indoor-only"
+      ],
+      "external_refs": {
+        "amap_poi_id": null,
+        "amap_searchable": false,
+        "amap_search_status": "facility_indoor_only",
+        "amap_match_source": "non_store_facility",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_b1_wuyutai_29",
+      "name": "wuyutai",
+      "display_name": "吴裕泰",
+      "floor_id": "B1",
+      "aliases": [
+        "wuyutai",
+        "吴裕泰",
+        "吴裕泰茶庄",
+        "茶庄",
+        "茶叶",
+        "wyt"
+      ],
+      "route_node_id": "node_b1_wuyutai_29_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B000A8ZHIE",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "吴裕泰茶庄(五道口购物中心店)",
+        "amap_poi_address": "学院路街道成府路28号华联超市地下一层",
+        "amap_poi_floor": "B1",
+        "amap_poi_location": {
+          "lng": 116.33938,
+          "lat": 39.992004
+        },
+        "amap_poi_type": "购物服务;专卖店;专营店"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_b1_xiecheng_33",
+      "name": "xiecheng",
+      "display_name": "携程旅游",
+      "floor_id": "B1",
+      "aliases": [
+        "xiecheng",
+        "携程",
+        "携程旅游",
+        "携程旅游五道口门市部",
+        "旅游",
+        "xc",
+        "xiechenglvyou",
+        "xcly"
+      ],
+      "route_node_id": "node_b1_xiecheng_33_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0FFJN6ONW",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "携程旅游五道口门市部",
+        "amap_poi_address": "成府路28号五道口购物中心地下一层",
+        "amap_poi_floor": "B1",
+        "amap_poi_location": {
+          "lng": 116.339551,
+          "lat": 39.992082
+        },
+        "amap_poi_type": "生活服务;旅行社;旅行社|公司企业;公司;公司"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_b1_yimayila_24",
+      "name": "yimayila",
+      "display_name": "一麻一辣麻辣香锅",
+      "floor_id": "B1",
+      "aliases": [
+        "yimayila",
+        "一麻一辣",
+        "一麻一辣麻辣香锅",
+        "一麻一辣五道口店",
+        "麻辣香锅",
+        "yimayilamalaxiangguo",
+        "ymal",
+        "ymyl"
+      ],
+      "route_node_id": "node_b1_yimayila_24_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0J3SUA2QG",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "一麻一辣麻辣香锅(五道口购物中心店)",
+        "amap_poi_address": "北京城区成府路28号五道口购物中心B1层",
+        "amap_poi_floor": "B1",
+        "amap_poi_location": {
+          "lng": 116.339225,
+          "lat": 39.992323
+        },
+        "amap_poi_type": "餐饮服务;中餐厅;中餐厅"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_b1_zhangruhuo_27",
+      "name": "zhangruhuo",
+      "display_name": "张如火酸辣粉",
+      "floor_id": "B1",
+      "aliases": [
+        "zhangruhuo",
+        "张如火",
+        "张如火酸辣粉",
+        "酸辣粉",
+        "zrh",
+        "张如火火锅"
+      ],
+      "route_node_id": "node_b1_zhangruhuo_27_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0JKJNH87H",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "张如火酸辣粉(五道口购物中心店)",
+        "amap_poi_address": "成府路28号五道口购物中心负一楼",
+        "amap_poi_floor": "B1",
+        "amap_poi_location": {
+          "lng": 116.339056,
+          "lat": 39.991772
+        },
+        "amap_poi_type": "餐饮服务;中餐厅;中餐厅"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_b1_zigulu_47",
+      "name": "zigulu",
+      "display_name": "紫谷庐",
+      "floor_id": "B1",
+      "aliases": [
+        "zigulu",
+        "子固路",
+        "子固路拌粉",
+        "拌粉",
+        "紫谷庐",
+        "子谷庐",
+        "zgl"
+      ],
+      "route_node_id": "node_b1_zigulu_47_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · B1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位",
+        "indoor-only"
+      ],
+      "external_refs": {
+        "amap_poi_id": null,
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only_no_reliable_amap_poi",
+        "amap_match_source": "manual_review_or_no_reliable_candidate",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_f1_huashuo_6",
+      "name": "huashuo",
+      "display_name": "华硕",
+      "floor_id": "F1",
+      "aliases": [
+        "huashuo",
+        "华硕",
+        "ASUS",
+        "asus",
+        "华硕电脑",
+        "华硕电脑售后",
+        "华硕数码配件",
+        "数码配件",
+        "hs"
+      ],
+      "route_node_id": "node_f1_huashuo_6_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · F1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0H3J75QS6",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "ASUS华硕电脑售后数码配件",
+        "amap_poi_address": "成府路28号五道口购物中心F1层",
+        "amap_poi_floor": "1F",
+        "amap_poi_location": {
+          "lng": 116.33905,
+          "lat": 39.991682
+        },
+        "amap_poi_type": "购物服务;便民商店/便利店;便民商店/便利店"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_f1_huawei_7",
+      "name": "huawei",
+      "display_name": "华为",
+      "floor_id": "F1",
+      "aliases": [
+        "huawei",
+        "华为",
+        "华为授权",
+        "华为授权体验店",
+        "华为手机",
+        "hw",
+        "Huawei",
+        "华为体验店"
+      ],
+      "route_node_id": "node_f1_huawei_7_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · F1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0FFJN6OOF",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "华为授权体验店(五道口购物中心)",
+        "amap_poi_address": "五道口购物中心一层",
+        "amap_poi_floor": "1F",
+        "amap_poi_location": {
+          "lng": 116.339187,
+          "lat": 39.992435
+        },
+        "amap_poi_type": "购物服务;家电电子卖场;手机销售"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_f1_jack_7",
+      "name": "jack",
+      "display_name": "杰克琼斯",
+      "floor_id": "F1",
+      "aliases": [
+        "jack",
+        "JACK",
+        "jackjones",
+        "JACK&JONES",
+        "杰克琼斯",
+        "Jack",
+        "Jack&Jones",
+        "Jack & Jones"
+      ],
+      "route_node_id": "node_f1_jack_7_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · F1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0J1SUYQLV",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "JACK&JONES(五道口购物中心店)",
+        "amap_poi_address": "成府路28号五道口购物中心1F层",
+        "amap_poi_floor": "1F",
+        "amap_poi_location": {
+          "lng": 116.339193,
+          "lat": 39.991766
+        },
+        "amap_poi_type": "购物服务;服装鞋帽皮具店;品牌服装店"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_f1_lanxiong_103",
+      "name": "lanxiong",
+      "display_name": "兰熊",
+      "floor_id": "F1",
+      "aliases": [
+        "lanxiong",
+        "兰熊",
+        "兰熊鲜奶",
+        "鲜奶",
+        "lx",
+        "蓝熊"
+      ],
+      "route_node_id": "node_f1_lanxiong_103_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · F1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0HG45TEND",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "兰熊鲜奶(五道口购物中心店)",
+        "amap_poi_address": "成府路28号五道口购物中心5F层501",
+        "amap_poi_floor": "1F",
+        "amap_poi_location": {
+          "lng": 116.339593,
+          "lat": 39.992343
+        },
+        "amap_poi_type": "餐饮服务;冷饮店;冷饮店"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_f1_lianxiang_4",
+      "name": "lianxiang",
+      "display_name": "联想",
+      "floor_id": "F1",
+      "aliases": [
+        "lianxiang",
+        "联想",
+        "Lenovo",
+        "lenovo",
+        "联想百应",
+        "联想百应电脑维修销售",
+        "电脑维修",
+        "电脑销售",
+        "lx",
+        "lianxiang(thinkpad)",
+        "thinkpad",
+        "联想ThinkPad",
+        "ThinkPad"
+      ],
+      "route_node_id": "node_f1_lianxiang_4_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · F1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0KR57W25D",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "联想百应电脑维修销售(智商务五道口店)",
+        "amap_poi_address": "成府路28号五道口购物中心1层101室14号",
+        "amap_poi_floor": "1F",
+        "amap_poi_location": {
+          "lng": 116.339188,
+          "lat": 39.992256
+        },
+        "amap_poi_type": "购物服务;家电电子卖场;数码电子"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_f1_maidanglao_0",
+      "name": "maidanglao",
+      "display_name": "麦当劳",
+      "floor_id": "F1",
+      "aliases": [
+        "maidanglao",
+        "麦当劳",
+        "McDonald's",
+        "mcdonalds",
+        "M记",
+        "mcd",
+        "McDonalds",
+        "mdl"
+      ],
+      "route_node_id": "node_f1_maidanglao_0_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · F1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0I2HLAIJ2",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "麦当劳(五道口购物中心店)",
+        "amap_poi_address": "成府路28号五道口购物中心1F层102-46室",
+        "amap_poi_floor": "1F",
+        "amap_poi_location": {
+          "lng": 116.33963,
+          "lat": 39.991474
+        },
+        "amap_poi_type": "餐饮服务;快餐厅;麦当劳"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_f1_manner_coffee_3",
+      "name": "manner coffee",
+      "display_name": "Manner咖啡",
+      "floor_id": "F1",
+      "aliases": [
+        "manner coffee",
+        "manner",
+        "Manner",
+        "Manner Coffee",
+        "MANNER COFFEE",
+        "咖啡",
+        "Manner咖啡",
+        "曼纳咖啡"
+      ],
+      "route_node_id": "node_f1_manner_coffee_3_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · F1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0H3PR3KMT",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "Manner Coffee(五道口购物中心店)",
+        "amap_poi_address": "成府路28号五道口购物中心1F层L1-04",
+        "amap_poi_floor": "1F",
+        "amap_poi_location": {
+          "lng": 116.339588,
+          "lat": 39.992274
+        },
+        "amap_poi_type": "餐饮服务;咖啡厅;咖啡厅"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_f1_nike_67",
+      "name": "nike",
+      "display_name": "耐克",
+      "floor_id": "F1",
+      "aliases": [
+        "nike",
+        "NIKE",
+        "Nike",
+        "耐克",
+        "naike"
+      ],
+      "route_node_id": "node_f1_nike_67_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · F1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0HBR643ZT",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "耐克Nike(五道口购物中心店)",
+        "amap_poi_address": "中关村东路8号卜蜂超市1层(五道口地铁站B南口步行290米)",
+        "amap_poi_floor": "2F",
+        "amap_poi_location": {
+          "lng": 116.339481,
+          "lat": 39.992035
+        },
+        "amap_poi_type": "购物服务;体育用品店;耐克专卖店"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_f1_popmart_8",
+      "name": "popmart",
+      "display_name": "泡泡玛特",
+      "floor_id": "F1",
+      "aliases": [
+        "popmart",
+        "POP MART",
+        "泡泡玛特",
+        "泡泡马特",
+        "盲盒",
+        "pop mart",
+        "POPMART",
+        "ppmt"
+      ],
+      "route_node_id": "node_f1_popmart_8_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · F1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0HD7HOM8L",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "POP MART泡泡玛特(五道口购物中心店)",
+        "amap_poi_address": "成府路28号邦泰优盛大厦1层(霸王茶姬对面)",
+        "amap_poi_floor": "1F",
+        "amap_poi_location": {
+          "lng": 116.339036,
+          "lat": 39.992185
+        },
+        "amap_poi_type": "购物服务;专卖店;专营店"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_f1_starbuck_1",
+      "name": "starbuck",
+      "display_name": "星巴克",
+      "floor_id": "F1",
+      "aliases": [
+        "starbuck",
+        "starbucks",
+        "Starbucks",
+        "STARBUCKS",
+        "星巴克",
+        "星巴克咖啡",
+        "sbk"
+      ],
+      "route_node_id": "node_f1_starbuck_1_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · F1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0FFJN6OP3",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "星巴克(五道口购物中心店)",
+        "amap_poi_address": "北京城区北京城区海淀街道府路28号五道口商城1层",
+        "amap_poi_floor": "2F",
+        "amap_poi_location": {
+          "lng": 116.339105,
+          "lat": 39.992434
+        },
+        "amap_poi_type": "餐饮服务;咖啡厅;星巴克咖啡"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_f1_xiaomi_13",
+      "name": "xiaomi",
+      "display_name": "小米",
+      "floor_id": "F1",
+      "aliases": [
+        "xiaomi",
+        "小米",
+        "小米之家",
+        "小米手机",
+        "mi",
+        "Xiaomi",
+        "MI",
+        "xm"
+      ],
+      "route_node_id": "node_f1_xiaomi_13_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · F1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0KRU11D6J",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "小米之家(海淀区五道口购物中心专卖店)",
+        "amap_poi_address": "学院路街道成府路28号五道口购物中心南区一层扶梯对面",
+        "amap_poi_floor": "1F",
+        "amap_poi_location": {
+          "lng": 116.339565,
+          "lat": 39.991704
+        },
+        "amap_poi_type": "购物服务;家电电子卖场;数码电子"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_f1_zhongguohuangjin_5",
+      "name": "zhongguohuangjin",
+      "display_name": "中国黄金",
+      "floor_id": "F1",
+      "aliases": [
+        "zhongguohuangjin",
+        "中国黄金",
+        "黄金",
+        "zg hj",
+        "zghj"
+      ],
+      "route_node_id": "node_f1_zhongguohuangjin_5_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · F1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0FFJN6OOI",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "中国黄金(五道口购物中心店)",
+        "amap_poi_address": "成府路28号五道口购物中心1F层L1-26A",
+        "amap_poi_floor": "1F",
+        "amap_poi_location": {
+          "lng": 116.33925,
+          "lat": 39.992171
+        },
+        "amap_poi_type": "购物服务;专卖店;珠宝首饰工艺品"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    },
+    {
+      "poi_id": "poi_f1_zhoudafu_2",
+      "name": "zhoudafu",
+      "display_name": "周大福",
+      "floor_id": "F1",
+      "aliases": [
+        "zhoudafu",
+        "周大福",
+        "Chow Tai Fook",
+        "chow tai fook",
+        "ctf",
+        "zdf"
+      ],
+      "route_node_id": "node_f1_zhoudafu_2_access",
+      "match_policy": "manual_label_alias",
+      "result_type": "indoor_poi",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "venue_name": "五道口购物中心",
+      "venue_address": "北京市海淀区成府路28号",
+      "subtitle": "五道口购物中心 · F1 · 室内点位",
+      "address": "北京市海淀区成府路28号",
+      "distance_target": "preferred_entrance_gcj02",
+      "badges": [
+        "室内点位"
+      ],
+      "external_refs": {
+        "amap_poi_id": "B0FFGYN54U",
+        "amap_searchable": true,
+        "amap_search_status": "matched_parent_or_address_and_name",
+        "amap_match_source": "amap_initial_name_and_venue_matched",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "amap_poi_name": "周大福(五道口购物中心店)",
+        "amap_poi_address": "成府路28号1层(五道口地铁站B南口步行310米)",
+        "amap_poi_floor": "1F",
+        "amap_poi_location": {
+          "lng": 116.339513,
+          "lat": 39.991848
+        },
+        "amap_poi_type": "购物服务;专卖店;珠宝首饰工艺品"
+      },
+      "outdoor_handoff": {
+        "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+        "venue_name": "五道口购物中心",
+        "venue_address": "北京市海淀区成府路28号",
+        "venue_amap_poi_id": "B000A80D2Q",
+        "venue_amap_search_keyword": "五道口购物中心",
+        "strategy": "navigate_to_venue_entrance_then_indoor_route",
+        "preferred_entrance_id": "entrance_f1_west_gate",
+        "preferred_entrance_route_node_id": "node_entrance_f1_west_gate_access",
+        "preferred_entrance_floor_id": "F1",
+        "preferred_entrance_gcj02": {
+          "lat": 39.991583,
+          "lng": 116.338965
+        },
+        "distance_target": "preferred_entrance_gcj02",
+        "distance_owner": "app_runtime_user_location_to_preferred_entrance"
+      }
+    }
+  ],
+  "generated_at": "2026-05-17T10:28:38.176873+00:00",
+  "source_resolver": "processed\\app_indoor_map\\wudaokou_all_floors_poi_resolver_app_ready.json",
+  "amap_mapping_policy": {
+    "matched": "uses mapped wudaokou2 POI if available; keeps original B1/F1 poi_id and route_node_id",
+    "unmatched": "indoor-only; App routes to route_node_id without relying on shop-level AMap POI"
+  }
+}

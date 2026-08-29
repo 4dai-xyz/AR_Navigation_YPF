@@ -1,0 +1,34 @@
+# Android / Gradle
+.gradle/
+**/build/
+**/local.properties
+**/.cxx/
+**/.externalNativeBuild/
+captures/
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# Xcode / archive artifacts
+**/xcuserdata/
+*.xcuserstate
+__MACOSX/
+._*
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Generated artifacts
+dist/
+mapping/resource/**/processed/**/diagnostics/
+mapping/resource/wudaokou2/processed/app_indoor_map/amap_poi_search_results.json
+mapping/resource/wudaokou2/processed/app_indoor_map/amap_poi_wrong_matches_retry_results.json
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.coverage

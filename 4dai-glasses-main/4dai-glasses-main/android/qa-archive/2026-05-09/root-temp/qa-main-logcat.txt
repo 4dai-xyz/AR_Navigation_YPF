@@ -1,0 +1,527 @@
+--------- beginning of system
+05-08 15:56:21.705   549  2152 D CompatibilityChangeReporter: Compat change id reported: 265464455; UID 10192; state: DISABLED
+05-08 15:56:21.706   549  2152 D CompatibilityChangeReporter: Compat change id reported: 265452344; UID 10192; state: DISABLED
+05-08 15:56:21.706   549  2152 D CompatibilityChangeReporter: Compat change id reported: 266124927; UID 10192; state: DISABLED
+05-08 15:56:21.706   549  2152 D CompatibilityChangeReporter: Compat change id reported: 265451093; UID 10192; state: DISABLED
+05-08 15:56:21.706   549  2152 D CompatibilityChangeReporter: Compat change id reported: 265456536; UID 10192; state: DISABLED
+05-08 15:56:21.707   549  2152 D CompatibilityChangeReporter: Compat change id reported: 255940284; UID 10192; state: DISABLED
+05-08 15:56:21.707   549  2152 D CompatibilityChangeReporter: Compat change id reported: 236283604; UID 10192; state: DISABLED
+05-08 15:56:21.707   549  2152 D CompatibilityChangeReporter: Compat change id reported: 263959004; UID 10192; state: DISABLED
+05-08 15:56:21.708   549  2152 D CompatibilityChangeReporter: Compat change id reported: 264304459; UID 10192; state: DISABLED
+05-08 15:56:21.708   549  2152 D CompatibilityChangeReporter: Compat change id reported: 264301586; UID 10192; state: DISABLED
+05-08 15:56:21.709   549  2152 D CompatibilityChangeReporter: Compat change id reported: 254631730; UID 10192; state: DISABLED
+05-08 15:56:21.709   549  2152 D CompatibilityChangeReporter: Compat change id reported: 273509367; UID 10192; state: DISABLED
+05-08 15:56:21.709   549  2152 D CompatibilityChangeReporter: Compat change id reported: 263259275; UID 10192; state: DISABLED
+05-08 15:56:21.709   549  2152 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10192; state: DISABLED
+05-08 15:56:21.710   549  2152 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10192; state: DISABLED
+05-08 15:56:21.710   549  2152 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10192; state: DISABLED
+--------- beginning of main
+05-08 15:56:21.720   769   781 I ndroid.systemui: Background young concurrent copying GC freed 327523(14MB) AllocSpace objects, 0(0B) LOS objects, 48% free, 15MB/30MB, paused 5.347ms,2.044ms total 32.351ms
+05-08 15:56:21.722   549  2152 D CompatibilityChangeReporter: Compat change id reported: 194480991; UID 10192; state: ENABLED
+05-08 15:56:21.743   549  2152 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10192; state: DISABLED
+05-08 15:56:21.743   549  2152 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10192; state: DISABLED
+05-08 15:56:21.766   549  2152 V SplashScreenExceptionList: SplashScreen checking exception for package com.aiglasses.poc (target sdk:35) -> false
+05-08 15:56:21.767   549  2152 D CompatibilityChangeReporter: Compat change id reported: 205907456; UID 10192; state: ENABLED
+05-08 15:56:21.799   769   809 V WindowManagerShell: Transition requested: android.os.BinderProxy@d6c5da3 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=133 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.aiglasses.poc/.MainActivity } baseActivity=ComponentInfo{com.aiglasses.poc/com.aiglasses.poc.MainActivity} topActivity=ComponentInfo{com.aiglasses.poc/com.aiglasses.poc.MainActivity} origActivity=null realActivity=ComponentInfo{com.aiglasses.poc/com.aiglasses.poc.MainActivity} numActivities=1 lastActiveTime=92268825 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@abdb8a0} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{cc88c59 com.aiglasses.poc.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-08 15:56:21.805   549  2152 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.aiglasses.poc/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+05-08 15:56:21.848   769   821 D SplashScreenView: Build android.window.SplashScreenView{8dd30ff V.E...... ......ID 0,0-0,0}
+05-08 15:56:21.848   769   821 D SplashScreenView: Icon: view: android.widget.ImageView{f55becc V.ED..... ......I. 0,0-0,0 #10204f0 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@56c9515 size: 420
+05-08 15:56:21.848   769   821 D SplashScreenView: Branding: view: android.view.View{7e6102a G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+05-08 15:56:21.856   549   576 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10192; state: DISABLED
+05-08 15:56:21.856   549   576 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10192; state: DISABLED
+05-08 15:56:21.857   549   576 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10192; state: DISABLED
+05-08 15:56:21.858   549   576 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10192; state: ENABLED
+05-08 15:56:21.863   769   809 W Looper  : Slow dispatch took 60ms wmshell.main h=android.os.Handler c=com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda1@5dde1b m=0
+05-08 15:56:21.876   549   586 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10192; state: ENABLED
+05-08 15:56:21.879   769   809 W Looper  : Slow delivery took 70ms wmshell.main h=android.os.Handler c=null m=16
+05-08 15:56:21.887   360   360 D Zygote  : Forked child process 20817
+05-08 15:56:21.898   769   809 W Looper  : Drained
+05-08 15:56:21.899   425   425 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-08 15:56:21.902   549   568 D CoreBackPreview: Window{dc6b0a6 u0 Splash Screen com.aiglasses.poc}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@f46f53d, mPriority=0, mIsAnimationCallback=false}
+05-08 15:56:21.911   549   586 W ActivityManager: Slow operation: 56ms so far, now at startProcess: building log message
+05-08 15:56:21.911   549   586 I ActivityManager: Start proc 20817:com.aiglasses.poc/u0a192 for next-top-activity {com.aiglasses.poc/com.aiglasses.poc.MainActivity}
+05-08 15:56:21.914   549   586 W ActivityManager: Slow operation: 56ms so far, now at startProcess: starting to update pids map
+05-08 15:56:21.936   549   586 W ActivityManager: Slow operation: 81ms so far, now at startProcess: done updating pids map
+05-08 15:56:21.941  1857  1857 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+05-08 15:56:21.950 20817 20817 I m.aiglasses.poc: Late-enabling -Xcheck:jni
+05-08 15:56:21.982   986  1759 D EGL_emulation: app_time_stats: avg=15361.03ms min=15361.03ms max=15361.03ms count=1
+05-08 15:56:21.986   549   636 D CompatibilityChangeReporter: Compat change id reported: 265195908; UID 10192; state: ENABLED
+05-08 15:56:21.993   769   825 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-08 15:56:21.999 20817 20817 I m.aiglasses.poc: Using CollectorTypeCC GC.
+05-08 15:56:22.051 20817 20817 W m.aiglasses.poc: Unexpected CPU variant for x86: x86_64.
+05-08 15:56:22.051 20817 20817 W m.aiglasses.poc: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+05-08 15:56:22.077   769   769 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-08 15:56:22.107   549   573 V WindowManager: Sent Transition #8 createdAt=05-08 15:56:21.723 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=133 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.aiglasses.poc/.MainActivity } baseActivity=ComponentInfo{com.aiglasses.poc/com.aiglasses.poc.MainActivity} topActivity=ComponentInfo{com.aiglasses.poc/com.aiglasses.poc.MainActivity} origActivity=null realActivity=ComponentInfo{com.aiglasses.poc/com.aiglasses.poc.MainActivity} numActivities=1 lastActiveTime=92268825 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{133f42c Task{8ed90b #133 type=standard A=10192:com.aiglasses.poc}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{d8c8ef5 com.aiglasses.poc.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-08 15:56:22.107   549   573 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-08 15:56:22.107   549   573 V WindowManager:     info={id=8 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{133f42c Task{8ed90b #133 type=standard A=10192:com.aiglasses.poc}}} m=OPEN f=NONE leash=Surface(name=Task=133)/@0xf115800 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{44557d0 Task{3fde0ca #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x1a5854 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-08 15:56:22.108   769   809 V WindowManagerShell: onTransitionReady android.os.BinderProxy@d6c5da3: {id=8 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@bba324a} m=OPEN f=NONE leash=Surface(name=Task=133)/@0x3823e9f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@8d625bb} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xb834bec sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-08 15:56:22.108   769   809 V WindowManagerShell: Playing animation for (#8)android.os.BinderProxy@d6c5da3@0
+05-08 15:56:22.108   769   809 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@e4d2aa6
+05-08 15:56:22.111   769   809 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@c3dece7
+05-08 15:56:22.112   769   809 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@6367094
+05-08 15:56:22.112   769   809 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@1f3373d
+05-08 15:56:22.112   769   809 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-08 15:56:22.114   769   809 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@5914b32
+05-08 15:56:22.114   769   809 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@e727083
+05-08 15:56:22.123   769   809 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@d540200
+05-08 15:56:22.124   769   809 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=8 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@bba324a} m=OPEN f=NONE leash=Surface(name=Task=133)/@0x3823e9f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@8d625bb} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xb834bec sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-08 15:56:22.125   769   809 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@9745a34, appThread = android.app.IApplicationThread$Stub$Proxy@23e705d, debugName = LauncherToDream }}
+05-08 15:56:22.125   769   809 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@7060318, appThread = android.app.IApplicationThread$Stub$Proxy@f10d171, debugName = QuickstepLaunchHome }}
+05-08 15:56:22.127   769   809 V WindowManagerShell:  Delegate animation for #8 to null
+05-08 15:56:22.128   769   809 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@1610a39
+05-08 15:56:22.134   769   809 V WindowManagerShell: start default transition animation, info = {id=8 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@bba324a} m=OPEN f=NONE leash=Surface(name=Task=133)/@0x3823e9f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@8d625bb} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xb834bec sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-08 15:56:22.142   769   809 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@6e92c84 animAttr=0x13 type=OPEN isEntrance=false
+05-08 15:56:22.160   769   809 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@cb0dd26 animAttr=0x12 type=OPEN isEntrance=true
+05-08 15:56:22.200   769   809 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@1610a39
+05-08 15:56:22.202   769   809 W Looper  : Slow dispatch took 94ms wmshell.main h=android.os.Handler c=com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda0@3fb5d5b m=0
+05-08 15:56:22.202   769   809 W Looper  : Slow delivery took 77ms wmshell.main h=android.os.Handler c=android.window.TaskOrganizer$1$$ExternalSyntheticLambda5@7daa9f8 m=0
+05-08 15:56:22.207 20817 20817 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
+05-08 15:56:22.227   769   825 D EGL_emulation: app_time_stats: avg=22175.49ms min=22175.49ms max=22175.49ms count=1
+05-08 15:56:22.443   440   454 I adbd    : jdwp connection from 20817
+05-08 15:56:22.476   769   809 W Looper  : Drained
+05-08 15:56:22.487 20817 20817 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10192; state: ENABLED
+05-08 15:56:22.488 20817 20817 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10192; state: ENABLED
+05-08 15:56:22.499   549   568 W BatteryExternalStatsWorker: error reading Bluetooth stats: 11
+05-08 15:56:22.501   549   568 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10192; state: ENABLED
+05-08 15:56:22.503   769   809 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#8)android.os.BinderProxy@d6c5da3@0
+05-08 15:56:22.505   549  2152 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=92269539 mSleepTimeMs=0 mIdleTimeMs=92269098 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[0, 0, 0, 0, 0],mRxTimeMs=0}]}
+05-08 15:56:22.514   549   573 V WindowManager: Finish Transition #8: created at 05-08 15:56:21.723 collect-started=3.722ms request-sent=75.241ms started=134.619ms ready=376.229ms sent=383.793ms finished=787.646ms
+05-08 15:56:22.531   769   809 V WindowManagerShell: Track 0 became idle
+05-08 15:56:22.536   769   809 V WindowManagerShell: All active transition animations finished
+05-08 15:56:22.537   769   809 W Looper  : Slow dispatch took 33ms wmshell.main h=android.os.Handler c=com.android.wm.shell.transition.DefaultTransitionHandler$$ExternalSyntheticLambda0@349cf0c m=0
+05-08 15:56:22.545   769   825 D EGL_emulation: app_time_stats: avg=3175504.00ms min=15.31ms max=82562208.00ms count=26
+05-08 15:56:22.554 20817 20817 W ziparchive: Unable to open '/data/app/~~z61FzeU0An-r7jYoWUc6Xg==/com.aiglasses.poc-pfNlPAiq23jIghob4uTGPQ==/base.dm': No such file or directory
+05-08 15:56:22.554 20817 20817 W ziparchive: Unable to open '/data/app/~~z61FzeU0An-r7jYoWUc6Xg==/com.aiglasses.poc-pfNlPAiq23jIghob4uTGPQ==/base.dm': No such file or directory
+05-08 15:56:22.572   359   401 I netd    : tetherGetStats() -> {[]} <4.27ms>
+05-08 15:56:22.592   549   595 W CpuPowerCalculator: UID 10193 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.592   549   595 W CpuPowerCalculator: UID 10193 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.592   549   595 W CpuPowerCalculator: UID 10193 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.592   549   595 W CpuPowerCalculator: UID 10193 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.592   549   595 W CpuPowerCalculator: UID 10193 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.593   549   595 W CpuPowerCalculator: UID 10193 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.593   549   595 W CpuPowerCalculator: UID 10192 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.593   549   595 W CpuPowerCalculator: UID 10192 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.593   549   595 W CpuPowerCalculator: UID 10192 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.593   549   595 W CpuPowerCalculator: UID 10192 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.594   549   595 W CpuPowerCalculator: UID 10188 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.594   549   595 W CpuPowerCalculator: UID 10188 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.594   549   595 W CpuPowerCalculator: UID 10188 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.594   549   595 W CpuPowerCalculator: UID 10188 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.594   549   595 W CpuPowerCalculator: UID 10186 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.594   549   595 W CpuPowerCalculator: UID 10186 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.595   549   595 W CpuPowerCalculator: UID 10186 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.595   549   595 W CpuPowerCalculator: UID 10186 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.595   549   595 W CpuPowerCalculator: UID 10185 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.595   549   595 W CpuPowerCalculator: UID 10185 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.595   549   595 W CpuPowerCalculator: UID 10185 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.595   549   595 W CpuPowerCalculator: UID 10185 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.596   549   595 W CpuPowerCalculator: UID 10185 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.596   549   595 W CpuPowerCalculator: UID 10183 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.596   549   595 W CpuPowerCalculator: UID 10183 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.596   549   595 W CpuPowerCalculator: UID 10183 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.596   549   595 W CpuPowerCalculator: UID 10183 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.596   549   595 W CpuPowerCalculator: UID 10180 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.599   549   595 W CpuPowerCalculator: UID 10180 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.599   549   595 W CpuPowerCalculator: UID 10180 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.600   549   595 W CpuPowerCalculator: UID 10180 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.600   549   595 W CpuPowerCalculator: UID 10179 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.600   549   595 W CpuPowerCalculator: UID 10179 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.600   549   595 W CpuPowerCalculator: UID 10179 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.600   549   595 W CpuPowerCalculator: UID 10179 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.600   549   595 W CpuPowerCalculator: UID 10179 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.601   549   595 W CpuPowerCalculator: UID 10179 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.601   549   595 W CpuPowerCalculator: UID 10173 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.601   549   595 W CpuPowerCalculator: UID 10173 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.601   549   595 W CpuPowerCalculator: UID 10173 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.601   549   595 W CpuPowerCalculator: UID 10173 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.602   549   595 W CpuPowerCalculator: UID 10173 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.603   549   595 W CpuPowerCalculator: UID 10171 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.603   549   595 W CpuPowerCalculator: UID 10171 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.603   549   595 W CpuPowerCalculator: UID 10171 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.603   549   595 W CpuPowerCalculator: UID 10171 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.603   549   595 W CpuPowerCalculator: UID 10171 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.603   549   595 W CpuPowerCalculator: UID 10171 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.603   549   595 W CpuPowerCalculator: UID 10169 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.603   549   595 W CpuPowerCalculator: UID 10169 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.603   549   595 W CpuPowerCalculator: UID 10169 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.603   549   595 W CpuPowerCalculator: UID 10169 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.603   549   595 W CpuPowerCalculator: UID 10168 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.604   549   595 W CpuPowerCalculator: UID 10168 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.604   549   595 W CpuPowerCalculator: UID 10168 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.604   549   595 W CpuPowerCalculator: UID 10168 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.604   549   595 W CpuPowerCalculator: UID 10168 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.604   549   595 W CpuPowerCalculator: UID 10166 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.604   549   595 W CpuPowerCalculator: UID 10166 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.604   549   595 W CpuPowerCalculator: UID 10166 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.604   549   595 W CpuPowerCalculator: UID 10166 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.604   549   595 W CpuPowerCalculator: UID 10164 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.604   549   595 W CpuPowerCalculator: UID 10164 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.604   549   595 W CpuPowerCalculator: UID 10164 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.604   549   595 W CpuPowerCalculator: UID 10164 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.604   549   595 W CpuPowerCalculator: UID 10161 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.604   549   595 W CpuPowerCalculator: UID 10161 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.604   549   595 W CpuPowerCalculator: UID 10161 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.604   549   595 W CpuPowerCalculator: UID 10161 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.605   549   595 W CpuPowerCalculator: UID 10157 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.605   549   595 W CpuPowerCalculator: UID 10157 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.605   549   595 W CpuPowerCalculator: UID 10157 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.605   549   595 W CpuPowerCalculator: UID 10157 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.605   549   595 W CpuPowerCalculator: UID 10156 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.605   549   595 W CpuPowerCalculator: UID 10156 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.605   549   595 W CpuPowerCalculator: UID 10156 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.606   549   595 W CpuPowerCalculator: UID 10156 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.606   549   595 W CpuPowerCalculator: UID 10156 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.606   549   595 W CpuPowerCalculator: UID 10154 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.606   549   595 W CpuPowerCalculator: UID 10154 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.606   549   595 W CpuPowerCalculator: UID 10154 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.606   549   595 W CpuPowerCalculator: UID 10154 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.606   549   595 W CpuPowerCalculator: UID 10154 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.606   549   595 W CpuPowerCalculator: UID 10153 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.606   549   595 W CpuPowerCalculator: UID 10153 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.606   549   595 W CpuPowerCalculator: UID 10153 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.606   549   595 W CpuPowerCalculator: UID 10153 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.606   549   595 W CpuPowerCalculator: UID 10153 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.607   549   595 W CpuPowerCalculator: UID 10150 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.607   549   595 W CpuPowerCalculator: UID 10150 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.607   549   595 W CpuPowerCalculator: UID 10150 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.607   549   595 W CpuPowerCalculator: UID 10150 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.607   549   595 W CpuPowerCalculator: UID 10150 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.607   549   595 W CpuPowerCalculator: UID 10148 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.607   549   595 W CpuPowerCalculator: UID 10148 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.607   549   595 W CpuPowerCalculator: UID 10148 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.607   549   595 W CpuPowerCalculator: UID 10148 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.607   549   595 W CpuPowerCalculator: UID 10148 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.607   549   595 W CpuPowerCalculator: UID 10145 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.607   549   595 W CpuPowerCalculator: UID 10145 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.607   549   595 W CpuPowerCalculator: UID 10145 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.607   549   595 W CpuPowerCalculator: UID 10145 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.608   549   595 W CpuPowerCalculator: UID 10145 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.608   549   595 W CpuPowerCalculator: UID 10143 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.608   549   595 W CpuPowerCalculator: UID 10143 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.608   549   595 W CpuPowerCalculator: UID 10143 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.608   549   595 W CpuPowerCalculator: UID 10143 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.608   549   595 W CpuPowerCalculator: UID 10142 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.608   549   595 W CpuPowerCalculator: UID 10142 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.608   549   595 W CpuPowerCalculator: UID 10142 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.608   549   595 W CpuPowerCalculator: UID 10142 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.608   549   595 W CpuPowerCalculator: UID 10142 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.608   549   595 W CpuPowerCalculator: UID 10139 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.608   549   595 W CpuPowerCalculator: UID 10139 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.608   549   595 W CpuPowerCalculator: UID 10139 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.608   549   595 W CpuPowerCalculator: UID 10139 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.608   549   595 W CpuPowerCalculator: UID 10138 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.609   549   595 W CpuPowerCalculator: UID 10138 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.609   549   595 W CpuPowerCalculator: UID 10138 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.609   549   595 W CpuPowerCalculator: UID 10138 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.609   549   595 W CpuPowerCalculator: UID 10138 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.609   549   595 W CpuPowerCalculator: UID 10137 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.609   549   595 W CpuPowerCalculator: UID 10137 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.609   549   595 W CpuPowerCalculator: UID 10137 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.609   549   595 W CpuPowerCalculator: UID 10137 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.609   549   595 W CpuPowerCalculator: UID 10133 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.609   549   595 W CpuPowerCalculator: UID 10133 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.609   549   595 W CpuPowerCalculator: UID 10133 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.609   549   595 W CpuPowerCalculator: UID 10133 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.609   549   595 W CpuPowerCalculator: UID 10132 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.609   549   595 W CpuPowerCalculator: UID 10132 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.609   549   595 W CpuPowerCalculator: UID 10132 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.610   549   595 W CpuPowerCalculator: UID 10132 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.610   549   595 W CpuPowerCalculator: UID 10132 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.610   549   595 W CpuPowerCalculator: UID 10131 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.610   549   595 W CpuPowerCalculator: UID 10131 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.610   549   595 W CpuPowerCalculator: UID 10131 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.610   549   595 W CpuPowerCalculator: UID 10131 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.610   549   595 W CpuPowerCalculator: UID 10131 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10130 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10130 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10130 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10130 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10129 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10129 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10129 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10129 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10128 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10128 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10128 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10128 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10128 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10126 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10126 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10126 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10126 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.611   549   595 W CpuPowerCalculator: UID 10125 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.612   549   595 W CpuPowerCalculator: UID 10125 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.612   549   595 W CpuPowerCalculator: UID 10125 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.612   549   595 W CpuPowerCalculator: UID 10125 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.612   549   595 W CpuPowerCalculator: UID 10124 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.612   549   595 W CpuPowerCalculator: UID 10124 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.612   549   595 W CpuPowerCalculator: UID 10124 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.612   549   595 W CpuPowerCalculator: UID 10124 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.612   549   595 W CpuPowerCalculator: UID 10123 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.612   549   595 W CpuPowerCalculator: UID 10123 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.612   549   595 W CpuPowerCalculator: UID 10123 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.613   549   595 W CpuPowerCalculator: UID 10123 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.616   549   595 W CpuPowerCalculator: UID 10121 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.616   549   595 W CpuPowerCalculator: UID 10121 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.616   549   595 W CpuPowerCalculator: UID 10121 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.616   549   595 W CpuPowerCalculator: UID 10121 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.616   549   595 W CpuPowerCalculator: UID 10121 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.617   549   595 W CpuPowerCalculator: UID 10120 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.617   549   595 W CpuPowerCalculator: UID 10120 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.617   549   595 W CpuPowerCalculator: UID 10120 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.617   549   595 W CpuPowerCalculator: UID 10120 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.617   549   595 W CpuPowerCalculator: UID 10120 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.618   549   595 W CpuPowerCalculator: UID 10119 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.618   549   595 W CpuPowerCalculator: UID 10119 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.618   549   595 W CpuPowerCalculator: UID 10119 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.618   549   595 W CpuPowerCalculator: UID 10119 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.618   549   595 W CpuPowerCalculator: UID 10118 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.618   549   595 W CpuPowerCalculator: UID 10118 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.618   549   595 W CpuPowerCalculator: UID 10118 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.618   549   595 W CpuPowerCalculator: UID 10118 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.618   549   595 W CpuPowerCalculator: UID 10118 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.619   549   595 W CpuPowerCalculator: UID 10117 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.619   549   595 W CpuPowerCalculator: UID 10117 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.619   549   595 W CpuPowerCalculator: UID 10117 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.619   549   595 W CpuPowerCalculator: UID 10117 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.619   549   595 W CpuPowerCalculator: UID 10114 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.619   549   595 W CpuPowerCalculator: UID 10114 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.619   549   595 W CpuPowerCalculator: UID 10114 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.619   549   595 W CpuPowerCalculator: UID 10114 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.619   549   595 W CpuPowerCalculator: UID 10107 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.619   549   595 W CpuPowerCalculator: UID 10107 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.619   549   595 W CpuPowerCalculator: UID 10107 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.620   549   595 W CpuPowerCalculator: UID 10107 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.620   549   595 W CpuPowerCalculator: UID 10107 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.620   549   595 W CpuPowerCalculator: UID 10107 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.620   549   595 W CpuPowerCalculator: UID 10104 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.620   549   595 W CpuPowerCalculator: UID 10104 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.620   549   595 W CpuPowerCalculator: UID 10104 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.620   549   595 W CpuPowerCalculator: UID 10104 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.620   549   595 W CpuPowerCalculator: UID 10099 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.620   549   595 W CpuPowerCalculator: UID 10099 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.620   549   595 W CpuPowerCalculator: UID 10099 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.620   549   595 W CpuPowerCalculator: UID 10099 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.621   549   595 W CpuPowerCalculator: UID 10098 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.621   549   595 W CpuPowerCalculator: UID 10098 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.621   549   595 W CpuPowerCalculator: UID 10098 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.621   549   595 W CpuPowerCalculator: UID 10098 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.621   549   595 W CpuPowerCalculator: UID 10094 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.621   549   595 W CpuPowerCalculator: UID 10094 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.621   549   595 W CpuPowerCalculator: UID 10094 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.621   549   595 W CpuPowerCalculator: UID 10094 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.621   549   595 W CpuPowerCalculator: UID 10092 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.621   549   595 W CpuPowerCalculator: UID 10092 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.621   549   595 W CpuPowerCalculator: UID 10092 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.621   549   595 W CpuPowerCalculator: UID 10092 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.621   549   595 W CpuPowerCalculator: UID 10091 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.621   549   595 W CpuPowerCalculator: UID 10091 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.621   549   595 W CpuPowerCalculator: UID 10091 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.622   549   595 W CpuPowerCalculator: UID 10091 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.622   549   595 W CpuPowerCalculator: UID 10089 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.622   549   595 W CpuPowerCalculator: UID 10089 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.622   549   595 W CpuPowerCalculator: UID 10089 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.622   549   595 W CpuPowerCalculator: UID 10089 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.622   549   595 W CpuPowerCalculator: UID 10089 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.623   549   595 W CpuPowerCalculator: UID 10087 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.623   549   595 W CpuPowerCalculator: UID 10087 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.623   549   595 W CpuPowerCalculator: UID 10087 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.623   549   595 W CpuPowerCalculator: UID 10087 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.623   549   595 W CpuPowerCalculator: UID 10087 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.623   549   595 W CpuPowerCalculator: UID 10085 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.623   549   595 W CpuPowerCalculator: UID 10085 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.623   549   595 W CpuPowerCalculator: UID 10085 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.623   549   595 W CpuPowerCalculator: UID 10085 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.623   549   595 W CpuPowerCalculator: UID 10084 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.623   549   595 W CpuPowerCalculator: UID 10084 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.623   549   595 W CpuPowerCalculator: UID 10084 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.624   549   595 W CpuPowerCalculator: UID 10084 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.624   549   595 W CpuPowerCalculator: UID 10084 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.624   549   595 W CpuPowerCalculator: UID 9999 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.624   549   595 W CpuPowerCalculator: UID 9999 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.624   549   595 W CpuPowerCalculator: UID 2000 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.624   549   595 W CpuPowerCalculator: UID 2000 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.624   549   595 W CpuPowerCalculator: UID 2000 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.624   549   595 W CpuPowerCalculator: UID 2000 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.624   549   595 W CpuPowerCalculator: UID 1092 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.624   549   595 W CpuPowerCalculator: UID 1092 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.624   549   595 W CpuPowerCalculator: UID 1086 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.624   549   595 W CpuPowerCalculator: UID 1086 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.624   549   595 W CpuPowerCalculator: UID 1082 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.624   549   595 W CpuPowerCalculator: UID 1082 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.624   549   595 W CpuPowerCalculator: UID 1076 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.624   549   595 W CpuPowerCalculator: UID 1076 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.625   549   595 W CpuPowerCalculator: UID 1073 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.625   549   595 W CpuPowerCalculator: UID 1073 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.625   549   595 W CpuPowerCalculator: UID 1073 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.625   549   595 W CpuPowerCalculator: UID 1073 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.625   549   595 W CpuPowerCalculator: UID 1072 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.625   549   595 W CpuPowerCalculator: UID 1072 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.625   549   595 W CpuPowerCalculator: UID 1069 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.626   549   595 W CpuPowerCalculator: UID 1069 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.626   549   595 W CpuPowerCalculator: UID 1068 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.626   549   595 W CpuPowerCalculator: UID 1068 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.626   549   595 W CpuPowerCalculator: UID 1068 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.626   549   595 W CpuPowerCalculator: UID 1068 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.626   549   595 W CpuPowerCalculator: UID 1067 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.626   549   595 W CpuPowerCalculator: UID 1067 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.626   549   595 W CpuPowerCalculator: UID 1066 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.626   549   595 W CpuPowerCalculator: UID 1066 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.626   549   595 W CpuPowerCalculator: UID 1058 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.626   549   595 W CpuPowerCalculator: UID 1058 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.626   549   595 W CpuPowerCalculator: UID 1053 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.626   549   595 W CpuPowerCalculator: UID 1053 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.626   549   595 W CpuPowerCalculator: UID 1047 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.627   549   595 W CpuPowerCalculator: UID 1047 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.627   549   595 W CpuPowerCalculator: UID 1046 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.627   549   595 W CpuPowerCalculator: UID 1046 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.627   549   595 W CpuPowerCalculator: UID 1041 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.627   549   595 W CpuPowerCalculator: UID 1041 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.627   549   595 W CpuPowerCalculator: UID 1040 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.627   549   595 W CpuPowerCalculator: UID 1040 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.627   549   595 W CpuPowerCalculator: UID 1036 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.627   549   595 W CpuPowerCalculator: UID 1036 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.627   549   595 W CpuPowerCalculator: UID 1027 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.627   549   595 W CpuPowerCalculator: UID 1027 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.627   549   595 W CpuPowerCalculator: UID 1027 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.627   549   595 W CpuPowerCalculator: UID 1027 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.627   549   595 W CpuPowerCalculator: UID 1021 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.627   549   595 W CpuPowerCalculator: UID 1021 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.627   549   595 W CpuPowerCalculator: UID 1020 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.627   549   595 W CpuPowerCalculator: UID 1020 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.628   549   595 W CpuPowerCalculator: UID 1019 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.628   549   595 W CpuPowerCalculator: UID 1019 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.628   549   595 W CpuPowerCalculator: UID 1017 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.628   549   595 W CpuPowerCalculator: UID 1017 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.628   549   595 W CpuPowerCalculator: UID 1013 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.628   549   595 W CpuPowerCalculator: UID 1013 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.628   549   595 W CpuPowerCalculator: UID 1010 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.628   549   595 W CpuPowerCalculator: UID 1010 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.629   549   595 W CpuPowerCalculator: UID 1003 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.630   549   595 W CpuPowerCalculator: UID 1003 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.630   549   595 W CpuPowerCalculator: UID 1002 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.632   549   595 W CpuPowerCalculator: UID 1002 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.632   549   595 W CpuPowerCalculator: UID 1002 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.632   549   595 W CpuPowerCalculator: UID 1002 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.633   549   595 W CpuPowerCalculator: UID 1001 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.633   549   595 W CpuPowerCalculator: UID 1001 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.633   549   595 W CpuPowerCalculator: UID 1001 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.633   549   595 W CpuPowerCalculator: UID 1001 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.633   549   595 W CpuPowerCalculator: UID 1000 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.633   549   595 W CpuPowerCalculator: UID 1000 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.634   549   595 W CpuPowerCalculator: UID 1000 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.634   549   595 W CpuPowerCalculator: UID 1000 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.634   549   595 W CpuPowerCalculator: UID 0 CPU cluster # mismatch: Power Profile # 2 actual # 4
+05-08 15:56:22.635   549   595 W CpuPowerCalculator: UID 0 CPU freq # mismatch: Power Profile # 2 actual # 8
+05-08 15:56:22.675 20817 20817 D nativeloader: Configuring clns-6 for other apk /data/app/~~z61FzeU0An-r7jYoWUc6Xg==/com.aiglasses.poc-pfNlPAiq23jIghob4uTGPQ==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~z61FzeU0An-r7jYoWUc6Xg==/com.aiglasses.poc-pfNlPAiq23jIghob4uTGPQ==/lib/arm64:/data/app/~~z61FzeU0An-r7jYoWUc6Xg==/com.aiglasses.poc-pfNlPAiq23jIghob4uTGPQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.aiglasses.poc
+05-08 15:56:22.700 20817 20817 V GraphicsEnvironment: Currently set values for:
+05-08 15:56:22.700 20817 20817 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+05-08 15:56:22.700 20817 20817 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+05-08 15:56:22.700 20817 20817 V GraphicsEnvironment: ANGLE GameManagerService for com.aiglasses.poc: false
+05-08 15:56:22.700 20817 20817 V GraphicsEnvironment: com.aiglasses.poc is not listed in per-application setting
+05-08 15:56:22.700 20817 20817 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+05-08 15:56:22.750   549  1920 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10192. pid: 20817
+05-08 15:56:22.807 20817 20840 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+05-08 15:56:22.811 20817 20840 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+05-08 15:56:22.815 20817 20840 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+05-08 15:56:23.008 20817 20817 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+05-08 15:56:23.181 20817 20817 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10192; state: ENABLED
+05-08 15:56:23.283 20817 20817 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10192; state: ENABLED
+05-08 15:56:23.584   769   825 D EGL_emulation: app_time_stats: avg=11.48ms min=0.69ms max=26.64ms count=57
+05-08 15:56:23.717 20817 20817 W m.aiglasses.poc: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+05-08 15:56:24.024   769   769 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-08 15:56:24.107 20817 20817 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10192; state: DISABLED
+05-08 15:56:24.119 20817 20817 W OpenGLRenderer: Unknown dataspace 0
+05-08 15:56:24.129 20817 20817 I Choreographer: Skipped 82 frames!  The application may be doing too much work on its main thread.
+05-08 15:56:24.196   549  2152 D CoreBackPreview: Window{f2779a u0 com.aiglasses.poc/com.aiglasses.poc.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@879cfc1, mPriority=0, mIsAnimationCallback=false}
+05-08 15:56:24.335 20817 20817 D AutofillManager: notifyViewEnteredForFillDialog:1073741824
+05-08 15:56:24.343 20817 20838 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-08 15:56:24.343 20817 20838 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+--------- beginning of kernel
+05-08 15:56:24.608     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+05-08 15:56:24.651   159   159 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-08 15:56:24.651 20817 20838 I Gralloc4: mapper 4.x is not supported
+05-08 15:56:24.712 20817 20838 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-08 15:56:24.799 20817 20817 I Choreographer: Skipped 38 frames!  The application may be doing too much work on its main thread.
+05-08 15:56:24.805 20817 20835 I OpenGLRenderer: Davey! duration=2033ms; Flags=1, FrameTimelineVsyncId=38854752, IntendedVsync=92269780939558, Vsync=92271147606170, InputEventId=0, HandleInputStart=92271166156100, AnimationStart=92271166171100, PerformTraversalsStart=92271166505700, DrawStart=92271748948700, FrameDeadline=92269797606224, FrameInterval=92271163939200, FrameStartTime=16666666, SyncQueued=92271760537700, SyncStart=92271766149300, IssueDrawCommandsStart=92271767883500, SwapBuffers=92271807678800, FrameCompleted=92271820161800, DequeueBufferDuration=308800, QueueBufferDuration=634400, GpuCompleted=92271819782700, SwapBuffersCompleted=92271820161800, DisplayPresentTime=0, CommandSubmissionCompleted=92271807678800, 
+05-08 15:56:24.806   549   573 W system_server: Failed to determine oat file name for dex location /data/app/~~z61FzeU0An-r7jYoWUc6Xg==/com.aiglasses.poc-pfNlPAiq23jIghob4uTGPQ==/base.apk: Dalvik cache directory does not exist
+05-08 15:56:24.806   549   573 W ziparchive: Unable to open '/data/app/~~z61FzeU0An-r7jYoWUc6Xg==/com.aiglasses.poc-pfNlPAiq23jIghob4uTGPQ==/base.dm': No such file or directory
+05-08 15:56:24.811   549   573 I ActivityTaskManager: Displayed com.aiglasses.poc/.MainActivity for user 0: +3s146ms
+05-08 15:56:24.829  1323  2185 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+05-08 15:56:24.829  1323  2185 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+05-08 15:56:24.830   902  1135 D BtGatt.ScanManager: uid 10128 isForeground true scanMode -1
+05-08 15:56:24.849   549  1920 D CompatibilityChangeReporter: Compat change id reported: 214016041; UID 10192; state: ENABLED
+05-08 15:56:24.849  1323  2185 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+05-08 15:56:24.866   549  1920 I ImeTracker: com.aiglasses.poc:cf699dde: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+05-08 15:56:24.867   549  1920 I ImeTracker: com.aiglasses.poc:cf699dde: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-08 15:56:24.867  1323  2185 I FontLog : Pulling font file for id = 18, cache size = 7 [CONTEXT service_id=132 ]
+05-08 15:56:24.886   769   825 D EGL_emulation: app_time_stats: avg=508.25ms min=6.93ms max=2485.60ms count=5
+05-08 15:56:24.914   549   576 W ProcessStats: Tracking association SourceState{4f8d9bf com.google.android.apps.nexuslauncher/10168 BFgs #19257} whose proc state 4 is better than process ProcessState{8d1d8d1 com.google.android.googlequicksearchbox:search/10132 pkg=com.google.android.googlequicksearchbox} proc state 6 (227 skipped)
+05-08 15:56:24.943  1323  4304 I FontLog : Pulling font file for id = 18, cache size = 7 [CONTEXT service_id=132 ]
+05-08 15:56:24.943   986  1091 I ImeTracker: com.google.android.apps.nexuslauncher:c5f96834: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+05-08 15:56:24.943   986  1091 I ImeTracker: com.google.android.apps.nexuslauncher:c5f96834: onFailed at PHASE_CLIENT_VIEW_SERVED
+05-08 15:56:24.955   769   781 I ndroid.systemui: WaitForGcToComplete blocked Background on None for 10.864ms
+05-08 15:56:24.980  1495  1495 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+05-08 15:56:25.017   986  2000 D OneSearchSuggestProvider: Shut down the binder channel
+05-08 15:56:25.025   549   574 W Looper  : Slow dispatch took 111ms android.ui h=com.android.server.am.ActivityManagerService$UiHandler c=com.android.server.am.UidObserverController$$ExternalSyntheticLambda0@f89b9d4 m=0
+05-08 15:56:25.038  1495  1495 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+05-08 15:56:25.042   549   644 D ActivityManager: freezing 1342 com.google.android.permissioncontroller
+05-08 15:56:25.048  1495  1495 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.aiglasses.poc fieldId=0 fieldName=null extras=null}, false)
+05-08 15:56:25.049  1495  1495 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+05-08 15:56:25.050  1495  1495 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+05-08 15:56:25.172   769   819 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@bad04f6
+05-08 15:56:25.173   549   568 D CoreBackPreview: Window{dc6b0a6 u0 Splash Screen com.aiglasses.poc EXITING}: Setting back callback null
+05-08 15:56:25.182   549   568 W InputManager-JNI: Input channel object 'dc6b0a6 Splash Screen com.aiglasses.poc (client)' was disposed without first being removed with the input manager!
+05-08 15:56:25.203   549   563 I system_server: Background concurrent copying GC freed 572970(21MB) AllocSpace objects, 43(1656KB) LOS objects, 48% free, 25MB/49MB, paused 6.251ms,2.693ms total 268.577ms
+05-08 15:56:25.209  1533  1533 I AiAiTextClassifier: onDestroyTextClassificationSession = TextClassificationSessionId {cce58224-1362-4b48-aac4-3c1aecdaeba9}
+05-08 15:56:25.211  1533  1533 I AiAiTextClassifier: onDestroyTextClassificationSession = TextClassificationSessionId {cf39806c-c651-4748-a01f-d7b2291a3d14}
+05-08 15:56:25.218  1533  1533 I AiAiTextClassifier: onDestroyTextClassificationSession = TextClassificationSessionId {14d43f59-92d5-4655-ab7d-5646bfe85a12}
+05-08 15:56:25.218  1533  1533 I AiAiTextClassifier: onDestroyTextClassificationSession = TextClassificationSessionId {a2649507-a2fe-489e-a94b-daa6e2ae6d92}
+05-08 15:56:25.222  1533  1533 I AiAiTextClassifier: onDestroyTextClassificationSession = TextClassificationSessionId {b4c70873-9e43-4df0-a339-17ccbeb4c56b}
+05-08 15:56:25.244   769   781 I ndroid.systemui: Background concurrent copying GC freed 394763(18MB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 15MB/31MB, paused 269us,46us total 265.381ms
+05-08 15:56:25.272   769   825 D EGL_emulation: app_time_stats: avg=28.22ms min=0.67ms max=1021.37ms count=40
+05-08 15:56:25.296   549  1722 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+05-08 15:56:26.048   769   769 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-08 15:56:26.287   769   825 D EGL_emulation: app_time_stats: avg=16.80ms min=6.85ms max=31.75ms count=59
+05-08 15:56:28.067   769   769 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-08 15:56:28.369   769   769 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-08 15:56:28.391   769   825 D EGL_emulation: app_time_stats: avg=583.59ms min=16.17ms max=3252.55ms count=6
+05-08 15:56:29.397   549   644 D ActivityManager: freezing 20706 com.android.chrome
+05-08 15:56:29.817 20817 20856 D ProfileInstaller: Installing profile for com.aiglasses.poc
+05-08 15:56:30.186   549   644 D ActivityManager: freezing 1742 com.google.process.gservices
+05-08 15:56:34.557   549   636 I ActivityManager: Killing 16058:com.google.android.gm/u0a145 (adj 985): empty #17
+05-08 15:56:34.560   549   636 I ActivityManager: Killing 1592:android.process.acore/u0a84 (adj 995): empty #18
+05-08 15:56:34.560   549   636 I ActivityManager: Killing 8565:com.google.android.tts/u0a148 (adj 995): empty #19
+05-08 15:56:34.560   549   587 I libprocessgroup: Successfully killed process cgroup uid 10145 pid 16058 in 0ms
+05-08 15:56:34.584   549   574 D DisplayManagerService: Drop pending events for gone uid 10148
+05-08 15:56:34.592   360   360 I Zygote  : Process 1592 exited due to signal 9 (Killed)
+05-08 15:56:34.592   360   360 I Zygote  : Process 8565 exited due to signal 9 (Killed)
+05-08 15:56:34.593   549   587 I libprocessgroup: Successfully killed process cgroup uid 10084 pid 1592 in 0ms
+05-08 15:56:34.563     0     0 W binder_debug: 126 callbacks suppressed
+05-08 15:56:34.563     0     0 I binder  : undelivered transaction 7376756, process died.
+05-08 15:56:34.571     0     0 I binder  : undelivered transaction 6128768, process died.
+05-08 15:56:34.578     0     0 I binder  : undelivered transaction 6311892, process died.
+05-08 15:56:34.595   902  1135 D BtGatt.ScanManager: uid 10128 isForeground true scanMode -1
+05-08 15:56:34.596   360   360 I Zygote  : Process 16058 exited due to signal 9 (Killed)
+05-08 15:56:34.580     0     0 I binder  : undelivered transaction 6313981, process died.
+05-08 15:56:34.603   549   587 I libprocessgroup: Successfully killed process cgroup uid 10148 pid 8565 in 0ms
+05-08 15:56:34.603   549   694 D ConnectivityService: releasing NetworkRequest [ REQUEST id=140, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10148 RequestorUid: 10148 RequestorPkg: com.google.android.tts UnderlyingNetworks: Null] ] (release request)
+05-08 15:56:34.583     0     0 I binder  : undelivered transaction 6617243, process died.
+05-08 15:56:34.583     0     0 I binder  : undelivered transaction 6637902, process died.
+05-08 15:56:34.588     0     0 I binder  : undelivered transaction 6753338, process died.
+05-08 15:56:34.589     0     0 I binder  : undelivered transaction 6774234, process died.
+05-08 15:56:34.589     0     0 I binder  : undelivered transaction 6855616, process died.
+05-08 15:56:34.590     0     0 I binder  : undelivered transaction 6857900, process died.
+05-08 15:56:34.615   549   574 D DisplayManagerService: Drop pending events for gone uid 10084
+05-08 15:56:34.635   549  2158 D CountryDetector: No listener is left
+05-08 15:56:34.643   549   574 D DisplayManagerService: Drop pending events for gone uid 10145
+05-08 15:56:34.652  1857  1883 W gle.android.gms: Reducing the number of considered missed Gc histogram windows from 287 to 100
+05-08 15:56:35.083   769   769 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-08 15:56:36.083   769   769 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-08 15:56:38.384   769   769 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-08 15:56:39.101   769   769 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-08 15:56:40.100   769   769 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-08 15:56:41.101   769   769 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-08 15:56:42.100   769   769 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-08 15:56:43.105   769   769 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-08 15:56:44.451     0     0 I logd    : logdr: UID=2000 GID=2000 PID=20863 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns

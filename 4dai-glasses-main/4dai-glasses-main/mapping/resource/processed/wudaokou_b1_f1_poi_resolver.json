@@ -1,0 +1,466 @@
+{
+  "schema_version": "poi_resolver.v0.1",
+  "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+  "source_graph": "wudaokou_b1_f1_app_nav_graph.json",
+  "items": [
+    {
+      "poi_id": "poi_b1_baozhu_102",
+      "name": "baozhu",
+      "floor_id": "B1",
+      "aliases": [
+        "baozhu",
+        "宝珠",
+        "宝珠奶酪"
+      ],
+      "route_node_id": "node_b1_baozhu_102_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_b1_coco_62",
+      "name": "coco",
+      "floor_id": "B1",
+      "aliases": [
+        "coco",
+        "CoCo",
+        "CoCo都可",
+        "都可",
+        "都可茶饮",
+        "keke",
+        "cocodouke"
+      ],
+      "route_node_id": "node_b1_coco_62_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_b1_dec_27",
+      "name": "dec",
+      "floor_id": "B1",
+      "aliases": [
+        "dec",
+        "DEC"
+      ],
+      "route_node_id": "node_b1_dec_27_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_b1_fudi_37",
+      "name": "fudi",
+      "floor_id": "B1",
+      "aliases": [
+        "fudi",
+        "fudi+",
+        "FUDI",
+        "FUDI+",
+        "fudi精选超市",
+        "FUDI精选超市",
+        "精选超市",
+        "超市",
+        "fudijxcs"
+      ],
+      "route_node_id": "node_b1_fudi_37_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_b1_jvewei_25",
+      "name": "jvewei",
+      "floor_id": "B1",
+      "aliases": [
+        "jvewei",
+        "juewei",
+        "jueweiyabo",
+        "绝味",
+        "绝味鸭脖",
+        "鸭脖"
+      ],
+      "route_node_id": "node_b1_jvewei_25_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_b1_lutaizong_45",
+      "name": "lutaizong",
+      "floor_id": "B1",
+      "aliases": [
+        "lutaizong",
+        "卤太宗",
+        "卤太宗大鸡腿饭",
+        "大鸡腿饭",
+        "lutai",
+        "ltz"
+      ],
+      "route_node_id": "node_b1_lutaizong_45_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_b1_qishier_28",
+      "name": "qishier",
+      "floor_id": "B1",
+      "aliases": [
+        "qishier",
+        "七十二",
+        "柒十二",
+        "七十二匠",
+        "柒十二匠",
+        "72",
+        "qse"
+      ],
+      "route_node_id": "node_b1_qishier_28_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_b1_ruixing_luckin_26",
+      "name": "ruixing(luckin)",
+      "floor_id": "B1",
+      "aliases": [
+        "ruixing(luckin)",
+        "ruixing",
+        "luckin",
+        "luckin coffee",
+        "瑞幸",
+        "瑞幸咖啡",
+        "咖啡",
+        "rxkf"
+      ],
+      "route_node_id": "node_b1_ruixing_luckin_26_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_b1_shengnuoyi_1",
+      "name": "shengnuoyi",
+      "floor_id": "B1",
+      "aliases": [
+        "shengnuoyi",
+        "圣诺伊",
+        "圣诺伊口腔",
+        "口腔",
+        "sny"
+      ],
+      "route_node_id": "node_b1_shengnuoyi_1_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_b1_shguopo_44",
+      "name": "shguopo",
+      "floor_id": "B1",
+      "aliases": [
+        "shaguopo",
+        "下饭菜",
+        "砂锅",
+        "砂锅婆",
+        "砂锅婆砂锅下饭菜"
+      ],
+      "route_node_id": "node_b1_shguopo_44_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_b1_shibiman_31",
+      "name": "shibiman",
+      "floor_id": "B1",
+      "aliases": [
+        "shibiman",
+        "诗碧曼",
+        "诗碧曼白发防脱发养发馆",
+        "养发馆"
+      ],
+      "route_node_id": "node_b1_shibiman_31_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_b1_wanmeishijie_22",
+      "name": "wanmeishijie",
+      "floor_id": "B1",
+      "aliases": [
+        "wanmeishijie",
+        "完美世界",
+        "完美世界影城",
+        "wmsj"
+      ],
+      "route_node_id": "node_b1_wanmeishijie_22_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_b1_wc_2222",
+      "name": "wc",
+      "floor_id": "B1",
+      "aliases": [
+        "wc",
+        "WC",
+        "TOILET",
+        "卫生间",
+        "洗手间",
+        "厕所",
+        "卫生间B1"
+      ],
+      "route_node_id": "node_poi_b1_wc_2222_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_b1_wuyutai_29",
+      "name": "wuyutai",
+      "floor_id": "B1",
+      "aliases": [
+        "wuyutai",
+        "吴裕泰",
+        "吴裕泰茶庄",
+        "茶庄",
+        "茶叶",
+        "wyt"
+      ],
+      "route_node_id": "node_b1_wuyutai_29_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_b1_xiecheng_33",
+      "name": "xiecheng",
+      "floor_id": "B1",
+      "aliases": [
+        "xiecheng",
+        "携程",
+        "携程旅游",
+        "携程旅游五道口门市部",
+        "旅游",
+        "xc"
+      ],
+      "route_node_id": "node_b1_xiecheng_33_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_b1_yimayila_24",
+      "name": "yimayila",
+      "floor_id": "B1",
+      "aliases": [
+        "yimayila",
+        "一麻一辣",
+        "一麻一辣麻辣香锅",
+        "一麻一辣五道口店",
+        "麻辣香锅",
+        "yimayilamalaxiangguo",
+        "ymal"
+      ],
+      "route_node_id": "node_b1_yimayila_24_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_b1_zhangruhuo_27",
+      "name": "zhangruhuo",
+      "floor_id": "B1",
+      "aliases": [
+        "zhangruhuo",
+        "张如火",
+        "张如火酸辣粉",
+        "酸辣粉",
+        "zrh"
+      ],
+      "route_node_id": "node_b1_zhangruhuo_27_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_b1_zigulu_47",
+      "name": "zigulu",
+      "floor_id": "B1",
+      "aliases": [
+        "zigulu",
+        "子固路",
+        "子固路拌粉",
+        "拌粉"
+      ],
+      "route_node_id": "node_b1_zigulu_47_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_f1_huashuo_6",
+      "name": "huashuo",
+      "floor_id": "F1",
+      "aliases": [
+        "huashuo",
+        "华硕",
+        "ASUS",
+        "asus",
+        "华硕电脑",
+        "华硕电脑售后",
+        "华硕数码配件",
+        "数码配件"
+      ],
+      "route_node_id": "node_f1_huashuo_6_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_f1_huawei_7",
+      "name": "huawei",
+      "floor_id": "F1",
+      "aliases": [
+        "huawei",
+        "华为",
+        "华为授权",
+        "华为授权体验店",
+        "华为手机",
+        "hw"
+      ],
+      "route_node_id": "node_f1_huawei_7_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_f1_jack_7",
+      "name": "jack",
+      "floor_id": "F1",
+      "aliases": [
+        "jack",
+        "JACK",
+        "jackjones",
+        "JACK&JONES",
+        "杰克琼斯"
+      ],
+      "route_node_id": "node_f1_jack_7_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_f1_lanxiong_103",
+      "name": "lanxiong",
+      "floor_id": "F1",
+      "aliases": [
+        "lanxiong",
+        "兰熊",
+        "兰熊鲜奶",
+        "鲜奶",
+        "lx"
+      ],
+      "route_node_id": "node_f1_lanxiong_103_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_f1_lianxiang_4",
+      "name": "lianxiang",
+      "floor_id": "F1",
+      "aliases": [
+        "lianxiang",
+        "联想",
+        "Lenovo",
+        "lenovo",
+        "联想百应",
+        "联想百应电脑维修销售",
+        "电脑维修",
+        "电脑销售",
+        "lx"
+      ],
+      "route_node_id": "node_f1_lianxiang_4_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_f1_maidanglao_0",
+      "name": "maidanglao",
+      "floor_id": "F1",
+      "aliases": [
+        "maidanglao",
+        "麦当劳",
+        "McDonald's",
+        "mcdonalds",
+        "M记",
+        "mcd"
+      ],
+      "route_node_id": "node_f1_maidanglao_0_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_f1_manner_coffee_3",
+      "name": "manner coffee",
+      "floor_id": "F1",
+      "aliases": [
+        "manner coffee",
+        "manner",
+        "Manner",
+        "Manner Coffee",
+        "MANNER COFFEE",
+        "咖啡"
+      ],
+      "route_node_id": "node_f1_manner_coffee_3_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_f1_nike_67",
+      "name": "nike",
+      "floor_id": "F1",
+      "aliases": [
+        "nike",
+        "NIKE",
+        "Nike",
+        "耐克",
+        "naike"
+      ],
+      "route_node_id": "node_f1_nike_67_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_f1_popmart_8",
+      "name": "popmart",
+      "floor_id": "F1",
+      "aliases": [
+        "popmart",
+        "POP MART",
+        "泡泡玛特",
+        "泡泡马特",
+        "盲盒",
+        "pop mart"
+      ],
+      "route_node_id": "node_f1_popmart_8_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_f1_starbuck_1",
+      "name": "starbuck",
+      "floor_id": "F1",
+      "aliases": [
+        "starbuck",
+        "starbucks",
+        "Starbucks",
+        "STARBUCKS",
+        "星巴克",
+        "星巴克咖啡",
+        "sbk"
+      ],
+      "route_node_id": "node_f1_starbuck_1_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_f1_xiaomi_13",
+      "name": "xiaomi",
+      "floor_id": "F1",
+      "aliases": [
+        "xiaomi",
+        "小米",
+        "小米之家",
+        "小米手机",
+        "mi"
+      ],
+      "route_node_id": "node_f1_xiaomi_13_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_f1_zhongguohuangjin_5",
+      "name": "zhongguohuangjin",
+      "floor_id": "F1",
+      "aliases": [
+        "zhongguohuangjin",
+        "中国黄金",
+        "黄金",
+        "zg hj",
+        "zghj"
+      ],
+      "route_node_id": "node_f1_zhongguohuangjin_5_access",
+      "match_policy": "manual_label_alias"
+    },
+    {
+      "poi_id": "poi_f1_zhoudafu_2",
+      "name": "zhoudafu",
+      "floor_id": "F1",
+      "aliases": [
+        "zhoudafu",
+        "周大福",
+        "Chow Tai Fook",
+        "chow tai fook",
+        "ctf",
+        "zdf"
+      ],
+      "route_node_id": "node_f1_zhoudafu_2_access",
+      "match_policy": "manual_label_alias"
+    }
+  ]
+}

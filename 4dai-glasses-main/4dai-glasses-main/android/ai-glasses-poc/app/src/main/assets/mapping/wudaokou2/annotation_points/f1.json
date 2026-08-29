@@ -1,0 +1,1102 @@
+{
+  "version": "6.1.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "xiaomi",
+      "points": [
+        [
+          1030.5263157894735,
+          1976.3157894736842
+        ]
+      ],
+      "group_id": 13,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "xiaomi",
+        "小米",
+        "小米之家",
+        "Xiaomi",
+        "MI",
+        "xm"
+      ]
+    },
+    {
+      "label": "maidanglao",
+      "points": [
+        [
+          1093.6842105263156,
+          2307.894736842105
+        ]
+      ],
+      "group_id": 0,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "maidanglao",
+        "麦当劳",
+        "McDonald's",
+        "McDonalds",
+        "mdl"
+      ]
+    },
+    {
+      "label": "zhoudafu",
+      "points": [
+        [
+          993.6842105263156,
+          1750.0
+        ]
+      ],
+      "group_id": 2,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "zhoudafu",
+        "周大福",
+        "Chow Tai Fook",
+        "zdf"
+      ]
+    },
+    {
+      "label": "manner coffee",
+      "points": [
+        [
+          1109.4736842105265,
+          1134.2105263157896
+        ]
+      ],
+      "group_id": 3,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "manner coffee",
+        "manner",
+        "Manner",
+        "Manner Coffee",
+        "Manner咖啡",
+        "曼纳咖啡"
+      ]
+    },
+    {
+      "label": "lanxiong",
+      "points": [
+        [
+          1125.2631578947369,
+          1034.2105263157896
+        ]
+      ],
+      "group_id": 103,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "lanxiong",
+        "兰熊",
+        "蓝熊",
+        "lx"
+      ]
+    },
+    {
+      "label": "huawei",
+      "points": [
+        [
+          667.3684210526314,
+          876.3157894736843
+        ]
+      ],
+      "group_id": 7,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "huawei",
+        "华为",
+        "Huawei",
+        "华为体验店",
+        "hw"
+      ]
+    },
+    {
+      "label": "starbuck",
+      "points": [
+        [
+          530.5263157894735,
+          871.0526315789474
+        ]
+      ],
+      "group_id": 1,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "starbuck",
+        "starbucks",
+        "Starbucks",
+        "星巴克",
+        "星巴克咖啡",
+        "sbk"
+      ]
+    },
+    {
+      "label": "zhongguohuangjin",
+      "points": [
+        [
+          720.0000000000002,
+          1281.578947368421
+        ]
+      ],
+      "group_id": 5,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "zhongguohuangjin",
+        "中国黄金",
+        "zghj"
+      ]
+    },
+    {
+      "label": "huashuo",
+      "points": [
+        [
+          467.36842105263145,
+          1971.0526315789473
+        ]
+      ],
+      "group_id": 6,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "huashuo",
+        "华硕",
+        "ASUS",
+        "hs"
+      ]
+    },
+    {
+      "label": "popmart",
+      "points": [
+        [
+          509.47368421052647,
+          1239.4736842105262
+        ]
+      ],
+      "group_id": 129,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "popmart",
+        "POPMART",
+        "POP MART",
+        "泡泡玛特",
+        "ppmt"
+      ]
+    },
+    {
+      "label": "nike",
+      "points": [
+        [
+          977.8947368421052,
+          1439.4736842105262
+        ]
+      ],
+      "group_id": 67,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "nike",
+        "Nike",
+        "NIKE",
+        "耐克"
+      ]
+    },
+    {
+      "label": "NG",
+      "points": [
+        [
+          796.6666666666666,
+          743.3333333333333
+        ]
+      ],
+      "group_id": 6666,
+      "description": "需确认翻译（疑似北门 North Gate）",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "NG",
+        "ng",
+        "北门",
+        "North Gate",
+        "北入口"
+      ]
+    },
+    {
+      "label": "EG",
+      "points": [
+        [
+          1216.6666666666665,
+          1646.6666666666667
+        ]
+      ],
+      "group_id": 3333,
+      "description": "需确认翻译（疑似东门 East Gate）",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "EG",
+        "eg",
+        "东门",
+        "East Gate",
+        "东入口"
+      ]
+    },
+    {
+      "label": "WG",
+      "points": [
+        [
+          370.0000000000001,
+          2083.3333333333335
+        ]
+      ],
+      "group_id": 5555,
+      "description": "需确认翻译（疑似西门 West Gate）",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "WG",
+        "wg",
+        "西门",
+        "West Gate",
+        "西入口"
+      ]
+    },
+    {
+      "label": "escalator_down_to",
+      "points": [
+        [
+          819.9999999999999,
+          1204.6296296296296
+        ]
+      ],
+      "group_id": 112,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_down_to",
+        "下行扶梯入口",
+        "扶梯下行",
+        "扶梯下到",
+        "下扶梯入口"
+      ]
+    },
+    {
+      "label": "escalator_up_from",
+      "points": [
+        [
+          805.1851851851851,
+          1787.9629629629626
+        ]
+      ],
+      "group_id": 113,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ]
+    },
+    {
+      "label": "step",
+      "points": [
+        [
+          977.4074074074073,
+          2304.6296296296296
+        ]
+      ],
+      "group_id": 11117,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ]
+    },
+    {
+      "label": "elevator",
+      "points": [
+        [
+          538.5185185185185,
+          2362.037037037037
+        ]
+      ],
+      "group_id": 1112,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ]
+    },
+    {
+      "label": "elevator",
+      "points": [
+        [
+          564.4444444444445,
+          1669.4444444444443
+        ]
+      ],
+      "group_id": 1113,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ]
+    },
+    {
+      "label": "elevator",
+      "points": [
+        [
+          1170.0,
+          2228.7037037037035
+        ]
+      ],
+      "group_id": 1114,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ]
+    },
+    {
+      "label": "step",
+      "points": [
+        [
+          573.7037037037037,
+          2439.814814814815
+        ]
+      ],
+      "group_id": 11114,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ]
+    },
+    {
+      "label": "step",
+      "points": [
+        [
+          558.8888888888888,
+          1728.7037037037035
+        ]
+      ],
+      "group_id": 11115,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ]
+    },
+    {
+      "label": "elevator",
+      "points": [
+        [
+          1188.5185185185185,
+          1343.5185185185185
+        ]
+      ],
+      "group_id": 1115,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ]
+    },
+    {
+      "label": "step",
+      "points": [
+        [
+          560.7407407407406,
+          1517.5925925925924
+        ]
+      ],
+      "group_id": 11116,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ]
+    },
+    {
+      "label": "step",
+      "points": [
+        [
+          1027.4074074074074,
+          1010.185185185185
+        ]
+      ],
+      "group_id": 11117,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ]
+    },
+    {
+      "label": "elevator",
+      "points": [
+        [
+          897.7777777777777,
+          860.185185185185
+        ]
+      ],
+      "group_id": 1111,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ]
+    },
+    {
+      "label": "step",
+      "points": [
+        [
+          564.4444444444445,
+          1004.6296296296296
+        ]
+      ],
+      "group_id": 11112,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ]
+    },
+    {
+      "label": "elevator",
+      "points": [
+        [
+          568.1481481481482,
+          1104.6296296296296
+        ]
+      ],
+      "group_id": 1116,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "elevator",
+        "电梯",
+        "直梯",
+        "升降梯",
+        "dianti"
+      ]
+    },
+    {
+      "label": "cdgplay",
+      "points": [
+        [
+          872.6315789473686,
+          913.1578947368421
+        ]
+      ],
+      "group_id": 66,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "cdgplay",
+        "CDG Play",
+        "CDGPLAY",
+        "Comme des Garcons Play",
+        "cdg"
+      ]
+    },
+    {
+      "label": "ieabeauty",
+      "points": [
+        [
+          709.4736842105265,
+          992.1052631578948
+        ]
+      ],
+      "group_id": 71,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "ieabeauty",
+        "IEA Beauty",
+        "IEABEAUTY",
+        "iea"
+      ]
+    },
+    {
+      "label": "jiroumayi",
+      "points": [
+        [
+          872.6315789473686,
+          997.3684210526317
+        ]
+      ],
+      "group_id": 8,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "jiroumayi",
+        "肌肉蚂蚁",
+        "jrmy"
+      ]
+    },
+    {
+      "label": "mgg",
+      "points": [
+        [
+          862.5,
+          1085.0
+        ]
+      ],
+      "group_id": 125,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "mgg",
+        "MGG"
+      ]
+    },
+    {
+      "label": "only",
+      "points": [
+        [
+          917.5,
+          1147.5
+        ]
+      ],
+      "group_id": 124,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "only",
+        "ONLY",
+        "Only"
+      ]
+    },
+    {
+      "label": "bawangchaji",
+      "points": [
+        [
+          922.5,
+          1235.0
+        ]
+      ],
+      "group_id": 72,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "bawangchaji",
+        "霸王茶姬",
+        "CHAGEE",
+        "bwcj"
+      ]
+    },
+    {
+      "label": "zhouliufu",
+      "points": [
+        [
+          820.0,
+          1345.0
+        ]
+      ],
+      "group_id": 73,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "zhouliufu",
+        "周六福",
+        "zlf"
+      ]
+    },
+    {
+      "label": "chaohongji",
+      "points": [
+        [
+          932.5,
+          1560.0
+        ]
+      ],
+      "group_id": 123,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "chaohongji",
+        "潮宏基",
+        "CHJ",
+        "chj"
+      ]
+    },
+    {
+      "label": "yuanmaishanqiu",
+      "points": [
+        [
+          1092.5,
+          1567.5
+        ]
+      ],
+      "group_id": 75,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "yuanmaishanqiu",
+        "原麦山丘",
+        "ymsq"
+      ]
+    },
+    {
+      "label": "uniqlo",
+      "points": [
+        [
+          822.5,
+          2182.5
+        ]
+      ],
+      "group_id": 76,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "uniqlo",
+        "UNIQLO",
+        "Uniqlo",
+        "优衣库"
+      ]
+    },
+    {
+      "label": "uniqlo",
+      "points": [
+        [
+          665.0,
+          2177.5
+        ]
+      ],
+      "group_id": 76,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "uniqlo",
+        "UNIQLO",
+        "Uniqlo",
+        "优衣库"
+      ]
+    },
+    {
+      "label": "jack",
+      "points": [
+        [
+          650.0,
+          2000.0
+        ]
+      ],
+      "group_id": 122,
+      "description": "需确认翻译（疑似 Jack & Jones 杰克琼斯）",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "jack",
+        "Jack",
+        "Jack&Jones",
+        "Jack & Jones",
+        "杰克琼斯"
+      ]
+    },
+    {
+      "label": "wdkcoffee",
+      "points": [
+        [
+          502.5,
+          2162.5
+        ]
+      ],
+      "group_id": 16,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "wdkcoffee",
+        "WDK Coffee",
+        "WDKcoffee",
+        "WDK咖啡",
+        "wdk"
+      ]
+    },
+    {
+      "label": "laofengxiang",
+      "points": [
+        [
+          942.5,
+          1860.0
+        ]
+      ],
+      "group_id": 56,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "laofengxiang",
+        "老凤祥",
+        "lfx"
+      ]
+    },
+    {
+      "label": "noisyteddy",
+      "points": [
+        [
+          662.5,
+          1860.0
+        ]
+      ],
+      "group_id": 57,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "noisyteddy",
+        "Noisy Teddy",
+        "NoisyTeddy",
+        "嘈杂小熊"
+      ]
+    },
+    {
+      "label": "huanyingxingkong",
+      "points": [
+        [
+          665.0,
+          1770.0
+        ]
+      ],
+      "group_id": 58,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "huanyingxingkong",
+        "幻影星空",
+        "hyxk"
+      ]
+    },
+    {
+      "label": "adidas",
+      "points": [
+        [
+          665.0,
+          1650.0
+        ]
+      ],
+      "group_id": 59,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "adidas",
+        "Adidas",
+        "ADIDAS",
+        "阿迪达斯",
+        "adi"
+      ]
+    },
+    {
+      "label": "dreamroom",
+      "points": [
+        [
+          610.0,
+          1432.5
+        ]
+      ],
+      "group_id": 78,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "dreamroom",
+        "Dream Room",
+        "DreamRoom",
+        "梦想之屋"
+      ]
+    },
+    {
+      "label": "wowbeauty",
+      "points": [
+        [
+          615.0,
+          1340.0
+        ]
+      ],
+      "group_id": 77,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "wowbeauty",
+        "Wow Beauty",
+        "WowBeauty"
+      ]
+    },
+    {
+      "label": "lianxiang(thinkpad)",
+      "points": [
+        [
+          660.0,
+          1142.5
+        ]
+      ],
+      "group_id": 128,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "lianxiang(thinkpad)",
+        "lianxiang",
+        "thinkpad",
+        "联想",
+        "联想ThinkPad",
+        "ThinkPad",
+        "lx"
+      ]
+    },
+    {
+      "label": "lano",
+      "points": [
+        [
+          700.0,
+          1090.0
+        ]
+      ],
+      "group_id": 127,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "lano",
+        "LANO",
+        "Lano",
+        "兰诺"
+      ]
+    },
+    {
+      "label": "escalator_up_to",
+      "points": [
+        [
+          820.0,
+          1307.5
+        ]
+      ],
+      "group_id": 112,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_up_to",
+        "上行扶梯入口",
+        "扶梯上行",
+        "扶梯上到",
+        "上扶梯入口"
+      ]
+    },
+    {
+      "label": "escalator_down_from",
+      "points": [
+        [
+          827.5,
+          1307.5
+        ]
+      ],
+      "group_id": 112,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_down_from",
+        "下行扶梯出口",
+        "扶梯下来",
+        "下扶梯出口"
+      ]
+    },
+    {
+      "label": "escalator_down_from",
+      "points": [
+        [
+          815.0,
+          1840.0
+        ]
+      ],
+      "group_id": 113,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_down_from",
+        "下行扶梯出口",
+        "扶梯下来",
+        "下扶梯出口"
+      ]
+    },
+    {
+      "label": "escalator_up_to",
+      "points": [
+        [
+          800.0,
+          1765.0
+        ]
+      ],
+      "group_id": 113,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_up_to",
+        "上行扶梯入口",
+        "扶梯上行",
+        "扶梯上到",
+        "上扶梯入口"
+      ]
+    },
+    {
+      "label": "escalator_up_from",
+      "points": [
+        [
+          795.0,
+          1837.5
+        ]
+      ],
+      "group_id": 113,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ]
+    }
+  ],
+  "imagePath": "f1.jpg",
+  "imageData": null,
+  "imageHeight": 3200,
+  "imageWidth": 1440
+}

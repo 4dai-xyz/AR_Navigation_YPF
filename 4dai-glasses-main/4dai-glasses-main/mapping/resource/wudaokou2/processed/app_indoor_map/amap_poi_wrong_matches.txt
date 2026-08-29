@@ -1,0 +1,241 @@
+五道口购物中心 wudaokou2 高德错误/待人工处理店铺清单
+
+来源: mapping/resource/wudaokou2/processed/app_indoor_map/amap_poi_match_review.csv
+筛选条件: manual_review_required=true
+数量: 38
+说明: 这些行的高德候选结果经人工判断基本为错误，不应直接回填 amap_poi_id；后续需要按 indoor-only POI 处理，或人工在高德中重新确认正确店铺 POI。
+
+[B1]
+1. 爱炒酸奶 (aichaosuannai)
+   poi_id: poi_b1_aichaosuannai_121
+   错误/待确认高德候选: 茉酸奶(五道口购物中心店)
+   高德 POI ID: B0JDZCCMG2
+   状态: candidate_at_venue_needs_review
+
+2. 包煮 (baozhu)
+   poi_id: poi_b1_baozhu_102
+   错误/待确认高德候选: VERO MODA(五道口购物中心店)
+   高德 POI ID: B0HKLUW5NJ
+   状态: candidate_at_venue_needs_review
+
+3. 布璃琳 (bulilin)
+   poi_id: poi_b1_bulilin_904
+   错误/待确认高德候选: 布景(五道口购物中心店)
+   高德 POI ID: B000AA9XDH
+   状态: candidate_at_venue_needs_review
+
+4. 串士多 (chuanshiduo)
+   poi_id: poi_b1_chuanshiduo_25
+   错误/待确认高德候选: 咏巷炸鸡(五道口购物中心店)
+   高德 POI ID: B0KUAUDBZ0
+   状态: candidate_at_venue_needs_review
+
+5. dec (dec)
+   poi_id: poi_b1_dec_27
+   错误/待确认高德候选: 五道口购物中心地下停车场
+   高德 POI ID: B0G0T9FPP7
+   状态: candidate_at_venue_needs_review
+
+6. 樊文花 (fanwenhua)
+   poi_id: poi_b1_fanwenhua_30
+   错误/待确认高德候选: Manner Coffee(五道口购物中心店)
+   高德 POI ID: B0H3PR3KMT
+   状态: candidate_at_venue_needs_review
+
+7. 理发店 (haircamp)
+   poi_id: poi_b1_haircamp_35
+   错误/待确认高德候选: 诗碧曼白发防脱发养发馆(五道口购物中心店)
+   高德 POI ID: B0JRTKVLCQ
+   状态: candidate_at_venue_needs_review
+
+8. 夹拣盛 (jiajiancheng)
+   poi_id: poi_b1_jiajiancheng_914
+   错误/待确认高德候选: 完美世界影城(五道口购物中心店)
+   高德 POI ID: B0J3SU0TTZ
+   状态: candidate_at_venue_needs_review
+
+9. 加一冰 (jiayibing)
+   poi_id: poi_b1_jiayibing_915
+   错误/待确认高德候选: 优衣库(五道口购物中心店)
+   高德 POI ID: B0LA7UVBER
+   状态: candidate_at_venue_needs_review
+
+10. 七度银饰 (qiduyinshi)
+   poi_id: poi_b1_qiduyinshi_902
+   错误/待确认高德候选: Manner Coffee(五道口购物中心店)
+   高德 POI ID: B0H3PR3KMT
+   状态: candidate_at_venue_needs_review
+
+11. 一品焖锅 (yipinmenguo)
+   poi_id: poi_b1_yipinmenguo_23
+   错误/待确认高德候选: WOWCOLOUR(五道口购物中心店)
+   高德 POI ID: B0K0GS4Y5Y
+   状态: candidate_at_venue_needs_review
+
+12. 紫谷庐 (zigulu)
+   poi_id: poi_b1_zigulu_47
+   错误/待确认高德候选: 完美世界影城(五道口购物中心店)
+   高德 POI ID: B0J3SU0TTZ
+   状态: candidate_at_venue_needs_review
+
+[F1]
+13. 阿迪达斯 (adidas)
+   poi_id: poi_f1_adidas_59
+   错误/待确认高德候选: 阿迪达斯(五道口店)
+   高德 POI ID: B0LK9HAMMT
+   状态: candidate_needs_review
+
+14. 霸王茶姬 (bawangchaji)
+   poi_id: poi_f1_bawangchaji_72
+   错误/待确认高德候选: Manner Coffee(五道口购物中心店)
+   高德 POI ID: B0H3PR3KMT
+   状态: candidate_at_venue_needs_review
+
+15. 梦想之屋 (dreamroom)
+   poi_id: poi_f1_dreamroom_78
+   错误/待确认高德候选: Manner Coffee(五道口购物中心店)
+   高德 POI ID: B0H3PR3KMT
+   状态: candidate_at_venue_needs_review
+
+16. 幻影星空 (huanyingxingkong)
+   poi_id: poi_f1_huanyingxingkong_58
+   错误/待确认高德候选: 完美世界影城(五道口购物中心店)
+   高德 POI ID: B0J3SU0TTZ
+   状态: candidate_at_venue_needs_review
+
+17. ieabeauty (ieabeauty)
+   poi_id: poi_f1_ieabeauty_71
+   错误/待确认高德候选: BEAUTY STARSKY(五道口购物中心店)
+   高德 POI ID: B0KANU1QOO
+   状态: candidate_at_venue_needs_review
+
+18. 肌肉蚂蚁 (jiroumayi)
+   poi_id: poi_f1_jiroumayi_8
+   错误/待确认高德候选: 茉酸奶(五道口购物中心店)
+   高德 POI ID: B0JDZCCMG2
+   状态: candidate_at_venue_needs_review
+
+19. 老凤祥 (laofengxiang)
+   poi_id: poi_f1_laofengxiang_56
+   错误/待确认高德候选: 老凤祥(领展购物中心店)
+   高德 POI ID: B0K675DQAQ
+   状态: candidate_needs_review
+
+20. only (only)
+   poi_id: poi_f1_only_124
+   错误/待确认高德候选: Only Flowers只和花(中关村店)
+   高德 POI ID: B0KB5MB468
+   状态: candidate_needs_review
+
+21. 周六福 (zhouliufu)
+   poi_id: poi_f1_zhouliufu_73
+   错误/待确认高德候选: Manner Coffee(五道口购物中心店)
+   高德 POI ID: B0H3PR3KMT
+   状态: candidate_at_venue_needs_review
+
+[F2]
+22. 杰胜基 (jieshengji)
+   poi_id: poi_f2_jieshengji_63
+   错误/待确认高德候选: 潮宏基(五道口购物中心店)
+   高德 POI ID: B0J2L7ZJ65
+   状态: candidate_at_venue_needs_review
+
+23. 爱可可 (lovetococo)
+   poi_id: poi_f2_lovetococo_62
+   错误/待确认高德候选: 紫涵(五道口购物中心店)
+   高德 POI ID: B0H1SCK9WX
+   状态: candidate_at_venue_needs_review
+
+24. VELWIN (velwin)
+   poi_id: poi_f2_velwin_923
+   错误/待确认高德候选: RENKOMAY(五道口购物中心店)
+   高德 POI ID: B0K3UNT5G5
+   状态: candidate_at_venue_needs_review
+
+25. 植物医生 (zhiwuyisheng)
+   poi_id: poi_f2_zhiwuyisheng_922
+   错误/待确认高德候选: Manner Coffee(五道口购物中心店)
+   高德 POI ID: B0H3PR3KMT
+   状态: candidate_at_venue_needs_review
+
+[F3]
+26. 嘉贝乐 (jiabeile)
+   poi_id: poi_f3_jiabeile_961
+   错误/待确认高德候选: 西贝(五道口购物中心店)
+   高德 POI ID: B0FFGZQ7LZ
+   状态: candidate_at_venue_needs_review
+
+27. 嘉吉小站 (jiajixiaozhan)
+   poi_id: poi_f3_jiajixiaozhan_17
+   错误/待确认高德候选: Manner Coffee(五道口购物中心店)
+   高德 POI ID: B0H3PR3KMT
+   状态: candidate_at_venue_needs_review
+
+28. 卡玛 (kama)
+   poi_id: poi_f3_kama_953
+   错误/待确认高德候选: KAMA CLASSICS(西单购物中心北京店)
+   高德 POI ID: B0FFK1XZD3
+   状态: candidate_needs_review
+
+29. 煮茶 (zhucha)
+   poi_id: poi_f3_zhucha_952
+   错误/待确认高德候选: 煮叶(五道口购物中心店)
+   高德 POI ID: B0LGDUDZP2
+   状态: candidate_at_venue_needs_review
+
+[F4]
+30. 优创 (youchang)
+   poi_id: poi_f4_youchang_21
+   错误/待确认高德候选: Manner Coffee(五道口购物中心店)
+   高德 POI ID: B0H3PR3KMT
+   状态: candidate_at_venue_needs_review
+
+[F5]
+31. 宝珠奶酪 (baozhunailao)
+   poi_id: poi_f5_baozhunailao_102
+   错误/待确认高德候选: Manner Coffee(五道口购物中心店)
+   高德 POI ID: B0H3PR3KMT
+   状态: candidate_at_venue_needs_review
+
+32. 糊锅屋 (huguowu)
+   poi_id: poi_f5_huguowu_108
+   错误/待确认高德候选: 台巷里·台湾菜(五道口购物中心店)
+   高德 POI ID: B0IU9SUCH0
+   状态: candidate_at_venue_needs_review
+
+33. 火炉 (huolu)
+   poi_id: poi_f5_huolu_933
+   错误/待确认高德候选: 台巷里·台湾菜(五道口购物中心店)
+   高德 POI ID: B0IU9SUCH0
+   状态: candidate_at_venue_needs_review
+
+34. 香山亭 (xiangshanting)
+   poi_id: poi_f5_xiangshanting_104
+   错误/待确认高德候选: CDG PLAY(五道口购物中心店)
+   高德 POI ID: B0J2FU5HP1
+   状态: candidate_at_venue_needs_review
+
+35. 新炸新派 (xinzhaxinpai)
+   poi_id: poi_f5_xinzhaxinpai_23
+   错误/待确认高德候选: 茉酸奶(五道口购物中心店)
+   高德 POI ID: B0JDZCCMG2
+   状态: candidate_at_venue_needs_review
+
+[F6]
+36. 刀小 (daoxiao)
+   poi_id: poi_f6_daoxiao_940
+   错误/待确认高德候选: CDG PLAY(五道口购物中心店)
+   高德 POI ID: B0J2FU5HP1
+   状态: candidate_at_venue_needs_review
+
+37. 龙人居 (longrenjv)
+   poi_id: poi_f6_longrenjv_112
+   错误/待确认高德候选: Manner Coffee(五道口购物中心店)
+   高德 POI ID: B0H3PR3KMT
+   状态: candidate_at_venue_needs_review
+
+38. 全茂 (quanmao)
+   poi_id: poi_f6_quanmao_114
+   错误/待确认高德候选: 五道口购物中心地下停车场
+   高德 POI ID: B0G0T9FPP7
+   状态: candidate_at_venue_needs_review

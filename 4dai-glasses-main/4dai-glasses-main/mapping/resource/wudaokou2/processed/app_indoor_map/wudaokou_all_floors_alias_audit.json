@@ -1,0 +1,1033 @@
+{
+  "schema_version": "mapping_alias_audit.v0.1",
+  "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+  "items": [
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_b1_baozhu_102",
+      "name": "baozhu",
+      "alias": "bz"
+    },
+    {
+      "severity": "warning",
+      "code": "alias_missing_chinese_search_term",
+      "poi_id": "poi_b1_dec_27",
+      "name": "dec",
+      "aliases": [
+        "dec",
+        "DEC"
+      ]
+    },
+    {
+      "severity": "info",
+      "code": "alias_count_low",
+      "poi_id": "poi_b1_dec_27",
+      "name": "dec",
+      "alias_count": 2
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_b1_fudi_37",
+      "name": "fudi",
+      "alias": "fd"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_b1_kuafukuafood_119",
+      "name": "kuafukuafood",
+      "alias": "kf"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_b1_ruixing_luckin_26",
+      "name": "ruixing(luckin)",
+      "alias": "rx"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_b1_ruixing_luckin_26",
+      "name": "ruixing(luckin)",
+      "alias": "lx"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_b1_wc_2222",
+      "name": "wc",
+      "alias": "WC"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_b1_xiechenglvyou_33",
+      "name": "xiechenglvyou",
+      "alias": "xc"
+    },
+    {
+      "severity": "info",
+      "code": "english_only_brand_without_chinese_alias",
+      "poi_id": "poi_f1_cdgplay_66",
+      "name": "cdgplay",
+      "aliases": [
+        "cdgplay",
+        "CDG Play",
+        "CDGPLAY",
+        "Comme des Garcons Play",
+        "cdg"
+      ]
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f1_huashuo_6",
+      "name": "huashuo",
+      "alias": "hs"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f1_huawei_7",
+      "name": "huawei",
+      "alias": "hw"
+    },
+    {
+      "severity": "warning",
+      "code": "alias_missing_chinese_search_term",
+      "poi_id": "poi_f1_ieabeauty_71",
+      "name": "ieabeauty",
+      "aliases": [
+        "ieabeauty",
+        "IEA Beauty",
+        "IEABEAUTY",
+        "iea"
+      ]
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f1_lanxiong_103",
+      "name": "lanxiong",
+      "alias": "lx"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f1_lianxiang_thinkpad_128",
+      "name": "lianxiang(thinkpad)",
+      "alias": "lx"
+    },
+    {
+      "severity": "warning",
+      "code": "alias_missing_chinese_search_term",
+      "poi_id": "poi_f1_mgg_125",
+      "name": "mgg",
+      "aliases": [
+        "mgg",
+        "MGG"
+      ]
+    },
+    {
+      "severity": "info",
+      "code": "alias_count_low",
+      "poi_id": "poi_f1_mgg_125",
+      "name": "mgg",
+      "alias_count": 2
+    },
+    {
+      "severity": "warning",
+      "code": "alias_missing_chinese_search_term",
+      "poi_id": "poi_f1_only_124",
+      "name": "only",
+      "aliases": [
+        "only",
+        "ONLY",
+        "Only"
+      ]
+    },
+    {
+      "severity": "warning",
+      "code": "alias_missing_chinese_search_term",
+      "poi_id": "poi_f1_wowbeauty_77",
+      "name": "wowbeauty",
+      "aliases": [
+        "wowbeauty",
+        "Wow Beauty",
+        "WowBeauty"
+      ]
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f1_xiaomi_13",
+      "name": "xiaomi",
+      "alias": "MI"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f1_xiaomi_13",
+      "name": "xiaomi",
+      "alias": "xm"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f2_guya_12",
+      "name": "guya",
+      "alias": "gy"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f2_kisscat_13",
+      "name": "kisscat",
+      "alias": "kc"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f2_mofan_920",
+      "name": "mofan",
+      "alias": "mf"
+    },
+    {
+      "severity": "info",
+      "code": "english_only_brand_without_chinese_alias",
+      "poi_id": "poi_f2_tata_70",
+      "name": "tata",
+      "aliases": [
+        "tata",
+        "TATA",
+        "Tata",
+        "TaTa"
+      ]
+    },
+    {
+      "severity": "info",
+      "code": "english_only_brand_without_chinese_alias",
+      "poi_id": "poi_f2_velwin_923",
+      "name": "velwin",
+      "aliases": [
+        "velwin",
+        "VELWIN",
+        "Velwin"
+      ]
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f2_wc_2224",
+      "name": "wc",
+      "alias": "WC"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f2_wc_2225",
+      "name": "wc",
+      "alias": "WC"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f2_zihan_11",
+      "name": "zihan",
+      "alias": "zh"
+    },
+    {
+      "severity": "info",
+      "code": "english_only_brand_without_chinese_alias",
+      "poi_id": "poi_f3_6ixty_17",
+      "name": "6ixty",
+      "aliases": [
+        "6ixty",
+        "6IXTY",
+        "6IXTY8IGHT",
+        "6ixty8ight",
+        "60+80",
+        "6IXTY 8IGTY",
+        "6IXTY 8IGHT"
+      ]
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f3_kule_15",
+      "name": "kule",
+      "alias": "kl"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f3_mingchuang_14",
+      "name": "mingchuang",
+      "alias": "mc"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f3_refeng_950",
+      "name": "refeng",
+      "alias": "rf"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f3_wc_2226",
+      "name": "wc",
+      "alias": "WC"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f3_wc_2227",
+      "name": "wc",
+      "alias": "WC"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f3_zhucha_952",
+      "name": "zhucha",
+      "alias": "zc"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f4_bujing_90",
+      "name": "bujing",
+      "alias": "bj"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f4_kuxiu_86",
+      "name": "kuxiu",
+      "alias": "kx"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f4_wc_2228",
+      "name": "wc",
+      "alias": "WC"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f4_wc_2229",
+      "name": "wc",
+      "alias": "WC"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f4_wc_2230",
+      "name": "wc",
+      "alias": "WC"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f4_youchang_21",
+      "name": "youchang",
+      "alias": "yc"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f5_huolu_933",
+      "name": "huolu",
+      "alias": "hl"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f5_lanxiong_103",
+      "name": "lanxiong",
+      "alias": "lx"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f5_micun_17",
+      "name": "micun",
+      "alias": "mc"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f5_wc_2231",
+      "name": "wc",
+      "alias": "WC"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f5_wc_2232",
+      "name": "wc",
+      "alias": "WC"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f5_xiantan_931",
+      "name": "xiantan",
+      "alias": "xt"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f5_xibei_81",
+      "name": "xibei",
+      "alias": "xb"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f5_zhengxian_101",
+      "name": "zhengxian",
+      "alias": "zx"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f5_zuimian_107",
+      "name": "zuimian",
+      "alias": "zm"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f6_daoxiao_940",
+      "name": "daoxiao",
+      "alias": "dx"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f6_jvqi_24",
+      "name": "jvqi",
+      "alias": "jq"
+    },
+    {
+      "severity": "info",
+      "code": "short_ascii_alias_may_be_ambiguous",
+      "poi_id": "poi_f6_quanmao_114",
+      "name": "quanmao",
+      "alias": "qm"
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_normalized_alias",
+      "normalized_alias": "lanxiong",
+      "owners": [
+        {
+          "poi_id": "poi_f1_lanxiong_103",
+          "name": "lanxiong",
+          "floor_id": "F1",
+          "alias": "lanxiong"
+        },
+        {
+          "poi_id": "poi_f5_lanxiong_103",
+          "name": "lanxiong",
+          "floor_id": "F5",
+          "alias": "lanxiong"
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_normalized_alias",
+      "normalized_alias": "lx",
+      "owners": [
+        {
+          "poi_id": "poi_b1_ruixing_luckin_26",
+          "name": "ruixing(luckin)",
+          "floor_id": "B1",
+          "alias": "lx"
+        },
+        {
+          "poi_id": "poi_f1_lanxiong_103",
+          "name": "lanxiong",
+          "floor_id": "F1",
+          "alias": "lx"
+        },
+        {
+          "poi_id": "poi_f1_lianxiang_thinkpad_128",
+          "name": "lianxiang(thinkpad)",
+          "floor_id": "F1",
+          "alias": "lx"
+        },
+        {
+          "poi_id": "poi_f5_lanxiong_103",
+          "name": "lanxiong",
+          "floor_id": "F5",
+          "alias": "lx"
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_normalized_alias",
+      "normalized_alias": "mc",
+      "owners": [
+        {
+          "poi_id": "poi_f3_mingchuang_14",
+          "name": "mingchuang",
+          "floor_id": "F3",
+          "alias": "mc"
+        },
+        {
+          "poi_id": "poi_f5_micun_17",
+          "name": "micun",
+          "floor_id": "F5",
+          "alias": "mc"
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_normalized_alias",
+      "normalized_alias": "nike",
+      "owners": [
+        {
+          "poi_id": "poi_f1_nike_67",
+          "name": "nike",
+          "floor_id": "F1",
+          "alias": "nike"
+        },
+        {
+          "poi_id": "poi_f1_nike_67",
+          "name": "nike",
+          "floor_id": "F1",
+          "alias": "Nike"
+        },
+        {
+          "poi_id": "poi_f1_nike_67",
+          "name": "nike",
+          "floor_id": "F1",
+          "alias": "NIKE"
+        },
+        {
+          "poi_id": "poi_f2_nike_67",
+          "name": "nike",
+          "floor_id": "F2",
+          "alias": "nike"
+        },
+        {
+          "poi_id": "poi_f2_nike_67",
+          "name": "nike",
+          "floor_id": "F2",
+          "alias": "Nike"
+        },
+        {
+          "poi_id": "poi_f2_nike_67",
+          "name": "nike",
+          "floor_id": "F2",
+          "alias": "NIKE"
+        }
+      ]
+    },
+    {
+      "severity": "info",
+      "code": "duplicate_normalized_alias",
+      "normalized_alias": "toilet",
+      "owners": [
+        {
+          "poi_id": "poi_b1_wc_2222",
+          "name": "wc",
+          "floor_id": "B1",
+          "alias": "toilet"
+        },
+        {
+          "poi_id": "poi_f2_wc_2224",
+          "name": "wc",
+          "floor_id": "F2",
+          "alias": "toilet"
+        },
+        {
+          "poi_id": "poi_f2_wc_2225",
+          "name": "wc",
+          "floor_id": "F2",
+          "alias": "toilet"
+        },
+        {
+          "poi_id": "poi_f3_wc_2226",
+          "name": "wc",
+          "floor_id": "F3",
+          "alias": "toilet"
+        },
+        {
+          "poi_id": "poi_f3_wc_2227",
+          "name": "wc",
+          "floor_id": "F3",
+          "alias": "toilet"
+        },
+        {
+          "poi_id": "poi_f4_wc_2228",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "toilet"
+        },
+        {
+          "poi_id": "poi_f4_wc_2229",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "toilet"
+        },
+        {
+          "poi_id": "poi_f4_wc_2230",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "toilet"
+        },
+        {
+          "poi_id": "poi_f5_wc_2231",
+          "name": "wc",
+          "floor_id": "F5",
+          "alias": "toilet"
+        },
+        {
+          "poi_id": "poi_f5_wc_2232",
+          "name": "wc",
+          "floor_id": "F5",
+          "alias": "toilet"
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_normalized_alias",
+      "normalized_alias": "uniqlo",
+      "owners": [
+        {
+          "poi_id": "poi_f1_uniqlo_76",
+          "name": "uniqlo",
+          "floor_id": "F1",
+          "alias": "uniqlo"
+        },
+        {
+          "poi_id": "poi_f1_uniqlo_76",
+          "name": "uniqlo",
+          "floor_id": "F1",
+          "alias": "UNIQLO"
+        },
+        {
+          "poi_id": "poi_f1_uniqlo_76",
+          "name": "uniqlo",
+          "floor_id": "F1",
+          "alias": "Uniqlo"
+        },
+        {
+          "poi_id": "poi_f2_uniqlo_15",
+          "name": "uniqlo",
+          "floor_id": "F2",
+          "alias": "uniqlo"
+        },
+        {
+          "poi_id": "poi_f2_uniqlo_15",
+          "name": "uniqlo",
+          "floor_id": "F2",
+          "alias": "UNIQLO"
+        },
+        {
+          "poi_id": "poi_f2_uniqlo_15",
+          "name": "uniqlo",
+          "floor_id": "F2",
+          "alias": "Uniqlo"
+        }
+      ]
+    },
+    {
+      "severity": "info",
+      "code": "duplicate_normalized_alias",
+      "normalized_alias": "wc",
+      "owners": [
+        {
+          "poi_id": "poi_b1_wc_2222",
+          "name": "wc",
+          "floor_id": "B1",
+          "alias": "wc"
+        },
+        {
+          "poi_id": "poi_b1_wc_2222",
+          "name": "wc",
+          "floor_id": "B1",
+          "alias": "WC"
+        },
+        {
+          "poi_id": "poi_f2_wc_2224",
+          "name": "wc",
+          "floor_id": "F2",
+          "alias": "wc"
+        },
+        {
+          "poi_id": "poi_f2_wc_2224",
+          "name": "wc",
+          "floor_id": "F2",
+          "alias": "WC"
+        },
+        {
+          "poi_id": "poi_f2_wc_2225",
+          "name": "wc",
+          "floor_id": "F2",
+          "alias": "wc"
+        },
+        {
+          "poi_id": "poi_f2_wc_2225",
+          "name": "wc",
+          "floor_id": "F2",
+          "alias": "WC"
+        },
+        {
+          "poi_id": "poi_f3_wc_2226",
+          "name": "wc",
+          "floor_id": "F3",
+          "alias": "wc"
+        },
+        {
+          "poi_id": "poi_f3_wc_2226",
+          "name": "wc",
+          "floor_id": "F3",
+          "alias": "WC"
+        },
+        {
+          "poi_id": "poi_f3_wc_2227",
+          "name": "wc",
+          "floor_id": "F3",
+          "alias": "wc"
+        },
+        {
+          "poi_id": "poi_f3_wc_2227",
+          "name": "wc",
+          "floor_id": "F3",
+          "alias": "WC"
+        },
+        {
+          "poi_id": "poi_f4_wc_2228",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "wc"
+        },
+        {
+          "poi_id": "poi_f4_wc_2228",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "WC"
+        },
+        {
+          "poi_id": "poi_f4_wc_2229",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "wc"
+        },
+        {
+          "poi_id": "poi_f4_wc_2229",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "WC"
+        },
+        {
+          "poi_id": "poi_f4_wc_2230",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "wc"
+        },
+        {
+          "poi_id": "poi_f4_wc_2230",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "WC"
+        },
+        {
+          "poi_id": "poi_f5_wc_2231",
+          "name": "wc",
+          "floor_id": "F5",
+          "alias": "wc"
+        },
+        {
+          "poi_id": "poi_f5_wc_2231",
+          "name": "wc",
+          "floor_id": "F5",
+          "alias": "WC"
+        },
+        {
+          "poi_id": "poi_f5_wc_2232",
+          "name": "wc",
+          "floor_id": "F5",
+          "alias": "wc"
+        },
+        {
+          "poi_id": "poi_f5_wc_2232",
+          "name": "wc",
+          "floor_id": "F5",
+          "alias": "WC"
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_normalized_alias",
+      "normalized_alias": "优衣库",
+      "owners": [
+        {
+          "poi_id": "poi_f1_uniqlo_76",
+          "name": "uniqlo",
+          "floor_id": "F1",
+          "alias": "优衣库"
+        },
+        {
+          "poi_id": "poi_f2_uniqlo_15",
+          "name": "uniqlo",
+          "floor_id": "F2",
+          "alias": "优衣库"
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_normalized_alias",
+      "normalized_alias": "兰熊",
+      "owners": [
+        {
+          "poi_id": "poi_f1_lanxiong_103",
+          "name": "lanxiong",
+          "floor_id": "F1",
+          "alias": "兰熊"
+        },
+        {
+          "poi_id": "poi_f5_lanxiong_103",
+          "name": "lanxiong",
+          "floor_id": "F5",
+          "alias": "兰熊"
+        }
+      ]
+    },
+    {
+      "severity": "info",
+      "code": "duplicate_normalized_alias",
+      "normalized_alias": "卫生间",
+      "owners": [
+        {
+          "poi_id": "poi_b1_wc_2222",
+          "name": "wc",
+          "floor_id": "B1",
+          "alias": "卫生间"
+        },
+        {
+          "poi_id": "poi_f2_wc_2224",
+          "name": "wc",
+          "floor_id": "F2",
+          "alias": "卫生间"
+        },
+        {
+          "poi_id": "poi_f2_wc_2225",
+          "name": "wc",
+          "floor_id": "F2",
+          "alias": "卫生间"
+        },
+        {
+          "poi_id": "poi_f3_wc_2226",
+          "name": "wc",
+          "floor_id": "F3",
+          "alias": "卫生间"
+        },
+        {
+          "poi_id": "poi_f3_wc_2227",
+          "name": "wc",
+          "floor_id": "F3",
+          "alias": "卫生间"
+        },
+        {
+          "poi_id": "poi_f4_wc_2228",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "卫生间"
+        },
+        {
+          "poi_id": "poi_f4_wc_2229",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "卫生间"
+        },
+        {
+          "poi_id": "poi_f4_wc_2230",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "卫生间"
+        },
+        {
+          "poi_id": "poi_f5_wc_2231",
+          "name": "wc",
+          "floor_id": "F5",
+          "alias": "卫生间"
+        },
+        {
+          "poi_id": "poi_f5_wc_2232",
+          "name": "wc",
+          "floor_id": "F5",
+          "alias": "卫生间"
+        }
+      ]
+    },
+    {
+      "severity": "info",
+      "code": "duplicate_normalized_alias",
+      "normalized_alias": "厕所",
+      "owners": [
+        {
+          "poi_id": "poi_b1_wc_2222",
+          "name": "wc",
+          "floor_id": "B1",
+          "alias": "厕所"
+        },
+        {
+          "poi_id": "poi_f2_wc_2224",
+          "name": "wc",
+          "floor_id": "F2",
+          "alias": "厕所"
+        },
+        {
+          "poi_id": "poi_f2_wc_2225",
+          "name": "wc",
+          "floor_id": "F2",
+          "alias": "厕所"
+        },
+        {
+          "poi_id": "poi_f3_wc_2226",
+          "name": "wc",
+          "floor_id": "F3",
+          "alias": "厕所"
+        },
+        {
+          "poi_id": "poi_f3_wc_2227",
+          "name": "wc",
+          "floor_id": "F3",
+          "alias": "厕所"
+        },
+        {
+          "poi_id": "poi_f4_wc_2228",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "厕所"
+        },
+        {
+          "poi_id": "poi_f4_wc_2229",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "厕所"
+        },
+        {
+          "poi_id": "poi_f4_wc_2230",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "厕所"
+        },
+        {
+          "poi_id": "poi_f5_wc_2231",
+          "name": "wc",
+          "floor_id": "F5",
+          "alias": "厕所"
+        },
+        {
+          "poi_id": "poi_f5_wc_2232",
+          "name": "wc",
+          "floor_id": "F5",
+          "alias": "厕所"
+        }
+      ]
+    },
+    {
+      "severity": "info",
+      "code": "duplicate_normalized_alias",
+      "normalized_alias": "洗手间",
+      "owners": [
+        {
+          "poi_id": "poi_b1_wc_2222",
+          "name": "wc",
+          "floor_id": "B1",
+          "alias": "洗手间"
+        },
+        {
+          "poi_id": "poi_f2_wc_2224",
+          "name": "wc",
+          "floor_id": "F2",
+          "alias": "洗手间"
+        },
+        {
+          "poi_id": "poi_f2_wc_2225",
+          "name": "wc",
+          "floor_id": "F2",
+          "alias": "洗手间"
+        },
+        {
+          "poi_id": "poi_f3_wc_2226",
+          "name": "wc",
+          "floor_id": "F3",
+          "alias": "洗手间"
+        },
+        {
+          "poi_id": "poi_f3_wc_2227",
+          "name": "wc",
+          "floor_id": "F3",
+          "alias": "洗手间"
+        },
+        {
+          "poi_id": "poi_f4_wc_2228",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "洗手间"
+        },
+        {
+          "poi_id": "poi_f4_wc_2229",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "洗手间"
+        },
+        {
+          "poi_id": "poi_f4_wc_2230",
+          "name": "wc",
+          "floor_id": "F4",
+          "alias": "洗手间"
+        },
+        {
+          "poi_id": "poi_f5_wc_2231",
+          "name": "wc",
+          "floor_id": "F5",
+          "alias": "洗手间"
+        },
+        {
+          "poi_id": "poi_f5_wc_2232",
+          "name": "wc",
+          "floor_id": "F5",
+          "alias": "洗手间"
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_normalized_alias",
+      "normalized_alias": "耐克",
+      "owners": [
+        {
+          "poi_id": "poi_f1_nike_67",
+          "name": "nike",
+          "floor_id": "F1",
+          "alias": "耐克"
+        },
+        {
+          "poi_id": "poi_f2_nike_67",
+          "name": "nike",
+          "floor_id": "F2",
+          "alias": "耐克"
+        }
+      ]
+    }
+  ]
+}

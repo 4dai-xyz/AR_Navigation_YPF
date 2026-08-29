@@ -1,0 +1,98 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withInputStream { localProperties.load(it) }
+}
+def amapApiKey = localProperties.getProperty('amap.apiKey', System.getenv('AMAP_API_KEY') ?: '').trim()
+
+android {
+    namespace 'com.aiglasses.poc'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.aiglasses.poc"
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName "0.1.0"
+        manifestPlaceholders = [amapApiKey: amapApiKey]
+    }
+
+    buildTypes {
+        debug {
+            manifestPlaceholders += [usesCleartextTraffic: "true"]
+        }
+
+        release {
+            manifestPlaceholders += [usesCleartextTraffic: "false"]
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    testOptions {
+        unitTests.all {
+            maxParallelForks = 1
+            maxHeapSize = "128m"
+            jvmArgs "-XX:MaxMetaspaceSize=128m", "-Xshare:off"
+        }
+    }
+}
+
+configurations.configureEach {
+    resolutionStrategy.eachDependency { details ->
+        if (details.requested.group == 'org.jetbrains.kotlin' && details.requested.name.startsWith('kotlin-stdlib')) {
+            details.useVersion '1.9.24'
+            details.because 'The app uses Kotlin 1.9.24; Rokid CXR-L pulls kotlin-stdlib 2.1.0 transitively.'
+        }
+    }
+    resolutionStrategy.force(
+        'org.jetbrains.kotlin:kotlin-stdlib:1.9.24',
+        'org.jetbrains.kotlin:kotlin-stdlib-common:1.9.24',
+        'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.24',
+        'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.24',
+    )
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.15.0'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.activity:activity-ktx:1.10.1'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.8.7'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+    implementation 'com.amap.api:navi-3dmap:10.0.800_3dmap10.0.800'
+    implementation files('libs/search-9.7.1-no-utils.jar')
+    implementation files('libs/LIB_GLASSES_SDK-release_3.aar')
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.1.0'
+    implementation 'com.herohan:UVCAndroid:1.0.11'
+    implementation 'com.rokid.cxr:client-l:1.0.3'
+    implementation('com.rokid.security:phone.sdk:2.2.0-E') {
+        exclude group: 'org.slf4j'
+    }
+
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.1'
+    testImplementation 'org.json:json:20240303'
+}

@@ -1,0 +1,18 @@
+{
+  "floors": [
+    {
+      "floor_id": "F1",
+      "floor_name": "1F",
+      "floor_index": 1,
+      "is_public": true,
+      "z": 0.0
+    },
+    {
+      "floor_id": "F2",
+      "floor_name": "2F",
+      "floor_index": 2,
+      "is_public": true,
+      "z": 4.5
+    }
+  ]
+}

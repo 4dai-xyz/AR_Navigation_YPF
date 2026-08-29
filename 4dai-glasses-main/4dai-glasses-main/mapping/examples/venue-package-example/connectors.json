@@ -1,0 +1,17 @@
+{
+  "connectors": [
+    {
+      "connector_id": "connector_escalator_f1_f2",
+      "connector_type": "escalator",
+      "name": "Escalator F1 to F2",
+      "from_floor_id": "F1",
+      "to_floor_id": "F2",
+      "from_node_id": "node_f1_escalator_up",
+      "to_node_id": "node_f2_escalator_down",
+      "edge_id": "edge_f1_to_f2_escalator",
+      "direction": "up",
+      "cost_seconds": 18.0,
+      "status": "active"
+    }
+  ]
+}

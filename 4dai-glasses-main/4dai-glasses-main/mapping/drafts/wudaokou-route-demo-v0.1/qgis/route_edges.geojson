@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "wudaokou_route_demo_edges",
+"features": [
+{ "type": "Feature", "properties": { "edge_id": "edge_f1_west_gate_to_turn_demo", "floor_id": "F1", "from_node_id": "node_f1_west_gate_demo", "to_node_id": "node_f1_west_corridor_turn_demo", "travel_mode": "walk", "bidirectional": true, "distance": 37.3 }, "geometry": { "type": "LineString", "coordinates": [ [ 18.668918918918923, -143.439189189189165 ], [ 55.932432432432449, -143.972972972972968 ] ] } },
+{ "type": "Feature", "properties": { "edge_id": "edge_f1_turn_to_escalator_demo", "floor_id": "F1", "from_node_id": "node_f1_west_corridor_turn_demo", "to_node_id": "node_f1_escalator_up_demo_01", "travel_mode": "walk", "bidirectional": true, "distance": 73.5 }, "geometry": { "type": "LineString", "coordinates": [ [ 55.932432432432449, -143.972972972972968 ], [ 61.513513513513516, -70.648648648648631 ] ] } },
+{ "type": "Feature", "properties": { "edge_id": "edge_f2_escalator_to_tata_turn_01_demo", "floor_id": "F2", "from_node_id": "node_f2_escalator_out_demo_01", "to_node_id": "node_f2_tata_corridor_turn_01_demo", "travel_mode": "walk", "bidirectional": true, "distance": 7.7 }, "geometry": { "type": "LineString", "coordinates": [ [ 60.678378378378383, -54.162162162162161 ], [ 68.351379405023749, -53.974078407028827 ] ] } },
+{ "type": "Feature", "properties": { "edge_id": "edge_f2_tata_turn_01_to_turn_02_demo", "floor_id": "F2", "from_node_id": "node_f2_tata_corridor_turn_01_demo", "to_node_id": "node_f2_tata_corridor_turn_02_demo", "travel_mode": "walk", "bidirectional": true, "distance": 89.2 }, "geometry": { "type": "LineString", "coordinates": [ [ 68.351379405023749, -53.974078407028827 ], [ 68.966240091681726, -143.17180785025306 ] ] } },
+{ "type": "Feature", "properties": { "edge_id": "edge_f2_tata_turn_02_to_door_demo", "floor_id": "F2", "from_node_id": "node_f2_tata_corridor_turn_02_demo", "to_node_id": "node_f2_tata_door_demo", "travel_mode": "walk", "bidirectional": true, "distance": 20.9 }, "geometry": { "type": "LineString", "coordinates": [ [ 68.966240091681726, -143.17180785025306 ], [ 86.160566684175706, -155.090686180880425 ] ] } }
+]
+}

@@ -1,0 +1,11 @@
+=== SLAM Logo Label & ID Mapping ===
+format: label_id
+-----------------------------------
+B07
+B08
+B09
+B10
+B11
+B12
+B13
+F01

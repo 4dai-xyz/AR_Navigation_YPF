@@ -1,0 +1,103 @@
+[
+  {
+    "algorithm_id": "F",
+    "algorithm_name": "cell_portal_bridge",
+    "floor_id": "B1",
+    "nodes": 762,
+    "edges": 1960,
+    "components": 1,
+    "largest_components": [
+      762
+    ],
+    "added_nodes": 63,
+    "added_edges": 148,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_f_cell_portal_bridge\\b1_algorithm_f_cell_portal_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "F",
+    "algorithm_name": "cell_portal_bridge",
+    "floor_id": "F1",
+    "nodes": 860,
+    "edges": 2398,
+    "components": 1,
+    "largest_components": [
+      860
+    ],
+    "added_nodes": 64,
+    "added_edges": 153,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_f_cell_portal_bridge\\f1_algorithm_f_cell_portal_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "F",
+    "algorithm_name": "cell_portal_bridge",
+    "floor_id": "F2",
+    "nodes": 690,
+    "edges": 1945,
+    "components": 1,
+    "largest_components": [
+      690
+    ],
+    "added_nodes": 25,
+    "added_edges": 50,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_f_cell_portal_bridge\\f2_algorithm_f_cell_portal_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "F",
+    "algorithm_name": "cell_portal_bridge",
+    "floor_id": "F3",
+    "nodes": 757,
+    "edges": 2195,
+    "components": 1,
+    "largest_components": [
+      757
+    ],
+    "added_nodes": 32,
+    "added_edges": 88,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_f_cell_portal_bridge\\f3_algorithm_f_cell_portal_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "F",
+    "algorithm_name": "cell_portal_bridge",
+    "floor_id": "F4",
+    "nodes": 696,
+    "edges": 1898,
+    "components": 1,
+    "largest_components": [
+      696
+    ],
+    "added_nodes": 32,
+    "added_edges": 64,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_f_cell_portal_bridge\\f4_algorithm_f_cell_portal_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "F",
+    "algorithm_name": "cell_portal_bridge",
+    "floor_id": "F5",
+    "nodes": 733,
+    "edges": 1967,
+    "components": 1,
+    "largest_components": [
+      733
+    ],
+    "added_nodes": 37,
+    "added_edges": 75,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_f_cell_portal_bridge\\f5_algorithm_f_cell_portal_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "F",
+    "algorithm_name": "cell_portal_bridge",
+    "floor_id": "F6",
+    "nodes": 416,
+    "edges": 1143,
+    "components": 4,
+    "largest_components": [
+      411,
+      2,
+      2,
+      1
+    ],
+    "added_nodes": 37,
+    "added_edges": 99,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_f_cell_portal_bridge\\f6_algorithm_f_cell_portal_bridge_preview.jpg"
+  }
+]

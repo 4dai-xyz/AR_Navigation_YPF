@@ -1,0 +1,65 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# Camera Parameters (Rokid IMX681, 1280x720, Kalibr-calibrated)
+#--------------------------------------------------------------------------------------------
+File.version: "1.0"
+
+Camera.type: "PinHole"
+
+Camera1.fx: 642.873677
+Camera1.fy: 641.737375
+Camera1.cx: 637.553918
+Camera1.cy: 376.522129
+
+Camera1.k1: -0.039449
+Camera1.k2:  0.134948
+Camera1.p1:  0.006265
+Camera1.p2: -0.003815
+
+Camera.width:  1280
+Camera.height: 720
+Camera.fps: 60
+Camera.RGB: 0
+
+#--------------------------------------------------------------------------------------------
+# IMU (Rokid ICM-4x6xx, ~250Hz)  — Kalibr Tbc + Tcb 转置
+#--------------------------------------------------------------------------------------------
+# 我们 Kalibr 输出的 T_cam_imu 即为 IMU.T_b_c1 (body=IMU → cam)
+IMU.T_b_c1: !!opencv-matrix
+  rows: 4
+  cols: 4
+  dt: f
+  data: [ 0.9146275718260657, -0.39238927932507883,  0.09740153143713487, -0.10107711733521989,
+          0.3717006455685571,  0.7213453829066592,  -0.5843795587143360, -0.18294230760659927,
+          0.15904412890601088, 0.5706938689262303,   0.8056137244551744, -0.026913033663841946,
+          0.0,                 0.0,                  0.0,                 1.0 ]
+
+IMU.NoiseGyro:  1.2e-4
+IMU.NoiseAcc:   8.2e-4
+IMU.GyroWalk:   6.5e-5
+IMU.AccWalk:    8.5e-4
+IMU.Frequency:  250.0
+
+#--------------------------------------------------------------------------------------------
+# ORB Parameters
+#--------------------------------------------------------------------------------------------
+ORBextractor.nFeatures: 1500
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 8
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
+
+#--------------------------------------------------------------------------------------------
+# Viewer (only used if enabled; we'll pass a viewer=false flag)
+#--------------------------------------------------------------------------------------------
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1.0
+Viewer.GraphLineWidth: 0.9
+Viewer.PointSize: 2.0
+Viewer.CameraSize: 0.08
+Viewer.CameraLineWidth: 3.0
+Viewer.ViewpointX: 0.0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -1.8
+Viewer.ViewpointF: 500.0

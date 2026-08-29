@@ -1,0 +1,103 @@
+[
+  {
+    "algorithm_id": "E",
+    "algorithm_name": "mask_path_polyline_bridge",
+    "floor_id": "B1",
+    "nodes": 725,
+    "edges": 1911,
+    "components": 1,
+    "largest_components": [
+      725
+    ],
+    "added_nodes": 26,
+    "added_edges": 99,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_e_mask_path_polyline_bridge\\b1_algorithm_e_mask_path_polyline_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "E",
+    "algorithm_name": "mask_path_polyline_bridge",
+    "floor_id": "F1",
+    "nodes": 818,
+    "edges": 2348,
+    "components": 1,
+    "largest_components": [
+      818
+    ],
+    "added_nodes": 22,
+    "added_edges": 103,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_e_mask_path_polyline_bridge\\f1_algorithm_e_mask_path_polyline_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "E",
+    "algorithm_name": "mask_path_polyline_bridge",
+    "floor_id": "F2",
+    "nodes": 665,
+    "edges": 1916,
+    "components": 1,
+    "largest_components": [
+      665
+    ],
+    "added_nodes": 0,
+    "added_edges": 21,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_e_mask_path_polyline_bridge\\f2_algorithm_e_mask_path_polyline_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "E",
+    "algorithm_name": "mask_path_polyline_bridge",
+    "floor_id": "F3",
+    "nodes": 738,
+    "edges": 2167,
+    "components": 1,
+    "largest_components": [
+      738
+    ],
+    "added_nodes": 13,
+    "added_edges": 60,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_e_mask_path_polyline_bridge\\f3_algorithm_e_mask_path_polyline_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "E",
+    "algorithm_name": "mask_path_polyline_bridge",
+    "floor_id": "F4",
+    "nodes": 664,
+    "edges": 1859,
+    "components": 1,
+    "largest_components": [
+      664
+    ],
+    "added_nodes": 0,
+    "added_edges": 25,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_e_mask_path_polyline_bridge\\f4_algorithm_e_mask_path_polyline_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "E",
+    "algorithm_name": "mask_path_polyline_bridge",
+    "floor_id": "F5",
+    "nodes": 696,
+    "edges": 1926,
+    "components": 1,
+    "largest_components": [
+      696
+    ],
+    "added_nodes": 0,
+    "added_edges": 34,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_e_mask_path_polyline_bridge\\f5_algorithm_e_mask_path_polyline_bridge_preview.jpg"
+  },
+  {
+    "algorithm_id": "E",
+    "algorithm_name": "mask_path_polyline_bridge",
+    "floor_id": "F6",
+    "nodes": 399,
+    "edges": 1118,
+    "components": 4,
+    "largest_components": [
+      394,
+      2,
+      2,
+      1
+    ],
+    "added_nodes": 20,
+    "added_edges": 74,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_e_mask_path_polyline_bridge\\f6_algorithm_e_mask_path_polyline_bridge_preview.jpg"
+  }
+]

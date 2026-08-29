@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VisionRoute Rokid 离线采集录制操作说明</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f8fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --primary: #2563eb;
+      --ok: #047857;
+      --warn: #b45309;
+      --bad: #b91c1c;
+      --code: #111827;
+      --code-bg: #eef2ff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1020;
+        --card: #111827;
+        --text: #e5e7eb;
+        --muted: #9ca3af;
+        --line: #243044;
+        --primary: #60a5fa;
+        --ok: #34d399;
+        --warn: #fbbf24;
+        --bad: #f87171;
+        --code: #e5e7eb;
+        --code-bg: #172554;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    header {
+      padding: 36px 22px 28px;
+      background: linear-gradient(135deg, #1d4ed8, #0f766e);
+      color: white;
+    }
+    header .wrap, main { max-width: 980px; margin: 0 auto; }
+    h1 { margin: 0 0 10px; font-size: clamp(26px, 4vw, 40px); line-height: 1.18; }
+    h2 { margin: 0 0 14px; font-size: 24px; }
+    h3 { margin: 22px 0 8px; font-size: 18px; }
+    p { margin: 8px 0; }
+    main { padding: 22px; }
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 22px;
+      margin: 16px 0;
+      box-shadow: 0 12px 28px rgba(15, 23, 42, 0.06);
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 10px;
+      margin-top: 16px;
+    }
+    .pill, code {
+      border-radius: 999px;
+      background: rgba(255,255,255,0.16);
+      padding: 5px 10px;
+      font-size: 13px;
+      display: inline-block;
+    }
+    main code {
+      color: var(--code);
+      background: var(--code-bg);
+      border-radius: 7px;
+      padding: 2px 6px;
+    }
+    .checklist { padding-left: 0; list-style: none; }
+    .checklist li { padding-left: 28px; position: relative; margin: 8px 0; }
+    .checklist li::before { content: "✓"; color: var(--ok); position: absolute; left: 0; font-weight: 700; }
+    ol { padding-left: 24px; }
+    li { margin: 8px 0; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; overflow: hidden; border-radius: 12px; }
+    th, td { border: 1px solid var(--line); padding: 10px 12px; vertical-align: top; }
+    th { background: rgba(37, 99, 235, 0.08); text-align: left; }
+    .ok { color: var(--ok); font-weight: 700; }
+    .warn { color: var(--warn); font-weight: 700; }
+    .bad { color: var(--bad); font-weight: 700; }
+    .note {
+      border-left: 4px solid var(--primary);
+      padding: 10px 12px;
+      background: rgba(37, 99, 235, 0.08);
+      border-radius: 10px;
+    }
+    .danger {
+      border-left: 4px solid var(--bad);
+      padding: 10px 12px;
+      background: rgba(185, 28, 28, 0.08);
+      border-radius: 10px;
+    }
+    footer { color: var(--muted); text-align: center; padding: 24px; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>VisionRoute Rokid 离线采集录制操作说明</h1>
+    <p>用于手机端统一控制 Rokid 眼镜端本地录像与 IMU 采集，录制完成后下载结构化 session 到手机/PC 做后处理。</p>
+    <div class="meta">
+      <span class="pill">手机端 APK：VisionRoute Android Debug</span>
+      <span class="pill">眼镜端：VisionRoute RokidBridge 1.6 / versionCode 7</span>
+      <span class="pill">默认采集：1280×720，60 FPS，IMU 目标 200Hz</span>
+      <span class="pill">时间基准：Android elapsed realtime / Camera PTS</span>
+    </div>
+  </div>
+</header>
+<main>
+  <section>
+    <h2>1. 采集链路说明</h2>
+    <p>离线采集模式不依赖实时图传和实时定位。手机只负责发起控制、查看状态和下载结果；眼镜端本地完成录像、IMU 采样和文件封装。</p>
+    <table>
+      <tr><th>角色</th><th>职责</th></tr>
+      <tr><td>Android 手机 App</td><td>发现眼镜 IP、检查采集状态、开始/停止采集、下载最新 session。</td></tr>
+      <tr><td>RokidBridge 眼镜端 App</td><td>运行 HTTP 服务，执行 Camera2 + MediaCodec 录像，记录 IMU JSONL 和逐帧 CSV。</td></tr>
+      <tr><td>PC</td><td>可选，用于接收从手机导出的 session ZIP 并做后处理。</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>2. 准备工作</h2>
+    <ul class="checklist">
+      <li>手机和 Rokid 眼镜连接同一个 Wi-Fi，或眼镜连接手机热点。</li>
+      <li>手机已安装本次 release 中的 <code>app-debug.apk</code>。</li>
+      <li>眼镜端已安装或可通过手机 App 更新 <code>visionroute_rokid_bridge.apk</code>。</li>
+      <li>眼镜端相机权限已允许；首次打开 RokidBridge 时如弹权限框，需要允许。</li>
+      <li>建议眼镜电量充足，长时间采集前先确认温度不要过高。</li>
+    </ul>
+    <div class="note">如果只是做离线采集，不需要启动 PC 后台，也不需要实时 HTTP 图传持续运行。</div>
+  </section>
+
+  <section>
+    <h2>3. 安装与更新</h2>
+    <h3>3.1 安装手机 App</h3>
+    <ol>
+      <li>下载 release 附件中的 <code>app-debug.apk</code>。</li>
+      <li>安装到 Android 手机。若系统提示“未知来源”，允许当前安装器安装。</li>
+      <li>安装完成后打开 VisionRoute App。</li>
+    </ol>
+    <h3>3.2 安装或更新眼镜端 RokidBridge</h3>
+    <ol>
+      <li>在手机 App 中进入隐藏调试入口，打开 <strong>Rokid</strong> 调试页。</li>
+      <li>点击 <strong>授权</strong>，按 Rokid 授权流程完成授权。</li>
+      <li>点击 <strong>连接 App</strong>，等待 CUSTOMAPP 会话建立。</li>
+      <li>点击 <strong>安装/更新眼镜端 App</strong>。App 会先比对眼镜端版本和本地内置版本。</li>
+      <li>若版本一致，页面显示“无需更新”；若版本不一致，会上传并安装新版 RokidBridge。</li>
+      <li>点击 <strong>打开眼镜端</strong>，或在眼镜端手动打开 VisionRoute RokidBridge。</li>
+    </ol>
+    <div class="note">本次 release 内置眼镜端版本应显示为 <code>1.6 / versionCode 7</code>。</div>
+  </section>
+
+  <section>
+    <h2>4. 开始一次离线采集</h2>
+    <ol>
+      <li>确认眼镜端 RokidBridge 已打开，眼镜和手机处于同一网络。</li>
+      <li>在手机 App 的 Rokid 调试页找到 <strong>离线采集（录像 + IMU）</strong> 卡片。</li>
+      <li>点击 <strong>采集状态</strong>。手机会优先使用已保存地址；失败时会自动扫描局域网查找眼镜 HTTP 服务。</li>
+      <li>状态正常时应能看到眼镜端版本、采集状态、最近 session 信息等。</li>
+      <li>点击 <strong>开始采集</strong>。</li>
+      <li>确认状态变为 <span class="ok">recording</span>，并观察以下数据持续增长：<code>encoded_frame_count</code>、<code>camera_capture_result_count</code>、<code>imu_sample_count</code>、<code>video_bytes</code>。</li>
+      <li>正式录制时保持眼镜佩戴姿态稳定，按需要完成场景采集。</li>
+    </ol>
+    <table>
+      <tr><th>字段</th><th>正常含义</th></tr>
+      <tr><td><code>actual_width / actual_height</code></td><td>实际录像分辨率，当前目标为 <code>1280×720</code>。</td></tr>
+      <tr><td><code>fps_range</code></td><td>Camera2 选到的 FPS 范围，理想值为 <code>[60, 60]</code>。</td></tr>
+      <tr><td><code>actual_video_fps</code></td><td>实际编码帧率，短时间内允许波动，稳定后应接近目标 FPS。</td></tr>
+      <tr><td><code>actual_imu_hz</code></td><td>实际 IMU 样本频率；当前采集会同时注册多个传感器，因此总样本 Hz 可能高于 200。</td></tr>
+      <tr><td><code>battery_temperature_c</code></td><td>电池温度，长时间采集时建议持续观察。</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>5. 停止采集与下载</h2>
+    <ol>
+      <li>采集结束后点击 <strong>停止采集</strong>。</li>
+      <li>等待状态回到 <span class="ok">idle</span>，并显示最新 session 的文件大小。</li>
+      <li>点击 <strong>下载最新 Session</strong>。</li>
+      <li>手机端会从眼镜端下载 ZIP，保存到 App 私有 Downloads 目录下的 <code>RokidOfflineSessions</code>。</li>
+      <li>页面会显示完整文件路径和 ZIP 大小。需要发给 PC 时，可通过系统文件管理器、ADB 或分享方式导出。</li>
+    </ol>
+    <div class="note">手机端保存路径通常类似：<code>/sdcard/Android/data/com.aiglasses.poc/files/Download/RokidOfflineSessions/session_xxx.zip</code>。</div>
+  </section>
+
+  <section>
+    <h2>6. Session ZIP 内容</h2>
+    <table>
+      <tr><th>文件</th><th>说明</th></tr>
+      <tr><td><code>video.mp4</code></td><td>眼镜端本地 H.264 MP4 录像。</td></tr>
+      <tr><td><code>imu.jsonl</code></td><td>IMU/姿态传感器样本，每行一个 JSON 事件。</td></tr>
+      <tr><td><code>frames.csv</code></td><td>逐帧编码时间戳、Camera sensor timestamp、flags、大小等。</td></tr>
+      <tr><td><code>events.jsonl</code></td><td>采集开始、传感器注册、异常等事件日志。</td></tr>
+      <tr><td><code>session.json</code></td><td>本次 session 元数据、分辨率、FPS、文件大小、错误状态等。</td></tr>
+    </table>
+    <p>后处理时建议以 <code>frames.csv</code> 的视频帧时间戳和 <code>imu.jsonl</code> 的传感器时间戳做软件对齐。</p>
+  </section>
+
+  <section>
+    <h2>7. 验收标准</h2>
+    <ul class="checklist">
+      <li>点击 <strong>采集状态</strong> 后能自动发现眼镜 IP，并显示 RokidBridge <code>1.6 / versionCode 7</code>。</li>
+      <li>点击 <strong>开始采集</strong> 后状态进入 <code>recording</code>。</li>
+      <li>录制 5 秒以上，<code>encoded_frame_count</code>、<code>imu_sample_count</code>、<code>video_bytes</code> 持续增长。</li>
+      <li>点击 <strong>停止采集</strong> 后生成最新 session。</li>
+      <li>点击 <strong>下载最新 Session</strong> 后手机本地出现 <code>session_xxx.zip</code>。</li>
+      <li>解压 ZIP 后，<code>video.mp4</code> 可播放，<code>imu.jsonl</code> 和 <code>frames.csv</code> 非空。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>8. 常见问题排查</h2>
+    <table>
+      <tr><th>现象</th><th>原因与处理</th></tr>
+      <tr><td>采集状态失败，提示未发现眼镜 HTTP 服务</td><td>确认眼镜端 RokidBridge 已打开；确认手机和眼镜在同一 Wi-Fi/热点；必要时重开眼镜端 App 后再点 <strong>采集状态</strong>。</td></tr>
+      <tr><td>开始采集失败，出现 <code>SecurityException</code></td><td>眼镜端可能不是本次 release 的 RokidBridge。请更新到 <code>1.6 / versionCode 7</code>，该版本包含前台相机服务和高频传感器权限。</td></tr>
+      <tr><td>状态一直 starting</td><td>等待 3–5 秒后再次点 <strong>采集状态</strong>；若仍无编码帧增长，停止后重启眼镜端 App。</td></tr>
+      <tr><td>下载失败</td><td>确认已经停止采集并生成 session；确认手机和眼镜仍在同一网络；再次点击 <strong>下载最新 Session</strong>。</td></tr>
+      <tr><td>长时间录制发热</td><td>缩短单段录制时长，录制间隔让设备降温；必要时降低目标 FPS/分辨率后再做长期采集版本。</td></tr>
+      <tr><td>手机 App 和眼镜端状态不一致</td><td>先点 <strong>采集状态</strong>刷新，以眼镜端 HTTP 返回状态为准；如果 CXR 状态不同步，不影响本离线采集的 HTTP 控制链路。</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>9. ADB 辅助验证（可选）</h2>
+    <p>如果测试人员具备 ADB/局域网调试条件，可直接访问眼镜 HTTP 服务验证。</p>
+    <ol>
+      <li>查询状态：<code>GET http://&lt;眼镜IP&gt;:18080/status</code></li>
+      <li>开始采集：<code>POST http://&lt;眼镜IP&gt;:18080/sessions/start?width=1280&amp;height=720&amp;fps=60</code></li>
+      <li>停止采集：<code>POST http://&lt;眼镜IP&gt;:18080/sessions/current/stop</code></li>
+      <li>查询列表：<code>GET http://&lt;眼镜IP&gt;:18080/sessions</code></li>
+      <li>下载：<code>GET http://&lt;眼镜IP&gt;:18080/sessions/&lt;session_id&gt;/download</code></li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>10. 本版本已实测结果</h2>
+    <ul>
+      <li>眼镜端版本：<code>1.6 / versionCode 7</code>。</li>
+      <li>测试启动：<code>/sessions/start?width=1280&amp;height=720&amp;fps=60</code> 成功。</li>
+      <li>5 秒采集状态：<code>actual_width=1280</code>、<code>actual_height=720</code>、<code>fps_range=[60, 60]</code>、<code>encoded_frame_count=287</code>。</li>
+      <li>停止后生成 session：<code>video_bytes=31688385</code>、<code>imu_bytes=3067029</code>、<code>frames_bytes=64234</code>。</li>
+    </ul>
+  </section>
+</main>
+<footer>
+  VisionRoute / Rokid Offline Capture Guide · 2026-07-03
+</footer>
+</body>
+</html>

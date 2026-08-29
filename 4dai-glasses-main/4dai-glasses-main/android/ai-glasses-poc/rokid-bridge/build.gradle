@@ -1,0 +1,28 @@
+plugins {
+    id 'com.android.application'
+}
+
+def rokidBridgeBuildTime = new Date().format("yyyy-MM-dd HH:mm:ss Z", java.util.TimeZone.getTimeZone("Asia/Shanghai"))
+
+android {
+    namespace 'com.aiglasses.rokidbridge'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.aiglasses.rokidbridge'
+        minSdk 31
+        targetSdk 35
+        versionCode 7
+        versionName '1.6'
+        manifestPlaceholders = [rokidBridgeBuildTime: rokidBridgeBuildTime]
+        buildConfigField "String", "ROKID_BRIDGE_BUILD_TIME", "\"${rokidBridgeBuildTime}\""
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+}
+
+dependencies {
+    implementation 'com.rokid.cxr:cxr-service-bridge:1.0-20260522.063600-105'
+}

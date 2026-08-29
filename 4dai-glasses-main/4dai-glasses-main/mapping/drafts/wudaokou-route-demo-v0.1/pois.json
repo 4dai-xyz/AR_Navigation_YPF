@@ -1,0 +1,27 @@
+{
+  "pois": [
+    {
+      "poi_id": "poi_f2_tata_door_demo",
+      "poi_type": "store_door",
+      "poi_name": "TATA Door",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "floor_id": "F2",
+      "position": {
+        "x": 86.161,
+        "y": 155.091
+      },
+      "source_pixel": {
+        "x": 1042,
+        "y": 2201
+      },
+      "arrival_radius_m": 3.0,
+      "heading": 270.0,
+      "route_node_id": "node_f2_tata_door_demo",
+      "tags": [
+        "route_demo",
+        "pickup"
+      ],
+      "status": "draft"
+    }
+  ]
+}

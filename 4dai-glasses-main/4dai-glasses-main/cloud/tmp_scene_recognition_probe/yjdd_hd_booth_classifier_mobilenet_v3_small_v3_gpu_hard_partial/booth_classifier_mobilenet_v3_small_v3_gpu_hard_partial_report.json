@@ -1,0 +1,137 @@
+{
+  "schema_version": "booth_classifier_training_v0.2",
+  "generated_at": "2026-06-07T08:03:51+0800",
+  "device": "cuda",
+  "samples_dir": "cloud\\tmp_scene_recognition_probe\\yjdd_hd_scene_samples_8fps_blur80\\images",
+  "class_count": 52,
+  "train_count": 1740,
+  "val_count": 609,
+  "stress_count": 10353,
+  "split": "per_booth_every_4_holdout",
+  "epochs": 2,
+  "batch_size": 128,
+  "model_arch": "mobilenet_v3_small",
+  "experiment_name": "v3_gpu_hard_partial",
+  "pretrained": true,
+  "init_checkpoint": "cloud\\tmp_scene_recognition_probe\\yjdd_hd_booth_classifier_mobilenet_v3_small_v2_aug\\booth_classifier_mobilenet_v3_small_v2_aug.pt",
+  "cache_images": true,
+  "gpu_augment": true,
+  "gpu_augment_profile": "hard_partial",
+  "mixup_alpha": 0.0,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.9714,
+      "lr": 1.5e-05,
+      "clean_top1": 1.0,
+      "clean_top3": 1.0,
+      "stress_top1": null
+    },
+    {
+      "epoch": 2,
+      "loss": 0.9378,
+      "lr": 0.0,
+      "clean_top1": 1.0,
+      "clean_top3": 1.0,
+      "stress_top1": null
+    }
+  ],
+  "best_metrics": {
+    "clean": {
+      "count": 609,
+      "top1_accuracy": 1.0,
+      "top3_accuracy": 1.0
+    },
+    "stress": null
+  },
+  "comparison": {
+    "v3_gpu_hard_partial": {
+      "checkpoint_path": "cloud\\tmp_scene_recognition_probe\\yjdd_hd_booth_classifier_mobilenet_v3_small_v3_gpu_hard_partial\\booth_classifier_mobilenet_v3_small_v3_gpu_hard_partial.pt",
+      "clean": {
+        "count": 609,
+        "top1_accuracy": 1.0,
+        "top3_accuracy": 1.0
+      },
+      "stress": {
+        "count": 10353,
+        "top1_accuracy": 0.9575,
+        "by_variant": {
+          "blur": 1.0,
+          "bright_desaturate": 0.9984,
+          "center_crop_55": 0.8473,
+          "clean": 1.0,
+          "color_shift": 0.8851,
+          "dark_contrast": 1.0,
+          "jpeg_38": 1.0,
+          "large_occlusion": 0.9261,
+          "left_crop_50": 0.9015,
+          "left_partial": 0.9967,
+          "low_light_noise": 0.9376,
+          "lowres": 0.9967,
+          "motion_blur": 0.9984,
+          "occlusion": 0.9984,
+          "overexposed": 0.867,
+          "right_crop_50": 0.9245,
+          "right_partial": 1.0
+        },
+        "low_booths_lt_0_85": {
+          "A09": 0.8118,
+          "B06": 0.8118,
+          "B18": 0.8235
+        }
+      },
+      "latency_ms": {
+        "samples": 96,
+        "avg": 8.32,
+        "p50": 8.95,
+        "p95": 11.31,
+        "max": 17.57
+      }
+    },
+    "compare_baseline": {
+      "checkpoint_path": "cloud\\tmp_scene_recognition_probe\\yjdd_hd_booth_classifier_mobilenet_v3_small_v2_aug\\booth_classifier_mobilenet_v3_small_v2_aug.pt",
+      "clean": {
+        "count": 609,
+        "top1_accuracy": 1.0,
+        "top3_accuracy": 1.0
+      },
+      "stress": {
+        "count": 10353,
+        "top1_accuracy": 0.9503,
+        "by_variant": {
+          "blur": 1.0,
+          "bright_desaturate": 1.0,
+          "center_crop_55": 0.8391,
+          "clean": 1.0,
+          "color_shift": 0.8785,
+          "dark_contrast": 1.0,
+          "jpeg_38": 1.0,
+          "large_occlusion": 0.8949,
+          "left_crop_50": 0.8966,
+          "left_partial": 0.9951,
+          "low_light_noise": 0.9064,
+          "lowres": 0.9967,
+          "motion_blur": 1.0,
+          "occlusion": 0.9984,
+          "overexposed": 0.8243,
+          "right_crop_50": 0.9245,
+          "right_partial": 1.0
+        },
+        "low_booths_lt_0_85": {
+          "A09": 0.8,
+          "B06": 0.8,
+          "B18": 0.8235
+        }
+      },
+      "latency_ms": {
+        "samples": 96,
+        "avg": 8.04,
+        "p50": 8.85,
+        "p95": 9.91,
+        "max": 10.3
+      }
+    }
+  },
+  "checkpoint_path": "cloud\\tmp_scene_recognition_probe\\yjdd_hd_booth_classifier_mobilenet_v3_small_v3_gpu_hard_partial\\booth_classifier_mobilenet_v3_small_v3_gpu_hard_partial.pt",
+  "train_seconds": 674.56
+}

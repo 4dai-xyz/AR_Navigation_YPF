@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F6FB">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/buttonBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_map_control_button"
+                android:gravity="center"
+                android:text="‹"
+                android:textColor="#111827"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/title_glasses_debug"
+                    android:textColor="#111827"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/subtitle_glasses_debug"
+                    android:textColor="#6B7280"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_ui_subpanel"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/title_glasses_status_overview"
+                    android:textColor="#111827"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textConnectionChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/bg_ui_top_status_icon_badge"
+                    android:gravity="center"
+                    android:minWidth="64dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/text_glasses_disconnected"
+                    android:textColor="#0F766E"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textChannelChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/bg_ui_status_capsule"
+                    android:gravity="center"
+                    android:minWidth="74dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/text_glasses_channel_waiting"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_ui_status_capsule"
+                android:lineSpacingExtra="3dp"
+                android:padding="12dp"
+                android:text="@string/status_glasses_debug_loading"
+                android:textColor="#111827"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textRememberedDevice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/text_glasses_remembered_empty"
+                android:textColor="#6B7280"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/buttonRequestPermissions"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_ui_primary_button"
+                android:text="@string/action_glasses_request_permissions"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonScan"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_primary_button"
+                    android:text="@string/action_glasses_scan"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/buttonStopScan"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_secondary_button"
+                    android:text="@string/action_glasses_stop_scan"
+                    android:textAllCaps="false"
+                    android:textColor="#374151" />
+
+                <Button
+                    android:id="@+id/buttonDisconnect"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_secondary_button"
+                    android:text="@string/action_glasses_disconnect"
+                    android:textAllCaps="false"
+                    android:textColor="#374151" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutDeviceRows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical" />
+
+            <Button
+                android:id="@+id/buttonInitDevice"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_ui_secondary_button"
+                android:text="@string/action_glasses_init_device"
+                android:textAllCaps="false"
+                android:textColor="#374151"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_ui_subpanel"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/title_glasses_device_sync"
+                android:textColor="#111827"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonDeviceInfo"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_secondary_button"
+                    android:text="@string/action_glasses_device_info"
+                    android:textAllCaps="false"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/buttonBattery"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_secondary_button"
+                    android:text="@string/action_glasses_battery"
+                    android:textAllCaps="false"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/buttonMediaCount"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_secondary_button"
+                    android:text="@string/action_glasses_media_count"
+                    android:textAllCaps="false"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_ui_subpanel"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/title_glasses_annotation_recording"
+                android:textColor="#111827"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textAnnotationStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/text_annotation_idle"
+                android:textColor="#6B7280"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/buttonExportAnnotation"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_ui_secondary_button"
+                android:text="@string/action_annotation_export_json"
+                android:textAllCaps="false"
+                android:textColor="#374151"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textAnnotationEvents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_ui_status_capsule"
+                android:fontFamily="monospace"
+                android:lineSpacingExtra="2dp"
+                android:padding="10dp"
+                android:text="@string/text_annotation_no_events"
+                android:textColor="#4B5563"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_ui_subpanel"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/title_glasses_shooting"
+                android:textColor="#111827"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonTakePhoto"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_primary_button"
+                    android:text="@string/action_glasses_take_photo"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/buttonStartVideo"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_primary_button"
+                    android:text="@string/action_glasses_start_video"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/buttonStopVideo"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_secondary_button"
+                    android:text="@string/action_glasses_stop_video"
+                    android:textAllCaps="false"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_ui_subpanel"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/title_glasses_ai_thumbnail"
+                android:textColor="#111827"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/buttonThumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_ui_secondary_button"
+                android:text="@string/action_glasses_thumbnail"
+                android:textAllCaps="false"
+                android:textColor="#374151" />
+
+            <TextView
+                android:id="@+id/textAiThumbnailStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/text_glasses_ai_thumbnail_empty"
+                android:textColor="#6B7280"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imageAiThumbnailPreview"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"
+                android:background="#111827"
+                android:contentDescription="@string/content_glasses_ai_thumbnail_preview"
+                android:scaleType="centerCrop"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_ui_subpanel"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/title_glasses_album"
+                    android:textColor="#111827"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/buttonToggleAlbum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:background="@drawable/bg_ui_secondary_button"
+                    android:minWidth="88dp"
+                    android:text="@string/action_glasses_expand_album"
+                    android:textAllCaps="false"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/text_glasses_album_hint"
+                android:textColor="#6B7280"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonSyncAlbum"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_primary_button"
+                    android:text="@string/action_glasses_sync_album"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/buttonRefreshMedia"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_secondary_button"
+                    android:text="@string/action_glasses_refresh_media"
+                    android:textAllCaps="false"
+                    android:textColor="#374151" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutAlbumContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textSelectedMedia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_glasses_no_media_selected"
+                    android:textColor="#6B7280"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/imagePreview"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#E5E7EB"
+                    android:contentDescription="@string/content_glasses_image_preview"
+                    android:scaleType="centerInside"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:id="@+id/videoPreviewFrame"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginTop="10dp"
+                    android:visibility="gone">
+
+                    <VideoView
+                        android:id="@+id/videoPreview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:id="@+id/textVideoHudOverlay"
+                        android:layout_width="132dp"
+                        android:layout_height="132dp"
+                        android:layout_gravity="top|center_horizontal"
+                        android:layout_marginTop="18dp"
+                        android:background="@drawable/bg_glasses_hud_overlay"
+                        android:gravity="center"
+                        android:lineSpacingExtra="2dp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+                </FrameLayout>
+
+                <GridLayout
+                    android:id="@+id/layoutMediaRows"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:layout_marginTop="8dp"
+                    android:useDefaultMargins="false" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_ui_subpanel"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/title_glasses_logs"
+                    android:textColor="#111827"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/buttonCopyLog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:background="@drawable/bg_ui_secondary_button"
+                    android:minWidth="96dp"
+                    android:text="@string/action_glasses_copy_full_log"
+                    android:textAllCaps="false"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/text_glasses_crash_log_hint"
+                android:textColor="#6B7280"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textLog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/text_glasses_log_empty"
+                android:textColor="#4B5563"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layoutAnnotationFloatingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="66dp"
+        android:background="@drawable/bg_glasses_floating_panel"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonStartAnnotatedVideo"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_glasses_floating_primary_button"
+                android:text="@string/action_start_annotation_recording"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/buttonStopAnnotatedVideo"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_glasses_floating_button"
+                android:text="@string/action_stop_annotation_recording"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:columnCount="3">
+
+            <Button
+                android:id="@+id/buttonAnnotateForward"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_columnWeight="1"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_glasses_floating_button"
+                android:text="@string/action_annotation_forward"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/buttonAnnotateLeft"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_glasses_floating_button"
+                android:text="@string/action_annotation_left"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/buttonAnnotateRight"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_glasses_floating_button"
+                android:text="@string/action_annotation_right"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/buttonAnnotateFloorUp"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_columnWeight="1"
+                android:layout_marginEnd="4dp"
+                android:background="@drawable/bg_glasses_floating_button"
+                android:text="@string/action_annotation_floor_up"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/buttonAnnotateFloorDown"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:background="@drawable/bg_glasses_floating_button"
+                android:text="@string/action_annotation_floor_down"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/buttonAnnotateUndo"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_glasses_floating_button"
+                android:text="@string/action_annotation_undo"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+        </GridLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonToggleAnnotationPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/bg_glasses_floating_primary_button"
+        android:minWidth="112dp"
+        android:text="@string/action_annotation_panel_expand"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp" />
+</FrameLayout>

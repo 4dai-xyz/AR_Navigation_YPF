@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F7FB"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/title_dual_sensor_recording"
+                android:textColor="#111827"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_ui_secondary_button"
+                android:text="返回"
+                android:textAllCaps="false"
+                android:textColor="#374151"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textPermission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_ui_status_capsule"
+            android:padding="10dp"
+            android:textColor="#374151"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_ui_subpanel"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="设备选择"
+                android:textColor="#111827"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/spinnerLeftCamera"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_ui_status_capsule" />
+
+            <Spinner
+                android:id="@+id/spinnerRightCamera"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_ui_status_capsule" />
+
+            <Spinner
+                android:id="@+id/spinnerImu"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_ui_status_capsule" />
+
+            <TextView
+                android:id="@+id/textDeviceSummary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_ui_status_capsule"
+                android:padding="10dp"
+                android:textColor="#374151"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonRefreshDevices"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_secondary_button"
+                    android:text="刷新"
+                    android:textAllCaps="false"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/buttonRequestUsbPermission"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_secondary_button"
+                    android:text="请求USB权限"
+                    android:textAllCaps="false"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/buttonSwapCameras"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_secondary_button"
+                    android:text="交换左右"
+                    android:textAllCaps="false"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_ui_subpanel"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="预览与 IMU"
+                android:textColor="#111827"
+                android:textSize="15sp" />
+
+            <TextureView
+                android:id="@+id/textureLeftCamera"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/textLeftCamera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/bg_ui_status_capsule"
+                android:padding="10dp"
+                android:textColor="#374151"
+                android:textSize="12sp" />
+
+            <TextureView
+                android:id="@+id/textureRightCamera"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textRightCamera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/bg_ui_status_capsule"
+                android:padding="10dp"
+                android:textColor="#374151"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textImu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_ui_status_capsule"
+                android:padding="10dp"
+                android:textColor="#374151"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonOpenPreview"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_primary_button"
+                    android:text="打开预览"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/buttonSetImu200Hz"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_secondary_button"
+                    android:text="IMU 200Hz"
+                    android:textAllCaps="false"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/buttonReadImuRate"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_secondary_button"
+                    android:text="读频率"
+                    android:textAllCaps="false"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_ui_subpanel"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="录制与导出"
+                android:textColor="#111827"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textRecordingStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_ui_status_capsule"
+                android:padding="10dp"
+                android:textColor="#374151"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonStartRecording"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_primary_button"
+                    android:text="开始录制"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/buttonStopRecording"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_secondary_button"
+                    android:text="停止录制"
+                    android:textAllCaps="false"
+                    android:textColor="#374151"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/buttonExportZip"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_ui_secondary_button"
+                    android:text="导出ZIP"
+                    android:textAllCaps="false"
+                    android:textColor="#374151"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_ui_status_capsule"
+            android:padding="10dp"
+            android:textColor="#6B7280"
+            android:textSize="11sp" />
+    </LinearLayout>
+</ScrollView>

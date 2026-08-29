@@ -1,0 +1,20 @@
+{
+  "floors": [
+    {
+      "floor_id": "F1",
+      "floor_name": "1F",
+      "floor_index": 1,
+      "is_public": true,
+      "z": 0.0,
+      "floorplan_source": "C:/Users/Administrator/Desktop/AI建图/五道口1F.jpg"
+    },
+    {
+      "floor_id": "F2",
+      "floor_name": "2F",
+      "floor_index": 2,
+      "is_public": true,
+      "z": 4.5,
+      "floorplan_source": "C:/Users/Administrator/Desktop/AI建图/五道口2F.jpg"
+    }
+  ]
+}

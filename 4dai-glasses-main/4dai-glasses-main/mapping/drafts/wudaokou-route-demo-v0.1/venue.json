@@ -1,0 +1,13 @@
+{
+  "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+  "venue_name": "北京五道口购物中心",
+  "venue_type": "mall",
+  "city": "Beijing",
+  "address": "TODO_CONFIRM",
+  "supported_modes": [
+    "indoor_navigation_route_demo"
+  ],
+  "default_entry_strategy": "west_gate_route_demo",
+  "default_target_type": "store_door",
+  "notes": "Route-only draft based on GaoDe indoor map screenshots. Not a real localization-ready venue package."
+}

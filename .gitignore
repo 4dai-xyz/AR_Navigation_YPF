@@ -1,0 +1,70 @@
+# Local editor and assistant state
+.vscode/
+.claude/
+.codex/
+.agents/
+
+# Python environments and package caches
+env/
+.venv/
+venv/
+pip_cache/
+scrcpy-win64-v3.3.1/
+__pycache__/
+*.py[cod]
+
+# Captured data, generated output, and model artifacts
+data/
+models/
+ocr-and-dataset-main/char_dataset/
+ocr-and-dataset-main/cnn_dataset/
+ocr-and-dataset-main/Huichang_RCNN_Dataset/
+ocr-and-dataset-main/checkpoints/
+ocr-and-dataset-main/checkpoints_huichang_logo/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
+*.safetensors
+
+# Video, recordings, and other large binary assets
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.bag
+*.db
+*.zip
+*.7z
+*.tar
+*.gz
+4dai-glasses-main/4dai-glasses-main/android/session_*/
+4dai-glasses-main/4dai-glasses-main/android/output/
+4dai-glasses-main/4dai-glasses-main/android/releases/*.apk
+
+# Build and dependency artifacts
+**/build/
+**/.gradle/
+**/.cxx/
+**/.externalNativeBuild/
+*.o
+*.so
+*.dll
+*.exe
+*.a
+*.lib
+*.pack
+*.includecache
+*.internal
+*.make
+*.log
+_orbslam3_shared/ORB_SLAM3/Vocabulary/ORBvoc.txt
+_orbslam3_shared/
+
+# Local configuration and OS clutter
+.env
+*.local
+Thumbs.db
+.DS_Store
+*.lnk

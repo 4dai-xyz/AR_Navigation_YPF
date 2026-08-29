@@ -1,0 +1,153 @@
+{
+  "algorithm": "algorithm_g_cell_portal_bridge_pruned",
+  "render_style": "clean_indexed_side_panel",
+  "source_annotation_dir": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\annotation_points",
+  "source_network_dir": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_g_cell_portal_bridge_pruned",
+  "output_dir": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\annotation_overlays\\algorithm_g_cell_portal_bridge_pruned_clean_indexed",
+  "contact_sheet": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\annotation_overlays\\algorithm_g_cell_portal_bridge_pruned_clean_indexed\\all_floors_algorithm_g_with_annotation_index_contact_sheet.jpg",
+  "items": [
+    {
+      "floor_id": "B1",
+      "annotation_json": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\annotation_points\\b1.json",
+      "network_preview": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_g_cell_portal_bridge_pruned\\b1_algorithm_g_cell_portal_bridge_pruned_preview.jpg",
+      "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\annotation_overlays\\algorithm_g_cell_portal_bridge_pruned_clean_indexed\\b1_algorithm_g_with_annotation_index_preview.jpg",
+      "status": "generated",
+      "total_shapes": 55,
+      "rendered_points": 55,
+      "poi_count": 46,
+      "connector_count": 9,
+      "category_counts": {
+        "elevator": 1,
+        "escalator_down": 2,
+        "escalator_up": 2,
+        "poi": 46,
+        "step": 3,
+        "wc": 1
+      },
+      "render_style": "clean_indexed_side_panel"
+    },
+    {
+      "floor_id": "B2",
+      "annotation_json": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\annotation_points\\b2.json",
+      "network_preview": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_g_cell_portal_bridge_pruned\\b2_algorithm_g_cell_portal_bridge_pruned_preview.jpg",
+      "status": "skipped",
+      "skipped_reason": "missing_algorithm_g_network_preview"
+    },
+    {
+      "floor_id": "F1",
+      "annotation_json": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\annotation_points\\f1.json",
+      "network_preview": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_g_cell_portal_bridge_pruned\\f1_algorithm_g_cell_portal_bridge_pruned_preview.jpg",
+      "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\annotation_overlays\\algorithm_g_cell_portal_bridge_pruned_clean_indexed\\f1_algorithm_g_with_annotation_index_preview.jpg",
+      "status": "generated",
+      "total_shapes": 54,
+      "rendered_points": 54,
+      "poi_count": 32,
+      "connector_count": 19,
+      "category_counts": {
+        "elevator": 6,
+        "entrance": 3,
+        "escalator_down": 3,
+        "escalator_up": 4,
+        "poi": 32,
+        "step": 6
+      },
+      "render_style": "clean_indexed_side_panel"
+    },
+    {
+      "floor_id": "F2",
+      "annotation_json": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\annotation_points\\f2.json",
+      "network_preview": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_g_cell_portal_bridge_pruned\\f2_algorithm_g_cell_portal_bridge_pruned_preview.jpg",
+      "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\annotation_overlays\\algorithm_g_cell_portal_bridge_pruned_clean_indexed\\f2_algorithm_g_with_annotation_index_preview.jpg",
+      "status": "generated",
+      "total_shapes": 33,
+      "rendered_points": 33,
+      "poi_count": 16,
+      "connector_count": 17,
+      "category_counts": {
+        "escalator_down": 4,
+        "escalator_up": 4,
+        "poi": 16,
+        "step": 7,
+        "wc": 2
+      },
+      "render_style": "clean_indexed_side_panel"
+    },
+    {
+      "floor_id": "F3",
+      "annotation_json": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\annotation_points\\f3.json",
+      "network_preview": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_g_cell_portal_bridge_pruned\\f3_algorithm_g_cell_portal_bridge_pruned_preview.jpg",
+      "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\annotation_overlays\\algorithm_g_cell_portal_bridge_pruned_clean_indexed\\f3_algorithm_g_with_annotation_index_preview.jpg",
+      "status": "generated",
+      "total_shapes": 28,
+      "rendered_points": 28,
+      "poi_count": 12,
+      "connector_count": 16,
+      "category_counts": {
+        "escalator_down": 4,
+        "escalator_up": 4,
+        "poi": 12,
+        "step": 6,
+        "wc": 2
+      },
+      "render_style": "clean_indexed_side_panel"
+    },
+    {
+      "floor_id": "F4",
+      "annotation_json": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\annotation_points\\f4.json",
+      "network_preview": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_g_cell_portal_bridge_pruned\\f4_algorithm_g_cell_portal_bridge_pruned_preview.jpg",
+      "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\annotation_overlays\\algorithm_g_cell_portal_bridge_pruned_clean_indexed\\f4_algorithm_g_with_annotation_index_preview.jpg",
+      "status": "generated",
+      "total_shapes": 29,
+      "rendered_points": 29,
+      "poi_count": 11,
+      "connector_count": 18,
+      "category_counts": {
+        "elevator": 1,
+        "escalator_down": 4,
+        "escalator_up": 4,
+        "poi": 11,
+        "step": 6,
+        "wc": 3
+      },
+      "render_style": "clean_indexed_side_panel"
+    },
+    {
+      "floor_id": "F5",
+      "annotation_json": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\annotation_points\\f5.json",
+      "network_preview": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_g_cell_portal_bridge_pruned\\f5_algorithm_g_cell_portal_bridge_pruned_preview.jpg",
+      "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\annotation_overlays\\algorithm_g_cell_portal_bridge_pruned_clean_indexed\\f5_algorithm_g_with_annotation_index_preview.jpg",
+      "status": "generated",
+      "total_shapes": 39,
+      "rendered_points": 39,
+      "poi_count": 24,
+      "connector_count": 15,
+      "category_counts": {
+        "elevator": 1,
+        "escalator_down": 4,
+        "escalator_up": 4,
+        "poi": 24,
+        "step": 4,
+        "wc": 2
+      },
+      "render_style": "clean_indexed_side_panel"
+    },
+    {
+      "floor_id": "F6",
+      "annotation_json": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\annotation_points\\f6.json",
+      "network_preview": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_g_cell_portal_bridge_pruned\\f6_algorithm_g_cell_portal_bridge_pruned_preview.jpg",
+      "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\annotation_overlays\\algorithm_g_cell_portal_bridge_pruned_clean_indexed\\f6_algorithm_g_with_annotation_index_preview.jpg",
+      "status": "generated",
+      "total_shapes": 12,
+      "rendered_points": 12,
+      "poi_count": 9,
+      "connector_count": 3,
+      "category_counts": {
+        "elevator": 1,
+        "escalator_down": 1,
+        "escalator_up": 1,
+        "poi": 9
+      },
+      "render_style": "clean_indexed_side_panel"
+    }
+  ]
+}

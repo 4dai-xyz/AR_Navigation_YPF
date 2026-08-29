@@ -1,0 +1,147 @@
+{
+  "nodes": [
+    {
+      "node_id": "node_f1_west_gate_demo",
+      "floor_id": "F1",
+      "x": 18.669,
+      "y": 143.439,
+      "node_type": "entrance",
+      "ref_id": "entrance_f1_west_gate",
+      "source_pixel": {
+        "x": 367,
+        "y": 2084
+      }
+    },
+    {
+      "node_id": "node_f1_west_corridor_turn_demo",
+      "floor_id": "F1",
+      "x": 55.932,
+      "y": 143.973,
+      "node_type": "waypoint",
+      "source_pixel": {
+        "x": 739,
+        "y": 2090
+      }
+    },
+    {
+      "node_id": "node_f1_escalator_up_demo_01",
+      "floor_id": "F1",
+      "x": 61.514,
+      "y": 70.649,
+      "node_type": "connector",
+      "ref_id": "connector_escalator_f1_f2_demo_01",
+      "source_pixel": {
+        "x": 795,
+        "y": 1356
+      }
+    },
+    {
+      "node_id": "node_f2_escalator_out_demo_01",
+      "floor_id": "F2",
+      "x": 60.678,
+      "y": 54.162,
+      "node_type": "connector",
+      "ref_id": "connector_escalator_f1_f2_demo_01",
+      "source_pixel": {
+        "x": 787,
+        "y": 1192
+      }
+    },
+    {
+      "node_id": "node_f2_tata_corridor_turn_01_demo",
+      "floor_id": "F2",
+      "x": 68.351,
+      "y": 53.974,
+      "node_type": "waypoint",
+      "source_pixel": {
+        "x": 864,
+        "y": 1190
+      }
+    },
+    {
+      "node_id": "node_f2_tata_corridor_turn_02_demo",
+      "floor_id": "F2",
+      "x": 68.966,
+      "y": 143.172,
+      "node_type": "waypoint",
+      "source_pixel": {
+        "x": 870,
+        "y": 2082
+      }
+    },
+    {
+      "node_id": "node_f2_tata_door_demo",
+      "floor_id": "F2",
+      "x": 86.161,
+      "y": 155.091,
+      "node_type": "poi_anchor",
+      "ref_id": "poi_f2_tata_door_demo",
+      "source_pixel": {
+        "x": 1042,
+        "y": 2201
+      }
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "edge_f1_west_gate_to_turn_demo",
+      "from_node_id": "node_f1_west_gate_demo",
+      "to_node_id": "node_f1_west_corridor_turn_demo",
+      "distance": 37.3,
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "cost_seconds": 31.0,
+      "status": "draft"
+    },
+    {
+      "edge_id": "edge_f1_turn_to_escalator_demo",
+      "from_node_id": "node_f1_west_corridor_turn_demo",
+      "to_node_id": "node_f1_escalator_up_demo_01",
+      "distance": 73.5,
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "cost_seconds": 61.0,
+      "status": "draft"
+    },
+    {
+      "edge_id": "edge_f1_to_f2_escalator_demo_01",
+      "from_node_id": "node_f1_escalator_up_demo_01",
+      "to_node_id": "node_f2_escalator_out_demo_01",
+      "distance": 6.0,
+      "travel_mode": "escalator",
+      "bidirectional": false,
+      "cost_seconds": 25.0,
+      "status": "draft"
+    },
+    {
+      "edge_id": "edge_f2_escalator_to_tata_turn_01_demo",
+      "from_node_id": "node_f2_escalator_out_demo_01",
+      "to_node_id": "node_f2_tata_corridor_turn_01_demo",
+      "distance": 7.7,
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "cost_seconds": 6.0,
+      "status": "draft"
+    },
+    {
+      "edge_id": "edge_f2_tata_turn_01_to_turn_02_demo",
+      "from_node_id": "node_f2_tata_corridor_turn_01_demo",
+      "to_node_id": "node_f2_tata_corridor_turn_02_demo",
+      "distance": 89.2,
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "cost_seconds": 74.0,
+      "status": "draft"
+    },
+    {
+      "edge_id": "edge_f2_tata_turn_02_to_door_demo",
+      "from_node_id": "node_f2_tata_corridor_turn_02_demo",
+      "to_node_id": "node_f2_tata_door_demo",
+      "distance": 20.9,
+      "travel_mode": "walk",
+      "bidirectional": true,
+      "cost_seconds": 17.0,
+      "status": "draft"
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "schema_version": "scene_classifier_http_selftest_v0.6",
+  "generated_at": "2026-06-07T08:33:08+0800",
+  "url": "http://127.0.0.1:8013/api/v1/localization/visual-locate",
+  "venue_id": "venue_exhibition_demo",
+  "capture_mode": "glasses_private_stream",
+  "samples_dir": "cloud\\tmp_scene_recognition_probe\\yjdd_hd_scene_samples_8fps_blur80\\images",
+  "query_count": 2349,
+  "booth_group_count": 52,
+  "raw_top1_accuracy": 0.9991,
+  "ok_rate": 0.7854,
+  "ok_top1_accuracy": 1.0,
+  "status_counts": {
+    "ok": 1845,
+    "low_confidence": 493,
+    "not_found": 11
+  },
+  "latency_ms": {
+    "avg": 18.92,
+    "p50": 18.0,
+    "p90": 24.0,
+    "p95": 25.0,
+    "p99": 30.0,
+    "max": 78.0
+  },
+  "wall_latency_ms": {
+    "avg": 33.87,
+    "p50": 31.8,
+    "p90": 45.73,
+    "p95": 49.4,
+    "p99": 56.5,
+    "max": 111.4
+  },
+  "score_summary": {
+    "avg": 0.6484,
+    "p10": 0.3997,
+    "p50": 0.6694,
+    "p90": 0.8663
+  },
+  "raw_wrong_count": 2,
+  "ok_wrong_count": 0,
+  "latency_over_limit_count": 0,
+  "max_latency_ms_limit": 200.0,
+  "per_booth": {
+    "A01": {
+      "total": 39,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 1.0,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 28.1
+    },
+    "A02": {
+      "total": 33,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 1.0,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 28.8
+    },
+    "A03": {
+      "total": 41,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.5366,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 32.0
+    },
+    "A04": {
+      "total": 57,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.5965,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 25.2
+    },
+    "A05": {
+      "total": 42,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.3095,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 26.0
+    },
+    "A06": {
+      "total": 49,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 1.0,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 29.2
+    },
+    "A07": {
+      "total": 28,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 1.0,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 24.0
+    },
+    "A08": {
+      "total": 30,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.8667,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 24.0
+    },
+    "A09": {
+      "total": 18,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.8889,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 24.15
+    },
+    "A10": {
+      "total": 20,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.8,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 25.1
+    },
+    "B01": {
+      "total": 13,
+      "raw_top1_accuracy": 0.9231,
+      "ok_rate": 0.0,
+      "ok_top1_accuracy": null,
+      "latency_p95_ms": 24.4
+    },
+    "B02": {
+      "total": 43,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.8837,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 24.9
+    },
+    "B03": {
+      "total": 42,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.8333,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 24.0
+    },
+    "B04": {
+      "total": 19,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.7895,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 22.0
+    },
+    "B05": {
+      "total": 66,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.2424,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 26.75
+    },
+    "B06": {
+      "total": 17,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.0,
+      "ok_top1_accuracy": null,
+      "latency_p95_ms": 25.4
+    },
+    "B07": {
+      "total": 94,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 1.0,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 24.35
+    },
+    "B08": {
+      "total": 125,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 1.0,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 25.0
+    },
+    "B09": {
+      "total": 26,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.2692,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 22.75
+    },
+    "B10": {
+      "total": 81,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 1.0,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 24.0
+    },
+    "B11": {
+      "total": 62,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.9677,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 23.0
+    },
+    "B12": {
+      "total": 70,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.9857,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 24.0
+    },
+    "B13": {
+      "total": 33,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.9394,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 23.0
+    },
+    "B14": {
+      "total": 56,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.9107,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 26.25
+    },
+    "B15": {
+      "total": 38,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.9211,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 23.0
+    },
+    "B16": {
+      "total": 23,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.9565,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 21.8
+    },
+    "B17": {
+      "total": 90,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 1.0,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 25.55
+    },
+    "B18": {
+      "total": 23,
+      "raw_top1_accuracy": 0.9565,
+      "ok_rate": 0.6522,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 21.0
+    },
+    "B19": {
+      "total": 43,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 1.0,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 24.7
+    },
+    "E01": {
+      "total": 51,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.8824,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 25.5
+    },
+    "E02": {
+      "total": 57,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 1.0,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 26.0
+    },
+    "E03": {
+      "total": 88,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.9773,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 24.0
+    },
+    "E04": {
+      "total": 77,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.7662,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 22.4
+    },
+    "E05": {
+      "total": 37,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.9189,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 20.4
+    },
+    "E06": {
+      "total": 35,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.7143,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 23.0
+    },
+    "E07": {
+      "total": 34,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.8529,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 23.35
+    },
+    "E08": {
+      "total": 40,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.525,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 22.0
+    },
+    "E09": {
+      "total": 30,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.7333,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 22.0
+    },
+    "E10": {
+      "total": 31,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.129,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 22.5
+    },
+    "E11": {
+      "total": 34,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.4118,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 24.05
+    },
+    "E12": {
+      "total": 47,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.0213,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 26.4
+    },
+    "F01": {
+      "total": 35,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.9429,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 20.0
+    },
+    "F02": {
+      "total": 48,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.6458,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 23.0
+    },
+    "F03": {
+      "total": 60,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.4167,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 24.05
+    },
+    "F04": {
+      "total": 56,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.9643,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 20.5
+    },
+    "F05": {
+      "total": 42,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.7381,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 24.9
+    },
+    "F06": {
+      "total": 59,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.9661,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 22.1
+    },
+    "F07": {
+      "total": 19,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.9474,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 21.0
+    },
+    "F08": {
+      "total": 27,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.7407,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 21.7
+    },
+    "F09": {
+      "total": 25,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.64,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 20.8
+    },
+    "F10": {
+      "total": 55,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.4182,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 21.5
+    },
+    "F11": {
+      "total": 41,
+      "raw_top1_accuracy": 1.0,
+      "ok_rate": 0.9024,
+      "ok_top1_accuracy": 1.0,
+      "latency_p95_ms": 21.0
+    }
+  },
+  "first_50_failures": [
+    {
+      "request_id": "selftest_v4_0370_B01",
+      "expected": "B01",
+      "raw_pred": "B08",
+      "status": "not_found",
+      "latency_ms": 19,
+      "wall_latency_ms": 30.87,
+      "score": 0.1266,
+      "failure_stage": "scene_classifier_low_confidence",
+      "image": "cloud\\tmp_scene_recognition_probe\\yjdd_hd_scene_samples_8fps_blur80\\images\\B01\\yjdd_hd_00096_00012805ms.jpg"
+    },
+    {
+      "request_id": "selftest_v4_1278_B18",
+      "expected": "B18",
+      "raw_pred": "E03",
+      "status": "low_confidence",
+      "latency_ms": 21,
+      "wall_latency_ms": 32.41,
+      "score": 0.3061,
+      "failure_stage": null,
+      "image": "cloud\\tmp_scene_recognition_probe\\yjdd_hd_scene_samples_8fps_blur80\\images\\B18\\yjdd_hd_01895_00252772ms.jpg"
+    }
+  ],
+  "elapsed_seconds": 80.96
+}

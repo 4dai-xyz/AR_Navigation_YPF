@@ -1,0 +1,1783 @@
+{
+  "schema_version": "conference_poi_resolver_v0.1",
+  "source": "OCR/huichang.json crop=conference_exhibition_area x=780..1720 y=2250..3480",
+  "venue_id": "venue_exhibition_demo",
+  "venue_name": "会场演示展厅",
+  "items": [
+    {
+      "poi_id": "poi_0",
+      "name": "entrance",
+      "display_name": "入口",
+      "floor_id": "F1",
+      "aliases": [
+        "0",
+        "入口",
+        "会场入口",
+        "展厅入口",
+        "entrance"
+      ],
+      "route_node_id": "road_node_103",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 0",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_0",
+      "route_snap_distance_px": 6.768
+    },
+    {
+      "poi_id": "poi_1",
+      "name": "QR_code",
+      "display_name": "二维码展示墙",
+      "floor_id": "F1",
+      "aliases": [
+        "1",
+        "qr",
+        "二维码",
+        "展示墙",
+        "中间展示墙",
+        "QR_code"
+      ],
+      "route_node_id": "road_node_088",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 1",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_1",
+      "route_snap_distance_px": 113.751
+    },
+    {
+      "poi_id": "poi_2",
+      "name": "robot_platform",
+      "display_name": "机器人站台",
+      "floor_id": "F1",
+      "aliases": [
+        "2",
+        "机器人",
+        "robot",
+        "机器人站台",
+        "robot_platform"
+      ],
+      "route_node_id": "road_node_043",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 2",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_2",
+      "route_snap_distance_px": 94.787
+    },
+    {
+      "poi_id": "poi_3",
+      "name": "exit",
+      "display_name": "出口",
+      "floor_id": "F1",
+      "aliases": [
+        "3",
+        "出口",
+        "exit",
+        "会场出口",
+        "展厅出口"
+      ],
+      "route_node_id": "road_node_052",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 3",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_3",
+      "route_snap_distance_px": 1.346
+    },
+    {
+      "poi_id": "poi_101",
+      "name": "A01",
+      "display_name": "A01",
+      "floor_id": "F1",
+      "aliases": [
+        "A1",
+        "a1",
+        "101",
+        "A01",
+        "a01",
+        "A01展位",
+        "A01展台",
+        "展位A01",
+        "展台A01"
+      ],
+      "route_node_id": "road_node_044",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 101",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_101",
+      "route_snap_distance_px": 80.671
+    },
+    {
+      "poi_id": "poi_102",
+      "name": "A02",
+      "display_name": "A02",
+      "floor_id": "F1",
+      "aliases": [
+        "A2",
+        "a2",
+        "102",
+        "A02",
+        "a02",
+        "A02展位",
+        "A02展台",
+        "展位A02",
+        "展台A02"
+      ],
+      "route_node_id": "road_node_042",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 102",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_102",
+      "route_snap_distance_px": 90.557
+    },
+    {
+      "poi_id": "poi_103",
+      "name": "A03",
+      "display_name": "A03",
+      "floor_id": "F1",
+      "aliases": [
+        "A3",
+        "a3",
+        "103",
+        "A03",
+        "a03",
+        "A03展位",
+        "A03展台",
+        "展位A03",
+        "展台A03"
+      ],
+      "route_node_id": "road_node_037",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 103",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_103",
+      "route_snap_distance_px": 111.543
+    },
+    {
+      "poi_id": "poi_104",
+      "name": "A04",
+      "display_name": "A04",
+      "floor_id": "F1",
+      "aliases": [
+        "A4",
+        "a4",
+        "104",
+        "A04",
+        "a04",
+        "A04展位",
+        "A04展台",
+        "展位A04",
+        "展台A04"
+      ],
+      "route_node_id": "road_node_039",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 104",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_104",
+      "route_snap_distance_px": 105.029
+    },
+    {
+      "poi_id": "poi_105",
+      "name": "A05",
+      "display_name": "A05",
+      "floor_id": "F1",
+      "aliases": [
+        "A5",
+        "a5",
+        "105",
+        "A05",
+        "a05",
+        "A05展位",
+        "A05展台",
+        "展位A05",
+        "展台A05"
+      ],
+      "route_node_id": "road_node_045",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 105",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_105",
+      "route_snap_distance_px": 79.695
+    },
+    {
+      "poi_id": "poi_106",
+      "name": "A06",
+      "display_name": "A06",
+      "floor_id": "F1",
+      "aliases": [
+        "A6",
+        "a6",
+        "106",
+        "A06",
+        "a06",
+        "A06展位",
+        "A06展台",
+        "展位A06",
+        "展台A06"
+      ],
+      "route_node_id": "road_node_049",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 106",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_106",
+      "route_snap_distance_px": 75.931
+    },
+    {
+      "poi_id": "poi_107",
+      "name": "A07",
+      "display_name": "A07",
+      "floor_id": "F1",
+      "aliases": [
+        "A7",
+        "a7",
+        "107",
+        "A07",
+        "a07",
+        "A07展位",
+        "A07展台",
+        "展位A07",
+        "展台A07"
+      ],
+      "route_node_id": "road_node_047",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 107",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_107",
+      "route_snap_distance_px": 92.718
+    },
+    {
+      "poi_id": "poi_108",
+      "name": "A08",
+      "display_name": "A08",
+      "floor_id": "F1",
+      "aliases": [
+        "A8",
+        "a8",
+        "108",
+        "A08",
+        "a08",
+        "A08展位",
+        "A08展台",
+        "展位A08",
+        "展台A08"
+      ],
+      "route_node_id": "road_node_046",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 108",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_108",
+      "route_snap_distance_px": 95.861
+    },
+    {
+      "poi_id": "poi_109",
+      "name": "A09",
+      "display_name": "A09",
+      "floor_id": "F1",
+      "aliases": [
+        "A9",
+        "a9",
+        "109",
+        "A09",
+        "a09",
+        "A09展位",
+        "A09展台",
+        "展位A09",
+        "展台A09"
+      ],
+      "route_node_id": "road_node_040",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 109",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_109",
+      "route_snap_distance_px": 91.25
+    },
+    {
+      "poi_id": "poi_110",
+      "name": "A10",
+      "display_name": "A10",
+      "floor_id": "F1",
+      "aliases": [
+        "110",
+        "A10",
+        "a10",
+        "A10展位",
+        "A10展台",
+        "展位A10",
+        "展台A10"
+      ],
+      "route_node_id": "road_node_038",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 110",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_110",
+      "route_snap_distance_px": 89.689
+    },
+    {
+      "poi_id": "poi_111",
+      "name": "A11",
+      "display_name": "A11",
+      "floor_id": "F1",
+      "aliases": [
+        "111",
+        "A11",
+        "a11",
+        "A11展位",
+        "A11展台",
+        "展位A11",
+        "展台A11"
+      ],
+      "route_node_id": "road_node_036",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 111",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_111",
+      "route_snap_distance_px": 90.181
+    },
+    {
+      "poi_id": "poi_201",
+      "name": "B01",
+      "display_name": "B01",
+      "floor_id": "F1",
+      "aliases": [
+        "B1",
+        "b1",
+        "201",
+        "B01",
+        "b01",
+        "B01展位",
+        "B01展台",
+        "展位B01",
+        "展台B01"
+      ],
+      "route_node_id": "road_node_050",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 201",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_201",
+      "route_snap_distance_px": 107.734
+    },
+    {
+      "poi_id": "poi_202",
+      "name": "B02",
+      "display_name": "B02",
+      "floor_id": "F1",
+      "aliases": [
+        "B2",
+        "b2",
+        "202",
+        "B02",
+        "b02",
+        "B02展位",
+        "B02展台",
+        "展位B02",
+        "展台B02"
+      ],
+      "route_node_id": "road_node_053",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 202",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_202",
+      "route_snap_distance_px": 96.445
+    },
+    {
+      "poi_id": "poi_203",
+      "name": "B03",
+      "display_name": "B03",
+      "floor_id": "F1",
+      "aliases": [
+        "B3",
+        "b3",
+        "203",
+        "B03",
+        "b03",
+        "B03展位",
+        "B03展台",
+        "展位B03",
+        "展台B03"
+      ],
+      "route_node_id": "road_node_054",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 203",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_203",
+      "route_snap_distance_px": 105.0
+    },
+    {
+      "poi_id": "poi_204",
+      "name": "B04",
+      "display_name": "B04",
+      "floor_id": "F1",
+      "aliases": [
+        "B4",
+        "b4",
+        "204",
+        "B04",
+        "b04",
+        "B04展位",
+        "B04展台",
+        "展位B04",
+        "展台B04"
+      ],
+      "route_node_id": "road_node_056",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 204",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_204",
+      "route_snap_distance_px": 106.098
+    },
+    {
+      "poi_id": "poi_205",
+      "name": "B05",
+      "display_name": "B05",
+      "floor_id": "F1",
+      "aliases": [
+        "B5",
+        "b5",
+        "205",
+        "B05",
+        "b05",
+        "B05展位",
+        "B05展台",
+        "展位B05",
+        "展台B05"
+      ],
+      "route_node_id": "road_node_060",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 205",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_205",
+      "route_snap_distance_px": 89.19
+    },
+    {
+      "poi_id": "poi_206",
+      "name": "B06",
+      "display_name": "B06",
+      "floor_id": "F1",
+      "aliases": [
+        "B6",
+        "b6",
+        "206",
+        "B06",
+        "b06",
+        "B06展位",
+        "B06展台",
+        "展位B06",
+        "展台B06"
+      ],
+      "route_node_id": "road_node_063",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 206",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_206",
+      "route_snap_distance_px": 89.877
+    },
+    {
+      "poi_id": "poi_207",
+      "name": "B07",
+      "display_name": "B07",
+      "floor_id": "F1",
+      "aliases": [
+        "B7",
+        "b7",
+        "207",
+        "B07",
+        "b07",
+        "B07展位",
+        "B07展台",
+        "展位B07",
+        "展台B07"
+      ],
+      "route_node_id": "road_node_062",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 207",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_207",
+      "route_snap_distance_px": 97.382
+    },
+    {
+      "poi_id": "poi_208",
+      "name": "B08",
+      "display_name": "B08",
+      "floor_id": "F1",
+      "aliases": [
+        "B8",
+        "b8",
+        "208",
+        "B08",
+        "b08",
+        "B08展位",
+        "B08展台",
+        "展位B08",
+        "展台B08"
+      ],
+      "route_node_id": "road_node_066",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 208",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_208",
+      "route_snap_distance_px": 115.452
+    },
+    {
+      "poi_id": "poi_209",
+      "name": "B09",
+      "display_name": "B09",
+      "floor_id": "F1",
+      "aliases": [
+        "B9",
+        "b9",
+        "209",
+        "B09",
+        "b09",
+        "B09展位",
+        "B09展台",
+        "展位B09",
+        "展台B09"
+      ],
+      "route_node_id": "road_node_076",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 209",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_209",
+      "route_snap_distance_px": 82.752
+    },
+    {
+      "poi_id": "poi_210",
+      "name": "B10",
+      "display_name": "B10",
+      "floor_id": "F1",
+      "aliases": [
+        "210",
+        "B10",
+        "b10",
+        "B10展位",
+        "B10展台",
+        "展位B10",
+        "展台B10"
+      ],
+      "route_node_id": "road_node_075",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 210",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_210",
+      "route_snap_distance_px": 83.751
+    },
+    {
+      "poi_id": "poi_211",
+      "name": "B11",
+      "display_name": "B11",
+      "floor_id": "F1",
+      "aliases": [
+        "211",
+        "B11",
+        "b11",
+        "B11展位",
+        "B11展台",
+        "展位B11",
+        "展台B11"
+      ],
+      "route_node_id": "road_node_073",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 211",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_211",
+      "route_snap_distance_px": 117.958
+    },
+    {
+      "poi_id": "poi_212",
+      "name": "B12",
+      "display_name": "B12",
+      "floor_id": "F1",
+      "aliases": [
+        "212",
+        "B12",
+        "b12",
+        "B12展位",
+        "B12展台",
+        "展位B12",
+        "展台B12"
+      ],
+      "route_node_id": "road_node_074",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 212",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_212",
+      "route_snap_distance_px": 115.25
+    },
+    {
+      "poi_id": "poi_213",
+      "name": "B13",
+      "display_name": "B13",
+      "floor_id": "F1",
+      "aliases": [
+        "213",
+        "B13",
+        "b13",
+        "B13展位",
+        "B13展台",
+        "展位B13",
+        "展台B13"
+      ],
+      "route_node_id": "road_node_070",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 213",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_213",
+      "route_snap_distance_px": 93.25
+    },
+    {
+      "poi_id": "poi_214",
+      "name": "B14",
+      "display_name": "B14",
+      "floor_id": "F1",
+      "aliases": [
+        "214",
+        "B14",
+        "b14",
+        "B14展位",
+        "B14展台",
+        "展位B14",
+        "展台B14"
+      ],
+      "route_node_id": "road_node_071",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 214",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_214",
+      "route_snap_distance_px": 95.75
+    },
+    {
+      "poi_id": "poi_215",
+      "name": "B15",
+      "display_name": "B15",
+      "floor_id": "F1",
+      "aliases": [
+        "215",
+        "B15",
+        "b15",
+        "B15展位",
+        "B15展台",
+        "展位B15",
+        "展台B15"
+      ],
+      "route_node_id": "road_node_067",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 215",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_215",
+      "route_snap_distance_px": 111.201
+    },
+    {
+      "poi_id": "poi_216",
+      "name": "B16",
+      "display_name": "B16",
+      "floor_id": "F1",
+      "aliases": [
+        "216",
+        "B16",
+        "b16",
+        "B16展位",
+        "B16展台",
+        "展位B16",
+        "展台B16"
+      ],
+      "route_node_id": "road_node_068",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 216",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_216",
+      "route_snap_distance_px": 108.251
+    },
+    {
+      "poi_id": "poi_217",
+      "name": "B17",
+      "display_name": "B17",
+      "floor_id": "F1",
+      "aliases": [
+        "217",
+        "B17",
+        "b17",
+        "B17展位",
+        "B17展台",
+        "展位B17",
+        "展台B17"
+      ],
+      "route_node_id": "road_node_069",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 217",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_217",
+      "route_snap_distance_px": 83.52
+    },
+    {
+      "poi_id": "poi_218",
+      "name": "B18",
+      "display_name": "B18",
+      "floor_id": "F1",
+      "aliases": [
+        "218",
+        "B18",
+        "b18",
+        "B18展位",
+        "B18展台",
+        "展位B18",
+        "展台B18"
+      ],
+      "route_node_id": "road_node_077",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 218",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_218",
+      "route_snap_distance_px": 76.797
+    },
+    {
+      "poi_id": "poi_219",
+      "name": "B19",
+      "display_name": "B19",
+      "floor_id": "F1",
+      "aliases": [
+        "219",
+        "B19",
+        "b19",
+        "B19展位",
+        "B19展台",
+        "展位B19",
+        "展台B19"
+      ],
+      "route_node_id": "road_node_078",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 219",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_219",
+      "route_snap_distance_px": 74.5
+    },
+    {
+      "poi_id": "poi_501",
+      "name": "E01",
+      "display_name": "E01",
+      "floor_id": "F1",
+      "aliases": [
+        "E1",
+        "e1",
+        "501",
+        "E01",
+        "e01",
+        "E01展位",
+        "E01展台",
+        "展位E01",
+        "展台E01"
+      ],
+      "route_node_id": "road_node_080",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 501",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_501",
+      "route_snap_distance_px": 75.12
+    },
+    {
+      "poi_id": "poi_502",
+      "name": "E02",
+      "display_name": "E02",
+      "floor_id": "F1",
+      "aliases": [
+        "E2",
+        "e2",
+        "502",
+        "E02",
+        "e02",
+        "E02展位",
+        "E02展台",
+        "展位E02",
+        "展台E02"
+      ],
+      "route_node_id": "road_node_081",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 502",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_502",
+      "route_snap_distance_px": 96.129
+    },
+    {
+      "poi_id": "poi_503",
+      "name": "E03",
+      "display_name": "E03",
+      "floor_id": "F1",
+      "aliases": [
+        "E3",
+        "e3",
+        "503",
+        "E03",
+        "e03",
+        "E03展位",
+        "E03展台",
+        "展位E03",
+        "展台E03"
+      ],
+      "route_node_id": "road_node_083",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 503",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_503",
+      "route_snap_distance_px": 86.057
+    },
+    {
+      "poi_id": "poi_504",
+      "name": "E04",
+      "display_name": "E04",
+      "floor_id": "F1",
+      "aliases": [
+        "E4",
+        "e4",
+        "504",
+        "E04",
+        "e04",
+        "E04展位",
+        "E04展台",
+        "展位E04",
+        "展台E04"
+      ],
+      "route_node_id": "road_node_092",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 504",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_504",
+      "route_snap_distance_px": 81.848
+    },
+    {
+      "poi_id": "poi_505",
+      "name": "E05",
+      "display_name": "E05",
+      "floor_id": "F1",
+      "aliases": [
+        "E5",
+        "e5",
+        "505",
+        "E05",
+        "e05",
+        "E05展位",
+        "E05展台",
+        "展位E05",
+        "展台E05"
+      ],
+      "route_node_id": "road_node_090",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 505",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_505",
+      "route_snap_distance_px": 80.25
+    },
+    {
+      "poi_id": "poi_506",
+      "name": "E06",
+      "display_name": "E06",
+      "floor_id": "F1",
+      "aliases": [
+        "E6",
+        "e6",
+        "506",
+        "E06",
+        "e06",
+        "E06展位",
+        "E06展台",
+        "展位E06",
+        "展台E06"
+      ],
+      "route_node_id": "road_node_091",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 506",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_506",
+      "route_snap_distance_px": 82.252
+    },
+    {
+      "poi_id": "poi_507",
+      "name": "E07",
+      "display_name": "E07",
+      "floor_id": "F1",
+      "aliases": [
+        "E7",
+        "e7",
+        "507",
+        "E07",
+        "e07",
+        "E07展位",
+        "E07展台",
+        "展位E07",
+        "展台E07"
+      ],
+      "route_node_id": "road_node_089",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 507",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_507",
+      "route_snap_distance_px": 82.252
+    },
+    {
+      "poi_id": "poi_508",
+      "name": "E08",
+      "display_name": "E08",
+      "floor_id": "F1",
+      "aliases": [
+        "E8",
+        "e8",
+        "508",
+        "E08",
+        "e08",
+        "E08展位",
+        "E08展台",
+        "展位E08",
+        "展台E08"
+      ],
+      "route_node_id": "road_node_087",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 508",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_508",
+      "route_snap_distance_px": 80.25
+    },
+    {
+      "poi_id": "poi_509",
+      "name": "E09",
+      "display_name": "E09",
+      "floor_id": "F1",
+      "aliases": [
+        "E9",
+        "e9",
+        "509",
+        "E09",
+        "e09",
+        "E09展位",
+        "E09展台",
+        "展位E09",
+        "展台E09"
+      ],
+      "route_node_id": "road_node_086",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 509",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_509",
+      "route_snap_distance_px": 77.752
+    },
+    {
+      "poi_id": "poi_510",
+      "name": "E10",
+      "display_name": "E10",
+      "floor_id": "F1",
+      "aliases": [
+        "510",
+        "E10",
+        "e10",
+        "E10展位",
+        "E10展台",
+        "展位E10",
+        "展台E10"
+      ],
+      "route_node_id": "road_node_085",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 510",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_510",
+      "route_snap_distance_px": 69.752
+    },
+    {
+      "poi_id": "poi_511",
+      "name": "E11",
+      "display_name": "E11",
+      "floor_id": "F1",
+      "aliases": [
+        "511",
+        "E11",
+        "e11",
+        "E11展位",
+        "E11展台",
+        "展位E11",
+        "展台E11"
+      ],
+      "route_node_id": "road_node_094",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 511",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_511",
+      "route_snap_distance_px": 69.475
+    },
+    {
+      "poi_id": "poi_512",
+      "name": "E12",
+      "display_name": "E12",
+      "floor_id": "F1",
+      "aliases": [
+        "512",
+        "E12",
+        "e12",
+        "E12展位",
+        "E12展台",
+        "展位E12",
+        "展台E12"
+      ],
+      "route_node_id": "road_node_084",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 512",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_512",
+      "route_snap_distance_px": 66.071
+    },
+    {
+      "poi_id": "poi_601",
+      "name": "F01",
+      "display_name": "F01",
+      "floor_id": "F1",
+      "aliases": [
+        "F1",
+        "f1",
+        "601",
+        "F01",
+        "f01",
+        "F01展位",
+        "F01展台",
+        "展位F01",
+        "展台F01"
+      ],
+      "route_node_id": "road_node_093",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 601",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_601",
+      "route_snap_distance_px": 89.627
+    },
+    {
+      "poi_id": "poi_602",
+      "name": "F02",
+      "display_name": "F02",
+      "floor_id": "F1",
+      "aliases": [
+        "F2",
+        "f2",
+        "602",
+        "F02",
+        "f02",
+        "F02展位",
+        "F02展台",
+        "展位F02",
+        "展台F02"
+      ],
+      "route_node_id": "road_node_095",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 602",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_602",
+      "route_snap_distance_px": 75.404
+    },
+    {
+      "poi_id": "poi_603",
+      "name": "F03",
+      "display_name": "F03",
+      "floor_id": "F1",
+      "aliases": [
+        "F3",
+        "f3",
+        "603",
+        "F03",
+        "f03",
+        "F03展位",
+        "F03展台",
+        "展位F03",
+        "展台F03"
+      ],
+      "route_node_id": "road_node_096",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 603",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_603",
+      "route_snap_distance_px": 82.0
+    },
+    {
+      "poi_id": "poi_604",
+      "name": "F04",
+      "display_name": "F04",
+      "floor_id": "F1",
+      "aliases": [
+        "F4",
+        "f4",
+        "604",
+        "F04",
+        "f04",
+        "F04展位",
+        "F04展台",
+        "展位F04",
+        "展台F04"
+      ],
+      "route_node_id": "road_node_097",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 604",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_604",
+      "route_snap_distance_px": 76.688
+    },
+    {
+      "poi_id": "poi_605",
+      "name": "F05",
+      "display_name": "F05",
+      "floor_id": "F1",
+      "aliases": [
+        "F5",
+        "f5",
+        "605",
+        "F05",
+        "f05",
+        "F05展位",
+        "F05展台",
+        "展位F05",
+        "展台F05"
+      ],
+      "route_node_id": "road_node_097",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 605",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_605",
+      "route_snap_distance_px": 64.069
+    },
+    {
+      "poi_id": "poi_606",
+      "name": "F06",
+      "display_name": "F06",
+      "floor_id": "F1",
+      "aliases": [
+        "F6",
+        "f6",
+        "606",
+        "F06",
+        "f06",
+        "F06展位",
+        "F06展台",
+        "展位F06",
+        "展台F06"
+      ],
+      "route_node_id": "road_node_112",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 606",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_606",
+      "route_snap_distance_px": 78.068
+    },
+    {
+      "poi_id": "poi_607",
+      "name": "F07",
+      "display_name": "F07",
+      "floor_id": "F1",
+      "aliases": [
+        "F7",
+        "f7",
+        "607",
+        "F07",
+        "f07",
+        "F07展位",
+        "F07展台",
+        "展位F07",
+        "展台F07"
+      ],
+      "route_node_id": "road_node_114",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 607",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_607",
+      "route_snap_distance_px": 74.423
+    },
+    {
+      "poi_id": "poi_608",
+      "name": "F08",
+      "display_name": "F08",
+      "floor_id": "F1",
+      "aliases": [
+        "F8",
+        "f8",
+        "608",
+        "F08",
+        "f08",
+        "F08展位",
+        "F08展台",
+        "展位F08",
+        "展台F08"
+      ],
+      "route_node_id": "road_node_107",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 608",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_608",
+      "route_snap_distance_px": 73.357
+    },
+    {
+      "poi_id": "poi_609",
+      "name": "F09",
+      "display_name": "F09",
+      "floor_id": "F1",
+      "aliases": [
+        "F9",
+        "f9",
+        "609",
+        "F09",
+        "f09",
+        "F09展位",
+        "F09展台",
+        "展位F09",
+        "展台F09"
+      ],
+      "route_node_id": "road_node_113",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 609",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_609",
+      "route_snap_distance_px": 86.75
+    },
+    {
+      "poi_id": "poi_610",
+      "name": "F10",
+      "display_name": "F10",
+      "floor_id": "F1",
+      "aliases": [
+        "610",
+        "F10",
+        "f10",
+        "F10展位",
+        "F10展台",
+        "展位F10",
+        "展台F10"
+      ],
+      "route_node_id": "road_node_111",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 610",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_610",
+      "route_snap_distance_px": 97.435
+    },
+    {
+      "poi_id": "poi_611",
+      "name": "F11",
+      "display_name": "F11",
+      "floor_id": "F1",
+      "aliases": [
+        "611",
+        "F11",
+        "f11",
+        "F11展位",
+        "F11展台",
+        "展位F11",
+        "展台F11"
+      ],
+      "route_node_id": "road_node_110",
+      "venue_name": "会场演示展厅",
+      "venue_address": "会场室内底图",
+      "subtitle": "F1 · ID 611",
+      "badges": [
+        "室内可导航",
+        "会场标注"
+      ],
+      "external_refs": {
+        "amap_searchable": false,
+        "amap_search_status": "indoor_only",
+        "amap_match_source": "conference_labelme_annotation"
+      },
+      "annotation_node_id": "node_611",
+      "route_snap_distance_px": 100.751
+    }
+  ]
+}

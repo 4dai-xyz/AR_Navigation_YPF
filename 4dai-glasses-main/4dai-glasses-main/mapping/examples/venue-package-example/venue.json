@@ -1,0 +1,22 @@
+{
+  "venue_id": "venue_demo_001",
+  "venue_name": "Demo Mall 001",
+  "venue_type": "mall",
+  "city": "Shanghai",
+  "address": "100 Demo Road",
+  "geo_center": {
+    "lat": 31.2304,
+    "lng": 121.4737
+  },
+  "bounding_box": {
+    "min_lat": 31.2299,
+    "max_lat": 31.2309,
+    "min_lng": 121.4731,
+    "max_lng": 121.4743
+  },
+  "supported_modes": [
+    "indoor_navigation"
+  ],
+  "default_entry_strategy": "nearest_target_entry",
+  "default_target_type": "store_door"
+}

@@ -1,0 +1,437 @@
+五道口购物中心 wudaokou2 高德错误候选重搜结果
+
+来源: processed\app_indoor_map\amap_poi_match_review.csv
+筛选条件: manual_review_required=true
+数量: 38
+说明: 本轮改用 m.amap.com 搜索入口，并把名称匹配优先级置于商场归属之前。
+补充: 查询词按 mapping_label / 拼音或英文 alias 优先，再尝试中文展示名和中文 alias。
+
+状态统计:
+- name_and_venue_matched: 4
+- name_matched_not_venue: 24
+- no_reliable_name_match: 10
+
+[B1]
+1. 爱炒酸奶 (aichaosuannai)
+   poi_id: poi_b1_aichaosuannai_121
+   重搜状态: name_matched_not_venue
+   重搜关键词: aichaosuannai 北京
+   高德候选: 艾炒酸奶(北京合生汇店)
+   高德 POI ID: B0H1VDPXKK
+   高德楼层: F4
+   高德地址: 西大望路甲22号1号楼商业部分4层28D号
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 茉酸奶(五道口购物中心店)
+
+2. 包煮 (baozhu)
+   poi_id: poi_b1_baozhu_102
+   重搜状态: no_reliable_name_match
+   重搜关键词: 包煮 成府路28号
+   高德候选: 柒十二匠(五道口购物中心店)
+   高德 POI ID: B0JRXR4KPR
+   高德楼层: B1
+   高德地址: 成府路28号五道口购物中心B1层
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: VERO MODA(五道口购物中心店)
+
+3. 布璃琳 (bulilin)
+   poi_id: poi_b1_bulilin_904
+   重搜状态: no_reliable_name_match
+   重搜关键词: 不离林 成府路28号
+   高德候选: 茶百道(北京林业大学北路店)
+   高德 POI ID: B0JD3C8YXQ
+   高德楼层: B1
+   高德地址: 成府路28号五道口购物中心B1层
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 布景(五道口购物中心店)
+
+4. 串士多 (chuanshiduo)
+   poi_id: poi_b1_chuanshiduo_25
+   重搜状态: name_matched_not_venue
+   重搜关键词: 串士多 北京
+   高德候选: 串士多·回转小火锅(北京悦荟店)
+   高德 POI ID: B0KULN7B7K
+   高德楼层: L5
+   高德地址: 南环路10号悦荟L5层
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 咏巷炸鸡(五道口购物中心店)
+
+5. dec (dec)
+   poi_id: poi_b1_dec_27
+   重搜状态: name_matched_not_venue
+   重搜关键词: dec 北京
+   高德候选: D.DEC
+   高德 POI ID: B0HACRWPPL
+   高德楼层: -
+   高德地址: 朝阳北路106号青年汇102号楼
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 五道口购物中心地下停车场
+
+6. 樊文花 (fanwenhua)
+   poi_id: poi_b1_fanwenhua_30
+   重搜状态: name_matched_not_venue
+   重搜关键词: 樊文花 成府路28号
+   高德候选: 樊文花(北京华联万柳店)
+   高德 POI ID: B0I14D9G28
+   高德楼层: B1
+   高德地址: 巴沟路2号(近地铁10号线巴沟站)BHG Mall北京华联万柳购物中心B1层B1LL04
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: Manner Coffee(五道口购物中心店)
+
+7. 理发店 (haircamp)
+   poi_id: poi_b1_haircamp_35
+   重搜状态: name_and_venue_matched
+   重搜关键词: 理发店 五道口
+   高德候选: HAIR CAMPスタイルキャンプ(五道口购物中心店)
+   高德 POI ID: B0J1PHY8P9
+   高德楼层: -
+   高德地址: 北京城区成府路28号-1层101
+   建议动作: can_use_after_manual_confirm
+   上轮错误候选: 诗碧曼白发防脱发养发馆(五道口购物中心店)
+
+8. 夹拣盛 (jiajiancheng)
+   poi_id: poi_b1_jiajiancheng_914
+   重搜状态: no_reliable_name_match
+   重搜关键词: jiajiancheng 五道口购物中心
+   高德候选: 茉酸奶(五道口购物中心店)
+   高德 POI ID: B0JDZCCMG2
+   高德楼层: B1
+   高德地址: 成府路28号五道口购物中心B1层
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 完美世界影城(五道口购物中心店)
+
+9. 加一冰 (jiayibing)
+   poi_id: poi_b1_jiayibing_915
+   重搜状态: no_reliable_name_match
+   重搜关键词: 加一冰 成府路28号
+   高德候选: 茶百道(北京林业大学北路店)
+   高德 POI ID: B0JD3C8YXQ
+   高德楼层: B1
+   高德地址: 成府路28号五道口购物中心B1层
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 优衣库(五道口购物中心店)
+
+10. 七度银饰 (qiduyinshi)
+   poi_id: poi_b1_qiduyinshi_902
+   重搜状态: name_matched_not_venue
+   重搜关键词: 七度银饰 北京
+   高德候选: 七度银饰(北京朝阳合生汇店)
+   高德 POI ID: B0L29XSYZV
+   高德楼层: B1
+   高德地址: 西大望路甲22号北京朝阳合生汇B1层
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: Manner Coffee(五道口购物中心店)
+
+11. 一品焖锅 (yipinmenguo)
+   poi_id: poi_b1_yipinmenguo_23
+   重搜状态: name_matched_not_venue
+   重搜关键词: 一品 成府路28号
+   高德候选: 嘉和一品(清华店)
+   高德 POI ID: B0FFIXXC62
+   高德楼层: -
+   高德地址: 成府路95号附近
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: WOWCOLOUR(五道口购物中心店)
+
+12. 紫谷庐 (zigulu)
+   poi_id: poi_b1_zigulu_47
+   重搜状态: no_reliable_name_match
+   重搜关键词: zgl 成府路28号
+   高德候选: 完美世界影城(五道口购物中心店)
+   高德 POI ID: B0J3SU0TTZ
+   高德楼层: B1
+   高德地址: 成府路28号五道口购物中心B1层
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 完美世界影城(五道口购物中心店)
+
+[F1]
+13. 阿迪达斯 (adidas)
+   poi_id: poi_f1_adidas_59
+   重搜状态: name_matched_not_venue
+   重搜关键词: adidas 五道口
+   高德候选: 阿迪达斯(五道口店)
+   高德 POI ID: B0LK9HAMMT
+   高德楼层: -
+   高德地址: 成府路27号
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 阿迪达斯(五道口店)
+
+14. 霸王茶姬 (bawangchaji)
+   poi_id: poi_f1_bawangchaji_72
+   重搜状态: name_and_venue_matched
+   重搜关键词: 霸王茶姬 成府路28号
+   高德候选: CHAGEE霸王茶姬(北京五道口购物中心店)
+   高德 POI ID: B0J3SUWJ8W
+   高德楼层: 1F
+   高德地址: 成府路28号五道口购物中心1F层
+   建议动作: can_use_after_manual_confirm
+   上轮错误候选: Manner Coffee(五道口购物中心店)
+
+15. 梦想之屋 (dreamroom)
+   poi_id: poi_f1_dreamroom_78
+   重搜状态: name_matched_not_venue
+   重搜关键词: dreamroom 北京
+   高德候选: DREAMROOM(大红门银泰百货店)
+   高德 POI ID: B0K64HOE6K
+   高德楼层: F1
+   高德地址: 马家堡东路101号院10号楼银泰百货(北京大红门店)F1层
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: Manner Coffee(五道口购物中心店)
+
+16. 幻影星空 (huanyingxingkong)
+   poi_id: poi_f1_huanyingxingkong_58
+   重搜状态: name_matched_not_venue
+   重搜关键词: huanyingxingkong 北京
+   高德候选: 幻影星空(力宝广场店)
+   高德 POI ID: B0IAJ72D69
+   高德楼层: F1
+   高德地址: 荣华中路8号院1号北京华联BHG Mall(亦庄店)F1层F1-ZD-15
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 完美世界影城(五道口购物中心店)
+
+17. ieabeauty (ieabeauty)
+   poi_id: poi_f1_ieabeauty_71
+   重搜状态: no_reliable_name_match
+   重搜关键词: IEA Beauty 五道口
+   高德候选: BEAUTY STARSKY(五道口购物中心店)
+   高德 POI ID: B0KANU1QOO
+   高德楼层: -
+   高德地址: 成府路28号五道口购物中心1F层
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: BEAUTY STARSKY(五道口购物中心店)
+
+18. 肌肉蚂蚁 (jiroumayi)
+   poi_id: poi_f1_jiroumayi_8
+   重搜状态: name_matched_not_venue
+   重搜关键词: jiroumayi 北京
+   高德候选: 肌肉蚂蚁(北京华联BHG Mall上地店)
+   高德 POI ID: B0L2MPX72F
+   高德楼层: -
+   高德地址: BHGMall上地店
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 茉酸奶(五道口购物中心店)
+
+19. 老凤祥 (laofengxiang)
+   poi_id: poi_f1_laofengxiang_56
+   重搜状态: name_matched_not_venue
+   重搜关键词: laofengxiang 五道口购物中心
+   高德候选: 老凤祥(领展购物中心店)
+   高德 POI ID: B0K675DQAQ
+   高德楼层: F1
+   高德地址: 丹棱街甲1号北京中关村领展广场F1层
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 老凤祥(领展购物中心店)
+
+20. only (only)
+   poi_id: poi_f1_only_124
+   重搜状态: name_matched_not_venue
+   重搜关键词: only 五道口
+   高德候选: Only Flowers只和花(中关村店)
+   高德 POI ID: B0KB5MB468
+   高德楼层: F1
+   高德地址: 丹棱街甲1号北京中关村领展广场F1层
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: Only Flowers只和花(中关村店)
+
+21. 周六福 (zhouliufu)
+   poi_id: poi_f1_zhouliufu_73
+   重搜状态: name_matched_not_venue
+   重搜关键词: 周六福 五道口
+   高德候选: 周六福(北京华联同成街店)
+   高德 POI ID: B0J3U72LF0
+   高德楼层: F1
+   高德地址: 育知东路30号北京华联BHG Mall(同成街店)F1层F1-15
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: Manner Coffee(五道口购物中心店)
+
+[F2]
+22. 杰胜基 (jieshengji)
+   poi_id: poi_f2_jieshengji_63
+   重搜状态: no_reliable_name_match
+   重搜关键词: jieshengji 五道口
+   高德候选: WOWCOLOUR(五道口购物中心店)
+   高德 POI ID: B0K0GS4Y5Y
+   高德楼层: -
+   高德地址: 成府路28号五道口购物中心1F层
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 潮宏基(五道口购物中心店)
+
+23. 爱可可 (lovetococo)
+   poi_id: poi_f2_lovetococo_62
+   重搜状态: name_matched_not_venue
+   重搜关键词: Love to CoCo 北京
+   高德候选: LOVE
+   高德 POI ID: B0L2URF55O
+   高德楼层: -
+   高德地址: 郎家园甲10号楼(大望路地铁站C西南口步行220米)
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 紫涵(五道口购物中心店)
+
+24. VELWIN (velwin)
+   poi_id: poi_f2_velwin_923
+   重搜状态: name_matched_not_venue
+   重搜关键词: velwin 北京
+   高德候选: VELWIN(首开通州万象汇店)
+   高德 POI ID: B0K2K1XJ4I
+   高德楼层: L2
+   高德地址: 运河东大街51号首开通州万象汇L2层
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: RENKOMAY(五道口购物中心店)
+
+25. 植物医生 (zhiwuyisheng)
+   poi_id: poi_f2_zhiwuyisheng_922
+   重搜状态: name_matched_not_venue
+   重搜关键词: 植物医生 五道口
+   高德候选: 植物医生(强佑商厦店)
+   高德 POI ID: B0L1PL7KOW
+   高德楼层: -
+   高德地址: 清河中街与G6辅路交叉口西南80米
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: Manner Coffee(五道口购物中心店)
+
+[F3]
+26. 嘉贝乐 (jiabeile)
+   poi_id: poi_f3_jiabeile_961
+   重搜状态: name_matched_not_venue
+   重搜关键词: jiabeile 成府路28号
+   高德候选: 嘉贝乐(枫蓝国际购物中心)
+   高德 POI ID: B0H6PSPCDB
+   高德楼层: F3
+   高德地址: 西直门北大街32号院枫蓝国际购物中心F3层3-030
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 西贝(五道口购物中心店)
+
+27. 嘉吉小站 (jiajixiaozhan)
+   poi_id: poi_f3_jiajixiaozhan_17
+   重搜状态: name_matched_not_venue
+   重搜关键词: 嘉吉小站 北京
+   高德候选: 153小站CAFE
+   高德 POI ID: B0LRZC3O2Z
+   高德楼层: -
+   高德地址: 东四环中路52号
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: Manner Coffee(五道口购物中心店)
+
+28. 卡玛 (kama)
+   poi_id: poi_f3_kama_953
+   重搜状态: name_matched_not_venue
+   重搜关键词: kama 五道口
+   高德候选: KAMA CLASSICS(西单购物中心北京店)
+   高德 POI ID: B0FFK1XZD3
+   高德楼层: -
+   高德地址: 西长安街街道西单北大街132号西单购物中心2楼(近西单地铁站)
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: KAMA CLASSICS(西单购物中心北京店)
+
+29. 煮茶 (zhucha)
+   poi_id: poi_f3_zhucha_952
+   重搜状态: name_matched_not_venue
+   重搜关键词: 煮茶 五道口
+   高德候选: 宝玉煮茶
+   高德 POI ID: B0LKH1RG9F
+   高德楼层: -
+   高德地址: 中关村大街15-9号B2层-201
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 煮叶(五道口购物中心店)
+
+[F4]
+30. 优创 (youchang)
+   poi_id: poi_f4_youchang_21
+   重搜状态: name_matched_not_venue
+   重搜关键词: 优创 北京
+   高德候选: 北京品诺优创科技有限公司
+   高德 POI ID: B0LDOR4AD7
+   高德楼层: -
+   高德地址: 建国路89号院华贸商务楼15号楼
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: Manner Coffee(五道口购物中心店)
+
+[F5]
+31. 宝珠奶酪 (baozhunailao)
+   poi_id: poi_f5_baozhunailao_102
+   重搜状态: name_and_venue_matched
+   重搜关键词: baozhunailao 成府路28号
+   高德候选: 宝珠奶酪(五道口购物中心店)
+   高德 POI ID: B0J27RGZPH
+   高德楼层: B1
+   高德地址: 北京城区成府路28号五道口购物中心F5-08
+   建议动作: can_use_after_manual_confirm
+   上轮错误候选: Manner Coffee(五道口购物中心店)
+
+32. 糊锅屋 (huguowu)
+   poi_id: poi_f5_huguowu_108
+   重搜状态: no_reliable_name_match
+   重搜关键词: huguowu 成府路28号
+   高德候选: PAGEONE(五道口店)
+   高德 POI ID: B0HA6UBT70
+   高德楼层: -
+   高德地址: 成府路28号五道口购物中心西侧
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 台巷里·台湾菜(五道口购物中心店)
+
+33. 火炉 (huolu)
+   poi_id: poi_f5_huolu_933
+   重搜状态: name_matched_not_venue
+   重搜关键词: 火炉 北京
+   高德候选: 火炉火(住总万科广场店)
+   高德 POI ID: B0H1D5PBSY
+   高德楼层: F5
+   高德地址: 经济技术开发区兴海路1号院1号楼五住层5F-32
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 台巷里·台湾菜(五道口购物中心店)
+
+34. 香山亭 (xiangshanting)
+   poi_id: poi_f5_xiangshanting_104
+   重搜状态: name_matched_not_venue
+   重搜关键词: 香山亭 五道口
+   高德候选: 香山
+   高德 POI ID: B000A8WSBS
+   高德楼层: -
+   高德地址: 海淀区
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: CDG PLAY(五道口购物中心店)
+
+35. 新炸新派 (xinzhaxinpai)
+   poi_id: poi_f5_xinzhaxinpai_23
+   重搜状态: no_reliable_name_match
+   重搜关键词: 新炸新派 成府路28号
+   高德候选: 新紮师兄 · 新派粤味(五道口店)
+   高德 POI ID: B0I1AUELR6
+   高德楼层: 5F
+   高德地址: 成府路28号五道口购物中心L5-06号
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 茉酸奶(五道口购物中心店)
+
+[F6]
+36. 刀小 (daoxiao)
+   poi_id: poi_f6_daoxiao_940
+   重搜状态: name_matched_not_venue
+   重搜关键词: 刀小 成府路28号
+   高德候选: 刀小蛮半只鸡过桥米线(新辰里店)
+   高德 POI ID: B0LK4RXNUU
+   高德楼层: B1
+   高德地址: 北辰东路8号院1号楼-1层-101号072
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: CDG PLAY(五道口购物中心店)
+
+37. 龙人居 (longrenjv)
+   poi_id: poi_f6_longrenjv_112
+   重搜状态: name_and_venue_matched
+   重搜关键词: longrenju 成府路28号
+   高德候选: 龙人居·水煮鱼(五道口店)
+   高德 POI ID: B0FFJVKRSS
+   高德楼层: 6F
+   高德地址: 北京城区成府路28号五道口购物中心B座6楼
+   建议动作: can_use_after_manual_confirm
+   上轮错误候选: Manner Coffee(五道口购物中心店)
+
+38. 全茂 (quanmao)
+   poi_id: poi_f6_quanmao_114
+   重搜状态: no_reliable_name_match
+   重搜关键词: quanmao 成府路28号
+   高德候选: 权茂京宴(五道口购物中心店)
+   高德 POI ID: B0KUKUAYHO
+   高德楼层: -
+   高德地址: 北京城区成府路28号五道口购物中心6F层
+   建议动作: manual_review_or_indoor_only
+   上轮错误候选: 五道口购物中心地下停车场

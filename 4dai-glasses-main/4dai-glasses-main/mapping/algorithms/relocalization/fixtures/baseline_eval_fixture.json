@@ -1,0 +1,60 @@
+{
+  "venue_id": "venue_demo_001",
+  "floors": [
+    { "floor_id": "F1" },
+    { "floor_id": "F2" }
+  ],
+  "keyframes": [
+    {
+      "keyframe_id": "kf_0001",
+      "floor_id": "F1",
+      "venue_xy": { "x": 6.2, "y": 8.7 },
+      "route_edge_id": "edge_f1_entry_to_escalator",
+      "payload_token": "placeholder_jpg_kf_0001\n"
+    },
+    {
+      "keyframe_id": "kf_0002",
+      "floor_id": "F2",
+      "venue_xy": { "x": 40.8, "y": 17.1 },
+      "route_edge_id": "edge_f2_escalator_to_store",
+      "payload_token": "placeholder_jpg_kf_0002\n"
+    }
+  ],
+  "queries": [
+    {
+      "query_id": "q_0001",
+      "capture_mode": "glasses_album_sync",
+      "payload_token": "placeholder_jpg_kf_0001\n",
+      "candidate_floor_id": "F1",
+      "expected_keyframe_id": "kf_0001",
+      "expected_floor_id": "F1",
+      "expected_position": { "x": 6.2, "y": 8.7 },
+      "route_edge_ids": ["edge_f1_entry_to_escalator"]
+    },
+    {
+      "query_id": "q_0002",
+      "capture_mode": "phone_camera_fallback",
+      "payload_token": "placeholder_jpg_kf_0002\n",
+      "candidate_floor_id": "F2",
+      "expected_keyframe_id": "kf_0002",
+      "expected_floor_id": "F2",
+      "expected_position": { "x": 40.8, "y": 17.1 },
+      "route_edge_ids": ["edge_f2_escalator_to_store"]
+    },
+    {
+      "query_id": "q_0003",
+      "capture_mode": "glasses_thumbnail",
+      "payload_token": "placeholder_jpg_kf_0002_noise",
+      "candidate_floor_id": "F2",
+      "expected_keyframe_id": "kf_0002",
+      "expected_floor_id": "F2",
+      "expected_position": { "x": 40.8, "y": 17.1 }
+    },
+    {
+      "query_id": "q_0004",
+      "capture_mode": "glasses_thumbnail",
+      "payload_token": "x",
+      "candidate_floor_id": "F1"
+    }
+  ]
+}

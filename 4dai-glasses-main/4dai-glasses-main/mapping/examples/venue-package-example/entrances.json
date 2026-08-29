@@ -1,0 +1,24 @@
+{
+  "entrances": [
+    {
+      "entrance_id": "entrance_west_gate",
+      "entrance_name": "West Gate",
+      "venue_id": "venue_demo_001",
+      "floor_id": "F1",
+      "geo_position": {
+        "lat": 31.2302,
+        "lng": 121.4733
+      },
+      "route_node_id": "node_f1_entry_west",
+      "indoor_position": {
+        "x": 5.0,
+        "y": 8.0
+      },
+      "supported_vehicle": [
+        "ebike",
+        "walk"
+      ],
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "feature_files": [
+    {
+      "keyframe_id": "kf_0001",
+      "path": "localization/features/superpoint/kf_0001.npz"
+    },
+    {
+      "keyframe_id": "kf_0002",
+      "path": "localization/features/superpoint/kf_0002.npz"
+    }
+  ]
+}

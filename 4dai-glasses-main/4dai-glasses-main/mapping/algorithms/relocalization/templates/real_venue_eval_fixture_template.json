@@ -1,0 +1,51 @@
+{
+  "venue_id": "venue_sh_demo_mall_001",
+  "floors": [
+    {
+      "floor_id": "F1"
+    }
+  ],
+  "keyframes": [
+    {
+      "keyframe_id": "kf_f1_0001",
+      "floor_id": "F1",
+      "venue_xy": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "route_edge_id": "edge_f1_entry_to_turn_01",
+      "payload_token": "replace_with_keyframe_payload_token_kf_f1_0001"
+    }
+  ],
+  "queries": [
+    {
+      "query_id": "q_f1_0001",
+      "capture_mode": "phone_camera_fallback",
+      "query_image_ref": "queries/q_f1_0001.jpg",
+      "payload_token": "replace_with_keyframe_payload_token_kf_f1_0001",
+      "candidate_floor_id": "F1",
+      "ground_truth_source": "manual_anchor",
+      "expected_status": "ok",
+      "expected_keyframe_id": "kf_f1_0001",
+      "expected_floor_id": "F1",
+      "expected_position": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "expected_route_node_id": "node_f1_entry_01",
+      "expected_poi_id": "poi_f1_target_door",
+      "route_edge_ids": [
+        "edge_f1_entry_to_turn_01"
+      ],
+      "corridor_window_m": 3.0
+    },
+    {
+      "query_id": "q_f1_0002_unlabeled_probe",
+      "capture_mode": "phone_camera_fallback",
+      "query_image_ref": "queries/q_f1_0002.jpg",
+      "payload_token": "replace_with_unlabeled_query_payload_token",
+      "candidate_floor_id": "F1",
+      "expected_status": "not_found"
+    }
+  ]
+}

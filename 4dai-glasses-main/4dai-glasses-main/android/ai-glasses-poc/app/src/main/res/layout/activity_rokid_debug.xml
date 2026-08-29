@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F6FB">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/buttonBack"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/bg_map_control_button"
+                    android:gravity="center"
+                    android:text="‹"
+                    android:textColor="#111827"
+                    android:textSize="28sp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/title_rokid_debug"
+                        android:textColor="#111827"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="@string/subtitle_rokid_debug"
+                        android:textColor="#6B7280"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/bg_warning_card"
+                android:padding="12dp"
+                android:text="@string/text_rokid_non_goal"
+                android:textColor="#92400E"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_ui_subpanel"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/title_rokid_status"
+                    android:textColor="#111827"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textRokidStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_ui_status_capsule"
+                    android:lineSpacingExtra="3dp"
+                    android:padding="12dp"
+                    android:text="Rokid 未连接"
+                    android:textColor="#111827"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/textRokidToken"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/text_rokid_token_empty"
+                    android:textColor="#6B7280"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_ui_subpanel"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/title_rokid_offline_capture"
+                    android:textColor="#111827"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonRokidOfflineStatus"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_secondary_button"
+                        android:text="@string/action_rokid_offline_status"
+                        android:textAllCaps="false"
+                        android:textColor="#374151"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/buttonRokidOfflineStart"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_primary_button"
+                        android:text="@string/action_rokid_offline_start"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/buttonRokidOfflineStop"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_secondary_button"
+                        android:text="@string/action_rokid_offline_stop"
+                        android:textAllCaps="false"
+                        android:textColor="#374151"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buttonRokidOfflineDownload"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_ui_secondary_button"
+                    android:text="@string/action_rokid_offline_download"
+                    android:textAllCaps="false"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textRokidOfflineCapture"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_ui_status_capsule"
+                    android:padding="10dp"
+                    android:text="@string/text_rokid_offline_capture_empty"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textRokidOfflineSessions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_ui_status_capsule"
+                    android:padding="10dp"
+                    android:text="暂无离线采集记录"
+                    android:textColor="#6B7280"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_ui_subpanel"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/title_rokid_bare_metal_http"
+                    android:textColor="#111827"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/editRokidBareMetalEndpoint"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_ui_status_capsule"
+                    android:hint="@string/hint_rokid_bare_metal_endpoint"
+                    android:inputType="textUri"
+                    android:paddingHorizontal="12dp"
+                    android:singleLine="true"
+                    android:text="http://127.0.0.1:18080"
+                    android:textColor="#111827"
+                    android:textColorHint="#9CA3AF"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/buttonRokidBareMetalDiscover"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_ui_primary_button"
+                    android:text="@string/action_rokid_bare_metal_discover"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonRokidBareMetalStatus"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_secondary_button"
+                        android:text="@string/action_rokid_bare_metal_status"
+                        android:textAllCaps="false"
+                        android:textColor="#374151"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/buttonRokidBareMetalCapture"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_primary_button"
+                        android:text="@string/action_rokid_bare_metal_capture"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonRokidBareMetalStartStream"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_primary_button"
+                        android:text="@string/action_rokid_bare_metal_start_stream"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/buttonRokidBareMetalStopStream"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_secondary_button"
+                        android:text="@string/action_rokid_bare_metal_stop_stream"
+                        android:textAllCaps="false"
+                        android:textColor="#374151"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textRokidBareMetalHttp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_ui_status_capsule"
+                    android:padding="10dp"
+                    android:text="裸机 HTTP 图传：未连接"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/imageRokidBareMetalFrame"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="8dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/bg_ui_status_capsule"
+                    android:contentDescription="@string/title_rokid_bare_metal_http"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/textRokidBareMetalFrame"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="暂无裸机 HTTP JPEG。"
+                    android:textColor="#6B7280"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_ui_subpanel"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/title_rokid_auth"
+                    android:textColor="#111827"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonCheckRokidApp"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_secondary_button"
+                        android:text="@string/action_rokid_check_app"
+                        android:textAllCaps="false"
+                        android:textColor="#374151"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/buttonAuthorizeRokid"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_primary_button"
+                        android:text="@string/action_rokid_authorize"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonInstallRokidAiApp"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_secondary_button"
+                        android:text="@string/action_rokid_install_ai_app"
+                        android:textAllCaps="false"
+                        android:textColor="#374151"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/buttonClearRokidToken"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_secondary_button"
+                        android:text="@string/action_rokid_clear_token"
+                        android:textAllCaps="false"
+                        android:textColor="#374151"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_ui_subpanel"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/title_rokid_custom_view"
+                    android:textColor="#111827"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonConnectCustomView"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_primary_button"
+                        android:text="@string/action_rokid_connect_custom_view"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/buttonOpenCustomView"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_secondary_button"
+                        android:text="@string/action_rokid_open_custom_view"
+                        android:textAllCaps="false"
+                        android:textColor="#374151"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/buttonCloseCustomView"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_secondary_button"
+                        android:text="@string/action_rokid_close_custom_view"
+                        android:textAllCaps="false"
+                        android:textColor="#374151"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buttonRokidTakePhoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_ui_primary_button"
+                    android:text="@string/action_rokid_take_photo"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_ui_subpanel"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/title_rokid_custom_app"
+                    android:textColor="#111827"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonConnectCustomApp"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_primary_button"
+                        android:text="@string/action_rokid_connect_custom_app"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/buttonQueryCustomApp"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_secondary_button"
+                        android:text="@string/action_rokid_query_custom_app"
+                        android:textAllCaps="false"
+                        android:textColor="#374151"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/buttonInstallCustomApp"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_secondary_button"
+                        android:text="@string/action_rokid_install_custom_app"
+                        android:textAllCaps="false"
+                        android:textColor="#374151"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonOpenCustomApp"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_secondary_button"
+                        android:text="@string/action_rokid_open_custom_app"
+                        android:textAllCaps="false"
+                        android:textColor="#374151"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/buttonStopCustomApp"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_secondary_button"
+                        android:text="@string/action_rokid_stop_custom_app"
+                        android:textAllCaps="false"
+                        android:textColor="#374151"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/buttonSendCustomCommand"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_primary_button"
+                        android:text="@string/action_rokid_send_command"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonStartRokidRecord"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_primary_button"
+                        android:text="@string/action_rokid_start_record"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/buttonStopRokidRecord"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_secondary_button"
+                        android:text="@string/action_rokid_stop_record"
+                        android:textAllCaps="false"
+                        android:textColor="#374151"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonInjectRokidImu"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_secondary_button"
+                        android:text="@string/action_rokid_inject_imu"
+                        android:textAllCaps="false"
+                        android:textColor="#374151"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/buttonInjectRokidVoice"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_secondary_button"
+                        android:text="@string/action_rokid_inject_voice"
+                        android:textAllCaps="false"
+                        android:textColor="#374151"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/buttonSendRokidHud"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_ui_secondary_button"
+                        android:text="@string/action_rokid_send_hud"
+                        android:textAllCaps="false"
+                        android:textColor="#374151"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textCustomCommandResponse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_ui_status_capsule"
+                    android:padding="10dp"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textRokidRecordInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_ui_status_capsule"
+                    android:padding="10dp"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textRokidNavigationDebug"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_ui_status_capsule"
+                    android:padding="10dp"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_ui_subpanel"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/title_rokid_photo"
+                    android:textColor="#111827"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/imageRokidPhoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="10dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/bg_ui_status_capsule"
+                    android:contentDescription="@string/title_rokid_photo"
+                    android:padding="8dp"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/textRokidPhoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/text_rokid_photo_empty"
+                    android:textColor="#6B7280"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bg_ui_subpanel"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/title_rokid_logs"
+                    android:textColor="#111827"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textRokidLogs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="3dp"
+                    android:textColor="#374151"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,87 @@
+{
+  "package_id": "pkg_venue_demo_001_0.1.0",
+  "package_version": "0.1.0",
+  "venue_id": "venue_demo_001",
+  "venue_code": "demo_001",
+  "created_at": "2026-04-28T16:00:00+08:00",
+  "created_by": "codex",
+  "schema_version": "0.1.0",
+  "coordinate_system": "venue_local_2d",
+  "unit": "meter",
+  "default_floor_id": "F1",
+  "files": [
+    {
+      "name": "venue",
+      "path": "venue.json",
+      "type": "json",
+      "required": true
+    },
+    {
+      "name": "floors",
+      "path": "floors.json",
+      "type": "json",
+      "required": true
+    },
+    {
+      "name": "pois",
+      "path": "pois.json",
+      "type": "json",
+      "required": true
+    },
+    {
+      "name": "entrances",
+      "path": "entrances.json",
+      "type": "json",
+      "required": true
+    },
+    {
+      "name": "connectors",
+      "path": "connectors.json",
+      "type": "json",
+      "required": true
+    },
+    {
+      "name": "route_graph",
+      "path": "route_graph.json",
+      "type": "json",
+      "required": true
+    },
+    {
+      "name": "cameras",
+      "path": "localization/cameras.json",
+      "type": "json",
+      "required": true
+    },
+    {
+      "name": "keyframes",
+      "path": "localization/keyframes.jsonl",
+      "type": "jsonl",
+      "required": true
+    },
+    {
+      "name": "descriptors",
+      "path": "localization/retrieval/descriptors.faiss",
+      "type": "faiss",
+      "required": true
+    },
+    {
+      "name": "features_index",
+      "path": "localization/features/superpoint/features_index.json",
+      "type": "json",
+      "required": true
+    }
+  ],
+  "checksums": {
+    "venue.json": "8794d07be5140c223471beef41f1c3b98a0aa8860d32e9cf9243ce0e4b088be4",
+    "floors.json": "69c752a45a0f03dab9667b6abf7fa3d224bd8445f99d86aa39653802f9acb3cc",
+    "pois.json": "4c5b80958ae91f28a06326ed3c5e8290e3d6e0cc2f3e5a47bb3b0ac08791ce17",
+    "entrances.json": "58e591a7c833f4d8c4572ae9dd6dd628b6f0cc6c299b864a928eb1f1b421b241",
+    "connectors.json": "a1afd22b6dfa49c13404c65e59eaaa0a2ed213c23e1304736ced58bb9f34cc57",
+    "route_graph.json": "9dba15ef0c6b3ec19e49e15ccf7bc0ff693d8f12b70c4454f36e468c68d08852",
+    "localization/cameras.json": "5ccff5a68f02fba6946fef2709a2f6d0ea1f563bd7313ea497a290479f1252a1",
+    "localization/keyframes.jsonl": "9d5dbe21a0aa8a586622f17354f1360b3cad6b69fa4d23cbd04680cf4dc373e1",
+    "localization/retrieval/descriptors.faiss": "101633fbcce632d6feedf27de0ba572b09935c6bf4d162244d384a3639852f65",
+    "localization/features/superpoint/features_index.json": "334da294ad46981d3e9bf48b658ce365e9203643a87aeef6ec9357c77d3b3b4e"
+  },
+  "notes": "Minimal complete venue package for MVP validation."
+}

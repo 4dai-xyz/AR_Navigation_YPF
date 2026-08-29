@@ -1,0 +1,669 @@
+{
+  "version": "6.1.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "tata",
+      "points": [
+        [
+          1104.2105263157894,
+          2260.5263157894733
+        ]
+      ],
+      "group_id": 70,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "tata",
+        "TATA",
+        "Tata",
+        "TaTa"
+      ]
+    },
+    {
+      "label": "linqingxuan",
+      "points": [
+        [
+          662.1052631578948,
+          1065.7894736842106
+        ]
+      ],
+      "group_id": 61,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "linqingxuan",
+        "林清轩",
+        "lqx"
+      ]
+    },
+    {
+      "label": "lily",
+      "points": [
+        [
+          641.0526315789473,
+          1313.157894736842
+        ]
+      ],
+      "group_id": 10,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "lily",
+        "LILY",
+        "Lily",
+        "丽丽"
+      ]
+    },
+    {
+      "label": "zihan",
+      "points": [
+        [
+          593.6842105263156,
+          1855.2631578947369
+        ]
+      ],
+      "group_id": 11,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "zihan",
+        "子涵",
+        "紫涵",
+        "zh"
+      ]
+    },
+    {
+      "label": "guya",
+      "points": [
+        [
+          614.7368421052631,
+          1960.5263157894738
+        ]
+      ],
+      "group_id": 12,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "guya",
+        "谷娅",
+        "谷雅",
+        "gy"
+      ]
+    },
+    {
+      "label": "kisscat",
+      "points": [
+        [
+          630.8695652173913,
+          1634.7826086956522
+        ]
+      ],
+      "group_id": 13,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "kisscat",
+        "KISSCAT",
+        "Kiss Cat",
+        "接吻猫",
+        "kc"
+      ]
+    },
+    {
+      "label": "nike",
+      "points": [
+        [
+          946.086956521739,
+          1491.304347826087
+        ]
+      ],
+      "group_id": 67,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "nike",
+        "Nike",
+        "NIKE",
+        "耐克"
+      ]
+    },
+    {
+      "label": "jieshengji",
+      "points": [
+        [
+          663.4782608695651,
+          1132.608695652174
+        ]
+      ],
+      "group_id": 63,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "jieshengji",
+        "杰胜基",
+        "捷胜基",
+        "杰生鸡",
+        "jsj"
+      ]
+    },
+    {
+      "label": "wagas",
+      "points": [
+        [
+          943.9130434782608,
+          1284.7826086956522
+        ]
+      ],
+      "group_id": 921,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "wagas",
+        "WAGAS",
+        "沃歌斯"
+      ]
+    },
+    {
+      "label": "mofan",
+      "points": [
+        [
+          937.391304347826,
+          1217.391304347826
+        ]
+      ],
+      "group_id": 920,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "mofan",
+        "摩梵",
+        "摩凡",
+        "mf"
+      ]
+    },
+    {
+      "label": "quchenshi",
+      "points": [
+        [
+          863.4782608695652,
+          947.8260869565217
+        ]
+      ],
+      "group_id": 60,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "quchenshi",
+        "屈臣氏",
+        "qcs"
+      ]
+    },
+    {
+      "label": "lovetococo",
+      "points": [
+        [
+          733.0434782608695,
+          950.0
+        ]
+      ],
+      "group_id": 62,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "lovetococo",
+        "Love to CoCo",
+        "LoveToCoCo",
+        "爱可可"
+      ]
+    },
+    {
+      "label": "taipingniao",
+      "points": [
+        [
+          648.2608695652174,
+          1415.2173913043478
+        ]
+      ],
+      "group_id": 68,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "taipingniao",
+        "太平鸟",
+        "Peacebird",
+        "tpn"
+      ]
+    },
+    {
+      "label": "zhiwuyisheng",
+      "points": [
+        [
+          643.9130434782609,
+          1510.8695652173913
+        ]
+      ],
+      "group_id": 922,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "zhiwuyisheng",
+        "植物医生",
+        "DR PLANT",
+        "zwys"
+      ]
+    },
+    {
+      "label": "uniqlo",
+      "points": [
+        [
+          813.4782608695652,
+          2167.391304347826
+        ]
+      ],
+      "group_id": 15,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "uniqlo",
+        "UNIQLO",
+        "Uniqlo",
+        "优衣库"
+      ]
+    },
+    {
+      "label": "velwin",
+      "points": [
+        [
+          967.8260869565217,
+          1978.2608695652175
+        ]
+      ],
+      "group_id": 923,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "velwin",
+        "VELWIN",
+        "Velwin"
+      ]
+    },
+    {
+      "label": "escalator_down_from",
+      "points": [
+        [
+          783.0434782608695,
+          1760.8695652173913
+        ]
+      ],
+      "group_id": 113,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_down_from",
+        "下行扶梯出口",
+        "扶梯下来",
+        "下扶梯出口"
+      ]
+    },
+    {
+      "label": "escalator_up_to",
+      "points": [
+        [
+          796.086956521739,
+          1760.8695652173913
+        ]
+      ],
+      "group_id": 113,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_up_to",
+        "上行扶梯入口",
+        "扶梯上行",
+        "扶梯上到",
+        "上扶梯入口"
+      ]
+    },
+    {
+      "label": "escalator_up_from",
+      "points": [
+        [
+          793.9130434782608,
+          1256.5217391304348
+        ]
+      ],
+      "group_id": 112,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ]
+    },
+    {
+      "label": "escalator_down_to",
+      "points": [
+        [
+          776.5217391304348,
+          1256.5217391304348
+        ]
+      ],
+      "group_id": 112,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_down_to",
+        "下行扶梯入口",
+        "扶梯下行",
+        "扶梯下到",
+        "下扶梯入口"
+      ]
+    },
+    {
+      "label": "escalator_down_to",
+      "points": [
+        [
+          774.3478260869565,
+          1895.6521739130435
+        ]
+      ],
+      "group_id": 113,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_down_to",
+        "下行扶梯入口",
+        "扶梯下行",
+        "扶梯下到",
+        "下扶梯入口"
+      ]
+    },
+    {
+      "label": "escalator_up_from",
+      "points": [
+        [
+          802.6086956521738,
+          1902.173913043478
+        ]
+      ],
+      "group_id": 113,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_up_from",
+        "上行扶梯出口",
+        "扶梯上来",
+        "上扶梯出口"
+      ]
+    },
+    {
+      "label": "escalator_down_from",
+      "points": [
+        [
+          793.9130434782608,
+          1358.695652173913
+        ]
+      ],
+      "group_id": 112,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_down_from",
+        "下行扶梯出口",
+        "扶梯下来",
+        "下扶梯出口"
+      ]
+    },
+    {
+      "label": "escalator_up_to",
+      "points": [
+        [
+          770.0,
+          1356.5217391304348
+        ]
+      ],
+      "group_id": 112,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_up_to",
+        "上行扶梯入口",
+        "扶梯上行",
+        "扶梯上到",
+        "上扶梯入口"
+      ]
+    },
+    {
+      "label": "step",
+      "points": [
+        [
+          583.0434782608695,
+          1002.1739130434783
+        ]
+      ],
+      "group_id": 11113,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ]
+    },
+    {
+      "label": "step",
+      "points": [
+        [
+          578.695652173913,
+          1132.608695652174
+        ]
+      ],
+      "group_id": 11112,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ]
+    },
+    {
+      "label": "step",
+      "points": [
+        [
+          543.9130434782608,
+          1726.086956521739
+        ]
+      ],
+      "group_id": 11115,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ]
+    },
+    {
+      "label": "step",
+      "points": [
+        [
+          546.086956521739,
+          1508.695652173913
+        ]
+      ],
+      "group_id": 11116,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ]
+    },
+    {
+      "label": "step",
+      "points": [
+        [
+          554.7826086956522,
+          2419.5652173913045
+        ]
+      ],
+      "group_id": 11114,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ]
+    },
+    {
+      "label": "step",
+      "points": [
+        [
+          991.7391304347825,
+          2315.217391304348
+        ]
+      ],
+      "group_id": 11117,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ]
+    },
+    {
+      "label": "step",
+      "points": [
+        [
+          1133.0434782608695,
+          1326.0869565217392
+        ]
+      ],
+      "group_id": 11111,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "step",
+        "楼梯",
+        "台阶"
+      ]
+    },
+    {
+      "label": "wc",
+      "points": [
+        [
+          446.08695652173907,
+          2413.0434782608695
+        ]
+      ],
+      "group_id": 2224,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "wc",
+        "WC",
+        "卫生间",
+        "洗手间",
+        "厕所",
+        "toilet"
+      ]
+    },
+    {
+      "label": "wc",
+      "points": [
+        [
+          522.1739130434783,
+          1565.2173913043478
+        ]
+      ],
+      "group_id": 2225,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "wc",
+        "WC",
+        "卫生间",
+        "洗手间",
+        "厕所",
+        "toilet"
+      ]
+    }
+  ],
+  "imagePath": "f2.jpg",
+  "imageData": null,
+  "imageHeight": 3200,
+  "imageWidth": 1440
+}

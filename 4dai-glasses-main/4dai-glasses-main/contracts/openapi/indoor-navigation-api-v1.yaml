@@ -1,0 +1,1015 @@
+openapi: 3.0.3
+info:
+  title: Indoor Navigation API
+  version: "1.0.0"
+  description: |
+    Cloud API for indoor visual localization and routing.
+    Scope follows MVP draft documents and keeps field names/status values aligned.
+    Auth and rate limiting are cloud-side placeholders and are disabled unless configured by service environment.
+    When AI_GLASSES_AUTH_ENABLED is enabled, all endpoints except /api/v1/health require a Bearer token.
+servers:
+  - url: https://api.example.com
+    description: Production
+  - url: https://staging-api.example.com
+    description: Staging
+tags:
+  - name: Localization
+  - name: Navigation
+  - name: Venue
+  - name: Health
+  - name: Debug
+paths:
+  /api/v1/localization/visual-locate:
+    post:
+      tags: [Localization]
+      summary: Indoor visual re-localization
+      operationId: visualLocate
+      security:
+        - bearerAuth: []
+      parameters:
+        - $ref: "#/components/parameters/XRequestIdHeader"
+        - $ref: "#/components/parameters/XAppVersionHeader"
+        - $ref: "#/components/parameters/XDeviceIdHeader"
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              $ref: "#/components/schemas/VisualLocateRequest"
+            encoding:
+              image:
+                contentType: image/jpeg, image/png
+      responses:
+        "200":
+          description: Success or business-level failure in unified envelope.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiResponseVisualLocate"
+              examples:
+                locate_ok:
+                  $ref: "#/components/examples/VisualLocateOk"
+                locate_low_confidence:
+                  $ref: "#/components/examples/VisualLocateLowConfidence"
+                locate_not_found:
+                  $ref: "#/components/examples/VisualLocateNotFound"
+        "400":
+          $ref: "#/components/responses/BadRequestError"
+        "401":
+          $ref: "#/components/responses/UnauthorizedError"
+        "404":
+          $ref: "#/components/responses/NotFoundError"
+        "429":
+          $ref: "#/components/responses/RateLimitError"
+        "504":
+          description: Visual re-localization timed out.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiErrorResponse"
+              examples:
+                locate_timeout:
+                  $ref: "#/components/examples/Error2003"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+  /debug/cards:
+    get:
+      tags: [Debug]
+      summary: PC backend visual test cards page
+      operationId: debugCards
+      security:
+        - bearerAuth: []
+      responses:
+        "200":
+          description: HTML page with B10, B17, toilet, and hall test cards.
+          content:
+            text/html:
+              schema:
+                type: string
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+  /debug/recent-requests:
+    get:
+      tags: [Debug]
+      summary: Recent visual-locate request summaries
+      operationId: debugRecentRequests
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 50
+            default: 20
+      responses:
+        "200":
+          description: Recent request summaries for local Wi-Fi troubleshooting.
+          content:
+            application/json:
+              schema:
+                type: object
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+  /api/v1/navigation/indoor-route:
+    post:
+      tags: [Navigation]
+      summary: Plan indoor route
+      operationId: indoorRoute
+      security:
+        - bearerAuth: []
+      parameters:
+        - $ref: "#/components/parameters/XRequestIdHeader"
+        - $ref: "#/components/parameters/XAppVersionHeader"
+        - $ref: "#/components/parameters/XDeviceIdHeader"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/IndoorRouteRequest"
+            examples:
+              default:
+                value:
+                  request_id: req_route_001
+                  venue_id: venue_sh_mall_001
+                  floor_id: F1
+                  start_position:
+                    x: 18.4
+                    y: 42.7
+                  target_poi_id: poi_store_001
+                  route_strategy: fastest
+      responses:
+        "200":
+          description: Success or business-level failure in unified envelope.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiResponseIndoorRoute"
+              examples:
+                route_ok:
+                  $ref: "#/components/examples/IndoorRouteOk"
+        "400":
+          $ref: "#/components/responses/BadRequestError"
+        "401":
+          $ref: "#/components/responses/UnauthorizedError"
+        "404":
+          $ref: "#/components/responses/NotFoundError"
+        "429":
+          $ref: "#/components/responses/RateLimitError"
+        "504":
+          description: Indoor route planning timed out.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiErrorResponse"
+              examples:
+                route_timeout:
+                  $ref: "#/components/examples/Error3002"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+  /api/v1/venues/{venue_id}/meta:
+    get:
+      tags: [Venue]
+      summary: Get venue metadata
+      operationId: getVenueMeta
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: venue_id
+          in: path
+          required: true
+          schema:
+            type: string
+        - $ref: "#/components/parameters/XRequestIdHeader"
+      responses:
+        "200":
+          description: Success or business-level failure in unified envelope.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiResponseVenueMeta"
+              examples:
+                meta_ok:
+                  $ref: "#/components/examples/VenueMetaOk"
+        "400":
+          $ref: "#/components/responses/BadRequestError"
+        "401":
+          $ref: "#/components/responses/UnauthorizedError"
+        "404":
+          $ref: "#/components/responses/NotFoundError"
+        "429":
+          $ref: "#/components/responses/RateLimitError"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+  /api/v1/health:
+    get:
+      tags: [Health]
+      summary: Health check
+      operationId: healthCheck
+      security: []
+      responses:
+        "200":
+          description: API service health.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiResponseHealth"
+              examples:
+                healthy:
+                  $ref: "#/components/examples/HealthOk"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  parameters:
+    XRequestIdHeader:
+      name: X-Request-Id
+      in: header
+      required: false
+      schema:
+        type: string
+      description: Optional client request id for end-to-end tracing.
+    XAppVersionHeader:
+      name: X-App-Version
+      in: header
+      required: false
+      schema:
+        type: string
+    XDeviceIdHeader:
+      name: X-Device-Id
+      in: header
+      required: false
+      schema:
+        type: string
+  responses:
+    HttpError:
+      description: HTTP-level error envelope.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ApiErrorResponse"
+    BadRequestError:
+      description: Invalid request or business validation failure.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ApiErrorResponse"
+          examples:
+            invalid_param:
+              $ref: "#/components/examples/Error1001"
+            image_parse_failed:
+              $ref: "#/components/examples/Error2001"
+            route_failed:
+              $ref: "#/components/examples/Error3001"
+    UnauthorizedError:
+      description: Auth placeholder rejected the request when auth is enabled.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ApiErrorResponse"
+          examples:
+            unauthorized:
+              $ref: "#/components/examples/Error4001"
+    NotFoundError:
+      description: Venue, floor, or target POI was not found.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ApiErrorResponse"
+          examples:
+            venue_not_found:
+              $ref: "#/components/examples/Error1002"
+            floor_not_found:
+              $ref: "#/components/examples/Error1003"
+            target_poi_not_found:
+              $ref: "#/components/examples/Error1004"
+    RateLimitError:
+      description: Rate limit placeholder rejected the request when rate limit is enabled.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ApiErrorResponse"
+          examples:
+            rate_limited:
+              $ref: "#/components/examples/Error4002"
+    InternalServerError:
+      description: Internal server error. It may be a venue package loading/validation error with details, or a generic internal error with data set to null.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ApiErrorResponse"
+          examples:
+            package_validation_failed:
+              $ref: "#/components/examples/Error9001Package"
+            internal_error:
+              $ref: "#/components/examples/Error9001Internal"
+  schemas:
+    ApiResponseVisualLocate:
+      type: object
+      required: [code, message, request_id, data]
+      properties:
+        code:
+          type: integer
+          enum: [0]
+        message:
+          type: string
+          example: ok
+        request_id:
+          type: string
+          example: req_20260428120500_001
+        data:
+          $ref: "#/components/schemas/VisualLocateData"
+    ApiResponseIndoorRoute:
+      type: object
+      required: [code, message, request_id, data]
+      properties:
+        code:
+          type: integer
+          enum: [0]
+        message:
+          type: string
+          example: ok
+        request_id:
+          type: string
+          example: req_route_001
+        data:
+          $ref: "#/components/schemas/IndoorRouteData"
+    ApiResponseVenueMeta:
+      type: object
+      required: [code, message, request_id, data]
+      properties:
+        code:
+          type: integer
+          enum: [0]
+        message:
+          type: string
+          example: ok
+        request_id:
+          type: string
+        data:
+          $ref: "#/components/schemas/VenueMetaData"
+    ApiResponseHealth:
+      type: object
+      required: [code, message, request_id, data]
+      properties:
+        code:
+          type: integer
+          enum: [0]
+        message:
+          type: string
+          example: ok
+        request_id:
+          type: string
+          example: health_001
+        data:
+          $ref: "#/components/schemas/HealthData"
+    ApiErrorResponse:
+      type: object
+      required: [code, message, request_id]
+      properties:
+        code:
+          type: integer
+          enum: [1001, 1002, 1003, 1004, 2001, 2002, 2003, 2004, 3001, 3002, 4001, 4002, 9001]
+          description: Business error code.
+        message:
+          type: string
+        request_id:
+          type: string
+        data:
+          type: object
+          nullable: true
+          description: Optional error detail object.
+    VisualLocateRequest:
+      type: object
+      required:
+        - request_id
+        - capture_id
+        - venue_id
+        - capture_timestamp_ms
+        - capture_mode
+        - image
+      properties:
+        request_id:
+          type: string
+        capture_id:
+          type: string
+        venue_id:
+          type: string
+        candidate_floor_id:
+          type: string
+        timestamp:
+          type: string
+          format: date-time
+          description: Legacy timestamp field; PC backend prefers capture_timestamp_ms.
+        capture_timestamp_ms:
+          type: integer
+          format: int64
+        capture_mode:
+          $ref: "#/components/schemas/CaptureMode"
+        device_id:
+          type: string
+          description: Legacy optional device identifier.
+        session_id:
+          type: string
+        current_mode:
+          type: string
+          enum: [indoor_navigation]
+          default: indoor_navigation
+        image_width:
+          type: integer
+          minimum: 1
+        image_height:
+          type: integer
+          minimum: 1
+        image_format:
+          type: string
+          example: jpg
+        image:
+          type: string
+          format: binary
+        entrance_id:
+          type: string
+        target_poi_id:
+          type: string
+        imu_at_capture:
+          type: string
+          description: Optional JSON string containing Rokid IMU sample at capture time. PC backend records but does not require it.
+          example: '{"source":"rokid_imu","imu_timestamp_ms":1777358700008,"yaw_deg":128.4,"pitch_deg":-3.2,"roll_deg":1.1,"accuracy":"medium","sample_age_ms":8}'
+        debug_target:
+          type: string
+          description: PC backend mock/template debug target. Examples include B10, B17, toilet, and hall.
+        route_prior:
+          type: string
+          description: JSON string form of RoutePrior in multipart requests.
+          example: '{"route_id":"route_001","edge_ids":["edge_f1_032"],"corridor_window_m":2.0}'
+        route_id:
+          type: string
+          description: Compatibility field used when route_prior is not sent.
+        route_edge_ids:
+          type: string
+          description: Comma-separated route edge ids used when route_prior is not sent.
+          example: edge_f1_032,edge_f1_033
+        corridor_window_m:
+          type: number
+          format: float
+          minimum: 0
+          description: Compatibility field used when route_prior is not sent.
+        approx_lat:
+          type: number
+          format: double
+        approx_lng:
+          type: number
+          format: double
+        network_type:
+          type: string
+          enum: [wifi, cellular, unknown]
+        network_latency_ms:
+          type: integer
+          minimum: 0
+        image_quality:
+          $ref: "#/components/schemas/ImageQuality"
+    VisualLocateData:
+      type: object
+      required: [status, venue_id, confidence, suggested_action]
+      properties:
+        request_id:
+          type: string
+        status:
+          $ref: "#/components/schemas/VisualLocateStatus"
+        venue_id:
+          type: string
+        floor_id:
+          type: string
+        position:
+          $ref: "#/components/schemas/Point2D"
+        confidence:
+          type: number
+          format: float
+          minimum: 0
+          maximum: 1
+        matched_landmark:
+          $ref: "#/components/schemas/MatchedLandmark"
+        heading_hint:
+          $ref: "#/components/schemas/HeadingHint"
+        uncertainty_m:
+          type: number
+          format: float
+          minimum: 0
+        matched_keyframe_id:
+          type: string
+        matched_keyframes:
+          type: array
+          items:
+            $ref: "#/components/schemas/MatchedKeyframe"
+        inlier_count:
+          type: integer
+          minimum: 0
+        failure_stage:
+          $ref: "#/components/schemas/FailureStage"
+        route_snap:
+          $ref: "#/components/schemas/RouteSnap"
+        next_capture_hint:
+          $ref: "#/components/schemas/NextCaptureHint"
+        suggested_action:
+          $ref: "#/components/schemas/SuggestedAction"
+        trace_id:
+          type: string
+        recognition_mode:
+          type: string
+          enum: [baseline, mock, template, real_ocr_adapter]
+        message:
+          type: string
+        latency_ms:
+          type: integer
+          minimum: 0
+    IndoorRouteRequest:
+      type: object
+      required:
+        - request_id
+        - venue_id
+        - floor_id
+        - start_position
+        - target_poi_id
+      properties:
+        request_id:
+          type: string
+        venue_id:
+          type: string
+        floor_id:
+          type: string
+        start_position:
+          $ref: "#/components/schemas/Point2D"
+        target_poi_id:
+          type: string
+        route_strategy:
+          $ref: "#/components/schemas/RouteStrategy"
+    IndoorRouteData:
+      type: object
+      required:
+        - route_id
+        - target_poi_id
+        - path_nodes
+        - next_turn
+        - distance_to_next_turn
+        - distance_to_target
+        - cross_floor_required
+      properties:
+        route_id:
+          type: string
+        target_poi_id:
+          type: string
+        path_nodes:
+          type: array
+          items:
+            type: string
+        next_turn:
+          $ref: "#/components/schemas/NextTurn"
+        distance_to_next_turn:
+          type: number
+          format: float
+          minimum: 0
+        distance_to_target:
+          type: number
+          format: float
+          minimum: 0
+        cross_floor_required:
+          type: boolean
+    VenueMetaData:
+      type: object
+      required:
+        - venue_id
+        - venue_name
+        - default_floor_id
+        - supported_floors
+        - entry_points
+        - target_poi_count
+        - package_version
+      properties:
+        venue_id:
+          type: string
+        venue_name:
+          type: string
+        default_floor_id:
+          type: string
+        supported_floors:
+          type: array
+          items:
+            type: string
+        entry_points:
+          type: array
+          items:
+            $ref: "#/components/schemas/EntryPoint"
+        target_poi_count:
+          type: integer
+          minimum: 0
+        package_version:
+          type: string
+        floors:
+          type: array
+          items:
+            type: object
+        pois:
+          type: array
+          items:
+            type: object
+        landmarks:
+          type: array
+          items:
+            type: object
+        route_nodes:
+          type: array
+          items:
+            type: object
+    HealthData:
+      type: object
+      required: [status, service, version]
+      properties:
+        status:
+          type: string
+          enum: [healthy]
+        service:
+          type: string
+          example: indoor-navigation-api
+        version:
+          type: string
+          example: 0.1.0
+        service_mode:
+          type: string
+          example: pc_backend
+        recognition_mode:
+          type: string
+          enum: [baseline, mock, template, real_ocr_adapter]
+        venue_id:
+          type: string
+        venue_package_root:
+          type: string
+        venue_package_version:
+          type: string
+        algorithm_backend_status:
+          type: object
+    Point2D:
+      type: object
+      required: [x, y]
+      properties:
+        x:
+          type: number
+          format: float
+        y:
+          type: number
+          format: float
+    RoutePrior:
+      type: object
+      description: Optional route prior for narrowing retrieval search.
+      properties:
+        route_id:
+          type: string
+        edge_ids:
+          type: array
+          items:
+            type: string
+        corridor_window_m:
+          type: number
+          format: float
+          minimum: 0
+    ImageQuality:
+      type: object
+      properties:
+        blur_score:
+          type: number
+          format: float
+          minimum: 0
+        brightness_score:
+          type: number
+          format: float
+          minimum: 0
+        occlusion_ratio:
+          type: number
+          format: float
+          minimum: 0
+          maximum: 1
+    MatchedKeyframe:
+      type: object
+      required: [keyframe_id, score]
+      properties:
+        keyframe_id:
+          type: string
+        score:
+          type: number
+          format: float
+    MatchedLandmark:
+      type: object
+      required: [landmark_id, match_source, display_name]
+      properties:
+        landmark_id:
+          type: string
+        poi_id:
+          type: string
+        match_source:
+          type: string
+          enum: [debug_target, filename, color_template]
+        display_name:
+          type: string
+        score:
+          type: number
+          format: float
+          minimum: 0
+          maximum: 1
+        candidate_count:
+          type: integer
+          minimum: 0
+        ambiguous:
+          type: boolean
+    HeadingHint:
+      type: object
+      required: [map_heading_deg, source, confidence]
+      properties:
+        map_heading_deg:
+          type: number
+          format: float
+        source:
+          type: string
+          example: landmark_facing
+        confidence:
+          type: number
+          format: float
+          minimum: 0
+          maximum: 1
+    RouteSnap:
+      type: object
+      properties:
+        edge_id:
+          type: string
+        distance_m:
+          type: number
+          format: float
+          minimum: 0
+    EntryPoint:
+      type: object
+      required: [entrance_id, entrance_name, floor_id]
+      properties:
+        entrance_id:
+          type: string
+        entrance_name:
+          type: string
+        floor_id:
+          type: string
+    CaptureMode:
+      type: string
+      enum:
+        - glasses_thumbnail
+        - glasses_album_sync
+        - glasses_private_stream
+        - phone_camera_fallback
+    VisualLocateStatus:
+      type: string
+      enum:
+        - ok
+        - low_confidence
+        - not_found
+    FailureStage:
+      type: string
+      enum:
+        - image_quality_failed
+        - retrieval_no_hit
+        - match_insufficient
+        - geometry_failed
+        - route_snap_failed
+        - low_confidence
+        - landmark_no_hit
+        - landmark_ambiguous
+        - landmark_floor_conflict
+        - landmark_catalog_missing
+        - landmark_map_binding_missing
+        - target_prior_mismatch
+        - real_ocr_adapter_unavailable
+        - real_ocr_dependency_unavailable
+        - real_ocr_model_missing
+        - real_ocr_image_decode_failed
+        - real_ocr_model_load_failed
+        - real_ocr_no_proposals
+        - real_ocr_no_logo_detected
+        - real_ocr_no_landmark_binding
+    SuggestedAction:
+      type: string
+      enum:
+        - continue_navigation
+        - request_more_images
+        - retry_after_move
+    NextCaptureHint:
+      type: string
+      enum:
+        - normal
+        - face_forward_and_retry
+        - move_1_to_2_meters_and_retry
+    RouteStrategy:
+      type: string
+      enum: [fastest]
+      default: fastest
+    NextTurn:
+      type: string
+      enum:
+        - go_straight
+        - turn_left
+        - turn_right
+        - take_escalator_up
+        - take_escalator_down
+        - arrive
+  examples:
+    VisualLocateOk:
+      value:
+        code: 0
+        message: ok
+        request_id: req_20260428120500_001
+        data:
+          status: ok
+          venue_id: venue_sh_mall_001
+          floor_id: F1
+          position:
+            x: 18.4
+            y: 42.7
+          confidence: 0.87
+          uncertainty_m: 1.8
+          matched_keyframe_id: kf_f1_2031
+          inlier_count: 68
+          route_snap:
+            edge_id: edge_f1_032
+            distance_m: 0.7
+          next_capture_hint: normal
+          suggested_action: continue_navigation
+          trace_id: trace_8f2d1b
+          latency_ms: 1420
+    VisualLocateLowConfidence:
+      value:
+        code: 0
+        message: low confidence
+        request_id: req_20260428120501_002
+        data:
+          status: low_confidence
+          venue_id: venue_sh_mall_001
+          floor_id: F1
+          position:
+            x: 16.9
+            y: 39.1
+          confidence: 0.42
+          uncertainty_m: 5.6
+          failure_stage: low_confidence
+          next_capture_hint: face_forward_and_retry
+          suggested_action: request_more_images
+          trace_id: trace_91aa77
+          latency_ms: 1580
+    VisualLocateNotFound:
+      value:
+        code: 0
+        message: not found
+        request_id: req_20260428120503_003
+        data:
+          status: not_found
+          venue_id: venue_sh_mall_001
+          confidence: 0
+          failure_stage: retrieval_no_hit
+          suggested_action: retry_after_move
+          trace_id: trace_c18d0a
+          latency_ms: 1310
+    IndoorRouteOk:
+      value:
+        code: 0
+        message: ok
+        request_id: req_route_001
+        data:
+          route_id: route_20260428_001
+          target_poi_id: poi_store_001
+          path_nodes:
+            - node_f1_001
+            - node_f1_002
+            - node_f1_003
+          next_turn: turn_left
+          distance_to_next_turn: 8.2
+          distance_to_target: 35.6
+          cross_floor_required: false
+    VenueMetaOk:
+      value:
+        code: 0
+        message: ok
+        request_id: req_meta_001
+        data:
+          venue_id: venue_sh_mall_001
+          venue_name: Shanghai Mall 001
+          default_floor_id: F1
+          supported_floors:
+            - B1
+            - F1
+            - F2
+          entry_points:
+            - entrance_id: ent_west_01
+              entrance_name: West Gate
+              floor_id: F1
+            - entrance_id: ent_north_02
+              entrance_name: North Gate
+              floor_id: F1
+          target_poi_count: 186
+          package_version: 0.1.0
+    HealthOk:
+      value:
+        code: 0
+        message: ok
+        request_id: health_001
+        data:
+          status: healthy
+          service: indoor-navigation-api
+          version: 0.1.0
+    Error1001:
+      value:
+        code: 1001
+        message: invalid parameter
+        request_id: req_bad_001
+        data:
+          field: venue_id
+          reason: required
+    Error1002:
+      value:
+        code: 1002
+        message: venue not found
+        request_id: req_meta_404
+        data:
+          venue_id: venue_unknown
+    Error1003:
+      value:
+        code: 1003
+        message: floor not found
+        request_id: req_loc_bad_floor
+        data:
+          floor_id: F99
+    Error1004:
+      value:
+        code: 1004
+        message: target poi not found
+        request_id: req_route_bad_poi
+        data:
+          target_poi_id: poi_missing
+    Error2001:
+      value:
+        code: 2001
+        message: image payload is empty
+        request_id: req_loc_empty_image
+        data: null
+    Error2003:
+      value:
+        code: 2003
+        message: relocalization timeout
+        request_id: req_loc_timeout_001
+        data:
+          timeout_ms: 3000
+          operation: visual_locate
+    Error3001:
+      value:
+        code: 3001
+        message: route planning failed
+        request_id: req_route_500
+        data:
+          reason: no available path
+    Error3002:
+      value:
+        code: 3002
+        message: route planning timeout
+        request_id: req_route_timeout_001
+        data:
+          timeout_ms: 1500
+          operation: indoor_route
+    Error4001:
+      value:
+        code: 4001
+        message: unauthorized
+        request_id: req_auth_001
+        data:
+          reason: missing_or_invalid_bearer_token
+    Error4002:
+      value:
+        code: 4002
+        message: rate limit exceeded
+        request_id: req_rate_002
+        data:
+          limit_per_minute: 60
+          scope: client_path
+    Error9001Package:
+      value:
+        code: 9001
+        message: venue package validation failed
+        request_id: req_health_bad_pkg
+        data:
+          error_type: venue_package_error
+          stage: validation
+          package_root: F:\path\to\venue-package
+          validation_errors:
+            - "route_graph.edges[0].from_node_id: unknown node 'node_missing'"
+    Error9001Internal:
+      value:
+        code: 9001
+        message: internal error
+        request_id: req_unexpected_001
+        data: null

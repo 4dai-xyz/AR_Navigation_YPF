@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "name": "ai-glasses-android-final-ui",
+    "version": "0.1.0",
+    "updatedAt": "2026-05-08",
+    "baseline": "1080x2400 portrait",
+    "notes": [
+      "Map-first mobile UI for delivery riders",
+      "Indoor manual_demo remains available but hidden under secondary debug layers",
+      "Search result density follows board 05"
+    ]
+  },
+  "device": {
+    "designWidthPx": 1080,
+    "designHeightPx": 2400,
+    "minSupportedWidthDp": 360,
+    "comfortableWidthDp": 390,
+    "maxSupportedWidthDp": 412
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 20,
+    "xxl": 24,
+    "xxxl": 32
+  },
+  "radius": {
+    "chip": 14,
+    "button": 18,
+    "searchCapsule": 24,
+    "statusCapsule": 24,
+    "debugDrawer": 24,
+    "bottomDock": 28,
+    "sheetTop": 28
+  },
+  "color": {
+    "pageBackground": "#F6F5F1",
+    "surfacePrimary": "#FDFDFB",
+    "surfaceOverlay": "#FDFDFBE6",
+    "surfaceSubtle": "#F3F4F6",
+    "borderSubtle": "#E5E7EB",
+    "textPrimary": "#111827",
+    "textSecondary": "#374151",
+    "textTertiary": "#6B7280",
+    "textInverse": "#FFFFFF",
+    "accentPrimary": "#1F8A70",
+    "accentPrimaryPressed": "#166A56",
+    "accentSecondary": "#59C3C3",
+    "routePrimary": "#2F80ED",
+    "success": "#1E8E5A",
+    "warning": "#D97706",
+    "warningSurface": "#FFF4E5",
+    "error": "#C2410C"
+  },
+  "typography": {
+    "titleLarge": {
+      "fontSizeSp": 22,
+      "lineHeightSp": 28,
+      "fontWeight": "600"
+    },
+    "capsuleHeadline": {
+      "fontSizeSp": 18,
+      "lineHeightSp": 24,
+      "fontWeight": "600"
+    },
+    "listTitle": {
+      "fontSizeSp": 16,
+      "lineHeightSp": 22,
+      "fontWeight": "600"
+    },
+    "body": {
+      "fontSizeSp": 14,
+      "lineHeightSp": 20,
+      "fontWeight": "400"
+    },
+    "caption": {
+      "fontSizeSp": 12,
+      "lineHeightSp": 16,
+      "fontWeight": "400"
+    },
+    "buttonPrimary": {
+      "fontSizeSp": 16,
+      "lineHeightSp": 20,
+      "fontWeight": "600"
+    },
+    "buttonSecondary": {
+      "fontSizeSp": 14,
+      "lineHeightSp": 18,
+      "fontWeight": "500"
+    },
+    "chip": {
+      "fontSizeSp": 12,
+      "lineHeightSp": 16,
+      "fontWeight": "500"
+    }
+  },
+  "elevation": {
+    "statusCapsuleDp": 8,
+    "floatingMapButtonDp": 8,
+    "bottomDockDp": 10,
+    "resultsSheetDp": 12,
+    "debugDrawerDp": 10,
+    "manualControlSheetDp": 12
+  },
+  "dimension": {
+    "screenEdgeDp": 16,
+    "topSafeGapDp": 12,
+    "bottomSafeGapDp": 12,
+    "searchCapsuleHeightDp": 52,
+    "statusCapsuleMinHeightDp": 64,
+    "statusCapsuleMaxWidthPercent": 1.0,
+    "bottomDockHeightDp": 88,
+    "primaryButtonHeightDp": 56,
+    "secondaryButtonHeightDp": 44,
+    "floatingMapButtonSizeDp": 48,
+    "searchResultRowMinHeightDp": 68,
+    "searchResultRowMaxHeightDp": 76,
+    "resultsVisibleRowsTarget": 7,
+    "debugDrawerPeekHeightDp": 156,
+    "manualControlSheetPeekHeightDp": 320
+  },
+  "motion": {
+    "microMs": 160,
+    "standardMs": 220,
+    "sheetMs": 280,
+    "curve": "FastOutSlowIn"
+  },
+  "icon": {
+    "provider": "Material Symbols Rounded",
+    "names": {
+      "search": "search",
+      "back": "arrow_back",
+      "clear": "close",
+      "location": "my_location",
+      "heading": "explore",
+      "overview": "zoom_out_map",
+      "more": "more_horiz",
+      "continue": "arrow_forward",
+      "enterVenue": "meeting_room",
+      "store": "storefront",
+      "mallEntrance": "location_on",
+      "office": "apartment",
+      "residential": "home_work",
+      "debug": "tune"
+    }
+  },
+  "component": {
+    "searchTypeButtons": {
+      "heightDp": 36,
+      "horizontalPaddingDp": 12,
+      "gapDp": 8
+    },
+    "statusCapsule": {
+      "paddingHorizontalDp": 16,
+      "paddingVerticalDp": 14,
+      "gapDp": 4
+    },
+    "bottomDock": {
+      "paddingHorizontalDp": 12,
+      "paddingVerticalDp": 10,
+      "gapDp": 8
+    },
+    "denseResultsList": {
+      "rowHorizontalPaddingDp": 16,
+      "rowVerticalPaddingDp": 12,
+      "rowGapDp": 0
+    },
+    "manualControlPad": {
+      "directionButtonSizeDp": 56,
+      "floorButtonHeightDp": 44,
+      "actionButtonHeightDp": 44,
+      "gapDp": 8
+    }
+  }
+}

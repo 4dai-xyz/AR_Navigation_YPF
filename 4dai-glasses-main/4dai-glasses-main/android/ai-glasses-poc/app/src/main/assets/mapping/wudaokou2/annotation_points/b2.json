@@ -1,0 +1,70 @@
+{
+  "version": "6.1.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "yichehui",
+      "points": [
+        [
+          1183.1578947368423,
+          1344.7368421052631
+        ]
+      ],
+      "group_id": 30,
+      "description": "需确认翻译",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "yichehui",
+        "艺车汇",
+        "ych"
+      ]
+    },
+    {
+      "label": "escalator_up_to",
+      "points": [
+        [
+          1170.0,
+          1912.5000000000002
+        ]
+      ],
+      "group_id": 111,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_up_to",
+        "上行扶梯入口",
+        "扶梯上行",
+        "扶梯上到",
+        "上扶梯入口"
+      ]
+    },
+    {
+      "label": "escalator_down_from",
+      "points": [
+        [
+          1190.833333333333,
+          1900.0000000000002
+        ]
+      ],
+      "group_id": 111,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null,
+      "aliases": [
+        "escalator_down_from",
+        "下行扶梯出口",
+        "扶梯下来",
+        "下扶梯出口"
+      ]
+    }
+  ],
+  "imagePath": "b2.jpg",
+  "imageData": null,
+  "imageHeight": 3200,
+  "imageWidth": 1440
+}

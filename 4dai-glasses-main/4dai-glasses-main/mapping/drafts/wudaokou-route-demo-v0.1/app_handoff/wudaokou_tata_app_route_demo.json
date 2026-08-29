@@ -1,0 +1,242 @@
+{
+  "schema_version": "app_route_demo.v0.1",
+  "status": "human_confirmed",
+  "confirmed_at": "2026-05-07",
+  "source_route_draft": "mapping/drafts/wudaokou-route-demo-v0.1",
+  "integration_mode": "manual_indoor_demo",
+  "localization_ready": false,
+  "venue": {
+    "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+    "venue_name": "北京五道口购物中心",
+    "enabled_floors": [
+      "F1",
+      "F2"
+    ]
+  },
+  "target": {
+    "poi_id": "poi_f2_tata_door_demo",
+    "poi_name": "TATA Door",
+    "floor_id": "F2",
+    "route_node_id": "node_f2_tata_door_demo",
+    "app_label": "2F TATA 店铺门口"
+  },
+  "coordinate_sets": {
+    "venue_xy": {
+      "description": "Mapping draft local coordinate copied from route_graph.json. y is positive downward in the draft JSON.",
+      "unit": "meter_like_demo"
+    },
+    "app_preview_xy": {
+      "description": "Scaled coordinates for Android ManualIndoorDemoPoint and IndoorRoutePreviewView. Values are kept inside the current 50 x 30 preview canvas range.",
+      "unit": "app_preview_unit",
+      "x_range": [
+        0.0,
+        50.0
+      ],
+      "y_range": [
+        0.0,
+        30.0
+      ]
+    }
+  },
+  "points": [
+    {
+      "node_id": "node_f1_west_gate_demo",
+      "floor_id": "F1",
+      "label": "F1 西门入口",
+      "node_type": "entrance",
+      "ref_id": "entrance_f1_west_gate",
+      "venue_xy": {
+        "x": 18.669,
+        "y": 143.439
+      },
+      "app_preview_xy": {
+        "x": 6.0,
+        "y": 23.7
+      }
+    },
+    {
+      "node_id": "node_f1_west_corridor_turn_demo",
+      "floor_id": "F1",
+      "label": "F1 西侧通道转角",
+      "node_type": "waypoint",
+      "venue_xy": {
+        "x": 55.932,
+        "y": 143.973
+      },
+      "app_preview_xy": {
+        "x": 25.9,
+        "y": 23.8
+      }
+    },
+    {
+      "node_id": "node_f1_escalator_up_demo_01",
+      "floor_id": "F1",
+      "label": "F1 上行扶梯口",
+      "node_type": "connector",
+      "ref_id": "connector_escalator_f1_f2_demo_01",
+      "venue_xy": {
+        "x": 61.514,
+        "y": 70.649
+      },
+      "app_preview_xy": {
+        "x": 28.9,
+        "y": 9.3
+      }
+    },
+    {
+      "node_id": "node_f2_escalator_out_demo_01",
+      "floor_id": "F2",
+      "label": "F2 扶梯出口",
+      "node_type": "connector",
+      "ref_id": "connector_escalator_f1_f2_demo_01",
+      "venue_xy": {
+        "x": 60.678,
+        "y": 54.162
+      },
+      "app_preview_xy": {
+        "x": 28.4,
+        "y": 6.0
+      }
+    },
+    {
+      "node_id": "node_f2_tata_corridor_turn_01_demo",
+      "floor_id": "F2",
+      "label": "F2 TATA 连廊转角 01",
+      "node_type": "waypoint",
+      "venue_xy": {
+        "x": 68.351,
+        "y": 53.974
+      },
+      "app_preview_xy": {
+        "x": 32.5,
+        "y": 6.0
+      }
+    },
+    {
+      "node_id": "node_f2_tata_corridor_turn_02_demo",
+      "floor_id": "F2",
+      "label": "F2 TATA 连廊转角 02",
+      "node_type": "waypoint",
+      "venue_xy": {
+        "x": 68.966,
+        "y": 143.172
+      },
+      "app_preview_xy": {
+        "x": 32.8,
+        "y": 23.6
+      }
+    },
+    {
+      "node_id": "node_f2_tata_door_demo",
+      "floor_id": "F2",
+      "label": "2F TATA 店铺门口",
+      "node_type": "poi_anchor",
+      "ref_id": "poi_f2_tata_door_demo",
+      "venue_xy": {
+        "x": 86.161,
+        "y": 155.091
+      },
+      "app_preview_xy": {
+        "x": 42.0,
+        "y": 26.0
+      }
+    }
+  ],
+  "manual_demo_steps": [
+    {
+      "id": "step_001",
+      "current_node_id": "node_f1_west_gate_demo",
+      "next_node_id": "node_f1_west_corridor_turn_demo",
+      "instruction": "从西门进入，沿一层通道直行至西侧通道转角",
+      "expected_action": "UP",
+      "current": {
+        "label": "F1 西门入口",
+        "floor_id": "F1",
+        "x": 6.0,
+        "y": 23.7
+      }
+    },
+    {
+      "id": "step_002",
+      "current_node_id": "node_f1_west_corridor_turn_demo",
+      "next_node_id": "node_f1_escalator_up_demo_01",
+      "instruction": "左转后沿主通道前往一层上行扶梯",
+      "expected_action": "LEFT",
+      "current": {
+        "label": "F1 西侧通道转角",
+        "floor_id": "F1",
+        "x": 25.9,
+        "y": 23.8
+      }
+    },
+    {
+      "id": "step_003",
+      "current_node_id": "node_f1_escalator_up_demo_01",
+      "next_node_id": "node_f2_escalator_out_demo_01",
+      "instruction": "乘扶梯上行至二层",
+      "expected_action": "FLOOR_UP",
+      "current": {
+        "label": "F1 上行扶梯口",
+        "floor_id": "F1",
+        "x": 28.9,
+        "y": 9.3
+      }
+    },
+    {
+      "id": "step_004",
+      "current_node_id": "node_f2_escalator_out_demo_01",
+      "next_node_id": "node_f2_tata_corridor_turn_01_demo",
+      "instruction": "到达二层后出扶梯，沿连廊直行至第一个转角",
+      "expected_action": "UP",
+      "current": {
+        "label": "F2 扶梯出口",
+        "floor_id": "F2",
+        "x": 28.4,
+        "y": 6.0
+      }
+    },
+    {
+      "id": "step_005",
+      "current_node_id": "node_f2_tata_corridor_turn_01_demo",
+      "next_node_id": "node_f2_tata_corridor_turn_02_demo",
+      "instruction": "右转后沿二层连廊直行，前往 TATA 区域",
+      "expected_action": "RIGHT",
+      "current": {
+        "label": "F2 TATA 连廊转角 01",
+        "floor_id": "F2",
+        "x": 32.5,
+        "y": 6.0
+      }
+    },
+    {
+      "id": "step_006",
+      "current_node_id": "node_f2_tata_corridor_turn_02_demo",
+      "next_node_id": "node_f2_tata_door_demo",
+      "instruction": "左前方前往 TATA 店铺门口",
+      "expected_action": "LEFT",
+      "current": {
+        "label": "F2 TATA 连廊转角 02",
+        "floor_id": "F2",
+        "x": 32.8,
+        "y": 23.6
+      }
+    },
+    {
+      "id": "step_007",
+      "current_node_id": "node_f2_tata_door_demo",
+      "instruction": "已到达 TATA 店铺门口",
+      "expected_action": null,
+      "current": {
+        "label": "2F TATA 店铺门口",
+        "floor_id": "F2",
+        "x": 42.0,
+        "y": 26.0
+      }
+    }
+  ],
+  "app_expected_ids": {
+    "route_id": "manual_demo_wudaokou_west_to_2f_tata",
+    "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+    "target_poi_id": "poi_f2_tata_door_demo"
+  }
+}

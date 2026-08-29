@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "wudaokou_route_demo_nodes",
+"features": [
+{ "type": "Feature", "properties": { "node_id": "node_f1_west_gate_demo", "floor_id": "F1", "node_type": "entrance", "ref_id": "entrance_f1_west_gate", "label": "F1 West Gate", "source_pixel_x": 367, "source_pixel_y": 2084 }, "geometry": { "type": "Point", "coordinates": [ 18.668918918918923, -143.439189189189165 ] } },
+{ "type": "Feature", "properties": { "node_id": "node_f1_west_corridor_turn_demo", "floor_id": "F1", "node_type": "waypoint", "label": "F1 corridor turn", "source_pixel_x": 739, "source_pixel_y": 2090 }, "geometry": { "type": "Point", "coordinates": [ 55.932432432432449, -143.972972972972968 ] } },
+{ "type": "Feature", "properties": { "node_id": "node_f1_escalator_up_demo_01", "floor_id": "F1", "node_type": "connector", "ref_id": "connector_escalator_f1_f2_demo_01", "label": "F1 escalator up", "source_pixel_x": 795, "source_pixel_y": 1356 }, "geometry": { "type": "Point", "coordinates": [ 61.513513513513516, -70.648648648648631 ] } },
+{ "type": "Feature", "properties": { "node_id": "node_f2_escalator_out_demo_01", "floor_id": "F2", "node_type": "connector", "ref_id": "connector_escalator_f1_f2_demo_01", "label": "F2 escalator out", "source_pixel_x": 787, "source_pixel_y": 1192 }, "geometry": { "type": "Point", "coordinates": [ 60.678378378378383, -54.162162162162161 ] } },
+{ "type": "Feature", "properties": { "node_id": "node_f2_tata_corridor_turn_01_demo", "floor_id": "F2", "node_type": "waypoint", "label": "F2 TATA corridor turn 01", "source_pixel_x": 864, "source_pixel_y": 1190 }, "geometry": { "type": "Point", "coordinates": [ 68.351379405023749, -53.974078407028827 ] } },
+{ "type": "Feature", "properties": { "node_id": "node_f2_tata_corridor_turn_02_demo", "floor_id": "F2", "node_type": "waypoint", "ref_id": null, "label": "F2 TATA corridor turn 02", "source_pixel_x": 870, "source_pixel_y": 2082 }, "geometry": { "type": "Point", "coordinates": [ 68.966240091681726, -143.17180785025306 ] } },
+{ "type": "Feature", "properties": { "node_id": "node_f2_tata_door_demo", "floor_id": "F2", "node_type": "poi_anchor", "ref_id": "poi_f2_tata_door_demo", "label": "F2 TATA door", "source_pixel_x": 1042, "source_pixel_y": 2201 }, "geometry": { "type": "Point", "coordinates": [ 86.160566684175706, -155.090686180880425 ] } }
+]
+}

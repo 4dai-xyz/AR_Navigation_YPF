@@ -1,0 +1,50 @@
+val defaultScript = ManualIndoorDemoScript(
+    routeId = "manual_demo_wudaokou_west_to_2f_tata",
+    venueId = "venue_bj_wudaokou_shopping_center_demo",
+    targetPoiId = "poi_f2_tata_door_demo",
+    target = ManualIndoorDemoPoint("2F TATA 店铺门口", "F2", 42.0, 26.0),
+    steps = listOf(
+        ManualIndoorDemoStep(
+            id = "step_001",
+            instruction = "从西门进入，沿一层通道直行至西侧通道转角",
+            expectedAction = ManualIndoorDemoAction.UP,
+            current = ManualIndoorDemoPoint("F1 西门入口", "F1", 6.0, 23.7),
+        ),
+        ManualIndoorDemoStep(
+            id = "step_002",
+            instruction = "左转后沿主通道前往一层上行扶梯",
+            expectedAction = ManualIndoorDemoAction.LEFT,
+            current = ManualIndoorDemoPoint("F1 西侧通道转角", "F1", 25.9, 23.8),
+        ),
+        ManualIndoorDemoStep(
+            id = "step_003",
+            instruction = "乘扶梯上行至二层",
+            expectedAction = ManualIndoorDemoAction.FLOOR_UP,
+            current = ManualIndoorDemoPoint("F1 上行扶梯口", "F1", 28.9, 9.3),
+        ),
+        ManualIndoorDemoStep(
+            id = "step_004",
+            instruction = "到达二层后出扶梯，沿连廊直行至第一个转角",
+            expectedAction = ManualIndoorDemoAction.UP,
+            current = ManualIndoorDemoPoint("F2 扶梯出口", "F2", 28.4, 6.0),
+        ),
+        ManualIndoorDemoStep(
+            id = "step_005",
+            instruction = "右转后沿二层连廊直行，前往 TATA 区域",
+            expectedAction = ManualIndoorDemoAction.RIGHT,
+            current = ManualIndoorDemoPoint("F2 TATA 连廊转角 01", "F2", 32.5, 6.0),
+        ),
+        ManualIndoorDemoStep(
+            id = "step_006",
+            instruction = "左前方前往 TATA 店铺门口",
+            expectedAction = ManualIndoorDemoAction.LEFT,
+            current = ManualIndoorDemoPoint("F2 TATA 连廊转角 02", "F2", 32.8, 23.6),
+        ),
+        ManualIndoorDemoStep(
+            id = "step_007",
+            instruction = "已到达 TATA 店铺门口",
+            expectedAction = null,
+            current = ManualIndoorDemoPoint("2F TATA 店铺门口", "F2", 42.0, 26.0),
+        ),
+    ),
+)

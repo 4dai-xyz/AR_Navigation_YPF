@@ -1,0 +1,28 @@
+{
+  "entrances": [
+    {
+      "entrance_id": "entrance_f1_west_gate",
+      "entrance_name": "West Gate",
+      "venue_id": "venue_bj_wudaokou_shopping_center_demo",
+      "floor_id": "F1",
+      "geo_position": {
+        "lat": null,
+        "lng": null
+      },
+      "route_node_id": "node_f1_west_gate_demo",
+      "indoor_position": {
+        "x": 18.669,
+        "y": 143.439
+      },
+      "source_pixel": {
+        "x": 367,
+        "y": 2084
+      },
+      "supported_vehicle": [
+        "walk",
+        "ebike_handoff"
+      ],
+      "status": "draft"
+    }
+  ]
+}

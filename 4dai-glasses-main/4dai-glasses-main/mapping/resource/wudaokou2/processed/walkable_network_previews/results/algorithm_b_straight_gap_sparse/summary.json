@@ -1,0 +1,110 @@
+[
+  {
+    "algorithm_id": "B",
+    "algorithm_name": "straight_gap_sparse",
+    "floor_id": "B1",
+    "nodes": 727,
+    "edges": 1868,
+    "components": 6,
+    "largest_components": [
+      715,
+      7,
+      2,
+      1,
+      1
+    ],
+    "added_nodes": 28,
+    "added_edges": 56,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_b_straight_gap_sparse\\b1_algorithm_b_straight_gap_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "B",
+    "algorithm_name": "straight_gap_sparse",
+    "floor_id": "F1",
+    "nodes": 824,
+    "edges": 2301,
+    "components": 3,
+    "largest_components": [
+      821,
+      2,
+      1
+    ],
+    "added_nodes": 28,
+    "added_edges": 56,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_b_straight_gap_sparse\\f1_algorithm_b_straight_gap_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "B",
+    "algorithm_name": "straight_gap_sparse",
+    "floor_id": "F2",
+    "nodes": 693,
+    "edges": 1951,
+    "components": 1,
+    "largest_components": [
+      693
+    ],
+    "added_nodes": 28,
+    "added_edges": 56,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_b_straight_gap_sparse\\f2_algorithm_b_straight_gap_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "B",
+    "algorithm_name": "straight_gap_sparse",
+    "floor_id": "F3",
+    "nodes": 753,
+    "edges": 2163,
+    "components": 1,
+    "largest_components": [
+      753
+    ],
+    "added_nodes": 28,
+    "added_edges": 56,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_b_straight_gap_sparse\\f3_algorithm_b_straight_gap_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "B",
+    "algorithm_name": "straight_gap_sparse",
+    "floor_id": "F4",
+    "nodes": 692,
+    "edges": 1890,
+    "components": 1,
+    "largest_components": [
+      692
+    ],
+    "added_nodes": 28,
+    "added_edges": 56,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_b_straight_gap_sparse\\f4_algorithm_b_straight_gap_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "B",
+    "algorithm_name": "straight_gap_sparse",
+    "floor_id": "F5",
+    "nodes": 724,
+    "edges": 1948,
+    "components": 1,
+    "largest_components": [
+      724
+    ],
+    "added_nodes": 28,
+    "added_edges": 56,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_b_straight_gap_sparse\\f5_algorithm_b_straight_gap_sparse_preview.jpg"
+  },
+  {
+    "algorithm_id": "B",
+    "algorithm_name": "straight_gap_sparse",
+    "floor_id": "F6",
+    "nodes": 407,
+    "edges": 1100,
+    "components": 6,
+    "largest_components": [
+      388,
+      11,
+      3,
+      2,
+      2
+    ],
+    "added_nodes": 28,
+    "added_edges": 56,
+    "output": "F:\\hz\\codex\\AI_Glasses\\mapping\\resource\\wudaokou2\\processed\\walkable_network_previews\\results\\algorithm_b_straight_gap_sparse\\f6_algorithm_b_straight_gap_sparse_preview.jpg"
+  }
+]
