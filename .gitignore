@@ -39,6 +39,7 @@ ocr-and-dataset-main/checkpoints_huichang_logo/
 *.7z
 *.tar
 *.gz
+artifacts/release_parts/
 4dai-glasses-main/4dai-glasses-main/android/session_*/
 4dai-glasses-main/4dai-glasses-main/android/output/
 4dai-glasses-main/4dai-glasses-main/android/releases/*.apk
