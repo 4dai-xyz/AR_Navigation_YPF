@@ -1,5 +1,7 @@
 # 云端子项目 README
 
+> 首次测试和启动请看上级 [`QUICKSTART.md`](../QUICKSTART.md)。命令应从当前 clone 的 `4dai-glasses-main/4dai-glasses-main` 目录执行，旧的绝对路径只是历史记录。
+
 更新时间：2026-06-09
 
 ## 子项目目标
@@ -74,7 +76,7 @@
 当前展馆演示优先使用“手机与 PC 连接同一个 Wi-Fi，通过局域网访问 PC 后台”的链路。
 
 ```powershell
-cd F:\hz\codex\AI_Glasses
+cd <clone>\4dai-glasses-main\4dai-glasses-main
 .\cloud\tools\setup_pc_backend.ps1
 .\cloud\tools\run_pc_backend.ps1
 ```
@@ -131,7 +133,7 @@ PC 后台联调文档：
 请从仓库根目录启动服务，避免 Python 包路径不一致：
 
 ```bash
-cd F:\hz\codex\AI_Glasses
+cd <clone>\4dai-glasses-main\4dai-glasses-main
 python -m venv .venv
 .\.venv\Scripts\pip install -e .\cloud
 .\.venv\Scripts\python -m uvicorn cloud.app.main:app --host 0.0.0.0 --port 8000

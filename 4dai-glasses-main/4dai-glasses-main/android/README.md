@@ -1,5 +1,7 @@
 # VisionRoute Android App README
 
+> 首次构建请看上级 [`QUICKSTART.md`](../QUICKSTART.md)。实际 Gradle 工程是 `android/ai-glasses-poc/`；`android/releases/` 下的 APK 是构建产物，不保证随 clone 提供。
+
 更新时间：2026-06-10
 
 Android 子项目当前主线是 **会场室内导航演示 App**。旧的室外高德导航、五道口购物中心、HeyCyan、USB 相机等能力仍保留，但现场测试和后续开发应优先围绕：
@@ -37,7 +39,7 @@ Android 子项目当前主线是 **会场室内导航演示 App**。旧的室外
 - Android 工程：`android/ai-glasses-poc/`
 - 手机 App 模块：`app/`
 - Rokid 眼镜端 Bridge 模块：`rokid-bridge/`
-- 当前 APK：`android/releases/VisionRoute-debug.apk`
+- APK 由 `ai-glasses-poc` 本地构建生成，默认输出在 `ai-glasses-poc/app/build/outputs/apk/debug/`。
 - 手机 App 内置眼镜端更新包：`app/src/main/assets/rokid/visionroute_rokid_bridge.apk`
 
 关键文档：
@@ -97,7 +99,7 @@ Rokid 眼镜端：
 
 ## 测试人员操作路径
 
-1. 安装手机 APK：`android/releases/VisionRoute-debug.apk`。
+1. 安装本地构建 APK：`android/ai-glasses-poc/app/build/outputs/apk/debug/app-debug.apk`。
 2. 确认 PC 后台启动，手机和 PC 在同一 Wi-Fi。
 3. 在 PC 打开 `/debug/pairing`，或使用托盘菜单复制 LAN `baseUrl`。
 4. 手机 App 配置 / 扫码连接 PC 后台。
@@ -127,10 +129,10 @@ Rokid 眼镜端：
 
 ## 构建与安装
 
-当前 Android 工程未提交 Gradle Wrapper，使用本机 Gradle：
+Android 工程已提交 Gradle Wrapper；优先使用 `gradlew.bat`，只有网络或缓存限制时才改用系统 Gradle：
 
 ```powershell
-cd F:\hz\codex\AI_Glasses\android\ai-glasses-poc
+cd <clone>\4dai-glasses-main\4dai-glasses-main\android\ai-glasses-poc
 F:\Gradle\gradle-8.6\bin\gradle.bat :rokid-bridge:assembleDebug --no-daemon --console=plain --max-workers=1
 Copy-Item -Force .\rokid-bridge\build\outputs\apk\debug\rokid-bridge-debug.apk .\app\src\main\assets\rokid\visionroute_rokid_bridge.apk
 F:\Gradle\gradle-8.6\bin\gradle.bat :app:assembleDebug --no-daemon --console=plain --max-workers=1

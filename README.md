@@ -271,3 +271,15 @@ git log -1 --oneline
 ```
 
 当前公开仓库：`https://github.com/4dai-xyz/AR_Navigation_YPF`
+
+## Clean-clone Quickstarts
+
+All guides use the public `main` branch and separate clone-only checks from runs needing external assets:
+
+- [`scripts/QUICKSTART.md`](scripts/QUICKSTART.md) — offline session, COLMAP, depth, segmentation, and BEV scripts.
+- [`chx-main/mall_visual_slam/QUICKSTART.md`](chx-main/mall_visual_slam/QUICKSTART.md) — visual navigation and people-BEV.
+- [`chx-main/go2_control/QUICKSTART.md`](chx-main/go2_control/QUICKSTART.md) — Go2 simulator/ROS2/Isaac boundary.
+- [`4dai-glasses-main/4dai-glasses-main/QUICKSTART.md`](4dai-glasses-main/4dai-glasses-main/QUICKSTART.md) — VisionRoute Cloud and Android.
+- [`ocr-and-dataset-main/QUICKSTART.md`](ocr-and-dataset-main/QUICKSTART.md) — OCR/logo scripts and external assets.
+
+Generated outputs, private datasets, model checkpoints, and third-party algorithm source trees are intentionally not part of a clean clone; use the v14 release or a separate local asset directory where noted.

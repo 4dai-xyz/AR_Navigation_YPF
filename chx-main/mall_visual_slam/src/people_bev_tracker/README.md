@@ -1,5 +1,7 @@
 # people_bev_tracker
 
+> 从干净 clone 开始请看仓库级 [`../../QUICKSTART.md`](../../QUICKSTART.md)。本目录不携带 `resources/` 视频、DPVO 轨迹或模型权重；下文中的这些路径必须由你在本机提供。
+
 行人 BEV 跟踪的离线流水线 (第一版)：
 
     原始视频 -> Ultralytics YOLO-seg + 内置 BoT-SORT/ByteTrack
@@ -12,7 +14,7 @@
 ## 依赖
 
 ```bash
-pip install -e thirdparty/official/ultralytics
+pip install ultralytics
 pip install -r src/people_bev_tracker/requirements.txt
 ```
 
@@ -26,17 +28,17 @@ CUDA 版 PyTorch 已经被 `dpvo` 环境提供，无需重复安装。
 | 相机标定 | `config/KannalaBrandt8_1280x720.yaml` | 自动按视频分辨率缩放 K |
 | DPVO 轨迹 | `output/dpvo/trajectory_tum.txt` | TUM 8 列格式 |
 
-如果 DPVO 轨迹不存在，请先跑 DPVO：
+如果 DPVO 轨迹不存在，请在独立的 DPVO 工作区先生成；官方源码不在本仓库，不能使用旧的 `project code/DPVO` 路径：
 
 ```bash
-cd "project code/DPVO"
+cd /path/to/DPVO
 python demo.py \
-  --imagedir /home/ros/ros2_orbslam3/resources/input_video.mp4 \
+  --imagedir /data/input_video.mp4 \
   --calib    calib/custom_mall.txt \
   --name     input_video_clean \
   --stride   2 \
   --save_trajectory
-cp saved_trajectories/input_video_clean.txt /home/ros/ros2_orbslam3/output/dpvo/trajectory_tum.txt
+cp saved_trajectories/input_video_clean.txt /data/trajectory_tum.txt
 ```
 
 ## 短测试

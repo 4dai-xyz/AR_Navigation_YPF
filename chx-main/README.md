@@ -1,5 +1,7 @@
 # 室内视觉导航与 Go2 机器人控制仿真工具集
 
+> Clean-clone entry points: [`mall_visual_slam/QUICKSTART.md`](mall_visual_slam/QUICKSTART.md) and [`go2_control/QUICKSTART.md`](go2_control/QUICKSTART.md). The old `/home/ros/...` and `project code/...` paths below describe historical development machines; they are not directories guaranteed by this Git checkout. The tracked implementation is mainly under `mall_visual_slam/{config,launch,scripts,src}` and `go2_control/{docs,notes,projects,scripts}`.
+
 本仓库用于整理和沉淀以下工程模块：
 
 ```text

@@ -1,5 +1,7 @@
 # Unitree Go2 开发工作区
 
+> 新机器请先看 [`QUICKSTART.md`](QUICKSTART.md)。本仓库只跟踪 Go2 脚本、示例和文档；`/home/ros/unitree_dev`、`/home/ros/isaac_go2`、Unitree SDK/MuJoCo/Isaac/ROS2 源码与环境均是历史机器上的外部依赖，不会随 Git clone 出现。
+
 当前工作区路径：
 
 ```text

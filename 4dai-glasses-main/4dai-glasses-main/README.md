@@ -1,5 +1,7 @@
 # AI Glasses / VisionRoute
 
+> 干净 clone 到第一次运行的最短路径见 [`QUICKSTART.md`](QUICKSTART.md)。源码根目录以本地 clone 为准，文中历史绝对路径不适用于新机器。
+
 更新时间：2026-06-10
 
 `VisionRoute` 当前主线是一套 **会场实时室内导航演示系统**：
@@ -30,7 +32,7 @@ Rokid 眼镜 HTTP 图传 / HUD
 ### 当前默认链路
 
 1. PC 启动后台，打开 `/debug/pairing` 或托盘菜单获取局域网 `baseUrl`。
-2. 手机安装 `VisionRoute-debug.apk`。
+2. 手机安装由 `android/ai-glasses-poc/` 本地构建的 Debug APK（干净 clone 不附带预编译 APK）。
 3. 手机 App 配置或扫码连接 PC 后台。
 4. Rokid 眼镜端打开 / 更新 `VisionRoute RokidBridge`。
 5. 眼镜通过 HTTP 图传把图像送到手机，手机上传 PC 后台。
@@ -70,7 +72,7 @@ Rokid 眼镜 HTTP 图传 / HUD
 ## 仓库结构
 
 ```text
-AI_Glasses/
+4dai-glasses-main/
 |- android/
 |  |- ai-glasses-poc/          # VisionRoute 手机 App + Rokid Bridge
 |  |- docs/                    # App、APK、UI、室内导航说明
@@ -94,7 +96,7 @@ AI_Glasses/
 
 - 当前主线：会场室内地图、展台搜索、路径规划、模拟步行、Rokid HTTP 图传接入、Rokid HUD 同步。
 - 已保留：高德室外导航、五道口室内图纸、HeyCyan、USB 相机、调试抽屉。
-- 当前 APK：`android/releases/VisionRoute-debug.apk`，通过 Git LFS 管理。
+- APK 不保证存在于干净 clone；请按 Quickstart 从 `android/ai-glasses-poc/` 本地构建。
 - 详细说明：`android/README.md`。
 
 ### Rokid Bridge
@@ -138,7 +140,7 @@ AI_Glasses/
 ### Android 构建
 
 ```powershell
-cd F:\hz\codex\AI_Glasses\android\ai-glasses-poc
+cd <clone>\4dai-glasses-main\4dai-glasses-main\android\ai-glasses-poc
 F:\Gradle\gradle-8.6\bin\gradle.bat :rokid-bridge:assembleDebug --no-daemon --console=plain --max-workers=1
 Copy-Item -Force .\rokid-bridge\build\outputs\apk\debug\rokid-bridge-debug.apk .\app\src\main\assets\rokid\visionroute_rokid_bridge.apk
 F:\Gradle\gradle-8.6\bin\gradle.bat :app:assembleDebug --no-daemon --console=plain --max-workers=1
@@ -147,7 +149,7 @@ F:\Gradle\gradle-8.6\bin\gradle.bat :app:assembleDebug --no-daemon --console=pla
 ### PC 后台启动
 
 ```powershell
-cd F:\hz\codex\AI_Glasses
+cd <clone>\4dai-glasses-main\4dai-glasses-main
 .\cloud\tools\run_pc_backend.ps1
 ```
 

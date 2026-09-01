@@ -1,9 +1,11 @@
 # src/KV-tracker — KV-Tracker 复现 + 商场导航接入封装
 
+> 先看仓库级 [`../../QUICKSTART.md`](../../QUICKSTART.md)。本目录只包含封装代码；官方 KV-Tracker、Pi3、SAM2、视频和权重都需按下文放到本地，干净 clone 不会提供 `project code/`。
+
 > 官方 KV-Tracker 在本仓库的**外部封装**。官方代码完全只读，所有新代码都在本目录。
 >
 > 论文: [KV-Tracker: Real-Time Pose Tracking with Transformers](https://arxiv.org/abs/2512.22581) (CVPR 2026)
-> 官方代码: [`project code/KV-tracker/kv_tracker-main/`](../../project%20code/KV-tracker/kv_tracker-main)
+> 官方代码：请将外部 KV-Tracker checkout 到你自行指定的目录，并通过 `--official-root` 传入；仓库中不存在 `project code/KV-tracker/kv_tracker-main/`。
 
 ---
 
