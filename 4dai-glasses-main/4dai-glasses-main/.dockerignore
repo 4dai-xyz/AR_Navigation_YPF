@@ -1,0 +1,9 @@
+*
+!.dockerignore
+!Dockerfile
+!cloud/
+!cloud/**
+!mapping/
+!mapping/examples/
+!mapping/examples/venue-package-example/
+!mapping/examples/venue-package-example/**

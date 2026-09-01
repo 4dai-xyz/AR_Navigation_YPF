@@ -31,6 +31,26 @@ cd ..
 
 Expected result: `http://127.0.0.1:8000/api/v1/health` returns a healthy response and `/debug/pairing` opens. The default example venue package is tracked under `mapping/examples/venue-package-example`.
 
+## Docker image
+
+The publishable image contains only the Cloud/FastAPI backend and the tracked example venue package. It does not include Android, ROS2, DPVO, GPU model checkpoints, or private datasets.
+
+From `4dai-glasses-main/4dai-glasses-main/`:
+
+```powershell
+docker build -t 4dai/ar_navigation_ypf_4dai.xyz:latest .
+docker run --rm -p 8000:8000 4dai/ar_navigation_ypf_4dai.xyz:latest
+```
+
+Expected result: the same health and debug endpoints are available on `http://127.0.0.1:8000`. Authenticate to Docker Hub before publishing, then push an immutable commit tag and `latest`:
+
+```powershell
+docker login
+docker tag 4dai/ar_navigation_ypf_4dai.xyz:latest 4dai/ar_navigation_ypf_4dai.xyz:5dd81f9
+docker push 4dai/ar_navigation_ypf_4dai.xyz:5dd81f9
+docker push 4dai/ar_navigation_ypf_4dai.xyz:latest
+```
+
 ## First Android build
 
 With JDK/Android SDK configured:
